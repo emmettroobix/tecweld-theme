@@ -1,0 +1,54 @@
+{%- if shop.customer_accounts_optional or shop.customer_accounts_enabled -%}
+<div class="header_user_login popup-over e-scale hidden-md-down">
+  {% if customer  %}
+  <div data-toggle="dropdown" class="popup-title" title="{{ 'header.userinfo.title' | t }}">
+    <svg class="feather feather-user sc-dnqmqq jxshSx" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" data-reactid="1286"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
+  </div>
+  {% else %}
+  <span data-toggle="dropdown" class="popup-title">
+    <svg class="feather feather-user sc-dnqmqq jxshSx" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" data-reactid="1286"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
+  </span>
+  {% endif %}
+  <div class="dropdown-menu  {% if customer  %}log-in{%endif%}"> 
+    {% if customer  %}
+    <ul class="links--customer links list-unstyled">
+      <li>
+        {% capture fullname %}{{ customer.first_name }} {{ customer.last_name }}{% endcapture %}
+        <a class="account" rel="nofollow" href="/account" title="{{ 'customer.account.title' | t }}"><span>{{ 'header.general.account' | t }}</span></a>
+      </li>
+      <li>
+        <a id="customer_logout_link" href="/account/logout" title="{{ 'header.general.logout' | t }}"> {{ 'header.general.logout' | t }}</a>
+      </li>
+    </ul>
+    {% else %}
+    <div class="customer_login_wrapper">
+      <form method="post" action="/account/login" id="customer_popup_login" accept-charset="UTF-8">
+
+        <h4 class="text-left">{{ 'customer.login.title' | t }}</h4>
+
+        <div class="errors" style="display:none;"></div>
+
+        <label for="CustomerEmail">{{ 'customer.login.email' | t }}</label>
+        <input placeholder="{{ 'customer.login.email' | t }}" type="email" name="customer[email]" id="CustomerEmail" class="{% if form.errors contains 'email' %} input--error{% endif %}" autocorrect="off" autocapitalize="off" autofocus>
+
+        <label for="CustomerPassword">{{ 'customer.login.password' | t }}</label>
+        <input placeholder="{{ 'customer.login.password' | t }}" type="password" value="" name="customer[password]" id="CustomerPassword" class="{% if form.errors contains 'password' %} input--error{% endif %}">
+
+        <div class="text-center">
+          <p class="text-right">
+            <a href="/account/login/#recover" class="link-reset">{{ 'customer.login.forgot_password' | t }}</a>
+          </p>
+          <input type="submit" class="btn" value="{{ 'customer.login.sign_in' | t }}">
+          
+          <p class="text-left">
+            {{ 'layout.customer.create_account' | t | customer_register_link }}
+          </p>
+        </div>
+
+
+      </form>
+    </div>
+    {% endif %}        
+  </div>
+</div>
+{%- endif -%}

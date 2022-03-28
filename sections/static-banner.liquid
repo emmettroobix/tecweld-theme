@@ -1,0 +1,484 @@
+<!-- grid-banner.liquid -->
+<div class="customstyle{{ section.id }} static-banner " data-aos={{section.settings.animation}} >
+  {%- include 'style-section' -%}
+<div class="{{ section.settings.setwidth }}">
+  <div class="section-block">
+    {%- include 'section-heading' -%}
+    <div class="row {% if section.settings.no_gutter %}no-gutters{% endif %}">
+      {%- for block in section.blocks -%}
+      {%- case block.type -%}
+      {%- when 'banner' -%}
+      <style>
+		/* Custom caption width, default value is 290px */
+        .figcaption--{{block.id}}{max-width:{{block.settings.max-width}}px !important;}.banner-theme-center .figcaption--{{block.id}}{margin-left: -{{block.settings.max-width | divided_by:2}}px !important}
+      </style>
+      <div class="col-md-{{block.settings.width}}" {{ block.shopify_attributes }}>
+        <figure class="banner-theme hv-image-saturate banner-theme-{{block.settings.vertical}} banner-theme-{{block.settings.horizontal}} text-{{block.settings.text_align}} {% if section.settings.no_gutter %}m-0{% endif %}">
+          {%- if block.settings.image != blank -%}
+          <img src="{% include 'srcBlank' %}" class="lazyload transition" data-src="{{block.settings.image | img_url:'1920x'}}">
+          {%- else -%}
+          {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+          {%- endif -%}
+          <figcaption class="figcaption--{{block.id}}">
+            {%- if block.settings.description -%}
+            {{block.settings.description}}
+            {%- endif -%}
+            {%- if block.settings.button_text != blank -%}
+            <button class="btn btn-theme gradient-theme">
+              <span class="px-2">{{block.settings.button_text}}</span>
+              {{block.settings.button_icon}}
+            </button>
+            {%- endif -%}
+          </figcaption>		
+          {%- if block.settings.button_link != blank -%}
+          <a href="{{block.settings.button_link}}"></a>
+          {%- endif -%}
+        </figure>
+      </div>
+      {%- when 'html' -%}
+      <div class="static-banner-html col-md-{{block.settings.html_width}}" {{ block.shopify_attributes }}>
+        {%- if block.settings.html_title != blank -%}
+        <div>{{block.settings.html_title}}</div>
+        {%- endif -%}
+        {%- if block.settings.html_content != blank -%}
+        <p>{{block.settings.html_content}}</p>
+        {%- endif -%}
+        {%- if block.settings.html_button_title != blank -%}
+        <a class="font-family button-cw" href="{{block.settings.html_button_link}}">{{block.settings.html_button_title}}</a>
+        {%- endif -%}
+      </div>
+      {%- endcase -%}
+      {%- endfor -%}
+    </div>
+  </div>
+</div>
+</div>
+<style>
+  .banner-theme h5{
+    font-family:var(--g-font-2);
+    font-size: 24px;
+    -webkit-transition: all 0.4s ease 0s;
+    -moz-transition: all 0.4s ease 0s;
+    -ms-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+      color:#2d2d2d;
+  }
+  .banner-theme h2{
+    color:#2d2d2d;
+  	font-family:var(--g-font-2);
+    font-size: 64px;
+    -webkit-transition: all 0.4s ease 0s;
+    -moz-transition: all 0.4s ease 0s;
+    -ms-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+  }
+  .banner-theme p{
+  	font-size: 16px;
+    color:#000;
+  }
+  a.button-cw {
+    color: #333;
+    font-weight: 500;
+    font-size: 16px;
+    border-bottom: 2px solid #333;
+    padding-bottom: 3px;
+  }
+  a.button-cw i{
+  	margin-left:5px;
+     -webkit-transition: all 0.4s ease 0s;
+    -moz-transition: all 0.4s ease 0s;
+    -ms-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+  }
+  .banner-theme:hover h5{letter-spacing:1px;}
+  .banner-theme:hover a.button-cw i{margin-left:10px;}
+  .banner-theme .btn{
+    color:var(--g-cta-button2);
+    background:var(--g-cta-button2-bg);
+    border:1px solid var(--g-cta-button2-bg);
+    border-radius: 20px;
+    font-size: 13px;
+    padding: 5px 10px;
+    font-weight: 500;
+    text-transform: none;
+      -webkit-transition: all 0.4s ease 0s;
+    -moz-transition: all 0.4s ease 0s;
+    -ms-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+  }
+  .banner-theme .btn:hover{
+    color:var(--g-cta-button2-hover);
+    background:var(--g-cta-button2-bg-hover);
+    border-color:var(--g-cta-button2-bg-hover);
+  }
+  .static-banner .subtitle{
+  	padding-bottom: 20px;
+    margin-bottom: 20px;
+    position: relative;
+  }
+  .static-banner .subtitle:before{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 1px;
+    width: 50px;
+    border-top:1px solid;
+  }
+
+  @media(max-width:991px){
+    .banner-theme .btn{
+    	padding:5px;
+    }
+  }
+  @media(max-width:767px){
+    .customstyle{{ section.id }}{margin:0 !Important;}
+  }
+</style>
+{% schema %}
+{
+  "name": "Static banner",
+  "class": "index-section",
+  "settings": [
+  {
+      "type": "select",
+      "id": "animation",
+      "options": [
+        { "value": "", "label": "None"},
+        { "value": "fade", "label": "Fade"},
+        { "value": "fade-up", "label": "Fade Up"},
+        { "value": "fade-down", "label": "Fade Down"},
+        { "value": "fade-left", "label": "Fade Left"},
+        { "value": "fade-right", "label": "Fade Right"},
+        { "value": "fade-up-right", "label": "Fade Up Right"},
+        { "value": "fade-up-left", "label": "Fade Up Left"},
+        { "value": "fade-down-right", "label": "Fade Down Right"},
+        { "value": "fade-down-left", "label": "Fade Down Left"},
+        { "value": "flip-up", "label": "Flip Up"},
+        { "value": "flip-down", "label": "Flip Down"},
+        { "value": "flip-left", "label": "Flip Left"},
+        { "value": "flip-right", "label": "Flip Right"},
+        { "value": "slide-up", "label": "Slide Up"},
+        { "value": "slide-down", "label": "Slide Down"},
+        { "value": "slide-left", "label": "Slide Left"},
+        { "value": "slide-right", "label": "Slide Right"},
+        { "value": "zoom-in", "label": "Zoom In"},
+        { "value": "zoom-in-up", "label": "Zoom In Up"},
+        { "value": "zoom-in-down", "label": "Zoom In Down"},
+        { "value": "zoom-in-left", "label": "Zoom In Left"},
+        { "value": "zoom-in-right", "label": "Zoom In Right"},
+        { "value": "zoom-out", "label": "Zoom Out"},
+        { "value": "zoom-out-up", "label": "Zoom Out Up"},
+        { "value": "zoom-out-down", "label": "Zoom Out Down"},
+        { "value": "zoom-out-left", "label": "Zoom Out Feft"},
+        { "value": "zoom-out-right", "label": "Zoom Out Right"}
+      ],
+      "label": "Select Animation"
+  },
+  {
+      "type": "text",
+      "id": "paddingsection",
+      "label": "Padding Section",
+      "default": "0px 0px 0px 0px",
+      "info": "Padding: Top Right Bottom Left"
+    },
+    {
+      "type": "text",
+      "id": "marginsection",
+      "label": "Margin Section",
+      "default": "0px 0px 0px 0px",
+      "info": "Margin: Top Right Bottom Left"
+    },
+    {
+      "type": "color",
+      "id": "bgsection",
+        "label": "Background Section",
+        "default": "#fefefe"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Title",
+      "default": "Grid banner"
+    },
+    {
+      "type": "textarea",
+      "id": "des",
+      "label": "HTML / Description"
+    },
+    {
+      "type": "select",
+      "id": "setwidth",
+      "label": "Full Width",
+      "default": "container",
+      "options": [
+        {
+          "value": "container",
+          "label": "Box"
+        },
+        {
+          "value": "container-fluid",
+          "label": "Container Fluid"
+        },
+        {
+          "value": "full",
+          "label": "Full"
+        }
+      ]
+    },
+    {
+      "type": "checkbox",
+      "id": "no_gutter",
+      "label": "No gutters",
+      "default": false
+    }
+  ],
+  "blocks": [
+    {
+      "type": "banner",
+      "name": "Banner",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+      {
+        "type": "select",
+        "id": "width",
+        "label": "Width",
+        "default": "6",
+        "options": [
+          {
+            "value": "2",
+            "label": "16.67%"
+          },
+          {
+            "value": "3",
+            "label": "25%"
+          },
+          {
+            "value": "4",
+            "label": "33.33%"
+          },
+          {
+            "value": "5",
+            "label": "41.67%"
+          },
+          {
+            "value": "6",
+            "label": "50%"
+          },
+          {
+            "value": "7",
+            "label": "58.33%"
+          },
+          {
+            "value": "8",
+            "label": "66.67%"
+          },
+          {
+            "value": "9",
+            "label": "75%"
+          },
+          {
+            "value": "10",
+            "label": "83.33%"
+          },
+          {
+            "value": "12",
+            "label": "100%"
+          }
+        ]
+      },
+        {
+          "type": "textarea",
+          "id": "description",
+          "label": "HTML / Description",
+          "default": "<h3 class='mb-2'>Banner title</h3><p>Lorem ipsum dolor sit amet</p>"
+        },
+        {
+          "type": "range",
+          "id": "max-width",
+          "min": 280,
+          "max": 800,
+          "step": 10,
+          "unit": "px",
+          "label": "Desciption max width",
+          "default": 290
+        },
+        {
+          "type": "text",
+          "id": "button_text",
+          "label": "Button text",
+          "default": "View more"
+        },
+        {
+          "type": "text",
+          "id": "button_icon",
+          "label": "Button icon"
+        },
+        {
+          "type": "url",
+          "id": "button_link",
+          "label": "Button link"
+        },
+      {
+        "type": "select",
+        "id": "vertical",
+        "label": "Vertical align",
+        "default": "bottom",
+        "options": [
+          {
+            "value": "top",
+            "label": "Top"
+          },
+          {
+            "value": "mid",
+            "label": "Mid"
+          },
+          {
+            "value": "bottom",
+            "label": "Bottom"
+          }
+        ]
+      },
+      {
+        "type": "select",
+        "id": "horizontal",
+        "label": "Horizontal align",
+        "default": "center",
+        "options": [
+          {
+            "value": "left",
+            "label": "Left"
+          },
+          {
+            "value": "center",
+            "label": "Center"
+          },
+          {
+            "value": "right",
+            "label": "Right"
+          }
+        ]
+      },
+      {
+        "type": "select",
+        "id": "text_align",
+        "label": "Text align",
+        "default": "center",
+        "options": [
+          {
+            "value": "left",
+            "label": "Left"
+          },
+          {
+            "value": "center",
+            "label": "Center"
+          },
+          {
+            "value": "right",
+            "label": "Right"
+          }
+        ]
+      }
+      ]
+    },
+	{
+      "type": "html",
+      "name": "HTML",
+      "settings": [
+          {
+          "type": "select",
+          "id": "html_width",
+          "label": "Width",
+          "default": "6",
+          "options": [
+            {
+              "value": "2",
+              "label": "16.67%"
+            },
+            {
+              "value": "3",
+              "label": "25%"
+            },
+            {
+              "value": "4",
+              "label": "33.33%"
+            },
+            {
+              "value": "5",
+              "label": "41.67%"
+            },
+            {
+              "value": "6",
+              "label": "50%"
+            },
+            {
+              "value": "7",
+              "label": "58.33%"
+            },
+            {
+              "value": "8",
+              "label": "66.67%"
+            },
+            {
+              "value": "9",
+              "label": "75%"
+            },
+            {
+              "value": "10",
+              "label": "83.33%"
+            },
+            {
+              "value": "12",
+              "label": "100%"
+            }
+          ]
+        },
+		{
+          "type": "textarea",
+          "id": "html_title",
+          "label": "Title",
+          "default": "<h3 class='mb-2'>Banner title</h3><p>Lorem ipsum dolor sit amet</p>"
+        },
+		{
+          "type": "textarea",
+          "id": "html_content",
+          "label": "Content"
+        },
+		{
+          "type": "text",
+          "id": "html_button_title",
+          "label": "Button text",
+          "default": "View more"
+        },
+        {
+          "type": "url",
+          "id": "html_button_link",
+          "label": "Button link"
+        }
+	  ]
+	}
+  ],
+  "presets": [
+    {
+      "name": "Static banner",
+      "category": "Image",
+      "blocks": [
+        {
+          "type": "banner"
+        },
+        {
+          "type": "banner"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

@@ -1,0 +1,119 @@
+{% unless settings.shipping_calculator == 'Disabled' %}
+<div id="shipping-calculator">
+  <h3>{{ settings.shipping_calculator_heading | default: 'Get shipping estimates' }}</h3>
+  <div>
+    <p class="field">
+      <label for="address_country">Country</label>
+      <select id="address_country" name="address[country]" data-default="{% if shop.customer_accounts_enabled and customer %}{{ customer.default_address.country }}{% elsif settings.shipping_calculator_default_country != '' %}{{ settings.shipping_calculator_default_country }}{% endif %}">{{ country_option_tags }}</select>
+    </p>
+    <p class="field" id="address_province_container" style="display:none;">
+      <label for="address_province" id="address_province_label">Province</label>
+      <select id="address_province" name="address[province]" data-default="{% if shop.customer_accounts_enabled and customer and customer.default_address.province != '' %}{{ customer.default_address.province }}{% endif %}"></select>
+    </p>  
+    <p class="field">
+      <label for="address_zip">Zip/Postal Code</label>
+      <input type="text" id="address_zip" name="address[zip]"{% if shop.customer_accounts_enabled and customer %} value="{{ customer.default_address.zip }}"{%else%} value="35004"{% endif %} />
+    </p>
+    <p class="field">
+      <input type="button" class="get-rates btn button" value="{{ settings.shipping_calculator_submit_button_label | default: 'Calculate shipping' }}" />
+    </p>
+  </div>
+  <div id="wrapper-response"></div>
+</div>
+{% endunless %}
+
+<script id="shipping-calculator-response-template" type="text/template">
+  {% raw %}
+  <p id="shipping-rates-feedback" {{#if success}} class="success" {{else}} class="error" {{/if}}>
+  {{#if success}}
+    {{#if rates}}
+      {{#rates}}
+        {{#if @first}}
+            <span>{{name}}:</span> {{price}}
+        {{else}}
+        <br>
+        	<span>{{name}}:</span> {{price}}
+        {{/if}}
+      {{/rates}}
+    {{else}}
+      We do not ship to this destination.
+    {{/if}}    
+  {{else}}
+    {{ errorFeedback }}
+  {{/if}}
+  </p>
+  {% endraw %}
+</script>
+
+<!--[if lte IE 8]>
+<style> #shipping-calculator { display: none; } </style>
+<![endif]-->
+<style>
+#shipping-calculator{
+  padding-top: 20px;
+  border-top: 1px dashed #eaeaea;
+  margin-top: 25px;
+}
+#shipping-calculator h3{
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+#shipping-calculator .field {
+/*  float: left; */
+  margin: 0 0.6em 1em 0;
+  font-size: 15px;
+  display: inline-block;  
+}  
+#shipping-calculator .field label {
+  display: block;
+  margin: 0 0 .3em;
+  font-size: 1em;
+}
+#shipping-calculator .field select {
+  background-color: transparent;
+  border: 2px solid #333;
+  border-radius: 5px;
+}
+#shipping-calculator .field input[type=text] {
+  display: inline-block;
+  width: 150px;
+  max-width: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  font-size: 1em;
+  outline: 0;
+  -webkit-appearance: none;
+  padding: 13px 12px;
+  border-radius: 5px;
+  background-color: transparent;
+  border: 2px solid;
+}
+#shipping-calculator .field input.button {
+  background: #000;
+  color: #fff;
+  padding: 0 12px;
+  height: 48px;
+  border-radius: 5px;
+}
+#shipping-calculator .field:last-child:before { 
+  content: "\00A0"; display: block; margin: 0 0 .3em; font-size: 1em; 
+}
+#shipping-calculator #wrapper-response {
+  clear: both;
+}
+@media (max-width: 767px) {
+  #shipping-calculator .field {
+    float: none;
+  }
+  #shipping-calculator .field:last-child:before { 
+    content: none;
+  }
+}
+  p#shipping-rates-feedback span {
+    min-width: 230px;
+    display: inline-block;
+  }
+</style>

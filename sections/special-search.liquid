@@ -1,0 +1,250 @@
+<div id="search-filter" class="search-filter{{ section.settings.setwidth }}" style="background-image:url({{section.settings.bg_image| img_url:'1920x'}});">
+  <div class="container">
+  {% if section.settings.home_searchfilter_title != blank %}
+  <h3 class="title">{{ section.settings.home_searchfilter_title }}</h3>
+  {% endif %}
+  {% if section.settings.home_searchfilter_subtitle != blank %}
+  <p>{{ section.settings.home_searchfilter_subtitle }}</p>
+  {% endif %} 
+  <div class="row">
+    <div class="block-fil col col-xs-12">
+      <form class="searchform">
+        <select class="filter-collection" id="collection-select">
+          <option value="all" selected>{{section.settings.filter1_title}}</option>
+          {% for collection in collections %}
+          <option value="{{ collection.handle }}">{{ collection.title }}</option>
+          {% endfor %}
+        </select>   
+      </form>
+    </div>
+    {% if section.settings.filter2_title != blank %}
+    <div class="block-fil col col-xs-12">
+      <form class="searchform">
+        <select class="filter-model tag-select" id="model-select">
+          <option value="" selected>{{section.settings.filter2_title}}</option>
+          {% assign tags = section.settings.filter2_tag | split: ',' %}
+          {% for t in tags %}
+          {% assign tag = t | strip %}
+          <option value="{{ tag | handle }}">{{ tag }}</option>
+          {% endfor %}
+        </select>   
+      </form>
+    </div>
+    {%endif%}
+    {% if section.settings.filter3_title != blank %}
+    <div class="block-fil col col-xs-12">
+      <form class="searchform">
+        <select class="filter-price tag-select" id="price-select">
+          <option value="" selected>{{section.settings.filter3_title}}</option>
+          {% assign tags = section.settings.filter3_tag | split: ',' %}
+          {% for t in tags %}
+          {% assign tag = t | strip %}
+          <option value="{{ tag | handle }}">{{ tag }}</option>
+          {% endfor %}
+        </select>   
+      </form>
+    </div>
+    {%endif%}
+    {% if section.settings.filter4_title != blank %}
+    <div class="block-fil col col-xs-12">
+      <form class="searchform">
+        <select class="filter-year tag-select" id="year-select">
+          <option value="" selected>{{section.settings.filter4_title}}</option>
+          {% assign tags = section.settings.filter4_tag | split: ',' %}
+          {% for t in tags %}
+          {% assign tag = t | strip %}
+          <option value="{{ tag | handle }}">{{ tag }}</option>
+          {% endfor %}
+        </select>   
+      </form>
+    </div>
+    {%endif%}
+    <div class="col-1 col-xs-12 block-fil">
+      <a  href="#" class="btn-search btn-search-filter">{{section.settings.home_searchfilter_buttontext}}</a>
+    </div>
+  </div>
+  </div>
+</div>
+<style>
+  .block-fil{
+  	padding:0 5px;
+  }
+div#search-filter {
+    background-position: center;
+    background-repeat: no-repeat;
+      padding: 100px 0;
+}
+  #search-filter h3{
+    color:{{section.settings.text_color}};
+    font-size: 62px;
+    font-weight: 700;
+    line-height: 1;
+    margin-top: 0;
+    margin-bottom: 24px;
+    padding-bottom: 0;
+    text-align: center;
+  }
+  #search-filter p{
+  	font-size: 22px;
+    color:{{section.settings.text_color}};
+    line-height: 1;
+    margin-bottom: 60px;
+    text-align: center;
+  }
+  .searchform .filter-collection,.searchform .tag-select{
+    width: 100%;
+    background: linear-gradient(
+      135deg
+      , #222222 0%, #222222 50%, var(--g-main) 51%, var(--g-main) 71%, var(--g-main) 100%);
+    color: #fff;
+    border-bottom: 1px solid #fff;
+    border-radius:4px;
+  }
+  .btn-search.btn-search-filter{
+    color: #ffff;
+    background: linear-gradient(
+      135deg
+      , #222222 0%, #222222 50%, var(--g-main) 51%, var(--g-main) 71%, var(--g-main) 100%);
+    height: 47px;
+    padding: 14px 14px;
+    border: 1px solid var(--g-main);
+    display: inline-block;
+        border-radius:4px;
+  }
+  #search-filter .searchform{position:relative;}
+  #search-filter .searchform:before{
+    right: 15px;
+    position: absolute;
+    content: "";
+    width: 10px;
+    height: 10px;
+    background-repeat: no-repeat;
+    top: 18px;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 7px solid #fff;
+  }
+  #search-filter .block-fil option{text-transform: capitalize;}
+  @media(max-width:767px){
+    .block-fil {
+      padding: 0 10px;
+      margin-bottom: 10px;
+      -ms-flex: 0 0 100%;
+      flex: 0 0 100%;
+      max-width: 100%;
+      text-align: center;
+    }
+    #search-filter h3 {font-size:24px;}
+    #search-filter p {font-size:16px;margin-bottom:20px;}
+  }
+</style>  
+{% schema %}
+  {
+    "name": "Special Search",
+    "settings": [
+	  {
+        "type": "select",
+        "id": "setwidth",
+        "label": "Full Width",
+        "default": "container",
+        "options": [
+          {
+            "value": "container",
+            "label": "Box"
+          },
+          {
+            "value": "container-fluid",
+            "label": "Container Fluid"
+          },
+          {
+            "value": "full",
+            "label": "Full"
+          }
+        ]
+      },
+	  {
+          "type": "image_picker",
+          "id": "bg_image",
+          "label": "Background Image"
+        }, 
+      {
+        "type": "color",
+        "id": "text_color",
+        "label": "Text Color",
+          "default": "#ffffff"
+      },
+	  {
+        "type": "text",
+        "id": "home_searchfilter_title",
+        "label": "Heading",
+		"default":"SELECT YOUR VEHICLE"
+      },
+	  {
+        "type": "text",
+        "id": "home_searchfilter_subtitle",
+        "label": "Sub Heading",
+		"default":"Over 100,000 Auto and Truck Parts"
+      },
+      {
+        "type": "text",
+        "id": "filter1_title",
+        "label": "Filter 1 title",
+		"default":"Select Collection"
+      },
+      {
+        "type": "text",
+        "id": "filter2_title",
+        "label": "Filter 2 title",
+		"default":"Select Model"
+      },
+	  {
+        "type": "textarea",
+        "id": "filter2_tag",
+        "label": "Filter 2 Tag",
+		"info":"Using tag in product page"
+      },
+	  {
+        "type": "text",
+        "id": "filter3_title",
+        "label": "Filter 3 title",
+		"default":"Select Make"
+      },	
+	  {
+        "type": "textarea",
+        "id": "filter3_tag",
+        "label": "Filter 3",
+		"info":"Using tag in product page"
+      },
+	  {
+        "type": "text",
+        "id": "filter4_title",
+        "label": "Filter 4 title",
+		"default":"Select Year"
+      },	
+	  {
+        "type": "textarea",
+        "id": "filter4_tag",
+        "label": "Filter 4",
+		"info":"Using tag in product page"
+      },	
+	  {
+        "type": "text",
+        "id": "home_searchfilter_buttontext",
+        "label": "Title button",
+		"default":"FILTER"
+      }	
+	],
+	"presets": [
+      {
+        "name": "Special Search",
+        "category": "Search"
+      }
+    ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

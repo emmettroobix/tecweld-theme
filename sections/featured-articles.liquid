@@ -1,0 +1,265 @@
+<style>
+
+  .blog-index p.text-center{
+    color: #666;
+    font-weight: 400;
+    line-height: 23px;
+    font-size: 16px;
+    margin-bottom: 45px !important;
+  }
+  @media(min-width:1400px){
+    .blog-index .container{
+    	max-width:1400px;
+    }
+  }
+  @media(min-width:1200px){
+    .blog-index .blog__item{
+      position:relative;
+      border: 1px solid #e6e6e6;
+      box-shadow:0 0.1875rem 0.75rem -0.25rem rgba(0,0,0,.12);
+      padding:0;
+    }
+    .blog-index .blog_info{
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background: #fff;
+      top: 0;
+      left: 0;
+      -webkit-transition: all 0.3s ease 0s;
+      -moz-transition: all 0.3s ease 0s;
+      -ms-transition: all 0.3s ease 0s;
+      -o-transition: all 0.3s ease 0s;
+      transition: all 0.3s ease 0s;
+      padding: 40px 30px 30px 60px;
+    }
+    .blog-index .content-block__image,.blog-index .article__photo-container{
+    	margin-bottom:0 !Important;
+    }
+    .blog-index .blog_info .blog-tags, .blog-index .blog_info .rte{display:none;}
+    .blog-index .blog__meta{
+      color: #909090;
+      font-size: 13px;
+      text-transform:none;
+      margin:0 !important;
+    }
+    .blog-index .blog__title-link{
+      margin: 30px 0 50px;
+      font-size: 20px;
+      line-height: 30px;
+    }
+    .blog-index a.btn{
+      color:#222 !important;
+      text-transform: capitalize;
+      border-width:3px;
+      border-bottom-color: var(--g-main) !important;
+      -webkit-transition: all 0.3s ease;
+      -moz-transition: all 0.3s ease;
+      -ms-transition: all 0.3s ease;
+      -o-transition: all 0.3s ease;
+      transition: all 0.3s ease;
+    }
+    .blog-index .blog__item.blog__item--1:hover .blog_info{background:rgba(0,0,0,.7);}
+    .blog-index .blog__item.blog__item--1:hover .blog__meta, .blog-index .blog__item.blog__item--1:hover .blog__title-link{
+    	color:#fff;
+    }
+    .blog-index .blog__item.blog__item--1:hover a.btn{
+    	color:#fff !important;
+    }
+  }
+</style>
+<!-- featured-articles.liquid -->
+<div class="customstyle{{ section.id }} blog-index" data-aos={{section.settings.animation}}>
+  {%- include 'style-section' -%}
+<div class="{% if section.settings.fullwidth %}{% else %}container{% endif %}">
+  <div class="section-block">
+    {%- include 'section-heading' -%}
+    <div class="bloglist-wrapper dots-negative " data-aos={{section.settings.animation}}>
+      <div class="bloglist-slider mx-n{{section.settings.gaps}}" id="Bloglist-{{ section.id }}"
+           data-rows="{{section.settings.rows}}"
+           data-slidesToShow="{{section.settings.show}}"
+           data-arrows="{{ section.settings.arrows }}"
+           data-dots="{{ section.settings.dots }}" 
+           data-draggable="{{ section.settings.draggable }}" 
+           data-infinite="{{ section.settings.infinite }}" 
+           data-section-id="{{ section.id }}" 
+           data-section-type="slickCarousels">
+        {%- assign blog = blogs[section.settings.blog] -%}
+        {%- assign limit = section.settings.limit -%}
+        {%- if blog != blank -%}
+        {%- for article in blog.articles limit: limit -%}
+        <div class="bloglist-item px-{{section.settings.gaps}}">
+          {%- include 'blog-card' -%}
+        </div>
+        {%- endfor -%}
+        {%- else -%}
+        {%- for i in (1..limit) -%}
+        <div class="bloglist-item px-{{section.settings.gaps}}">
+          {%- include 'blog-grid-blank' -%}
+        </div>
+        {%- endfor -%}
+        {%- endif -%}
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+{% schema %}
+{
+  "name": "Blog posts",
+  "class": "index-section",
+  "settings": [
+  {
+    "type": "select",
+    "id": "animation",
+    "options": [
+      { "value": "", "label": "None"},
+      { "value": "fade", "label": "Fade"},
+      { "value": "fade-up", "label": "Fade Up"},
+      { "value": "fade-down", "label": "Fade Down"},
+      { "value": "fade-left", "label": "Fade Left"},
+      { "value": "fade-right", "label": "Fade Right"},
+      { "value": "fade-up-right", "label": "Fade Up Right"},
+      { "value": "fade-up-left", "label": "Fade Up Left"},
+      { "value": "fade-down-right", "label": "Fade Down Right"},
+      { "value": "fade-down-left", "label": "Fade Down Left"},
+      { "value": "flip-up", "label": "Flip Up"},
+      { "value": "flip-down", "label": "Flip Down"},
+      { "value": "flip-left", "label": "Flip Left"},
+      { "value": "flip-right", "label": "Flip Right"},
+      { "value": "slide-up", "label": "Slide Up"},
+      { "value": "slide-down", "label": "Slide Down"},
+      { "value": "slide-left", "label": "Slide Left"},
+      { "value": "slide-right", "label": "Slide Right"},
+      { "value": "zoom-in", "label": "Zoom In"},
+      { "value": "zoom-in-up", "label": "Zoom In Up"},
+      { "value": "zoom-in-down", "label": "Zoom In Down"},
+      { "value": "zoom-in-left", "label": "Zoom In Left"},
+      { "value": "zoom-in-right", "label": "Zoom In Right"},
+      { "value": "zoom-out", "label": "Zoom Out"},
+      { "value": "zoom-out-up", "label": "Zoom Out Up"},
+      { "value": "zoom-out-down", "label": "Zoom Out Down"},
+      { "value": "zoom-out-left", "label": "Zoom Out Feft"},
+      { "value": "zoom-out-right", "label": "Zoom Out Right"}
+    ],
+    "label": "Select Animation"
+},
+  {
+    "type": "text",
+    "id": "paddingsection",
+    "label": "Padding Section",
+    "default": "0px 0px 0px 0px",
+    "info": "Padding: Top Right Bottom Left"
+  },
+  {
+    "type": "text",
+    "id": "marginsection",
+    "label": "Margin Section",
+    "default": "0px 0px 0px 0px",
+    "info": "Margin: Top Right Bottom Left"
+  },
+  {
+    "type": "color",
+    "id": "bgsection",
+      "label": "Background Section",
+      "default": "#ffffff"
+  },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Title",
+      "default": "Blog posts"
+    },
+    {
+      "type": "textarea",
+      "id": "des",
+      "label": "HTML / Description"
+    },
+    {
+      "label": "Blog",
+      "id": "blog",
+      "type": "blog"
+    },
+    {
+      "type": "checkbox",
+      "id": "fullwidth",
+      "label": "Fullwidth",
+      "default": false
+    },
+    {
+      "type": "checkbox",
+      "id": "arrows",
+      "label": "Arrows",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "draggable",
+      "label": "Draggable",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "dots",
+      "label": "Dots",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "infinite",
+      "label": "Infinite",
+      "default": true
+    },
+    {
+      "type": "select",
+      "id": "rows",
+      "label": "Rows",
+      "default": "1",
+      "options": [
+        {
+          "value": "1",
+          "label": "1 row"
+        },
+        {
+          "value": "2",
+          "label": "2 rows"
+        }
+      ]
+    },
+    {
+      "type": "range",
+      "id": "limit",
+      "min": 2,
+      "max": 30,
+      "step": 1,
+      "label": "Limit items",
+      "default": 5
+    },
+    {
+      "type": "range",
+      "id": "show",
+      "min": 1,
+      "max": 6,
+      "step": 1,
+      "label": "Display items",
+      "default": 3
+    },
+    {
+      "type": "range",
+      "id": "gaps",
+      "min": 0,
+      "max": 5,
+      "step": 1,
+      "label": "Gutters size",
+      "default": 1
+    }
+  ],
+  "presets": [
+    {
+      "name": "Blog posts",
+      "category": "Text"
+    }
+  ]
+}
+{% endschema %}

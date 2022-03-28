@@ -1,0 +1,30 @@
+{%- if section.settings.sizeguide_enable -%}
+<!-- productSizeGuide.liquid -->
+{%- assign pageSizeGudie = pages[section.settings.sizeguide_page] -%}
+<a href="javascript:void(0)" data-toggle="modal" data-target="#jsSizeGuide" class="open-sizeguide">
+  <svg enable-background="new 0 0 512.025 512.025" version="1.1" viewBox="0 0 512.02 512.02" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
+        <path d="m226.33 0.013h-160c-8.837 0-16 7.163-16 16v480c0 8.837 7.163 16 16 16h160c8.837 0 16-7.163 16-16v-480c0-8.837-7.164-16-16-16zm-16 480h-128v-48h80v-32h-80v-48h48v-32h-48v-48h80v-32h-80v-48h48v-32h-48v-48h80v-32h-80v-48h128v448z"/>
+        <path d="m439.13 404.81-52.8 52.64v-402.88l52.64 52.64 22.56-22.56-80-80c-6.241-6.204-16.319-6.204-22.56 0l-80 80 22.56 22.56 52.8-52.64v402.88l-52.64-52.64-22.56 22.56 80 80c6.241 6.204 16.319 6.204 22.56 0l80-80-22.56-22.56z"/>
+  </svg>
+
+  {{section.settings.sizeguide_title | default: 'Size guide'}}
+</a>
+<div class="modal fade" id="jsSizeGuide" role="dialog" aria-hidden="true">
+  <div class="modal-dialog modal-dialog--sizeguide modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">{%- include 'icon-close' -%}</button>
+      </div>
+      <div class="modal-body">
+        <h4 class="text-center hide">{{pageSizeGudie.title}}</h4>
+        <div class="row justify-content-center js-sizeguide-content">
+          {{pageSizeGudie.content}}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<style>
+  .modal-dialog--sizeguide img{width:100%}.open-sizeguide{color:#222;text-decoration:underline;display: block;text-transform: uppercase;font-size: 12px;font-weight: 600;text-decoration: none;}.open-sizeguide i{margin-right:5px}.js-sizeguide-content td,.js-sizeguide-content th{border:1px solid rgba(0,0,0,.1)}@media (min-width:992px){.open-sizeguide{}}
+</style>
+{%- endif -%}

@@ -1,0 +1,435 @@
+<!-- product-listv2.liquid -->
+<div class="product-list-v2 customstyle{{ section.id }}" data-aos={{section.settings.animation}}>
+  {%- include 'style-section' -%}
+<div class="{{ section.settings.setwidth }}">
+  <div class="row">
+    {%if section.settings.show_banner%}
+    <div class="section-banner col-lg-3 col-12 {%if section.settings.show_banner_right%}order-2{%endif%}">
+      <figure class="banner-theme hv-image-saturate banner-theme-{{section.settings.vertical}} banner-theme-{{section.settings.horizontal}} text-{{section.settings.text_align}}">
+        {%- if section.settings.image != blank -%}
+        <img src="{% include 'srcBlank' %}" class="lazyload transition" data-src="{{section.settings.image | img_url:'1920x'}}">
+        {%- else -%}
+        {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+        {%- endif -%}
+        <figcaption class="figcaption--{{section.id}}">
+          {%- if section.settings.description -%}
+          {{section.settings.description}}
+          {%- endif -%}
+          {%- if section.settings.button_text != blank -%}
+          <button class="btn btn-theme gradient-theme">
+            <span class="px-2">{{section.settings.button_text}}</span>
+            {{section.settings.button_icon}}
+          </button>
+          {%- endif -%}
+        </figcaption>		
+        {%- if section.settings.button_link != blank -%}
+        <a href="{{section.settings.button_link}}"></a>
+        {%- endif -%}
+      </figure>
+    </div>
+    {%endif%}
+  	<div class="section-block {%if section.settings.show_banner%}col-lg-9{%endif%} col-12">
+    {%- include 'section-heading' -%}
+    <div class="productlist-wrapper dots-negative" data-aos={{section.settings.animation}} data-aos-delay="200">
+      <div class="productlist-slider mx-n{{section.settings.gaps}}" id="Productlist-{{ section.id }}"
+           style="opacity:0"
+           data-rows="{{section.settings.rows}}"
+           data-slidesToShow="{{section.settings.show}}"
+           data-arrows="{{ section.settings.arrows }}"
+           data-dots="{{ section.settings.dots }}" 
+           data-draggable="{{ section.settings.draggable }}" 
+           data-infinite="{{ section.settings.infinite }}" 
+           data-section-id="{{ section.id }}" 
+           data-section-type="productlist">
+        {%- assign collection = collections[section.settings.collection]  -%}
+        {%- assign limit = section.settings.limit -%}
+        {%- if collection != blank -%}
+        {%- for product in collection.products limit: limit -%}
+        <div class="productlist-item px-{{section.settings.gaps}}">
+          {%- include 'product-card', product: product -%}
+        </div>
+        {%- endfor -%}
+        {%- else -%}
+        {%- for i in (1..limit) -%}
+        <div class="productlist-item px-{{section.settings.gaps}}">
+          {%- include 'product-grid-blank' -%}
+        </div>
+        {%- endfor -%}
+        {%- endif -%}
+      </div>
+    </div>
+  </div>
+  </div>  
+</div>
+</div>
+<style>
+  .customstyle{{ section.id }} .section-banner.order-2{
+  	order:2;
+  }
+  .product-list-v2 .section-title-1{
+  	font-size:24px;
+    text-align:left !important;
+    margin-bottom:30px !important;
+  }
+  .product-list-v2 .section-title-1+p{
+  	text-align:left !important;
+    margin-bottom:30px !important;
+  }
+  .banner-theme h5{
+    color:#2d2d2d;
+    font-family:var(--g-font-2);
+    font-size: 24px;
+    -webkit-transition: all 0.4s ease 0s;
+    -moz-transition: all 0.4s ease 0s;
+    -ms-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+  }
+  .banner-theme h2{
+    color:#2d2d2d;
+  	font-family:var(--g-font-2);
+    font-size: 64px;
+    -webkit-transition: all 0.4s ease 0s;
+    -moz-transition: all 0.4s ease 0s;
+    -ms-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+  }
+  .product-list-v2 .banner-theme p{
+  	font-size: 14px;
+    color:#2d2d2d;
+  }
+  a.button-cw {
+    color: #333;
+    font-weight: 500;
+    font-size: 16px;
+    border-bottom: 2px solid #333;
+    padding-bottom: 3px;
+  }
+  a.button-cw i{
+  	margin-left:5px;
+     -webkit-transition: all 0.4s ease 0s;
+    -moz-transition: all 0.4s ease 0s;
+    -ms-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+  }
+  .banner-theme:hover h5{letter-spacing:1px;}
+  .banner-theme:hover a.button-cw i{margin-left:10px;}
+  .banner-theme .btn{
+    color:var(--g-cta-button2);
+    background:var(--g-cta-button2-bg);
+    border:1px solid var(--g-cta-button2-bg);
+    border-radius: 20px;
+    font-size: 13px;
+    padding: 5px 10px;
+    font-weight: 500;
+    text-transform: none;
+      -webkit-transition: all 0.4s ease 0s;
+    -moz-transition: all 0.4s ease 0s;
+    -ms-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+  }
+  .banner-theme .btn:hover{
+    color:var(--g-cta-button2-hover);
+    background:var(--g-cta-button2-bg-hover);
+    border-color:var(--g-cta-button2-bg-hover);
+  }
+  @media(max-width:991px){
+    .banner-theme .btn{
+    	padding:5px;
+    }
+  }
+  @media(max-width:767px){
+    .customstyle{{ section.id }} .section-banner.order-2 figure{
+    	margin: 1rem 0 0;
+    }
+  }
+</style>
+{% schema %}
+{
+  "name": "Product list",
+  "class": "index-section",
+  "settings": [
+  {
+    "type": "select",
+    "id": "animation",
+    "options": [
+      { "value": "", "label": "None"},
+      { "value": "fade", "label": "Fade"},
+      { "value": "fade-up", "label": "Fade Up"},
+      { "value": "fade-down", "label": "Fade Down"},
+      { "value": "fade-left", "label": "Fade Left"},
+      { "value": "fade-right", "label": "Fade Right"},
+      { "value": "fade-up-right", "label": "Fade Up Right"},
+      { "value": "fade-up-left", "label": "Fade Up Left"},
+      { "value": "fade-down-right", "label": "Fade Down Right"},
+      { "value": "fade-down-left", "label": "Fade Down Left"},
+      { "value": "flip-up", "label": "Flip Up"},
+      { "value": "flip-down", "label": "Flip Down"},
+      { "value": "flip-left", "label": "Flip Left"},
+      { "value": "flip-right", "label": "Flip Right"},
+      { "value": "slide-up", "label": "Slide Up"},
+      { "value": "slide-down", "label": "Slide Down"},
+      { "value": "slide-left", "label": "Slide Left"},
+      { "value": "slide-right", "label": "Slide Right"},
+      { "value": "zoom-in", "label": "Zoom In"},
+      { "value": "zoom-in-up", "label": "Zoom In Up"},
+      { "value": "zoom-in-down", "label": "Zoom In Down"},
+      { "value": "zoom-in-left", "label": "Zoom In Left"},
+      { "value": "zoom-in-right", "label": "Zoom In Right"},
+      { "value": "zoom-out", "label": "Zoom Out"},
+      { "value": "zoom-out-up", "label": "Zoom Out Up"},
+      { "value": "zoom-out-down", "label": "Zoom Out Down"},
+      { "value": "zoom-out-left", "label": "Zoom Out Feft"},
+      { "value": "zoom-out-right", "label": "Zoom Out Right"}
+    ],
+    "label": "Select Animation"
+},
+  {
+    "type": "text",
+    "id": "paddingsection",
+    "label": "Padding Section",
+    "default": "0px 0px 0px 0px",
+    "info": "Padding: Top Right Bottom Left"
+  },
+  {
+    "type": "text",
+    "id": "marginsection",
+    "label": "Margin Section",
+    "default": "0px 0px 0px 0px",
+    "info": "Margin: Top Right Bottom Left"
+  },
+  {
+    "type": "color",
+    "id": "bgsection",
+      "label": "Background Section",
+      "default": "#ffffff"
+  },
+  {
+    "type": "select",
+    "id": "setwidth",
+    "label": "Full Width",
+    "default": "container",
+    "options": [
+      {
+        "value": "container",
+        "label": "Box"
+      },
+      {
+        "value": "container-fluid",
+        "label": "Container Fluid"
+      },
+      {
+        "value": "full",
+        "label": "Full"
+      }
+    ]
+  },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Title",
+      "default": "Product list"
+    },
+    {
+      "type": "textarea",
+      "id": "des",
+      "label": "HTML / Description"
+    },
+    {
+      "label": "Collection",
+      "id": "collection",
+      "type": "collection"
+    },
+    
+    {
+      "type": "checkbox",
+      "id": "arrows",
+      "label": "Arrows",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "draggable",
+      "label": "Draggable",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "dots",
+      "label": "Dots",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "infinite",
+      "label": "Infinite",
+      "default": true
+    },
+    {
+      "type": "select",
+      "id": "rows",
+      "label": "Rows",
+      "default": "1",
+      "options": [
+        {
+          "value": "1",
+          "label": "1 row"
+        },
+        {
+          "value": "2",
+          "label": "2 rows"
+        }
+      ]
+    },
+    {
+      "type": "range",
+      "id": "limit",
+      "min": 3,
+      "max": 30,
+      "step": 1,
+      "label": "Limit items",
+      "default": 10
+    },
+    {
+      "type": "range",
+      "id": "show",
+      "min": 3,
+      "max": 6,
+      "step": 1,
+      "label": "Display items",
+      "default": 3
+    },
+    {
+      "type": "range",
+      "id": "gaps",
+      "min": 0,
+      "max": 5,
+      "step": 1,
+      "label": "Gutters size",
+      "default": 1
+    },
+	{
+    "type": "header",
+    "content": "Banner"
+    },
+	{
+      "type": "checkbox",
+      "id": "show_banner",
+      "label": "Show Banner",
+      "default": true
+    },
+	{
+      "type": "checkbox",
+      "id": "show_banner_right",
+      "label": "Banner On Right",
+      "default": false
+    },
+    {
+    "type": "image_picker",
+    "id": "image",
+    "label": "Image"
+    },
+	{
+          "type": "textarea",
+          "id": "description",
+          "label": "HTML / Description",
+          "default": "<h3 class='mb-2'>Banner title</h3><p>Lorem ipsum dolor sit amet</p>"
+        },
+        {
+          "type": "range",
+          "id": "max-width",
+          "min": 280,
+          "max": 800,
+          "step": 10,
+          "unit": "px",
+          "label": "Desciption max width",
+          "default": 290
+        },
+        {
+          "type": "text",
+          "id": "button_text",
+          "label": "Button text",
+          "default": "View more"
+        },
+        {
+          "type": "text",
+          "id": "button_icon",
+          "label": "Button icon"
+        },
+        {
+          "type": "url",
+          "id": "button_link",
+          "label": "Button link"
+        },
+      {
+        "type": "select",
+        "id": "vertical",
+        "label": "Vertical align",
+        "default": "bottom",
+        "options": [
+          {
+            "value": "top",
+            "label": "Top"
+          },
+          {
+            "value": "mid",
+            "label": "Mid"
+          },
+          {
+            "value": "bottom",
+            "label": "Bottom"
+          }
+        ]
+      },
+      {
+        "type": "select",
+        "id": "horizontal",
+        "label": "Horizontal align",
+        "default": "center",
+        "options": [
+          {
+            "value": "left",
+            "label": "Left"
+          },
+          {
+            "value": "center",
+            "label": "Center"
+          },
+          {
+            "value": "right",
+            "label": "Right"
+          }
+        ]
+      },
+      {
+        "type": "select",
+        "id": "text_align",
+        "label": "Text align",
+        "default": "center",
+        "options": [
+          {
+            "value": "left",
+            "label": "Left"
+          },
+          {
+            "value": "center",
+            "label": "Center"
+          },
+          {
+            "value": "right",
+            "label": "Right"
+          }
+        ]
+      }
+  ],
+  "presets": [
+    {
+      "name": "Product list v2 (carousel)",
+      "category": "Collection"
+    }
+  ]
+}
+{% endschema %}

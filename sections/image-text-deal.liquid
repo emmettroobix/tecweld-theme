@@ -1,0 +1,433 @@
+<style>
+.container-wp-deal .block-deal-sale {
+    position: absolute;
+    top: 25px;
+    right: 40px;
+    z-index: 6;
+}
+.container-wp-deal .block-deal-sale .deal-sale {
+    color: #fff;
+    background: #f46767;
+    width: 58px;
+    height: 58px;
+    display: block;
+    line-height: 58px;
+    text-align: center;
+    border-radius: 100%;
+    position: relative;
+}
+.container-wp-deal .block-deal-sale .deal-sale:before {
+    content: "";
+    position: absolute;
+    width: 78px;
+    height: 78px;
+    top: -10px;
+    left: -10px;
+    z-index: 11;
+    background: transparent;
+    border-radius: 100%;
+    border: 1px solid #f46767;
+}
+.container-wp-deal .xtImage a {
+    float: right;
+    display: block;
+    overflow: hidden;
+    position: relative;
+}
+.container-wp-deal .xtImage a img {
+    margin: 0;
+    transition: 1s ease 0s;
+}
+.container-wp-deal .xtImage a .hover_collection {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    left: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.46);
+    z-index: 9999;
+    padding: 25px;
+    opacity: 0;
+    transition: all .3s ease-in-out;
+}
+.container-wp-deal .xtImage a .hover_collection:before {
+    position: absolute;
+    content: '';
+    opacity: 0;
+    transition: opacity .35s,-webkit-transform .35s;
+    transition: opacity .35s,transform .35s;
+    transition: opacity .35s,transform .35s,-webkit-transform .35s;
+    top: 10px;
+    right: 10px;
+    bottom: 10px;
+    left: 10px;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    -webkit-transform: scale(0, 1);
+    transform: scale(0, 1);
+    -webkit-transform-origin: 0 0;
+    transform-origin: 0 0;
+}
+.container-wp-deal .xtImage a .hover_collection:after {
+    position: absolute;
+    content: '';
+    opacity: 0;
+    transition: opacity .35s,-webkit-transform .35s;
+    transition: opacity .35s,transform .35s;
+    transition: opacity .35s,transform .35s,-webkit-transform .35s;
+    top: 10px;
+    right: 10px;
+    bottom: 10px;
+    left: 10px;
+    border-right: 1px solid #fff;
+    border-left: 1px solid #fff;
+    -webkit-transform: scale(1, 0);
+    transform: scale(1, 0);
+    -webkit-transform-origin: 100% 0;
+    transform-origin: 100% 0;
+}
+.container-wp-deal .xtImage a:hover img {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.container-wp-deal .xtImage a:hover .hover_collection {
+    opacity: 1;
+}
+.container-wp-deal .xtImage a .hover_collection:hover:before, .container-wp-deal .xtImage a .hover_collection:hover:after {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+.container-wp-deal .xtImage .image_description {
+    float: right;
+}
+.container-wp-deal .xtImage .image_description h4 {
+    width: 220px;
+    height: 200px;
+    position: relative;
+    -moz-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+    padding-top: 20px;
+    font-size: 18px;
+    font-weight: 600;
+  	top:10px;
+}
+.container-wp-deal .xtCountdown {
+    text-align: center;
+}
+.container-wp-deal .xtCountdown h4{
+	font-size:36px;
+  	position:relative;
+  	padding-bottom:35px;
+  	margin:50px 0 30px;
+}  
+.container-wp-deal .xtCountdown h4:before{
+	    content: "";
+    width: 60px;
+    background: #eaeaea;
+    height: 2px;
+    position: absolute;
+    bottom: 0;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+}  
+.xtCountdown  .js-countdown--1 li{
+    position: relative;
+    padding: 10px 40px;
+    width:auto;
+    background:none;
+  } 
+.xtCountdown .js-countdown--1 .countdown-time {
+    display: block;
+    font-weight: 500;
+    font-size: 40px;
+}
+.xtCountdown span.countdown-text {
+    font-size: 16px;
+    color: #888;
+}
+.xtCountdown li.gradient-theme-vertical:before {
+    content: ":";
+    position: absolute;
+    top: 25px;
+    right: -5px;
+    font-size: 20px;
+}
+.xtCountdown li.gradient-theme-vertical:last-child:before {
+    display:none;
+}
+.xtCountdown .price{
+	font-size:28px;
+  	margin-top:15px;
+  	color: var(--g-main);
+    margin-bottom:40px;
+}
+.xtCountdown .price .old-price.product-price{
+  font-size: 18px;
+  font-weight: 500;
+  color: #999;
+  text-decoration: line-through;  
+}
+@media(max-width:1699px){
+  .container-wp-deal .xtImage .image_description h4 {
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+    height:auto;
+    width:auto;
+    top:0;
+  }
+  .container-wp-deal .xtImage .image_description,.container-wp-deal .xtImage a {float:none;}
+  .container-wp-deal .xtImage a img {margin:0 auto;}
+}
+@media(max-width:1199px){
+  .container-wp-deal .xtImage .image_description h4 {
+  margin: 0;
+  padding-bottom: 0;
+  font-size: 25px;
+  line-height:normal;
+  text-align: center;
+  }
+  .container-wp-deal .xtImage a, .container-wp-deal .xtImage .image_description {
+  	float:none;
+  }
+  .container-wp-deal .xtImage a img{
+  	margin:0 auto;
+  }
+  .xtCountdown .price{
+  	margin-bottom:20px;
+  }
+  .container-wp-deal .xtCountdown h4{
+    font-size:2.7rem;
+    font-weight:500;
+    margin:30px 0 10px;
+    padding-bottom:15px;
+  }
+  .xtCountdown .js-countdown--1 li{
+  	padding: 10px 20px;
+  }
+  .xtCountdown .js-countdown--1{padding-top:0}
+  .xtCountdown .js-countdown--1 .countdown-time{
+  	font-size:28px;
+  }
+  .container-wp-deal .block-deal-sale{top:10px;}
+}
+  @media(max-width:767px){
+    .container-wp-deal .block-deal-sale{
+    	right:20px;
+    }
+    .container-wp-deal .xtCountdown h4{
+    	margin:20px 0 10px;
+      font-size:20px;
+    }
+    .xtCountdown  .js-countdown--1 li{
+    	padding:10px;
+    }
+  }
+</style>
+{%- if section.blocks.size > 0 -%}
+<div class="slick_content special-container container-wp-deal container-wp-{{section.id}} {%if section.settings.fullwidth == false %}container-fluid{%endif%}" data-section-id="relate-{{section.id}}" data-section-type="slickCarousels" data-autoplay="true" data-dots="false" data-rows="1" data-slidesToShow="1" data-infinite="true">
+{%- for block in section.blocks -%}
+
+{%- assign dealSectionTime = block.settings.timeDeal | replace: '_',' ' -%}
+<div class="container-wrap--content" >
+  <div class="box-deal xtRow  has-bg bg-boxed" data-bg=" no-repeat" style="background:url({{ block.settings.deal_image | img_url : 'master' }}) no-repeat center;">
+   <div class="row">
+    <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 xtColumn ">
+      
+      
+      <div id="image-form_{{section.id}}" class="block effect-julia xtImage">
+        
+        {%- if block.settings.linklButton == blank -%}
+        <img class="img-responsive" alt="{{ block.settings.banner_image.title }}" src="{{ block.settings.banner_image | img_url : 'master' }}" title="{{ block.settings.titleImage }}" />
+        {%- else -%}
+        <a href="{{block.settings.linklButton}}" target="&quot;_blank&quot;">      
+          {% assign mins =  block.settings.priceDeal %}
+          {% assign maxs =  block.settings.priceDealRegular %}
+          {% if maxs > mins %}
+          {% capture saved_amount %}{{ maxs | minus: mins }}{% endcapture %}
+          {%- assign number1 =  maxs | times: 1 -%}
+          {%- assign number2 =  mins | times: 1 -%}
+          {%- assign number3=  number1  | minus: number2  -%}
+          {%- assign number4=  number3  | times: 100  -%}
+          {%- assign numberSale =  number4| divided_by: maxs -%}
+          <div class="block-deal-sale">
+            <span class="deal-sale">- {{ numberSale }}%</span>
+          </div>
+          {% endif %}   	
+          <img class="img-responsive" alt="{{ block.settings.banner_image.title }}" src="{{ block.settings.banner_image | img_url : 'master' }}" title="{{ block.settings.titleImage}}" />       
+          <div class="hover_collection"></div>
+        </a>
+        {%- endif -%}
+        {%- if block.settings.titleImage != blank -%}
+        <div class="image_description">
+          <h4>{{ block.settings.titleImage }}</h4>            
+        </div>
+        {%- endif -%}
+      </div>
+    </div>
+    <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 xtColumn ">
+
+      <div id="countdown-form_{{section.id}}" class="xtCountdown">
+        {%- if block.settings.titleDeal != blank -%}
+        <h4 class="items__title">
+          {{ block.settings.titleDeal }}              
+        </h4>
+        {%- endif -%}
+        <div class="xt-countdown-time">
+
+        </div>
+       <div class="js-countdown js-countdown--1" data-time="{{block.settings.timeDeal}}"></div>
+        <div class="price"> 
+          
+          {% assign on_sale = false %}
+          {% if maxs > mins %}
+          {% assign on_sale = true %}
+          {% endif %}
+          <span class="price product-price {% if on_sale %}sale-price{% endif %}">
+            {{ mins | times: 100 | money }}
+          </span>
+         
+           {% if on_sale %}
+          <span class="old-price product-price">{{ maxs | times: 100 | money }}</span>
+          {%- endif -%}
+          
+        </div>
+        {%- if block.settings.linklButton != blank  and block.settings.labelButton -%}
+        <a class="btn custom-button-cta" href="{{block.settings.linklButton}}">{{ block.settings.labelButton }}</a>    
+        {%- endif -%}
+      </div>
+
+    </div>
+    </div>
+  </div>
+</div>
+{%- endfor -%}
+</div>
+{%- endif -%}
+{% schema %}
+  {
+    "name": "Image Text Deal",
+    "max_blocks": 10,
+    "settings": [
+	{
+      "type": "checkbox",
+      "id": "fullwidth",
+      "label": "Full width",
+      "default": false
+    }
+	],
+    "blocks": [
+          {
+          "type": "dealblock",
+          "name": "Deal slide",
+          "settings": [
+          {
+            "type": "image_picker",
+            "id": "banner_image",
+            "label": "Image"
+          },
+          {
+            "type": "text",
+            "id": "titleImage",
+            "label": "Title Image"
+          },
+          {
+            "type": "text",
+            "id": "titleDeal",
+            "label": "Title Deal",
+            "default": "Deals Of The Days"
+          },
+          {
+            "type": "text",
+            "id": "timeDeal",
+            "label": "Deal Time",
+            "info": "Example: 2025-12-30T00:00:00"
+          },
+          {
+            "type": "image_picker",
+            "id": "deal_image",
+            "label": "Image background deal block"
+          },
+          {
+            "type": "text",
+            "id": "priceDeal",
+            "label": "Price Deal"
+          },
+          {
+            "type": "text",
+            "id": "priceDealRegular",
+            "label": "Regular Price"
+          },
+          {
+            "type": "text",
+            "id": "labelButton",
+            "label": "Label button",
+            "default": "Shop now"
+          },
+          {
+            "type": "url",
+            "id": "linklButton",
+            "label": "Link button"
+          }
+		]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Image with Deal",
+        "category": "Deal",
+        "blocks": [
+          {
+            "type": "dealblock"
+          },
+          {
+            "type": "dealblock"
+          }
+        ]
+      }
+    ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}
+{%comment%}
+{%- if section.blocks.size > 0 -%}
+  <script>
+    jQuery(document).ready(function($){      
+      {%- if section.blocks.size > 1 -%}
+        $(".container-wp-deal.container-wp-{{section.id}}").owlCarousel({
+          items: 1,
+          lazyLoad: true,
+          nav: true,
+          rtl: false,
+          addClassActive: true,
+          autoplay:false,
+          autoplayTimeout:8000,
+          loop:true,
+        }); 
+
+      {%- endif -%}
+      
+      $(".container-wrap--content").each(function(){
+        var timeDeal = $(this).data('time');
+        $(this).find(".xt-countdown-time").lofCountDown({
+        TargetDate: timeDeal,
+          DisplayFormat:"<ul class='list-inline'><li class='day'><span class='number-cd'>%%D%%<br/><span>Days</span></span><span class='dots'>:</span></li><li><span class='number-cd'>%%H%%<br/><span>Hours</span></span><span class='dots'>:</span></li><li><span class='number-cd'>%%M%%<br/><span>Mins</span></span><span class='dots'>:</span></li><li><span class='number-cd'>%%S%%<br/><span>Secs</span><span></li></ul>",
+        FinishMessage: "End Deal"
+        });
+      });
+    });
+  </script>
+{%- endif -%}
+{%endcomment%}

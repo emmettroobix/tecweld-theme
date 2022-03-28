@@ -1,0 +1,4147 @@
+{
+  "current": {
+    "header": "header-4",
+    "slideshow": "slideshow-4",
+    "footer": "footer-1",
+    "pnewsletter": "pnewsletter-1",
+    "productpage": "product-1",
+    "collectionpage": "collection-1",
+    "blogpage": "blog-1",
+    "articlepage": "article-1",
+    "productgrid": "product-3",
+    "sectionheading": "heading-2",
+    "collectiongrid": "collection-1",
+    "bloggrid": "blog-3",
+    "loading": "grow",
+    "loading_color": "#6c757d",
+    "search_suggest": "",
+    "enable_rtl": false,
+    "show_more_image": true,
+    "container": 1400,
+    "gutter": 20,
+    "logo": "shopify:\/\/shop_images\/tecweld-logo.png",
+    "logo_max_width": 155,
+    "favicon": "",
+    "safe_checkout_pcart": "",
+    "safe_checkout_detail": "",
+    "safe_checkout_cart": "",
+    "color_primary": "#dd3d27",
+    "color_secondary": "#005599",
+    "color_body_bg": "#ffffff",
+    "color_content_bg": "#ffffff",
+    "color_body_headings": "#030303",
+    "color_body_text": "#666666",
+    "color_cta": "#ffffff",
+    "color_cta_hover": "#ffffff",
+    "color_cta_bg": "#dd3d27",
+    "color_cta_bg_hover": "#444444",
+    "color_button_text": "#222222",
+    "color_button_text_hover": "#ffffff",
+    "color_button_bg": "#ffffff",
+    "color_button_bg_hover": "#dd3d27",
+    "alert_text": "#000000",
+    "alert_bg": "#ffffff",
+    "alert_bd": "#6c757d",
+    "gradient_enable": false,
+    "gradient_start": "#ff5f6d",
+    "gradient_end": "#ffc371",
+    "font_family": "rubik_n5",
+    "font_family_google": "",
+    "font_family2": "rubik_n4",
+    "font_family_google2": "",
+    "font_family3": "rubik_n5",
+    "font_family_google3": "",
+    "type_base_size": "14px",
+    "main_linklist": "main-menu",
+    "menu_label_text": "#ffffff",
+    "menu_label_new": "#4d80e4",
+    "menu_label_hot": "#eb4d55",
+    "menu_label_sale": "#77c66d",
+    "menu_label_other": "#ff7143",
+    "apmenuitem_title_1": "layout",
+    "apmenuitem_width_1": 0,
+    "apmenuitem_eblocklinks_1": true,
+    "apmenuitem_columns_blocklinks_1": "4",
+    "apmenuitem_columns_1": "6",
+    "apmenuitem_evideo_1": false,
+    "apmenuitem_columns_blockvideo_1": "6",
+    "apmenuitem_cvideo_1": "",
+    "apmenuitem_video_height_1": 280,
+    "apmenuitem_video_loop_1": true,
+    "apmenuitem_video_mute_1": true,
+    "apmenuitem_eproduct_1": false,
+    "apmenuitem_columns_blockproducts_1": "3",
+    "apmenuitem_tproduct_1": "Collection",
+    "apmenuitem_cproduct_1": "frontpage",
+    "apmenuitem_ehtml_1": true,
+    "apmenuitem_columns_blockhtml_1": "8",
+    "apmenuitem_thtml_1": "",
+    "apmenuitem_eihtml_1": false,
+    "apmenuitem_ihtml_1": "",
+    "apmenuitem_chtml_1": "<div class=\"row align-items-center text-center layout-column-2\">\n        <div class=\"col-12 col-md-6 mb-2 mt-2\">\n          <div class=\"g-banner\">\n      <figure class=\"effect-chico\">\n        <img class=\"lazyload\" data-src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0271\/9924\/2315\/files\/h91.jpg?v=1591201279\">\n        <figcaption>\n          <h2>Silly <span>Chico<\/span>\n<\/h2>\n          <p>Chico's main fear<\/p>\n          <a href=\"#\"><\/a>\n        <\/figcaption>\n      <\/figure>\n    <\/div>\n        <\/div>\n        <div class=\"col-12 col-md-6 mb-2 mt-2\">\n          <div class=\"g-banner\">\n      <figure class=\"effect-chico\">\n        <img class=\"lazyload\" data-src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0271\/9924\/2315\/files\/h93.jpg?v=1591201279\">\n        <figcaption>\n          <h2>Earn <span>up to 25%<\/span>\n<\/h2>\n          <p>he morning bus.<\/p>\n          <a href=\"#\"><\/a>\n        <\/figcaption>\n      <\/figure>\n    <\/div>\n        <\/div>\n      <\/div>",
+    "apmenuitem_title_2": "shop",
+    "apmenuitem_width_2": 0,
+    "apmenuitem_eblocklinks_2": true,
+    "apmenuitem_columns_blocklinks_2": "5",
+    "apmenuitem_columns_2": "6",
+    "apmenuitem_evideo_2": false,
+    "apmenuitem_columns_blockvideo_2": "7",
+    "apmenuitem_cvideo_2": "",
+    "apmenuitem_video_height_2": 330,
+    "apmenuitem_video_loop_2": true,
+    "apmenuitem_video_mute_2": false,
+    "apmenuitem_eproduct_2": false,
+    "apmenuitem_columns_blockproducts_2": "3",
+    "apmenuitem_tproduct_2": "",
+    "apmenuitem_cproduct_2": "",
+    "apmenuitem_ehtml_2": true,
+    "apmenuitem_columns_blockhtml_2": "7",
+    "apmenuitem_thtml_2": "",
+    "apmenuitem_eihtml_2": false,
+    "apmenuitem_ihtml_2": "",
+    "apmenuitem_chtml_2": "<div class=\"row align-items-center text-center layout-column-2\">\n        <div class=\"col-12 col-md-6 mb-2 mt-2\">\n          <div class=\"g-banner\">\n      <figure class=\"effect-chico\">\n        <img class=\"lazyload\" data-src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0071\/6944\/1892\/files\/menu1.jpg?v=1616321174\">\n        <figcaption>\n          <h2>\n<span>New Arrival<\/span>\n<\/h2>\n          <p>2021 Collections<\/p>\n          <a href=\"\/collections\/all\"><\/a>\n        <\/figcaption>\n      <\/figure>\n    <\/div>\n        <\/div>\n        <div class=\"col-12 col-md-6 mb-2 mt-2\">\n          <div class=\"g-banner\">\n      <figure class=\"effect-chico\">\n        <img class=\"lazyload\" data-src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0071\/6944\/1892\/files\/menu2.jpg?v=1616321174\">\n        <figcaption>\n          <h2>\n<span>Special offer<\/span>\n<\/h2>\n          <p>Get up to 25% off<\/p>\n          <a href=\"\/collections\/all\"><\/a>\n        <\/figcaption>\n      <\/figure>\n    <\/div>\n        <\/div>\n      <\/div>",
+    "apmenuitem_title_3": "",
+    "apmenuitem_width_3": 0,
+    "apmenuitem_eblocklinks_3": true,
+    "apmenuitem_columns_blocklinks_3": "12",
+    "apmenuitem_columns_3": "12",
+    "apmenuitem_evideo_3": false,
+    "apmenuitem_columns_blockvideo_3": "12",
+    "apmenuitem_cvideo_3": "",
+    "apmenuitem_video_height_3": 300,
+    "apmenuitem_video_loop_3": false,
+    "apmenuitem_video_mute_3": false,
+    "apmenuitem_eproduct_3": false,
+    "apmenuitem_columns_blockproducts_3": "1",
+    "apmenuitem_tproduct_3": "",
+    "apmenuitem_cproduct_3": "",
+    "apmenuitem_ehtml_3": false,
+    "apmenuitem_columns_blockhtml_3": "9",
+    "apmenuitem_thtml_3": "<i class=\"icon-more-alt\"><\/i> Click \"Copy\" and paste anywhere",
+    "apmenuitem_eihtml_3": false,
+    "apmenuitem_ihtml_3": "",
+    "apmenuitem_chtml_3": "<div id=\"carouselMenu\" class=\"carousel slide\" data-ride=\"carousel\" data-interval=\"3500\">\n  <ol class=\"carousel-indicators\">\n    <li data-target=\"#carouselMenu\" data-slide-to=\"0\" class=\"active\">\n    <\/li>\n    <li data-target=\"#carouselMenu\" data-slide-to=\"1\">\n    <\/li>\n    <li data-target=\"#carouselMenu\" data-slide-to=\"2\">\n    <\/li>\n  <\/ol>\n  <div class=\"carousel-inner\">\n    <div class=\"carousel-item active\">\n      <div class=\"g-banner\">\n        <figure class=\"effect-oscar\">\n          <img class=\"lazyload\" data-src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0092\/7563\/7839\/files\/mmenu-3.jpg?57915\">\n          <figcaption>\n            <h2>Html<span>Builder<\/span>\n            <\/h2>\n            <p>Fully responsive contents.<\/p>\n            <a href=\"\/pages\/html-template\"><\/a>\n          <\/figcaption>\n        <\/figure>\n      <\/div>\n    <\/div>\n    <div class=\"carousel-item\">\n      <div class=\"g-banner\">\n        <figure class=\"effect-chico\">\n          <img class=\"lazyload\" data-src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0092\/7563\/7839\/files\/mmenu-2.jpg?57915\">\n          <figcaption>\n            <h2>Easy to <span>Use<\/span>\n            <\/h2>\n            <p>in products, collections, blogs, pages.<\/p>\n            <a href=\"\/pages\/html-template\"><\/a>\n          <\/figcaption>\n        <\/figure>\n      <\/div>\n    <\/div>\n    <div class=\"carousel-item\">\n      <div class=\"g-banner\">\n        <figure class=\"effect-romeo\">\n          <img class=\"lazyload\" data-src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0092\/7563\/7839\/files\/mmenu-1.jpg?57915\">\n          <figcaption>\n            <h2>In <span>2020<\/span>\n            <\/h2>\n            <p>Copy and paste<\/p>\n            <a href=\"\/pages\/html-template\"><\/a>\n          <\/figcaption>\n        <\/figure>\n      <\/div>\n    <\/div>\n  <\/div>\n  <a class=\"carousel-control-prev disabled-anchor\" href=\"#carouselMenu\" role=\"button\" data-slide=\"prev\">\n    <span class=\"carousel-control-prev-icon\" aria-hidden=\"true\"><\/span>\n  <\/a>\n  <a class=\"carousel-control-next disabled-anchor\" href=\"#carouselMenu\" role=\"button\" data-slide=\"next\">\n    <span class=\"carousel-control-next-icon\" aria-hidden=\"true\"><\/span>\n  <\/a>\n<\/div>",
+    "apmenuitem_title_4": "",
+    "apmenuitem_width_4": 0,
+    "apmenuitem_eblocklinks_4": false,
+    "apmenuitem_columns_blocklinks_4": "1",
+    "apmenuitem_columns_4": "1",
+    "apmenuitem_evideo_4": false,
+    "apmenuitem_columns_blockvideo_4": "1",
+    "apmenuitem_cvideo_4": "",
+    "apmenuitem_video_height_4": 300,
+    "apmenuitem_video_loop_4": false,
+    "apmenuitem_video_mute_4": false,
+    "apmenuitem_eproduct_4": false,
+    "apmenuitem_columns_blockproducts_4": "1",
+    "apmenuitem_tproduct_4": "",
+    "apmenuitem_cproduct_4": "",
+    "apmenuitem_ehtml_4": false,
+    "apmenuitem_columns_blockhtml_4": "1",
+    "apmenuitem_thtml_4": "",
+    "apmenuitem_eihtml_4": false,
+    "apmenuitem_ihtml_4": "",
+    "apmenuitem_chtml_4": "",
+    "apmenuitem_title_5": "",
+    "apmenuitem_width_5": 0,
+    "apmenuitem_eblocklinks_5": false,
+    "apmenuitem_columns_blocklinks_5": "1",
+    "apmenuitem_columns_5": "1",
+    "apmenuitem_evideo_5": false,
+    "apmenuitem_columns_blockvideo_5": "1",
+    "apmenuitem_cvideo_5": "",
+    "apmenuitem_video_height_5": 300,
+    "apmenuitem_video_loop_5": false,
+    "apmenuitem_video_mute_5": false,
+    "apmenuitem_eproduct_5": false,
+    "apmenuitem_columns_blockproducts_5": "1",
+    "apmenuitem_tproduct_5": "",
+    "apmenuitem_cproduct_5": "",
+    "apmenuitem_ehtml_5": false,
+    "apmenuitem_columns_blockhtml_5": "1",
+    "apmenuitem_thtml_5": "",
+    "apmenuitem_eihtml_5": false,
+    "apmenuitem_ihtml_5": "",
+    "apmenuitem_chtml_5": "",
+    "color_breadcrumbs": "#dd3d27",
+    "color_breadcrumbs_active": "#666666",
+    "bg_breadcrumb": "#f8f8f8",
+    "limit_ranger": 0,
+    "show_title_breadcumbs": false,
+    "align_bread": "left",
+    "style_breadcrumb": "style_1",
+    "layout_bread": "full",
+    "share_image": "",
+    "social_facebook_link": "#",
+    "social_twitter_link": "#",
+    "social_pinterest_link": "#",
+    "social_instagram_link": "#",
+    "social_tumblr_link": "",
+    "social_snapchat_link": "",
+    "social_youtube_link": "#",
+    "social_vimeo_link": "",
+    "share_facebook": true,
+    "share_twitter": true,
+    "share_pinterest": true,
+    "categories_block_enable": true,
+    "categories_block_productcount": true,
+    "categories_block_collapse": true,
+    "categories_block_title": "Categories",
+    "categories_block_number": "12",
+    "categories_block_items": "",
+    "shop_by_vendor_enable": true,
+    "shop_by_vendor_collapse": false,
+    "shop_by_vendor_title": "Vendors",
+    "shop_by_vendor_number": "10",
+    "shop_by_vendor_custom_list": "",
+    "shop_by_type_enable": true,
+    "shop_by_type_collapse": false,
+    "shop_by_type_title": "Types",
+    "shop_by_type_number": "10",
+    "shop_by_type_custom_list": "",
+    "sidebar_html_title_top": "ABOUT AUTHOR",
+    "sidebar_html_top": "<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0287\/9458\/5220\/files\/home5-banner2.jpg?v=1577269266\">\n\n<p class=\"mt-4\">Etiam vel magna sed leo feugiat cursus. Cras mollis blandit dolor. Praesent vulputate justo quis volutpat pharetra. Suspendisse<\/p>",
+    "sidebar_tag": false,
+    "sidebar_post": true,
+    "sidebar_post_title": "Recent Post",
+    "sidebar_post_limit": 3,
+    "sidebar_html_title": "",
+    "sidebar_html": "<div class=\"g-banner mb-3\">\n  <figure class=\"effect-milo\">\n    <img class=\"lazyload\" data-src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0071\/6944\/1892\/files\/Blog-other5.jpg?v=1616298551\">\n    <figcaption>\n      <h2>Racing <span>NIER<\/span>\n<\/h2>\n     \n      <a href=\"#\"><\/a>\n    <\/figcaption>\n  <\/figure>\n<\/div>",
+    "price_range_enable": true,
+    "price_range_title": "Price range",
+    "shop_by_catalog_enable": true,
+    "shop_by_catalog_title": "",
+    "filter_title_1": "Size",
+    "filter_list_1": "XS,S,M,L,XL",
+    "filter_title_2": "",
+    "filter_list_2": "",
+    "filter_title_3": "",
+    "filter_list_3": "",
+    "shop_by_color_enable": true,
+    "shop_by_color_title": "Color",
+    "shop_by_color_text_1": "",
+    "shop_by_color_text_2": "gray",
+    "shop_by_color_text_3": "",
+    "shop_by_color_text_4": "black",
+    "shop_by_color_text_5": "red",
+    "shop_by_color_text_6": "yellow",
+    "shop_by_color_text_7": "",
+    "shop_by_color_text_8": "blue",
+    "shop_by_color_text_9": "orange",
+    "shop_by_color_text_10": "",
+    "shop_by_color_text_11": "brown",
+    "shop_by_color_text_12": "",
+    "shop_by_color_text_13": "",
+    "shop_by_color_text_14": "",
+    "shop_by_color_text_15": "",
+    "shop_by_color_text_16": "",
+    "shop_by_color_text_17": "",
+    "shop_by_color_text_18": "",
+    "shop_by_color_text_19": "",
+    "shop_by_color_text_20": "",
+    "crosssell_title": "USUALLY BOUGHT WITH",
+    "upsell_accept": "Yes, let me select variants",
+    "upsell_decline": "No, thanks",
+    "upsell_time": 1.5,
+    "video_mute": true,
+    "free_shipping_enable": true,
+    "free_shipping_value": 200,
+    "free_shipping_text": "Your order is free delivery !",
+    "shipping_button": "Delivery information",
+    "page_shipping": "",
+    "enable_countdown_page": true,
+    "enable_countdown_card": true,
+    "enable_compare": true,
+    "enable_wishlsit": true,
+    "page_wishlist": "wishlist",
+    "cookie_enable": true,
+    "cookie_message": "This website uses cookies to ensure you get the best experience on our website.",
+    "cookie_url": "shopify:\/\/pages\/contact-us",
+    "cookie_url_text": "Learn More",
+    "cookie_ok": "Got it!",
+    "show_multiple_currencies": true,
+    "list_currencies": "EUR,AUD,GBP,JPY,CAD",
+    "shipping_calculator_default_country": "United States",
+    "image_404": "shopify:\/\/shop_images\/slideshow.jpg",
+    "found_text_color": "#303030",
+    "found_html": "Opps! page not found.",
+    "sub_404": "We are sorry, but the page you're looking for cannot be found.",
+    "found_btnleft_text": "Go to shopping",
+    "found_btnleft_link": "shopify:\/\/collections\/all",
+    "checkout_header_image": "",
+    "checkout_logo_image": "",
+    "checkout_logo_position": "left",
+    "checkout_logo_size": "medium",
+    "checkout_body_background_image": "",
+    "checkout_body_background_color": "#ffffff",
+    "checkout_input_background_color_mode": "white",
+    "checkout_sidebar_background_image": "",
+    "checkout_sidebar_background_color": "#fafafa",
+    "checkout_heading_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+    "checkout_body_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+    "checkout_accent_color": "#006eff",
+    "checkout_button_color": "#006eff",
+    "checkout_error_color": "#e32c2b",
+    "coupon_time": 3,
+    "font_family2_google": "",
+    "font_family3_google": "",
+    "style_service": "pro__ser_1",
+    "enable_ser_pro": "true",
+    "icon_1": "shopify:\/\/shop_images\/return.png",
+    "ser_1": "<h6 class=\"mb-0\">60 dages retur<\/h6>\n<small>Altid 60 dages returret<\/small>",
+    "icon_2": "shopify:\/\/shop_images\/lorry.png",
+    "ser_2": "<h6 class=\"mb-0\">Fri fragt<\/h6>\n<small>Ved køb over 195,-<\/small>",
+    "icon_3": "shopify:\/\/shop_images\/gift.png",
+    "ser_3": "<h6 class=\"mb-0\">Gift for you<\/h6>\n<small>Slip selv for indpakningen<\/small>",
+    "icon_4": "shopify:\/\/shop_images\/favorite.png",
+    "ser_4": "<h6 class=\"mb-0\">Trust our<\/h6>\n<small>5 af 5 på Trustpilot<\/small>",
+    "icon_5": "shopify:\/\/shop_images\/gps.png",
+    "ser_5": "<h6 class=\"mb-0\">Butik i Silkeborg<\/h6>\n<small>Besøg os i Silkeborg<\/small>",
+    "enable_animationscroll": false,
+    "type_base_family": "lato_n4",
+    "type_accent_family": "lato_n4",
+    "type_third_family": "lato_n4",
+    "supported_currencies_1": "EUR",
+    "supported_currencies_2": "AUD",
+    "supported_currencies_3": "GBP",
+    "supported_currencies_4": "JPY",
+    "supported_currencies_5": "CAD",
+    "supported_currencies_6": "",
+    "supported_currencies_7": "",
+    "supported_currencies_8": "",
+    "supported_currencies_9": "",
+    "supported_currencies_10": "",
+    "popupnewsletter": "newsletter-1",
+    "cookie_messange": "This website uses cookies to ensure you get the best experience on our website.",
+    "apmenuitem_nproduct_1": 6,
+    "apmenuitem_nproduct_2": 1,
+    "apmenuitem_nproduct_3": 2,
+    "apmenuitem_nproduct_4": 2,
+    "apmenuitem_nproduct_5": 2,
+    "crosssell_accept": "Yes, let me select variant",
+    "categories_block_style": "show_all",
+    "shop_by_vendor_custom_enable": false,
+    "shop_by_type_custom_enable": false,
+    "safe_checkout_pcart1": "shopify:\/\/shop_images\/safe-checkout.png",
+    "safe_checkout_detail1": "shopify:\/\/shop_images\/safe-checkout.png",
+    "safe_checkout_cart1": "shopify:\/\/shop_images\/safe-checkout.png",
+    "collection_perpage": 24,
+    "collection_perrow": "3",
+    "sidebar_collection_enable": true,
+    "sidebar_collection_poisition": "left",
+    "pnewletter_enable": false,
+    "pnewletter_time": 900,
+    "pnewletter_bgenable": true,
+    "pnewletter_background": "#bbbbbb",
+    "pnewletter_bgimage": "shopify:\/\/shop_images\/slideshow_image_1.jpg",
+    "pnewletter_title": "Popup Newsletter",
+    "pnewletter_title_cl": "#ffffff",
+    "pnewletter_description": "<p>We promise we won't write to you often, only for the fun stuff.<\/p>\n<ul>\n<li>Exclusive offers<\/li>\n<li>Sales<\/li>\n<\/ul>",
+    "pnewletter_description_cl": "#ffffff",
+    "color_header_bg": "#282828",
+    "color_header_links": "#ffffff",
+    "color_footer_bg": "#282828",
+    "color_footer_text": "#ffffff",
+    "color_cart": "#e09938",
+    "filter_enable_1": "true",
+    "filter_enable_2": "true",
+    "filter_enable_3": "true",
+    "upsell_title": "",
+    "enable_countdown": true,
+    "shop_by_size_enable": true,
+    "shop_by_size_title": "Size",
+    "shop_by_size_list": "L,M,N,S,XS",
+    "shop_by_price_enable": true,
+    "shop_by_price_title": "Price",
+    "shop_by_price_list": "$50 - $100,$100 - $200,$200 - $400,Above $400",
+    "sidebar_style_moblie": "accordion_sidebar",
+    "categories_block_class": "",
+    "shop_by_vendor_class": "",
+    "shop_by_type_class": "",
+    "use_multiple_filter": true,
+    "shop_by_catalog_class": "",
+    "sidebar_products_enable": false,
+    "sidebar_products_title": "",
+    "sidebar_products_class": "",
+    "sidebar_products_collection": "",
+    "sidebar_products_number": "1",
+    "sidebar_products_more_title": "",
+    "sidebar_products_recently_enable": false,
+    "sidebar_products_recently_title": "",
+    "sidebar_products_recently_class": "",
+    "sidebar_products_recently_number": "1",
+    "sidebar_banner_enable": false,
+    "sidebar_banner_link": "#",
+    "apmenuitem_fullwidth_1": false,
+    "apmenuitem_fullwidth_2": false,
+    "apmenuitem_fullwidth_3": false,
+    "apmenuitem_fullwidth_4": false,
+    "apmenuitem_fullwidth_5": false,
+    "theme_rtl_enable": false,
+    "type_nav_size": "14px",
+    "product_images_padding": true,
+    "color_hero_text": "#fff",
+    "color_hero_bg": "#006eff",
+    "type_accent_spacing": true,
+    "type_accent_transform": true,
+    "type_nav_spacing": true,
+    "type_nav_transform": true,
+    "product_vendor_enable": false,
+    "checkout_banner_background_color": "#fff",
+    "checkout_call_to_action_color": "#006eff",
+    "checkout_use_header_image": false,
+    "color_newsletter_input": "#1a1a1a",
+    "sections": {
+      "product-suggest": {
+        "type": "product-suggest",
+        "blocks": {
+          "1560580908623": {
+            "type": "product",
+            "settings": {
+              "product": "glasses-dhillon-lue",
+              "local": "in São Paulo, Brazil",
+              "time": "About 50 minutes ago"
+            }
+          },
+          "1560581969631": {
+            "type": "product",
+            "settings": {
+              "product": "nullam-volutpat-1",
+              "local": "in Manchester, UK",
+              "time": "about 35 minutes ago"
+            }
+          },
+          "1560582020821": {
+            "type": "product",
+            "settings": {
+              "product": "vestibulum-mi",
+              "local": "in Blackburn, UK",
+              "time": "about 21 minutes ago"
+            }
+          },
+          "1560585151739": {
+            "type": "product",
+            "settings": {
+              "product": "kam-dhillon-3086-atlas-blue",
+              "local": "in Rome, Italy",
+              "time": "about 2 hours ago"
+            }
+          },
+          "1560585073156": {
+            "type": "product",
+            "settings": {
+              "product": "fanny-pack",
+              "local": "in California, US",
+              "time": "about 5 hours ago"
+            }
+          }
+        },
+        "block_order": [
+          "1560580908623",
+          "1560581969631",
+          "1560582020821",
+          "1560585151739",
+          "1560585073156"
+        ],
+        "settings": {
+          "enable": true,
+          "duration": 20,
+          "text": "Someone recently bought"
+        }
+      },
+      "recently-viewed": {
+        "type": "recently-viewed",
+        "settings": {
+          "enable": true,
+          "title": "Recently viewed",
+          "limit": 4
+        }
+      },
+      "list-collections-template": {
+        "type": "list-collections-template",
+        "settings": {
+          "display_type": "all",
+          "layout": "grid2",
+          "sort": "alphabetical"
+        }
+      },
+      "featured-products-subsection": {
+        "type": "featured-products-subsection",
+        "settings": {
+          "collection": ""
+        }
+      },
+      "header-1": {
+        "type": "header-1",
+        "settings": {
+          "enable_transparent": false,
+          "enable_sticky": false,
+          "enable_dropdownfull": true,
+          "enable_hotline": true,
+          "phonetext": "Hotline:",
+          "phonenumber": "0(+987)654-321",
+          "topbartext": "Free Shipping and Returns above $200!",
+          "topbarbg": "#292929",
+          "background": "#ffffff",
+          "textcolor": "#999999",
+          "linkcolor": "#999999",
+          "linkhover": "#dd3d27",
+          "menutext": "#000000",
+          "menutexthover": "#dd3d27",
+          "menudroptexttitle": "#222222",
+          "menudroptext": "#888888",
+          "menudropbg": "#ffffff",
+          "enable_cateogry": true,
+          "enable_image_cate": true,
+          "workinghours": "",
+          "timeopen": "",
+          "enable_insta": false,
+          "istahead": "",
+          "accesstoken": "IGQVJVTG0wZAFJyY2xRbmRISktlRUZAla19saVFONkltUm54VFc2a2V0aE1qUXZAxc0NKcGRwM3JiUUpZAX3JzRjE2Tmg4Nm1LNDdXZAGtOb3VodzJsc3cybWFqejRkQ3MtZAzFhZA0JsZAzJWWXhBQVZAoVHJtVgZDZD",
+          "limit": 6,
+          "rows": 2,
+          "resolution": "thumbnail",
+          "show": 3,
+          "arrows": true,
+          "draggable": false,
+          "dots": false,
+          "infinite": false,
+          "radius": true
+        }
+      },
+      "footer-1": {
+        "type": "footer-1",
+        "blocks": {
+          "46eeb684-b121-40c2-b7a7-ff1602bee8f3": {
+            "type": "social",
+            "settings": {
+              "title": "",
+              "sub_title": "<div>123 South Main Street, Los Angeles<br>\nUnited States<br>\nPhone: +0180 808 880<br>\nEmail: mixxstore@cars.com<br>\n<\/div>",
+              "align": "left",
+              "width": "20%"
+            }
+          },
+          "5c183967-6da7-47b8-aba7-8bd3d871d1f8": {
+            "type": "menu",
+            "settings": {
+              "link_list": "footer",
+              "width": "20%"
+            }
+          },
+          "1567410176792": {
+            "type": "menu",
+            "settings": {
+              "link_list": "",
+              "width": "20%"
+            }
+          },
+          "2868a2e4-656a-4ace-ae2e-baf118135b95": {
+            "type": "menu",
+            "settings": {
+              "link_list": "footer",
+              "width": "20%"
+            }
+          },
+          "1562342622030": {
+            "type": "menu",
+            "settings": {
+              "link_list": "",
+              "width": "20%"
+            }
+          }
+        },
+        "block_order": [
+          "46eeb684-b121-40c2-b7a7-ff1602bee8f3",
+          "5c183967-6da7-47b8-aba7-8bd3d871d1f8",
+          "1567410176792",
+          "2868a2e4-656a-4ace-ae2e-baf118135b95",
+          "1562342622030"
+        ],
+        "settings": {
+          "fullwidth": false,
+          "remove_powered": false,
+          "background": "#f5f5f5",
+          "border_headfooter": "#f5f5f5",
+          "background_bot": "rgba(0,0,0,0)",
+          "border-copryright": "#cccccc",
+          "text": "#999999",
+          "title": "#ffffff",
+          "enablemethod": true
+        }
+      },
+      "product-template-1": {
+        "type": "product-template-1",
+        "blocks": {
+          "1586366327246": {
+            "type": "related-product",
+            "settings": {
+              "setwidthcontent": "container",
+              "relate_products_title": "Related product"
+            }
+          }
+        },
+        "block_order": [
+          "1586366327246"
+        ],
+        "settings": {
+          "stock_enable": true,
+          "enable_payment_button": true,
+          "social_sharing_products": true,
+          "next_prev_enable": true,
+          "product_vendor_enable": true,
+          "product_type_enable": true,
+          "variant_sku_enable": true,
+          "variant_available_enable": true,
+          "product_selector": "radio",
+          "sizeguide_enable": false,
+          "sizeguide_title": "Size guide",
+          "sizeguide_page": "size-chart",
+          "fake_view_enable": true,
+          "fake_view_min": 12,
+          "fake_view_max": 30,
+          "fake_view_duration": 3,
+          "fake_view_text_prefix": "Currently there are",
+          "fake_view_text_suffix": "peoples are currently looking at this product",
+          "gtab_des": "Description",
+          "gtab_review_enable": true,
+          "gtab_review": "Review",
+          "positiontab": "bottom",
+          "enable_tabvertical": false,
+          "stab_title1": "Specifications",
+          "stab_title2": "Shipping - Return",
+          "stab_title3": "Specific tab 3",
+          "stab_title4": "Specific tab 4",
+          "enable": true,
+          "mix_1": "#ffffff",
+          "mix_2": "#eaeaea",
+          "text_cl": "#000000",
+          "cart_bg": "#5ac3ff",
+          "cart_cl": "#ffffff"
+        }
+      },
+      "slideshow-1": {
+        "type": "slideshow-1",
+        "blocks": {
+          "1594265305283": {
+            "type": "image",
+            "settings": {
+              "alignment": "center center",
+              "text_alignment": "left center",
+              "slide_toptitle": "# W I N T E R 2 0 2 1",
+              "slide_toptitle_color": "#222222",
+              "slide_title": "New Arrival",
+              "slide_title_color": "#222222",
+              "subheading": "Learning is cool, but knowing is better, and i know<br>\nthe key to success",
+              "subheading_color": "#000000",
+              "button_label": "DISCOVER NOW",
+              "button_link": "shopify:\/\/collections\/accessories",
+              "stylebtn": true
+            }
+          },
+          "1561259906467": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/home1-slide2.jpg",
+              "alignment": "center center",
+              "text_alignment": "left center",
+              "slide_toptitle": "# S U M M E R 2 0 2 1",
+              "slide_toptitle_color": "#222222",
+              "slide_title": "Summer Collections",
+              "slide_title_color": "#222222",
+              "subheading": "50% sale off for short clothes",
+              "subheading_color": "#000000",
+              "button_label": "Shop now",
+              "button_link": "shopify:\/\/collections",
+              "stylebtn": true
+            }
+          },
+          "b01e1713-2fe3-4794-b992-db921c83ef67": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/home1-slide3.jpg",
+              "alignment": "center center",
+              "text_alignment": "left center",
+              "slide_toptitle": "# S P R I N G 2 0 1 9",
+              "slide_toptitle_color": "#222222",
+              "slide_title": "New Collection",
+              "slide_title_color": "#222222",
+              "subheading": "Learning is cool, but knowing is better, and i know<br>\nthe key to success",
+              "subheading_color": "#222222",
+              "button_label": "DISCOVER NOW",
+              "button_link": "shopify:\/\/collections\/all",
+              "stylebtn": true
+            }
+          }
+        },
+        "block_order": [
+          "1594265305283",
+          "1561259906467",
+          "b01e1713-2fe3-4794-b992-db921c83ef67"
+        ],
+        "settings": {
+          "slideshow_fullwidth": false,
+          "slideshow_height": "adapt",
+          "show_overlay": false,
+          "autorotate": true,
+          "autorotate_speed": 5
+        }
+      },
+      "pnewsletter-1": {
+        "type": "pnewsletter-1",
+        "settings": {
+          "pnewletter_enable": true,
+          "pnewletter_time": 10,
+          "pnewletter_background": "#ffffff",
+          "pnewletter_title": "NEWSLETTER SIGN UP",
+          "pnewletter_title_cl": "#000000",
+          "pnewletter_description": "<p>Sign up today and receive 10% off your first order.<\/p>",
+          "pnewletter_description_cl": "#777777"
+        }
+      },
+      "header-2": {
+        "type": "header-2",
+        "settings": {
+          "enable_transparent": false,
+          "enable_sticky": true,
+          "background": "#efefef",
+          "textcolor": "#111111",
+          "linkcolor": "#111111",
+          "linkhover": "#c3935b",
+          "menutext": "#111111",
+          "menutexthover": "#c3935b",
+          "menudroptext": "#222222",
+          "menudropbg": "#ffffff"
+        }
+      },
+      "collection-template-1": {
+        "type": "collection-template-1",
+        "settings": {
+          "collection_width": "container",
+          "collection_perpage": 15,
+          "collection_perrow": "3",
+          "sidebar_col": "col-md-2-4",
+          "enable_title": true,
+          "enable_description": true
+        }
+      },
+      "s_team_member": {
+        "type": "s_team_member",
+        "blocks": {
+          "1561564468399": {
+            "type": "member",
+            "settings": {
+              "image": "",
+              "name": "Danielle Kim",
+              "position": "Senior Producer",
+              "twitter": "https:\/\/twitter.com\/",
+              "google": "https:\/\/plus.google.com",
+              "facebook": "https:\/\/www.facebook.com\/",
+              "linkedin": "https:\/\/www.linkedin.com\/"
+            }
+          },
+          "1561564888625": {
+            "type": "member",
+            "settings": {
+              "image": "",
+              "name": "Ian Watt",
+              "position": "Director of Motion & Visual Effects",
+              "twitter": "https:\/\/twitter.com\/",
+              "google": "https:\/\/plus.google.com",
+              "facebook": "https:\/\/www.facebook.com\/",
+              "linkedin": "https:\/\/www.linkedin.com\/"
+            }
+          },
+          "1561564968664": {
+            "type": "member",
+            "settings": {
+              "image": "",
+              "name": "Alex Sturtevant",
+              "position": "Global Director of Brand",
+              "twitter": "https:\/\/twitter.com\/",
+              "google": "https:\/\/plus.google.com",
+              "facebook": "https:\/\/www.facebook.com\/",
+              "linkedin": ""
+            }
+          },
+          "1561565036423": {
+            "type": "member",
+            "settings": {
+              "image": "",
+              "name": "Jon Lawton",
+              "position": "UX Designer",
+              "twitter": "https:\/\/twitter.com\/",
+              "google": "https:\/\/plus.google.com",
+              "facebook": "https:\/\/www.facebook.com\/",
+              "linkedin": ""
+            }
+          },
+          "1561565047238": {
+            "type": "member",
+            "settings": {
+              "image": "",
+              "name": "Arpad Ray",
+              "position": "Executive Technical Director",
+              "twitter": "https:\/\/twitter.com\/",
+              "google": "https:\/\/plus.google.com",
+              "facebook": "https:\/\/www.facebook.com\/",
+              "linkedin": ""
+            }
+          },
+          "1561565058401": {
+            "type": "member",
+            "settings": {
+              "image": "",
+              "name": "Erin Noel",
+              "position": "Director of Operations",
+              "twitter": "https:\/\/twitter.com\/",
+              "google": "https:\/\/plus.google.com",
+              "facebook": "https:\/\/www.facebook.com\/",
+              "linkedin": ""
+            }
+          },
+          "1561565071217": {
+            "type": "member",
+            "settings": {
+              "image": "",
+              "name": "Katie Sharrow-Reabe",
+              "position": "Social Strategist",
+              "twitter": "https:\/\/twitter.com\/",
+              "google": "https:\/\/plus.google.com",
+              "facebook": "https:\/\/www.facebook.com\/",
+              "linkedin": ""
+            }
+          },
+          "1561565080408": {
+            "type": "member",
+            "settings": {
+              "image": "",
+              "name": "Tim Blount",
+              "position": "Technical Director",
+              "twitter": "https:\/\/twitter.com\/",
+              "google": "https:\/\/plus.google.com",
+              "facebook": "https:\/\/www.facebook.com\/",
+              "linkedin": ""
+            }
+          },
+          "1561565091506": {
+            "type": "member",
+            "settings": {
+              "image": "",
+              "name": "Mick Coelho",
+              "position": "Sr. Creative Developer",
+              "twitter": "https:\/\/twitter.com\/",
+              "google": "https:\/\/plus.google.com",
+              "facebook": "https:\/\/www.facebook.com\/",
+              "linkedin": ""
+            }
+          },
+          "1561565099186": {
+            "type": "member",
+            "settings": {
+              "image": "",
+              "name": "Rhianon Taylor",
+              "position": "Senior Producer",
+              "twitter": "https:\/\/twitter.com\/",
+              "google": "https:\/\/plus.google.com",
+              "facebook": "https:\/\/www.facebook.com\/",
+              "linkedin": ""
+            }
+          },
+          "1561565109760": {
+            "type": "member",
+            "settings": {
+              "image": "",
+              "name": "Lauren Saunders",
+              "position": "Senior Producer",
+              "twitter": "https:\/\/twitter.com\/",
+              "google": "https:\/\/plus.google.com",
+              "facebook": "https:\/\/www.facebook.com\/",
+              "linkedin": ""
+            }
+          },
+          "1561565136083": {
+            "type": "member",
+            "settings": {
+              "image": "",
+              "name": "Simon Cheadle",
+              "position": "Executive Producer",
+              "twitter": "https:\/\/twitter.com\/",
+              "google": "https:\/\/plus.google.com",
+              "facebook": "https:\/\/www.facebook.com\/",
+              "linkedin": ""
+            }
+          }
+        },
+        "block_order": [
+          "1561564468399",
+          "1561564888625",
+          "1561564968664",
+          "1561565036423",
+          "1561565047238",
+          "1561565058401",
+          "1561565071217",
+          "1561565080408",
+          "1561565091506",
+          "1561565099186",
+          "1561565109760",
+          "1561565136083"
+        ],
+        "settings": {
+          "setwidth": "container-fluid",
+          "animation": "fade-up",
+          "items": "4",
+          "layout": "6",
+          "main_color": "#4d9465",
+          "bg_image": "",
+          "bg_color": "",
+          "bg_attachment": false,
+          "margin_top": 0,
+          "margin_bottom": 0,
+          "padding_top": 10,
+          "padding_bottom": 0,
+          "title": "Meet Our Team",
+          "title_cl": "#030303",
+          "title_style": "font-size:30px;text-align:center;",
+          "subtitle": "Our team brings a wealth of experience from some of the world’s most formidable production studios, <br>agencies and startups.",
+          "subtitle_cl": "#656f77",
+          "subtitle_style": "font-size:16px;text-align:center;font-weight:100;"
+        }
+      },
+      "s_timeline": {
+        "type": "s_timeline",
+        "blocks": {
+          "1561567030482": {
+            "type": "time",
+            "settings": {
+              "bg": "#dd3d27",
+              "title": "Make ideal",
+              "description": "First start by 5 members who have passion and experience about car.",
+              "time": "June 28, 2017",
+              "link": "shopify:\/\/pages\/about-us-v1"
+            }
+          },
+          "1561567005786": {
+            "type": "time",
+            "settings": {
+              "bg": "#005599",
+              "title": "Stark with small store",
+              "description": "Just a store at corner of street, it's not too big but fit with our work.",
+              "time": "July 24, 2017",
+              "link": "shopify:\/\/collections\/all"
+            }
+          },
+          "1561568674547": {
+            "type": "time",
+            "settings": {
+              "bg": "#dd3d27",
+              "title": "Deploy on Internet and Social",
+              "description": "We start to build a website, and created some socials to attract more customers.",
+              "time": "Nov 19, 2017",
+              "link": "shopify:\/\/pages\/about-us-v2"
+            }
+          },
+          "1561567706480": {
+            "type": "time",
+            "settings": {
+              "bg": "#005599",
+              "title": "Become a Company",
+              "description": "After over 7 months working hard and with the truth of many customer, we can build our store to a company.",
+              "time": "Mar 03, 2018",
+              "link": "shopify:\/\/pages\/about-us-v2"
+            }
+          },
+          "1561568201725": {
+            "type": "time",
+            "settings": {
+              "bg": "#dd3d27",
+              "title": "Branch expansion",
+              "description": "Opening 2 branches at the next state",
+              "time": "Dec 28, 2018",
+              "link": "shopify:\/\/pages\/shortcode"
+            }
+          },
+          "1561568520359": {
+            "type": "time",
+            "settings": {
+              "bg": "#005599",
+              "title": "Continuing extension",
+              "description": "We opened 5 more branches at 4 big cities.",
+              "time": "Apr 15, 2019",
+              "link": "shopify:\/\/collections\/all"
+            }
+          },
+          "1561568960976": {
+            "type": "time",
+            "settings": {
+              "bg": "#dd3d27",
+              "title": "First sign with Big Company",
+              "description": "We have signed with Ford about vehicle repairs & maintenance to performance builds & modifications.",
+              "time": "Oct 20, 2019",
+              "link": "shopify:\/\/pages\/review"
+            }
+          },
+          "1561569090623": {
+            "type": "time",
+            "settings": {
+              "bg": "#005599",
+              "title": "Grown up with agency",
+              "description": "Deploy open agencies by franchise.",
+              "time": "May 10, 2020",
+              "link": "shopify:\/\/pages\/contact-us"
+            }
+          },
+          "1561569238378": {
+            "type": "time",
+            "settings": {
+              "bg": "#dd3d27",
+              "title": "Become Big Brand",
+              "description": "We have 10 branches and over 21 agencies around country.",
+              "time": "Until Now",
+              "link": "shopify:\/\/collections\/all"
+            }
+          },
+          "1561571402426": {
+            "type": "time",
+            "settings": {
+              "bg": "#005599",
+              "title": "To be continued...",
+              "description": "",
+              "time": "",
+              "link": "shopify:\/\/collections\/all"
+            }
+          }
+        },
+        "block_order": [
+          "1561567030482",
+          "1561567005786",
+          "1561568674547",
+          "1561567706480",
+          "1561568201725",
+          "1561568520359",
+          "1561568960976",
+          "1561569090623",
+          "1561569238378",
+          "1561571402426"
+        ],
+        "settings": {
+          "border": "#dd3d27",
+          "caption-bg": "#fff8f1",
+          "title_color": "#222222",
+          "des_color": "#666666",
+          "btn-bg": "#dd3d27",
+          "button-text": "View now",
+          "caption_font": "lato_n4",
+          "bg_color": "#ffffff",
+          "bg_attachment": true,
+          "max_width": 1390,
+          "margin_top": 0,
+          "margin_bottom": 0,
+          "padding_top": 10,
+          "padding_bottom": 10,
+          "title": "Our journey",
+          "title_cl": "#ffffff",
+          "title_font": "lato_n4",
+          "title_style": "font-weight:bold;font-size:24px;text-align:center;",
+          "subtitle": "Follow us here",
+          "subtitle_cl": "#ffffff",
+          "subtitle_font": "lato_n4",
+          "subtitle_style": "font-style:italic;font-size:18px;text-align:center;font-weight:100;"
+        }
+      },
+      "header-3": {
+        "type": "header-3",
+        "blocks": {
+          "1585067174364": {
+            "type": "html",
+            "settings": {
+              "text_head": "Call: +1200 - 989 11 90",
+              "align_head": "left",
+              "width": "25%"
+            }
+          },
+          "1585068264841": {
+            "type": "html",
+            "settings": {
+              "text_head": "Summer sale discount off 50%! <a href=\"#\" class=\"text-primary\">Shop Now<\/a>",
+              "align_head": "center",
+              "width": "50%"
+            }
+          },
+          "1585067191261": {
+            "type": "custom",
+            "settings": {
+              "align_head_social": "right",
+              "width": "25%"
+            }
+          }
+        },
+        "block_order": [
+          "1585067174364",
+          "1585068264841",
+          "1585067191261"
+        ],
+        "settings": {
+          "enable_transparent": false,
+          "enable_sticky": false,
+          "background": "#ffffff",
+          "background-top": "#efefef",
+          "textcolor": "#333333",
+          "linkcolor": "#222222",
+          "linkhover": "#c3935b",
+          "menutext": "#222222",
+          "menutexthover": "#c3935b",
+          "menudroptexttitle": "#222222",
+          "menudroptext": "#222222",
+          "menudropbg": "#ffffff",
+          "enable_cateogry": false,
+          "enable_image_cate": false,
+          "workinghours": "WORKING HOURS & CONTACT",
+          "timeopen": "Mon – Wed 10:00 – 21:00",
+          "enable_insta": false,
+          "istahead": "INSTAGRAM",
+          "accesstoken": "5894711894.1677ed0.e348731c55ef48f2be47968b71ef9931",
+          "limit": 6,
+          "rows": 2,
+          "resolution": "low_resolution",
+          "show": 5,
+          "arrows": false,
+          "draggable": true,
+          "dots": false,
+          "infinite": true,
+          "radius": true
+        }
+      },
+      "brand-list": {
+        "type": "brand-list",
+        "blocks": {
+          "1562225756576": {
+            "type": "logo",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/ezgif.com-gif-maker_12.jpg"
+            }
+          },
+          "1587659591451": {
+            "type": "logo",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/ezgif.com-gif-maker_11.jpg"
+            }
+          },
+          "1587659594812": {
+            "type": "logo",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/ezgif.com-gif-maker_4.jpg"
+            }
+          },
+          "1587662931276": {
+            "type": "logo",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/ezgif.com-gif-maker_7.jpg"
+            }
+          },
+          "1587662944230": {
+            "type": "logo",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/ezgif.com-gif-maker_10.jpg"
+            }
+          }
+        },
+        "block_order": [
+          "1562225756576",
+          "1587659591451",
+          "1587659594812",
+          "1587662931276",
+          "1587662944230"
+        ],
+        "settings": {
+          "animation": "fade-up",
+          "paddingsection": "80px 0px 80px 0px",
+          "marginsection": "0px 0px 0px 0px",
+          "bgsection": "#fefefe",
+          "title": "",
+          "des": "",
+          "setwidth": "container",
+          "grayscale": true,
+          "width": "2-5"
+        }
+      },
+      "page-brands": {
+        "type": "page-brands",
+        "blocks": {
+          "1562225793110": {
+            "type": "character",
+            "settings": {
+              "title": "a",
+              "linklist": ""
+            }
+          },
+          "1562225801379": {
+            "type": "character",
+            "settings": {
+              "title": "b",
+              "linklist": ""
+            }
+          },
+          "1562225804072": {
+            "type": "character",
+            "settings": {
+              "title": "c",
+              "linklist": ""
+            }
+          },
+          "1562225817854": {
+            "type": "character",
+            "settings": {
+              "title": "d",
+              "linklist": ""
+            }
+          },
+          "1562663878669": {
+            "type": "character",
+            "settings": {
+              "title": "e",
+              "linklist": ""
+            }
+          },
+          "1562664116930": {
+            "type": "character",
+            "settings": {
+              "title": "g",
+              "linklist": ""
+            }
+          },
+          "1562664124153": {
+            "type": "character",
+            "settings": {
+              "title": "j",
+              "linklist": ""
+            }
+          },
+          "1562665381910": {
+            "type": "character",
+            "settings": {
+              "title": "l",
+              "linklist": ""
+            }
+          },
+          "1562665389578": {
+            "type": "character",
+            "settings": {
+              "title": "m",
+              "linklist": ""
+            }
+          },
+          "1562665401917": {
+            "type": "character",
+            "settings": {
+              "title": "s",
+              "linklist": ""
+            }
+          },
+          "1562665407951": {
+            "type": "character",
+            "settings": {
+              "title": "t",
+              "linklist": ""
+            }
+          },
+          "1562665414164": {
+            "type": "character",
+            "settings": {
+              "title": "v",
+              "linklist": ""
+            }
+          },
+          "1562665421157": {
+            "type": "character",
+            "settings": {
+              "title": "w",
+              "linklist": ""
+            }
+          },
+          "1562665426534": {
+            "type": "character",
+            "settings": {
+              "title": "z",
+              "linklist": ""
+            }
+          }
+        },
+        "block_order": [
+          "1562225793110",
+          "1562225801379",
+          "1562225804072",
+          "1562225817854",
+          "1562663878669",
+          "1562664116930",
+          "1562664124153",
+          "1562665381910",
+          "1562665389578",
+          "1562665401917",
+          "1562665407951",
+          "1562665414164",
+          "1562665421157",
+          "1562665426534"
+        ],
+        "settings": {
+          "heading": "All Brands",
+          "subheading": "<p>Promotions, new products and sales. Directly to your inbox.<\/p>"
+        }
+      },
+      "page-story": {
+        "type": "page-story",
+        "blocks": {
+          "1562226059233": {
+            "type": "story",
+            "settings": {
+              "avatar": "shopify:\/\/shop_images\/testimonials2_ed6d8ad4-f9a9-459a-88ad-a5f4d3842ddf.jpg",
+              "name": "Berry Dunn",
+              "info": "From Chester, CA on October 16th, 2019",
+              "story": "These guys are AWESOME! Our furnace was busted and they did a great job replacing it. It took some time to get approval from our Home Warranty, but once we got the approval they were at our home and had the furnace replaced within 3 days."
+            }
+          },
+          "1562226081931": {
+            "type": "story",
+            "settings": {
+              "avatar": "shopify:\/\/shop_images\/testimonials1_4a92230f-1833-4be0-aa31-5aec74ac7f20.jpg",
+              "name": "John Stone",
+              "info": "From Westwood, CA on December 2nd, 2020",
+              "story": "Great company and awesome service, these guys go the extra mile for their customers"
+            }
+          },
+          "1562341727642": {
+            "type": "story",
+            "settings": {
+              "avatar": "shopify:\/\/shop_images\/Blog1.jpg",
+              "name": "Margaret",
+              "info": "From Milford, CA on October 15th, 2019",
+              "story": "This is one of the best companies I deal with in my area, great service, wonderful people who do the best job, thank you."
+            }
+          },
+          "1562226014393": {
+            "type": "story",
+            "settings": {
+              "avatar": "shopify:\/\/shop_images\/home7-cate3.jpg",
+              "name": "Kim Lindenau",
+              "info": "From Susanville, CA on December 7th, 2019",
+              "story": "Very easy to work with and great customer service. They built and installed a fantastic chimney cap that was even better than I expected. They stayed exactly within the estimate. Excellent communication through the whole process."
+            }
+          }
+        },
+        "block_order": [
+          "1562226059233",
+          "1562226081931",
+          "1562341727642",
+          "1562226014393"
+        ],
+        "settings": {
+          "heading": "Customer Reviews",
+          "subheading": "<p>See what <em>our customers<\/em> have been <em>saying<\/em>! We strive to provide <em>our<\/em> community with prompt, professional service and top quality products.<\/p>",
+          "banner": "shopify:\/\/shop_images\/xbanner-7.jpg.pagespeed.ic.RmFi2WxaGd.jpg",
+          "righttitle": "Tell us your story",
+          "righttext": "We appreciate our customers’ feedbacks! <br>\nHere’s what some of our customers say about our work.",
+          "button": "Share it now"
+        }
+      },
+      "header-4": {
+        "type": "header-4",
+        "settings": {
+          "enable_sticky": false,
+          "enable_dropdownfull": false,
+          "topbartext": "Free Shipping and Returns above $200!",
+          "topbarbg": "#333333",
+          "background": "#ffea00",
+          "textcolor": "#999999",
+          "linkcolor": "#999999",
+          "linkhover": "#dd3d27",
+          "menutext": "#222222",
+          "menutexthover": "#dd3d27",
+          "menudroptext": "#ffffff",
+          "menudropbg": "#3c3c3d"
+        }
+      },
+      "page-demoHTML": {
+        "type": "page-demoHTML",
+        "blocks": {
+          "1566862461973": {
+            "type": "block",
+            "settings": {
+              "title": "Rating",
+              "info": "",
+              "html": "<ul class=\"rating text-center\">\n      <li class=\"rated\">\n      <\/li>\n<li class=\"rated\">\n      <\/li>\n<li class=\"rated\">\n      <\/li>\n<li>\n      <\/li>\n<li>\n    <\/li>\n<\/ul>"
+            }
+          },
+          "1565046213455": {
+            "type": "block",
+            "settings": {
+              "title": "Countdown 1",
+              "info": "",
+              "html": "<div class=\"js-countdown js-countdown--1\" data-time=\"2025-05-11T00:00:00\"><\/div>"
+            }
+          },
+          "1565708450613": {
+            "type": "block",
+            "settings": {
+              "title": "Countdown 2",
+              "info": "",
+              "html": "<div class=\"js-countdown js-countdown--2\" data-time=\"2025-05-11T00:00:00\"><\/div>"
+            }
+          },
+          "1562509535458": {
+            "type": "block",
+            "settings": {
+              "title": "Google maps",
+              "info": "<a href=\"https:\/\/www.embedgooglemap.net\/\">👉 Get embled code \n here<\/a>",
+              "html": "<div class=\"gmap-iframe\"><div class=\"mapouter\">\n<div class=\"gmap_canvas\"><iframe width=\"1080\" height=\"500\" id=\"gmap_canvas\" src=\"https:\/\/maps.google.com\/maps?q=university%20of%20san%20francisco&t=&z=13&ie=UTF8&iwloc=&output=embed\" frameborder=\"0\" scrolling=\"no\" marginheight=\"0\" marginwidth=\"0\"><\/iframe><\/div>\n<style>.mapouter{position:relative;text-align:right;height:500px;width:1080px}.gmap_canvas{overflow:hidden;background:0 0!important;height:500px;width:1080px}.gmap-iframe .gmap_canvas,.gmap-iframe .mapouter,.gmap-iframe iframe{width:100%!important}@media (max-width:767px){.gmap-iframe .gmap_canvas,.gmap-iframe .mapouter,.gmap-iframe iframe{height:350px!important}}<\/div><\/div><\/style>\n<\/div><\/div>"
+            }
+          }
+        },
+        "block_order": [
+          "1566862461973",
+          "1565046213455",
+          "1565708450613",
+          "1562509535458"
+        ],
+        "settings": {}
+      },
+      "page-faqs": {
+        "type": "page-faqs",
+        "blocks": {
+          "1562290842379": {
+            "type": "faq",
+            "settings": {
+              "title": "What is Shopify?",
+              "answer": "Shopify is the world’s most powerful e-commerce platform that allows anyone to easily sell online, at a retail location, and everywhere in between."
+            }
+          },
+          "1562290853274": {
+            "type": "faq",
+            "settings": {
+              "title": "How do I setup my store?",
+              "answer": "When you buy this theme you get full access to our comprehensive and easy to follow instructions on setting up the theme for your store.\nIf you’re looking for more generic Shopify store setup instructions, there are plenty of resources available on Shopify’s own website."
+            }
+          },
+          "1563634068295": {
+            "type": "faq",
+            "settings": {
+              "title": "Do I need a Designer\/Programmer for my store?",
+              "answer": "We’ve designed the theme to be as flexible and configurable as possible but also made it simple to use. You would only need a designer\/developer if you wanted to custom code something that the theme doesn’t do natively."
+            }
+          },
+          "1563634113380": {
+            "type": "faq",
+            "settings": {
+              "title": "When you purchase a theme is that a one-time fee?",
+              "answer": "Yes, unlike other themes, you get free upgrades and support for 6-months and you only pay a one-time fee, unless stated otherwise."
+            }
+          },
+          "1563634197538": {
+            "type": "faq",
+            "settings": {
+              "title": "Can I use the theme for multiple shops?",
+              "answer": "All of our themes are subject to a one-store license, so if you want to utilize the same theme in several live stores, you’ll have to purchase multiple licenses."
+            }
+          },
+          "1563634219217": {
+            "type": "faq",
+            "settings": {
+              "title": "Does this theme work with all Shopify plans?",
+              "answer": "Yes, it works with all plans."
+            }
+          },
+          "1563634284948": {
+            "type": "faq",
+            "settings": {
+              "title": "Is it necessary to pay for the service to setup the store?",
+              "answer": "No, we’ve designed the theme to be as intuitive to use as possible and we have also provided step-by-step instructions inside our theme description."
+            }
+          },
+          "1563634717303": {
+            "type": "faq",
+            "settings": {
+              "title": "What is the scope of your support?",
+              "answer": "Our support includes general inquiries regarding theme functionality; help with customizing the theme settings and any observed defect or theme issues. It doesn’t cover issues, such as errors due to third- party plugins or as an after effect of changes made to the theme code. For the full details on the extent of our support, please visit our Support Policy page."
+            }
+          },
+          "1563634745197": {
+            "type": "faq",
+            "settings": {
+              "title": "What if I need help with Shopify issues?",
+              "answer": "General shop inquiries, such as uploading products, creating collections, adding discount codes, managing domains, etc. can be best addressed by reaching Shopify Support specifically and\/or by checking on their broad documentation accessible in the Shopify Manual."
+            }
+          },
+          "1563634758436": {
+            "type": "faq",
+            "settings": {
+              "title": "How fast do you respond to support inquiries?",
+              "answer": "We aim to give feedback to all requests within 24 hours, but please allow 1-2 business days for the response. Our support team is primarily based in the UTC +7 and is available during standard business hours. We have a weekend staff to answer basic queries too."
+            }
+          }
+        },
+        "block_order": [
+          "1562290842379",
+          "1562290853274",
+          "1563634068295",
+          "1563634113380",
+          "1563634197538",
+          "1563634219217",
+          "1563634284948",
+          "1563634717303",
+          "1563634745197",
+          "1563634758436"
+        ],
+        "settings": {
+          "heading": "Frequently Asked Questions",
+          "subheading": "<p>Below FAQ are some common concerns of our clients before purchasing the theme, if you have other questions, <br>please just write on right section and send to us. \n<\/p>",
+          "heading_faqs": "Ask Your Questions",
+          "layout": "layout-1"
+        }
+      },
+      "page-contact": {
+        "type": "page-contact",
+        "blocks": {
+          "1587569402997": {
+            "type": "address",
+            "settings": {
+              "store_addess": "<div class=\"mt-5\">\n<h2 class=\"mb-3 f-90\">01<\/h2>\n<span class=\"text-body font-weight-bold\">STORE NEWYORK<\/span>\n<\/div>",
+              "contact_addess": "123 Sky Tower, West 21th Street, Suite 721, NY",
+              "contact_phone": "+844 123 456 789",
+              "contact_mail": "sale@yourcompany.com"
+            }
+          },
+          "1587569420887": {
+            "type": "address",
+            "settings": {
+              "store_addess": "<div class=\"mt-5\">\n<h2 class=\"mb-3 f-90\">02<\/h2>\n<span class=\"text-body font-weight-bold\">STORE NEWYORK<\/span>\n<\/div>",
+              "contact_addess": "123 Sky Tower, West 21th Street, Suite 721, NY",
+              "contact_phone": "+844 123 456 789",
+              "contact_mail": "sale@yourcompany.com"
+            }
+          },
+          "1587569429598": {
+            "type": "address",
+            "settings": {
+              "store_addess": "<div class=\"mt-5\">\n<h2 class=\"mb-3 f-90\">03<\/h2>\n<span class=\"text-body font-weight-bold\">STORE NEWYORK<\/span>\n<\/div>",
+              "contact_addess": "123 Sky Tower, West 21th Street, Suite 721, NY",
+              "contact_phone": "+844 123 456 789",
+              "contact_mail": "sale@yourcompany.com"
+            }
+          }
+        },
+        "block_order": [
+          "1587569402997",
+          "1587569420887",
+          "1587569429598"
+        ],
+        "settings": {
+          "title_page": "Stay in touch! Contact us",
+          "contact_des": "<p>Minimalist styling is not about creating a cold, hard, empty white box of a home. It is about using simple and natural forms, <br>\nand taking away layers without losing the aesthetic appeal of the space.<\/p>",
+          "gmap": true,
+          "gmap_iframe": "<div class=\"mapouter\">\n<div class=\"gmap_canvas\">\n<iframe width=\"1080\" height=\"500\" id=\"gmap_canvas\" src=\"https:\/\/maps.google.com\/maps?q=123%20South%20Main%20Street%2C%20Los%20Angeles%20United%20States&t=&z=15&ie=UTF8&iwloc=&output=embed\" frameborder=\"0\" scrolling=\"no\" marginheight=\"0\" marginwidth=\"0\"><\/iframe><a href=\"https:\/\/embedgooglemap.net\/128\/\"><\/a>\n<\/div>\n<style>.mapouter{position:relative;text-align:right;height:500px;width:1080px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:1080px;}<\/style>\n<\/div>\n<style>.mapouter{position:relative;text-align:right;height:500px;width:1080px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:1080px;}.gmap-iframe .mapouter, .gmap-iframe .gmap_canvas, .gmap-iframe iframe{ width:100% !important; } @media (max-width:767px){ .gmap-iframe .mapouter, .gmap-iframe .gmap_canvas, .gmap-iframe iframe{ height:350px !important; } }<\/style>"
+        }
+      },
+      "footer-2": {
+        "type": "footer-2",
+        "settings": {
+          "footertop_enable": true,
+          "footertopbg": "#c3935b",
+          "footertoptext": "#ffffff",
+          "iconleft": "<svg aria-hidden=\"true\" focusable=\"false\" data-prefix=\"fas\" data-icon=\"truck\" role=\"img\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" viewbox=\"0 0 640 512\" class=\"svg-inline--fa fa-truck fa-w-20 fa-2x\"><path fill=\"currentColor\" d=\"M624 352h-16V243.9c0-12.7-5.1-24.9-14.1-33.9L494 110.1c-9-9-21.2-14.1-33.9-14.1H416V48c0-26.5-21.5-48-48-48H48C21.5 0 0 21.5 0 48v320c0 26.5 21.5 48 48 48h16c0 53 43 96 96 96s96-43 96-96h128c0 53 43 96 96 96s96-43 96-96h48c8.8 0 16-7.2 16-16v-32c0-8.8-7.2-16-16-16zM160 464c-26.5 0-48-21.5-48-48s21.5-48 48-48 48 21.5 48 48-21.5 48-48 48zm320 0c-26.5 0-48-21.5-48-48s21.5-48 48-48 48 21.5 48 48-21.5 48-48 48zm80-208H416V144h44.1l99.9 99.9V256z\" class=\"\"><\/path><\/svg>",
+          "titleleft": "world wide shipping",
+          "desleft": "totally free shipping on all baby gear!",
+          "iconright": "<svg aria-hidden=\"true\" focusable=\"false\" data-prefix=\"fas\" data-icon=\"anchor\" role=\"img\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" viewbox=\"0 0 576 512\" class=\"svg-inline--fa fa-anchor fa-w-18 fa-2x\"><path fill=\"currentColor\" d=\"M12.971 352h32.394C67.172 454.735 181.944 512 288 512c106.229 0 220.853-57.38 242.635-160h32.394c10.691 0 16.045-12.926 8.485-20.485l-67.029-67.029c-4.686-4.686-12.284-4.686-16.971 0l-67.029 67.029c-7.56 7.56-2.206 20.485 8.485 20.485h35.146c-20.29 54.317-84.963 86.588-144.117 94.015V256h52c6.627 0 12-5.373 12-12v-40c0-6.627-5.373-12-12-12h-52v-5.47c37.281-13.178 63.995-48.725 64-90.518C384.005 43.772 341.605.738 289.37.01 235.723-.739 192 42.525 192 96c0 41.798 26.716 77.35 64 90.53V192h-52c-6.627 0-12 5.373-12 12v40c0 6.627 5.373 12 12 12h52v190.015c-58.936-7.399-123.82-39.679-144.117-94.015h35.146c10.691 0 16.045-12.926 8.485-20.485l-67.029-67.029c-4.686-4.686-12.284-4.686-16.971 0L4.485 331.515C-3.074 339.074 2.28 352 12.971 352zM288 64c17.645 0 32 14.355 32 32s-14.355 32-32 32-32-14.355-32-32 14.355-32 32-32z\" class=\"\"><\/path><\/svg>",
+          "titleright": "customer service",
+          "desright": "1900 - 123 - 4567",
+          "footermidbg": "#1e1e1e",
+          "footermidtext": "#ffffff",
+          "footermidlink": "#999999",
+          "contact_title": "Contact Us",
+          "contact_des": "Have a question? Give us a call or fill out the contact form. We’d love to hear from you",
+          "contact_addess": "123 Sky Tower, West 21th Street, Suite 721, NY",
+          "contact_phone": "+844 123 456 789",
+          "contact_mail": "sale@yourcompany.com",
+          "contact_web": "www.example.com",
+          "contact_enable": true,
+          "linklist_title": "Useful links",
+          "linklist_link": "main-menu",
+          "social_enable": true,
+          "footerbotbg": "#ffffff",
+          "footerbottext": "#656565",
+          "remove_powered": false
+        }
+      },
+      "collection-template-2": {
+        "type": "collection-template-2",
+        "settings": {
+          "collection_width": "container",
+          "collection_perpage": 24,
+          "collection_perrow": "3",
+          "sidebar_col": "col-md-3",
+          "enable_title": true,
+          "enable_description": true
+        }
+      },
+      "collection-template-3": {
+        "type": "collection-template-3",
+        "settings": {
+          "collection_width": "container",
+          "collection_perpage": 24,
+          "collection_perrow": "3",
+          "sidebar_col": "col-md-3",
+          "enable_title": true,
+          "enable_description": true
+        }
+      },
+      "page-about": {
+        "type": "page-about",
+        "settings": {
+          "intro_enable": true,
+          "intro_title": "Our story",
+          "intro_des": "<p>The <a href=\"https:\/\/ap2020.myshopify.com\">2020<\/a> story started over a coffee at one of our favourite cafes – Nooks in Randwick, Sydney in early 2013. Sitting there looking at all the mums, bubs, Shopify theme and prams we started thinking… Shopify theme and prams all look the same… black, maybe a little red here and there, very few had any colour or excitement. We thought – what alternatives are there for Australian mums and dads that a stroller that is functional, modern and at an affordable price? Most stroller brands come from the US or Europe but what about a local Australian brand?<\/p>\n<p>We searched far and wide and everywhere in between and couldn’t find any options that were functional, modern, Australian owned and at an affordable price. Surprisingly, we couldn’t even find any Shopify theme or prams that were designed to comply with the latest Australian safety standards.<\/p>",
+          "intro_background": "",
+          "intro_image": "",
+          "achie_enable": true,
+          "achie_title": "Fun fact",
+          "achie_icon_1": "<svg aria-hidden=\"true\" focusable=\"false\" data-prefix=\"fas\" data-icon=\"thumbs-up\" role=\"img\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" viewbox=\"0 0 512 512\" class=\"svg-inline--fa fa-thumbs-up fa-w-16 fa-2x\"><path fill=\"currentColor\" d=\"M104 224H24c-13.255 0-24 10.745-24 24v240c0 13.255 10.745 24 24 24h80c13.255 0 24-10.745 24-24V248c0-13.255-10.745-24-24-24zM64 472c-13.255 0-24-10.745-24-24s10.745-24 24-24 24 10.745 24 24-10.745 24-24 24zM384 81.452c0 42.416-25.97 66.208-33.277 94.548h101.723c33.397 0 59.397 27.746 59.553 58.098.084 17.938-7.546 37.249-19.439 49.197l-.11.11c9.836 23.337 8.237 56.037-9.308 79.469 8.681 25.895-.069 57.704-16.382 74.757 4.298 17.598 2.244 32.575-6.148 44.632C440.202 511.587 389.616 512 346.839 512l-2.845-.001c-48.287-.017-87.806-17.598-119.56-31.725-15.957-7.099-36.821-15.887-52.651-16.178-6.54-.12-11.783-5.457-11.783-11.998v-213.77c0-3.2 1.282-6.271 3.558-8.521 39.614-39.144 56.648-80.587 89.117-113.111 14.804-14.832 20.188-37.236 25.393-58.902C282.515 39.293 291.817 0 312 0c24 0 72 8 72 81.452z\" class=\"\"><\/path><\/svg>",
+          "achie_count_1": "1549",
+          "achie_1": "Happy clients",
+          "achie_icon_2": "<svg aria-hidden=\"true\" focusable=\"false\" data-prefix=\"fas\" data-icon=\"trophy\" role=\"img\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" viewbox=\"0 0 576 512\" class=\"svg-inline--fa fa-trophy fa-w-18 fa-2x\"><path fill=\"currentColor\" d=\"M552 64H448V24c0-13.3-10.7-24-24-24H152c-13.3 0-24 10.7-24 24v40H24C10.7 64 0 74.7 0 88v56c0 35.7 22.5 72.4 61.9 100.7 31.5 22.7 69.8 37.1 110 41.7C203.3 338.5 240 360 240 360v72h-48c-35.3 0-64 20.7-64 56v12c0 6.6 5.4 12 12 12h296c6.6 0 12-5.4 12-12v-12c0-35.3-28.7-56-64-56h-48v-72s36.7-21.5 68.1-73.6c40.3-4.6 78.6-19 110-41.7 39.3-28.3 61.9-65 61.9-100.7V88c0-13.3-10.7-24-24-24zM99.3 192.8C74.9 175.2 64 155.6 64 144v-16h64.2c1 32.6 5.8 61.2 12.8 86.2-15.1-5.2-29.2-12.4-41.7-21.4zM512 144c0 16.1-17.7 36.1-35.3 48.8-12.5 9-26.7 16.2-41.8 21.4 7-25 11.8-53.6 12.8-86.2H512v16z\" class=\"\"><\/path><\/svg>",
+          "achie_count_2": "37",
+          "achie_2": "Award winning",
+          "achie_icon_3": "<svg aria-hidden=\"true\" focusable=\"false\" data-prefix=\"fas\" data-icon=\"users\" role=\"img\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" viewbox=\"0 0 640 512\" class=\"svg-inline--fa fa-users fa-w-20 fa-2x\"><path fill=\"currentColor\" d=\"M96 224c35.3 0 64-28.7 64-64s-28.7-64-64-64-64 28.7-64 64 28.7 64 64 64zm448 0c35.3 0 64-28.7 64-64s-28.7-64-64-64-64 28.7-64 64 28.7 64 64 64zm32 32h-64c-17.6 0-33.5 7.1-45.1 18.6 40.3 22.1 68.9 62 75.1 109.4h66c17.7 0 32-14.3 32-32v-32c0-35.3-28.7-64-64-64zm-256 0c61.9 0 112-50.1 112-112S381.9 32 320 32 208 82.1 208 144s50.1 112 112 112zm76.8 32h-8.3c-20.8 10-43.9 16-68.5 16s-47.6-6-68.5-16h-8.3C179.6 288 128 339.6 128 403.2V432c0 26.5 21.5 48 48 48h288c26.5 0 48-21.5 48-48v-28.8c0-63.6-51.6-115.2-115.2-115.2zm-223.7-13.4C161.5 263.1 145.6 256 128 256H64c-35.3 0-64 28.7-64 64v32c0 17.7 14.3 32 32 32h65.9c6.3-47.4 34.9-87.3 75.2-109.4z\" class=\"\"><\/path><\/svg>",
+          "achie_count_3": "7",
+          "achie_3": "Team members",
+          "chooseus_enable": true,
+          "chooseus_title1": "Our design",
+          "chooseus_des": "<p><a href=\"https:\/\/ap2020.myshopify.com\">2020<\/a> has always been a design company at heart. The Innovation Department, responsible for the development of new concepts and products and counting more than 70 employees to date, is the beating heart and the engine of the company.<br> The original Shopify theme, the <a href=\"https:\/\/ap2020.myshopify.com\">2020<\/a>, breathes the legacy of 15 years of the design. Having evolved over time, the iconic all-in-one Shopify theme remains unsurpassed with regards to its defining functionalities.<\/p>\n<p>Now all of our Shopify theme, including the <a href=\"https:\/\/ap2020.myshopify.com\">2020<\/a>, share the same design principles: design and engineering, aesthetics and functionality, form and function, have come together seamlessly.<\/p>",
+          "chooseus_title2": "Why choose us",
+          "chooseus_question1": "Quality is our key business",
+          "chooseus_answer1": "Quality has always been at the core of us, as we want our products to last whilst being used every day. To ensure the highest quality, we like to be in charge of the entire development and production process – from the first sketch to the final Shopify theme.",
+          "chooseus_question2": "Full support",
+          "chooseus_answer2": "Quality has always been at the core of us, as we want our products to last whilst being used every day. To ensure the highest quality, we like to be in charge of the entire development and production process – from the first sketch to the final Shopify theme.",
+          "chooseus_question3": "Free returns",
+          "chooseus_answer3": "Quality has always been at the core of us, as we want our products to last whilst being used every day. To ensure the highest quality, we like to be in charge of the entire development and production process – from the first sketch to the final Shopify theme.",
+          "chooseus_question4": "Product Design",
+          "chooseus_answer4": "Quality has always been at the core of us, as we want our products to last whilst being used every day. To ensure the highest quality, we like to be in charge of the entire development and production process – from the first sketch to the final Shopify theme.",
+          "team_enable": true,
+          "team_title": "Meet our people",
+          "team_avatar_1": "",
+          "team_person_1": "Emma Watson",
+          "team_des_1": "Emma earned her BSS in Psychology and BSC in Management from Santa Clara University. She joined Us after 4+ years in venture.",
+          "team_fb_1": "https:\/\/facebook.com\/",
+          "team_tw_1": "https:\/\/twitter.com\/",
+          "team_lk_1": "https:\/\/www.linkedin.com\/",
+          "team_avatar_2": "",
+          "team_person_2": "John Doe",
+          "team_des_2": "John is a proud graduate of Teachers College’s Instructional Design and Technology program and can usually be found gaming, reading",
+          "team_fb_2": "https:\/\/facebook.com\/",
+          "team_tw_2": "https:\/\/twitter.com\/",
+          "team_lk_2": "https:\/\/www.linkedin.com\/",
+          "team_avatar_3": "",
+          "team_person_3": "Sarah Parker",
+          "team_des_3": "Sarah earned her BSS in Psychology and BSC in Management from Santa Clara University. She joined Us after 4+ years in venture.",
+          "team_fb_3": "https:\/\/facebook.com\/",
+          "team_tw_3": "https:\/\/twitter.com\/",
+          "team_lk_3": "https:\/\/www.linkedin.com\/",
+          "team_avatar_4": "",
+          "team_person_4": "William Smith",
+          "team_des_4": "William loves tackling the legal issues that arise as transforms education. He used to have hobbies like traveling. He joined Us after 4+ years in venture.",
+          "team_fb_4": "https:\/\/facebook.com\/",
+          "team_tw_4": "https:\/\/twitter.com\/",
+          "team_lk_4": "https:\/\/www.linkedin.com\/",
+          "action_enable": true,
+          "action_title": "Feel free, move free",
+          "action_des": "Enjoy the feeling of freedom, that’s the feeling we want to capture when we design our products.",
+          "action_btn_txt": "Explore products",
+          "action_btn_lnk": "shopify:\/\/collections\/all"
+        }
+      },
+      "collection-template-4": {
+        "type": "collection-template-4",
+        "settings": {
+          "item_width": "grid-item-3",
+          "enable_title": true,
+          "enable_description": true
+        }
+      },
+      "page-gallery": {
+        "type": "page-gallery",
+        "blocks": {
+          "1562991736405": {
+            "type": "photo",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/home8-banner2.jpg",
+              "title": "Top",
+              "link": "#"
+            }
+          },
+          "1562991832725": {
+            "type": "photo",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/home3_c6.jpg",
+              "title": "Pack",
+              "link": "#"
+            }
+          },
+          "1562991809926": {
+            "type": "photo",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/home7_b4.jpg",
+              "title": "Decor"
+            }
+          },
+          "1562991850006": {
+            "type": "photo",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/home7_b1.jpg",
+              "title": "Single product",
+              "link": "#"
+            }
+          },
+          "1562991892614": {
+            "type": "photo",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/home7-banner1.jpg",
+              "title": "Shoes",
+              "link": "shopify:\/\/collections\/shoes"
+            }
+          },
+          "1562991919564": {
+            "type": "photo",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/home8-banner1.jpg",
+              "title": "Shirt",
+              "link": "shopify:\/\/collections\/shirt"
+            }
+          },
+          "1562991968766": {
+            "type": "photo",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/home2_c1.jpg",
+              "title": "Top collection",
+              "link": "shopify:\/\/collections\/tops"
+            }
+          },
+          "1562991997078": {
+            "type": "photo",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Home-7-bigbanner.jpg",
+              "title": "Our team",
+              "link": "shopify:\/\/pages\/team-member"
+            }
+          },
+          "1562992017741": {
+            "type": "photo",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/home6_banner2.jpg",
+              "title": "FAQs",
+              "link": "shopify:\/\/pages\/faqs"
+            }
+          },
+          "1562993011560": {
+            "type": "photo",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/home7-cate3.jpg",
+              "title": "Shopping",
+              "link": "shopify:\/\/collections\/all"
+            }
+          },
+          "1562992970394": {
+            "type": "photo",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/home7-cate2.jpg",
+              "title": "About us",
+              "link": "shopify:\/\/pages\/about-us"
+            }
+          },
+          "1562992909584": {
+            "type": "photo",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/home8-banner3.jpg",
+              "title": "Trousers",
+              "link": "shopify:\/\/collections\/trousers"
+            }
+          },
+          "1562992046055": {
+            "type": "photo",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/home3_banner6.jpg",
+              "title": "Our story",
+              "link": "shopify:\/\/pages\/our-story"
+            }
+          },
+          "1562992952360": {
+            "type": "photo",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Home_1-banner1-nosale.jpg",
+              "title": "Brands",
+              "link": "shopify:\/\/pages\/brands"
+            }
+          },
+          "1562992997330": {
+            "type": "photo",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/home3_c5.jpg",
+              "title": "Blog",
+              "link": "shopify:\/\/blogs\/news"
+            }
+          }
+        },
+        "block_order": [
+          "1562991736405",
+          "1562991832725",
+          "1562991809926",
+          "1562991850006",
+          "1562991892614",
+          "1562991919564",
+          "1562991968766",
+          "1562991997078",
+          "1562992017741",
+          "1562993011560",
+          "1562992970394",
+          "1562992909584",
+          "1562992046055",
+          "1562992952360",
+          "1562992997330"
+        ],
+        "settings": {
+          "setwidth": "container-fluid",
+          "heading": "Blue Collections",
+          "subheading": "<p>Discover the latest collections lifestyle and activewear from our Shop<\/p>",
+          "animation": "fade-up"
+        }
+      },
+      "blog-template-1": {
+        "type": "blog-template-1",
+        "settings": {
+          "limit": 11,
+          "sidebar_enable": true,
+          "sidebar_position": "right"
+        }
+      },
+      "lookbook-carousel": {
+        "type": "lookbook-carousel",
+        "blocks": {
+          "1563897815428": {
+            "type": "lookbook",
+            "settings": {
+              "image": "",
+              "instagram": "https:\/\/instagram.com",
+              "product": "",
+              "dot_color": "#4d9465",
+              "left": 61,
+              "top": 44
+            }
+          },
+          "1563895908631": {
+            "type": "lookbook",
+            "settings": {
+              "image": "",
+              "instagram": "https:\/\/instagram.com",
+              "product": "",
+              "dot_color": "#ffc371",
+              "left": 50,
+              "top": 33
+            }
+          },
+          "1563897441683": {
+            "type": "lookbook",
+            "settings": {
+              "image": "",
+              "instagram": "https:\/\/instagram.com",
+              "product": "",
+              "dot_color": "#01bad4",
+              "left": 60,
+              "top": 35
+            }
+          }
+        },
+        "block_order": [
+          "1563897815428",
+          "1563895908631",
+          "1563897441683"
+        ],
+        "settings": {
+          "title": "",
+          "des": "",
+          "background": "#ffffff",
+          "arrows": true,
+          "draggable": true,
+          "dots": true,
+          "infinite": true
+        }
+      },
+      "blog-template-2": {
+        "type": "blog-template-2",
+        "settings": {
+          "sidebar_enable": false,
+          "sidebar_position": "left"
+        }
+      },
+      "announcement-bar": {
+        "type": "announcement-bar",
+        "settings": {
+          "enable": false,
+          "background": "#222222",
+          "text": "#ffffff",
+          "icon": "",
+          "announcement": "Free delivery - On all orders over $200"
+        }
+      },
+      "blog-template-3": {
+        "type": "blog-template-3",
+        "settings": {
+          "show_blog_tags": false,
+          "item_width": "grid-item-3",
+          "sidebar_enable": false,
+          "sidebar_position": "left"
+        }
+      },
+      "product-template-2": {
+        "type": "product-template-2",
+        "blocks": {
+          "1586364995212": {
+            "type": "related-product",
+            "settings": {
+              "setwidthcontent": "container",
+              "relate_products_title": "Related product"
+            }
+          }
+        },
+        "block_order": [
+          "1586364995212"
+        ],
+        "settings": {
+          "stock_enable": true,
+          "enable_payment_button": true,
+          "social_sharing_products": true,
+          "next_prev_enable": true,
+          "product_vendor_enable": true,
+          "product_type_enable": true,
+          "variant_sku_enable": true,
+          "variant_available_enable": true,
+          "product_selector": "radio",
+          "sizeguide_enable": false,
+          "sizeguide_title": "Size guide",
+          "sizeguide_page": "size-chart",
+          "fake_view_enable": true,
+          "fake_view_min": 12,
+          "fake_view_max": 30,
+          "fake_view_duration": 3,
+          "fake_view_text_prefix": "Currently there are",
+          "fake_view_text_suffix": "peoples are currently looking at this product",
+          "gtab_des": "Description",
+          "gtab_review_enable": true,
+          "gtab_review": "Review",
+          "positiontab": "bottom",
+          "enable_tabvertical": false,
+          "stab_title1": "Specifications",
+          "stab_title2": "Shipping",
+          "stab_title3": "Specific tab 3",
+          "stab_title4": "Specific tab 4",
+          "enable": true,
+          "mix_1": "#ffffff",
+          "mix_2": "#c0c0c0",
+          "text_cl": "#000000",
+          "cart_bg": "#5ac3ff",
+          "cart_cl": "#ffffff"
+        }
+      },
+      "product-template-3": {
+        "type": "product-template-3",
+        "blocks": {
+          "1586364756700": {
+            "type": "related-product",
+            "settings": {
+              "setwidthcontent": "container",
+              "relate_products_title": "Related product"
+            }
+          }
+        },
+        "block_order": [
+          "1586364756700"
+        ],
+        "settings": {
+          "stock_enable": true,
+          "enable_payment_button": true,
+          "social_sharing_products": true,
+          "next_prev_enable": true,
+          "product_vendor_enable": true,
+          "product_type_enable": true,
+          "variant_sku_enable": true,
+          "variant_available_enable": true,
+          "product_selector": "radio",
+          "sizeguide_enable": false,
+          "sizeguide_title": "Size guide",
+          "sizeguide_page": "size-chart",
+          "fake_view_enable": true,
+          "fake_view_min": 12,
+          "fake_view_max": 30,
+          "fake_view_duration": 3,
+          "fake_view_text_prefix": "Currently there are",
+          "fake_view_text_suffix": "peoples are currently looking at this product",
+          "gtab_des": "Description",
+          "gtab_review_enable": true,
+          "gtab_review": "Review",
+          "positiontab": "right",
+          "enable_tabvertical": true,
+          "stab_title1": "Specifications",
+          "stab_title2": "Shipping & Returrn",
+          "stab_title3": "Specific tab 3",
+          "stab_title4": "Specific tab 4",
+          "enable": true,
+          "mix_1": "#ffffff",
+          "mix_2": "#c0c0c0",
+          "text_cl": "#000000",
+          "cart_bg": "#5ac3ff",
+          "cart_cl": "#ffffff"
+        }
+      },
+      "product-template-4": {
+        "type": "product-template-4",
+        "blocks": {
+          "1586364393354": {
+            "type": "related-product",
+            "settings": {
+              "setwidthcontent": "container",
+              "relate_products_title": "Related product"
+            }
+          }
+        },
+        "block_order": [
+          "1586364393354"
+        ],
+        "settings": {
+          "stock_enable": true,
+          "enable_payment_button": true,
+          "social_sharing_products": true,
+          "next_prev_enable": true,
+          "product_vendor_enable": true,
+          "product_type_enable": true,
+          "variant_sku_enable": true,
+          "variant_available_enable": true,
+          "product_selector": "select",
+          "sizeguide_enable": false,
+          "sizeguide_title": "Size guide",
+          "sizeguide_page": "size-chart",
+          "fake_view_enable": true,
+          "fake_view_min": 12,
+          "fake_view_max": 30,
+          "fake_view_duration": 3,
+          "fake_view_text_prefix": "Currently there are",
+          "fake_view_text_suffix": "peoples are currently looking at this product",
+          "gtab_des": "Description",
+          "gtab_review_enable": true,
+          "gtab_review": "Review",
+          "positiontab": "bottom",
+          "enable_tabvertical": false,
+          "stab_title1": "Specifications",
+          "stab_title2": "Shipping&Return",
+          "stab_title3": "Specific tab 3",
+          "stab_title4": "Specific tab 4",
+          "enable": true,
+          "mix_1": "#ffffff",
+          "mix_2": "#c0c0c0",
+          "text_cl": "#000000",
+          "cart_bg": "#5ac3ff",
+          "cart_cl": "#ffffff"
+        }
+      },
+      "product-template-5": {
+        "type": "product-template-5",
+        "blocks": {
+          "1586361947206": {
+            "type": "related-product",
+            "settings": {
+              "setwidthcontent": "container",
+              "relate_products_title": "Related product"
+            }
+          }
+        },
+        "block_order": [
+          "1586361947206"
+        ],
+        "settings": {
+          "stock_enable": true,
+          "enable_payment_button": true,
+          "social_sharing_products": true,
+          "next_prev_enable": true,
+          "product_vendor_enable": true,
+          "product_type_enable": true,
+          "variant_sku_enable": true,
+          "variant_available_enable": true,
+          "product_selector": "radio",
+          "sizeguide_enable": false,
+          "sizeguide_title": "Size guide",
+          "sizeguide_page": "size-chart",
+          "fake_view_enable": true,
+          "fake_view_min": 12,
+          "fake_view_max": 30,
+          "fake_view_duration": 3,
+          "fake_view_text_prefix": "Currently there are",
+          "fake_view_text_suffix": "peoples are currently looking at this product",
+          "gtab_des": "Description",
+          "gtab_review_enable": true,
+          "gtab_review": "Review",
+          "positiontab": "bottom",
+          "enable_tabvertical": false,
+          "stab_title1": "Specifications",
+          "stab_title2": "Shipping",
+          "stab_title3": "Specific tab 3",
+          "stab_title4": "Specific tab 4",
+          "enable": true,
+          "mix_1": "#ffffff",
+          "mix_2": "#c0c0c0",
+          "text_cl": "#000000",
+          "cart_bg": "#5ac3ff",
+          "cart_cl": "#ffffff"
+        }
+      },
+      "footer-3": {
+        "type": "footer-3",
+        "settings": {
+          "footermidbg": "#ebebeb",
+          "footermidtext": "#ffffff",
+          "footermidlink": "#000000",
+          "linklist_link": "",
+          "social_enable": true,
+          "footerbottext": "#656565",
+          "powered_enable": true
+        }
+      },
+      "header-5": {
+        "type": "header-5",
+        "settings": {
+          "enable_transparent": false,
+          "enable_sticky": true,
+          "enable_dropdownfull": true,
+          "background": "#ffffff",
+          "textcolor": "#666666",
+          "linkcolor": "#222222",
+          "linkhover": "#5ac3ff",
+          "menutext": "#222222",
+          "menutexthover": "#5ac3ff",
+          "menudroptexttitle": "#666666",
+          "menudroptext": "#666666",
+          "menudropbg": "#ffffff",
+          "enable_cateogry": false,
+          "enable_image_cate": false,
+          "workinghours": "Fashion Shop",
+          "timeopen": "Mon – Fri 09:00 – 21:00 <br>\nSat – Sun 12:00 – 21:00<br><br>\n123 South Main Street, Los Angeles\nUnited States",
+          "enable_insta": true,
+          "istahead": "Fashion Instagram",
+          "accesstoken": "IGQVJVTG0wZAFJyY2xRbmRISktlRUZAla19saVFONkltUm54VFc2a2V0aE1qUXZAxc0NKcGRwM3JiUUpZAX3JzRjE2Tmg4Nm1LNDdXZAGtOb3VodzJsc3cybWFqejRkQ3MtZAzFhZA0JsZAzJWWXhBQVZAoVHJtVgZDZD",
+          "limit": 6,
+          "rows": 2,
+          "resolution": "thumbnail",
+          "show": 3,
+          "arrows": false,
+          "draggable": true,
+          "dots": false,
+          "infinite": true,
+          "radius": true
+        }
+      },
+      "footer-4": {
+        "type": "footer-4",
+        "settings": {
+          "newsletter": true,
+          "newsletter_title": "Get in touch",
+          "newsletter_subheading": "Subcrible for latest stories and promotions (35% save)",
+          "footermidbg": "#ffffff",
+          "footermidtext": "#666666",
+          "footermidlink": "#666666",
+          "social_enable": false,
+          "linklist_link": "footer",
+          "powered_enable": true
+        }
+      },
+      "slideshow-2": {
+        "type": "slideshow-2",
+        "blocks": {
+          "1583425647500": {
+            "type": "image",
+            "settings": {
+              "alignment": "center center",
+              "text_alignment": "left center",
+              "slide_toptitle": "No.su1",
+              "slide_toptitle_color": "#af6935",
+              "slide_title": "Walnut",
+              "slide_title_color": "#000000",
+              "attribute": "13.9\"W X 15.2\"D X 30.7\"H",
+              "attribute_color": "#ffffff",
+              "attribute_bg_color": "#af6935",
+              "subheading": "<h3 class=\"d-inline-block\">$183.76<\/h3>  ( VAT included )",
+              "subheading_color": "#909090",
+              "button_label": "discover now",
+              "button_link": "#",
+              "stylebtn": false
+            }
+          },
+          "1584978388262": {
+            "type": "image",
+            "settings": {
+              "alignment": "center center",
+              "text_alignment": "center center",
+              "slide_toptitle": "Design by Shopifytemplate",
+              "slide_toptitle_color": "#999999",
+              "slide_title": "Image slide",
+              "slide_title_color": "#ffffff",
+              "attribute": "Size x w x h",
+              "attribute_color": "#ffffff",
+              "attribute_bg_color": "#af6935",
+              "subheading": "Tell your brand's story through images",
+              "subheading_color": "#ffffff",
+              "button_label": "",
+              "stylebtn": false
+            }
+          }
+        },
+        "block_order": [
+          "1583425647500",
+          "1584978388262"
+        ],
+        "settings": {
+          "slideshow_height": "adapt",
+          "show_overlay": false,
+          "autorotate": false,
+          "autorotate_speed": 5
+        }
+      },
+      "slideshow-3": {
+        "type": "slideshow-3",
+        "blocks": {
+          "1585152082090": {
+            "type": "image",
+            "settings": {
+              "alignment": "center center",
+              "text_alignment": "left center",
+              "slide_toptitle": "DECOR <br> COLLECTION <br> 2020",
+              "slide_toptitle_color": "#af6935",
+              "slide_title": "Intricate And  <br>Graceful Design",
+              "slide_title_color": "#000000",
+              "subheading": "xxx",
+              "subheading_color": "#ffffff",
+              "button_label": "Discover Collection",
+              "button_link": "shopify:\/\/collections",
+              "stylebtn": false
+            }
+          },
+          "1585152191436": {
+            "type": "image",
+            "settings": {
+              "alignment": "center center",
+              "text_alignment": "center center",
+              "slide_toptitle": "Design by Shopifytemplate",
+              "slide_toptitle_color": "#999999",
+              "slide_title": "111111",
+              "slide_title_color": "#ec0000",
+              "subheading": "Tell your brand's story through images",
+              "subheading_color": "#818181",
+              "button_label": "aloalo",
+              "button_link": "#",
+              "stylebtn": false
+            }
+          }
+        },
+        "block_order": [
+          "1585152082090",
+          "1585152191436"
+        ],
+        "settings": {
+          "slideshow_height": "large",
+          "show_overlay": false,
+          "autorotate": false,
+          "autorotate_speed": 5
+        }
+      },
+      "product-template-6": {
+        "type": "product-template-6",
+        "blocks": {
+          "1586359934516": {
+            "type": "related-product",
+            "settings": {
+              "setwidthcontent": "container",
+              "relate_products_title": "Related product"
+            }
+          }
+        },
+        "block_order": [
+          "1586359934516"
+        ],
+        "settings": {
+          "stock_enable": true,
+          "enable_payment_button": true,
+          "social_sharing_products": true,
+          "next_prev_enable": true,
+          "product_vendor_enable": true,
+          "product_type_enable": true,
+          "variant_sku_enable": true,
+          "variant_available_enable": true,
+          "product_selector": "radio",
+          "sizeguide_enable": false,
+          "sizeguide_title": "Size guide",
+          "sizeguide_page": "size-chart",
+          "fake_view_enable": true,
+          "fake_view_min": 12,
+          "fake_view_max": 30,
+          "fake_view_duration": 3,
+          "fake_view_text_prefix": "Currently there are",
+          "fake_view_text_suffix": "peoples are currently looking at this product",
+          "gtab_des": "Description",
+          "gtab_review_enable": true,
+          "gtab_review": "Review",
+          "positiontab": "bottom",
+          "enable_tabvertical": false,
+          "stab_title1": "Specifications",
+          "stab_title2": "Shipping - Return",
+          "stab_title3": "Specific tab 3",
+          "stab_title4": "Specific tab 4",
+          "enable": true,
+          "mix_1": "#ffffff",
+          "mix_2": "#c0c0c0",
+          "text_cl": "#000000",
+          "cart_bg": "#5ac3ff",
+          "cart_cl": "#ffffff"
+        }
+      },
+      "product-template-7": {
+        "type": "product-template-7",
+        "blocks": {
+          "1586357487358": {
+            "type": "related-product",
+            "settings": {
+              "setwidthcontent": "container",
+              "relate_products_title": "Related product"
+            }
+          }
+        },
+        "block_order": [
+          "1586357487358"
+        ],
+        "settings": {
+          "stock_enable": true,
+          "enable_payment_button": true,
+          "social_sharing_products": true,
+          "next_prev_enable": true,
+          "product_vendor_enable": true,
+          "product_type_enable": true,
+          "variant_sku_enable": true,
+          "variant_available_enable": true,
+          "product_selector": "radio",
+          "sizeguide_enable": true,
+          "sizeguide_title": "Size guide",
+          "sizeguide_page": "size-chart",
+          "fake_view_enable": true,
+          "fake_view_min": 12,
+          "fake_view_max": 30,
+          "fake_view_duration": 3,
+          "fake_view_text_prefix": "Currently there are",
+          "fake_view_text_suffix": "peoples are currently looking at this product",
+          "gtab_des": "Description",
+          "gtab_review_enable": true,
+          "gtab_review": "Review",
+          "positiontab": "bottom",
+          "enable_tabvertical": false,
+          "stab_title1": "Specific tab 1",
+          "stab_title2": "Specific tab 2",
+          "stab_title3": "Specific tab 3",
+          "stab_title4": "Specific tab 4",
+          "enable": true,
+          "mix_1": "#262626",
+          "mix_2": "#c0c0c0",
+          "text_cl": "#fff",
+          "cart_bg": "#b7001d",
+          "cart_cl": "#fff"
+        }
+      },
+      "product-template-8": {
+        "type": "product-template-8",
+        "blocks": {
+          "1586334265945": {
+            "type": "related-product",
+            "settings": {
+              "setwidthcontent": "container",
+              "relate_products_title": "Related product"
+            }
+          }
+        },
+        "block_order": [
+          "1586334265945"
+        ],
+        "settings": {
+          "stock_enable": true,
+          "enable_payment_button": true,
+          "social_sharing_products": true,
+          "next_prev_enable": true,
+          "product_vendor_enable": true,
+          "product_type_enable": true,
+          "variant_sku_enable": true,
+          "variant_available_enable": true,
+          "product_selector": "radio",
+          "sizeguide_enable": true,
+          "sizeguide_title": "Size guide",
+          "sizeguide_page": "size-chart",
+          "fake_view_enable": true,
+          "fake_view_min": 12,
+          "fake_view_max": 30,
+          "fake_view_duration": 3,
+          "fake_view_text_prefix": "Currently there are",
+          "fake_view_text_suffix": "peoples are currently looking at this product",
+          "gtab_des": "Description",
+          "gtab_review_enable": true,
+          "gtab_review": "Review",
+          "positiontab": "bottom",
+          "enable_tabvertical": false,
+          "stab_title1": "Specific tab 1",
+          "stab_title2": "Specific tab 2",
+          "stab_title3": "Specific tab 3",
+          "stab_title4": "Specific tab 4",
+          "enable": true,
+          "mix_1": "#ffffff",
+          "mix_2": "#c0c0c0",
+          "text_cl": "#000000",
+          "cart_bg": "#5ac3ff",
+          "cart_cl": "#ffffff"
+        }
+      },
+      "collection-template-5": {
+        "type": "collection-template-5",
+        "settings": {
+          "collection_width": "container",
+          "collection_perpage": 18,
+          "collection_perrow": "3",
+          "sidebar_col": "col-md-3",
+          "enable_title": true,
+          "enable_description": true
+        }
+      },
+      "collection-template-6": {
+        "type": "collection-template-6",
+        "settings": {
+          "collection_width": "container",
+          "collection_perrow": "3",
+          "sidebar_col": "col-md-3",
+          "enable_title": false,
+          "enable_description": true
+        }
+      },
+      "article-template-1": {
+        "type": "article-template-1",
+        "settings": {
+          "social_sharing_blog": true,
+          "same_blog": "In same blog",
+          "related_blog": "",
+          "sidebar_enable": true,
+          "sidebar_position": "right",
+          "blog_show_previous_and_next_buttons": true
+        }
+      },
+      "grid-banner": {
+        "type": "grid-banner",
+        "blocks": {
+          "1587653901780": {
+            "type": "banner",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/image_des3.jpg",
+              "width": "4",
+              "description": "",
+              "max-width": 290,
+              "button_text": "",
+              "button_icon": "",
+              "vertical": "bottom",
+              "horizontal": "center",
+              "text_align": "center"
+            }
+          },
+          "1587655482100": {
+            "type": "banner",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/image_des2.jpg",
+              "width": "4",
+              "description": "",
+              "max-width": 290,
+              "button_text": "",
+              "button_icon": "",
+              "vertical": "bottom",
+              "horizontal": "center",
+              "text_align": "center"
+            }
+          },
+          "1587655514774": {
+            "type": "banner",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/image_des1.jpg",
+              "width": "4",
+              "description": "",
+              "max-width": 290,
+              "button_text": "",
+              "button_icon": "",
+              "vertical": "bottom",
+              "horizontal": "center",
+              "text_align": "center"
+            }
+          }
+        },
+        "block_order": [
+          "1587653901780",
+          "1587655482100",
+          "1587655514774"
+        ],
+        "settings": {
+          "animation": "",
+          "paddingsection": "60px 0px 60px 0px",
+          "marginsection": "0px 0px 0px 0px",
+          "bgsection": "#fefefe",
+          "title": "",
+          "des": "",
+          "setwidth": "container",
+          "no_gutter": false
+        }
+      },
+      "advanced-content": {
+        "type": "advanced-content",
+        "blocks": {
+          "1587654247564": {
+            "type": "html",
+            "settings": {
+              "code": "<h2 class=\"mb-4\">Our Story\n<\/h2>\n<p>Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica. Lorem Khaled Ipsum is a major key to success. They don’t want us to win. Always remember in the jungle there’s a lot of they in there, after you overcome they, you will make it to paradise. Major key, don’t fall for the trap, stay focused. It’s the ones closest to you that want to see you fail. Major key, don’t fall for the trap, stay focused. It’s the ones closest to you that want to see you fail. You see the hedges, how I got it shaped up? It’s important to shape up your hedges, it’s like getting a haircut, stay fresh.<\/p>",
+              "width": "100%",
+              "align": "auto"
+            }
+          }
+        },
+        "block_order": [
+          "1587654247564"
+        ],
+        "settings": {
+          "animation": "",
+          "paddingsection": "0px 0px 0px 0px",
+          "marginsection": "0px 0px 0px 0px",
+          "bgsection": "#fefefe",
+          "title": "",
+          "des": "",
+          "setwidth": "container"
+        }
+      },
+      "service": {
+        "type": "service",
+        "blocks": {
+          "1587655794959": {
+            "type": "service",
+            "settings": {
+              "title": "Free shipping",
+              "description": "on all orders over $200.00",
+              "icon": "<svg aria-hidden=\"true\" focusable=\"false\" data-prefix=\"fal\" data-icon=\"truck\" role=\"img\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" viewbox=\"0 0 640 512\" class=\"svg-inline--fa fa-truck fa-w-20 fa-3x\"><path fill=\"currentColor\" d=\"M632 384h-24V275.9c0-16.8-6.8-33.3-18.8-45.2l-83.9-83.9c-11.8-12-28.3-18.8-45.2-18.8H416V78.6c0-25.7-22.2-46.6-49.4-46.6H49.4C22.2 32 0 52.9 0 78.6v290.8C0 395.1 22.2 416 49.4 416h16.2c-1.1 5.2-1.6 10.5-1.6 16 0 44.2 35.8 80 80 80s80-35.8 80-80c0-5.5-.6-10.8-1.6-16h195.2c-1.1 5.2-1.6 10.5-1.6 16 0 44.2 35.8 80 80 80s80-35.8 80-80c0-5.5-.6-10.8-1.6-16H632c4.4 0 8-3.6 8-8v-16c0-4.4-3.6-8-8-8zM460.1 160c8.4 0 16.7 3.4 22.6 9.4l83.9 83.9c.8.8 1.1 1.9 1.8 2.8H416v-96h44.1zM144 480c-26.5 0-48-21.5-48-48s21.5-48 48-48 48 21.5 48 48-21.5 48-48 48zm63.6-96C193 364.7 170 352 144 352s-49 12.7-63.6 32h-31c-9.6 0-17.4-6.5-17.4-14.6V78.6C32 70.5 39.8 64 49.4 64h317.2c9.6 0 17.4 6.5 17.4 14.6V384H207.6zM496 480c-26.5 0-48-21.5-48-48s21.5-48 48-48 48 21.5 48 48-21.5 48-48 48zm0-128c-26.1 0-49 12.7-63.6 32H416v-96h160v96h-16.4c-14.6-19.3-37.5-32-63.6-32z\" class=\"\"><\/path><\/svg>"
+            }
+          },
+          "1587655905045": {
+            "type": "service",
+            "settings": {
+              "title": "15 days returns",
+              "description": "moneyback guarantee",
+              "icon": "<svg aria-hidden=\"true\" focusable=\"false\" data-prefix=\"fal\" data-icon=\"money-bill-wave\" role=\"img\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" viewbox=\"0 0 640 512\" class=\"svg-inline--fa fa-money-bill-wave fa-w-20 fa-3x\"><path fill=\"currentColor\" d=\"M320 144c-53.02 0-96 50.14-96 112 0 61.85 42.98 112 96 112 53 0 96-50.13 96-112 0-61.86-42.98-112-96-112zm0 192c-35.29 0-64-35.89-64-80s28.71-80 64-80 64 35.89 64 80-28.71 80-64 80zM621.16 54.46C582.37 38.19 543.55 32 504.75 32c-123.17-.01-246.33 62.34-369.5 62.34C70.34 94.34 46.9 79 32.25 79 15.04 79 0 92.32 0 110.81v317.26c0 12.63 7.23 24.6 18.84 29.46C57.63 473.81 96.45 480 135.25 480c123.17 0 246.33-62.35 369.5-62.35 64.91 0 88.34 15.35 103 15.35 17.21 0 32.25-13.32 32.25-31.81V83.93c0-12.64-7.23-24.6-18.84-29.47zm-588.21 56.8c20.22 6.42 41.03 10.53 62.67 12.89-1.97 33.41-29.23 60.04-62.89 60.43l.22-73.32zM32 428.07l.13-42.54c33.58.07 60.88 26.31 63.38 59.43-22.45-3.04-43.63-8.45-63.51-16.89zm575.05-27.33c-20.16-6.4-40.9-10.51-62.47-12.87 2.89-32.5 29.69-58.14 62.69-58.52l-.22 71.39zm.31-103.54c-50 .34-90.59 39.32-94.58 88.6-70.73-1.43-137.18 15.82-200.6 31.87-75.07 19-126.54 31.21-184.41 29.87-1.23-52.02-43.48-94.01-95.55-94.13l.41-136.67c50.65-.34 91.72-40.32 94.78-90.52 70.53 1.41 137.02-15.83 200.4-31.87C402.6 75.41 454.3 63.13 512.03 64.46c.18 52.93 43.01 95.94 95.74 96.07l-.41 136.67zm.51-168.8c-34.24-.07-62.04-27.34-63.58-61.38 22.53 3.03 43.78 8.45 63.71 16.91l-.13 44.47z\" class=\"\"><\/path><\/svg>"
+            }
+          },
+          "1587655928022": {
+            "type": "service",
+            "settings": {
+              "title": "Secure checkout",
+              "description": "100% protected by Paypal",
+              "icon": "<svg aria-hidden=\"true\" focusable=\"false\" data-prefix=\"fal\" data-icon=\"lock-alt\" role=\"img\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" viewbox=\"0 0 448 512\" class=\"svg-inline--fa fa-lock-alt fa-w-14 fa-3x\"><path fill=\"currentColor\" d=\"M224 420c-11 0-20-9-20-20v-64c0-11 9-20 20-20s20 9 20 20v64c0 11-9 20-20 20zm224-148v192c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V272c0-26.5 21.5-48 48-48h16v-64C64 71.6 136-.3 224.5 0 312.9.3 384 73.1 384 161.5V224h16c26.5 0 48 21.5 48 48zM96 224h256v-64c0-70.6-57.4-128-128-128S96 89.4 96 160v64zm320 240V272c0-8.8-7.2-16-16-16H48c-8.8 0-16 7.2-16 16v192c0 8.8 7.2 16 16 16h352c8.8 0 16-7.2 16-16z\" class=\"\"><\/path><\/svg>"
+            }
+          },
+          "1587655946108": {
+            "type": "service",
+            "settings": {
+              "title": "100% free warranty",
+              "description": "moneyback guarantee",
+              "icon": "<svg aria-hidden=\"true\" focusable=\"false\" data-prefix=\"fal\" data-icon=\"shield-alt\" role=\"img\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" viewbox=\"0 0 512 512\" class=\"svg-inline--fa fa-shield-alt fa-w-16 fa-3x\"><path fill=\"currentColor\" d=\"M466.5 83.7l-192-80a48.15 48.15 0 0 0-36.9 0l-192 80C27.7 91.1 16 108.6 16 128c0 198.5 114.5 335.7 221.5 380.3 11.8 4.9 25.1 4.9 36.9 0C360.1 472.6 496 349.3 496 128c0-19.4-11.7-36.9-29.5-44.3zM262.2 478.8c-4 1.6-8.4 1.6-12.3 0C152 440 48 304 48 128c0-6.5 3.9-12.3 9.8-14.8l192-80c3.9-1.6 8.4-1.6 12.3 0l192 80c6 2.5 9.9 8.3 9.8 14.8.1 176-103.9 312-201.7 350.8zM256 411V100l-142.7 59.5c10.1 120.1 77.1 215 142.7 251.5zm-32-66.8c-36.4-39.9-65.8-97.8-76.1-164.5L224 148z\" class=\"\"><\/path><\/svg>"
+            }
+          }
+        },
+        "block_order": [
+          "1587655794959",
+          "1587655905045",
+          "1587655928022",
+          "1587655946108"
+        ],
+        "settings": {
+          "animation": "",
+          "paddingsection": "0px 0px 70px 0px",
+          "marginsection": "0px 0px 0px 0px",
+          "bgsection": "#fefefe",
+          "layout": "style-1",
+          "title": "",
+          "des": "",
+          "setwidth": "container",
+          "arrows": false,
+          "draggable": true,
+          "dots": true,
+          "infinite": true
+        }
+      },
+      "video": {
+        "type": "video",
+        "settings": {
+          "animation": "fade-up",
+          "setwidth": "container",
+          "button_label": "",
+          "video_url": "https:\/\/www.youtube.com\/watch?v=Fhhn8P3j4zM",
+          "cover_image": "shopify:\/\/shop_images\/bg-filter-search_8c7085fd-673d-492b-968e-6eb5cc36410d.jpg",
+          "cover_image_position": "center center",
+          "cover_image_height": "tall",
+          "show_overlay": true,
+          "overlay_color": "#000000",
+          "overlay_opacity": 0
+        }
+      },
+      "brand-carousel": {
+        "type": "brand-carousel",
+        "settings": {
+          "title": "Logo Carousel",
+          "des": "",
+          "grayscale": true,
+          "fullwidth": false,
+          "arrows": false,
+          "draggable": true,
+          "dots": true,
+          "infinite": false,
+          "rows": "3"
+        }
+      },
+      "newsletter": {
+        "type": "newsletter",
+        "settings": {
+          "animation": "fade",
+          "paddingsection": "120px 0px 100px 0px",
+          "marginsection": "0px 0px 0px 0px",
+          "border": false,
+          "bgsection": "#93c4cd",
+          "title": "Sign up to our Newsletter and get the discount code!",
+          "des": "",
+          "setwidth": "container"
+        }
+      },
+      "page-about-v2": {
+        "type": "page-about-v2",
+        "blocks": {
+          "1587745634317": {
+            "type": "conttent",
+            "settings": {
+              "title_right": "<span class=\"text-primary2\">01.<\/span> Who we are",
+              "contenthtml": "<p>\nFrom the parks of Toronto to the Tuileries in Paris, we’ve got a penchant \nfor capturing the best street style across the globe year-round. If you’ve\ngot a thing for shimmering layers, Susie Bubble and spotting editrixes in \ntheir natural habitat, look no further than this.\n<br><br>\nYou’ve got a thing for shimmering layers, Susie Bubble and spotting in \ntheir natural habitat, look no further than this, our constantly updated \nstreet style page! Ornare arcu lacus, quis aliquet odio bibendum non. \nNulla sagittis efficitur ex fusce ac ipsum gravida.\n\n<\/p>"
+            }
+          },
+          "1587745980629": {
+            "type": "conttent",
+            "settings": {
+              "title_right": "<span class=\"text-primary2\">02.<\/span> What we do",
+              "contenthtml": "<p>\nYou’ve got a thing for shimmering layers, Susie Bubble and spotting \neditrixes in their natural habitat, look no further than this, our constantly \nupdated street style page!\n<\/p>\n<ul class=\"list-unstyled\">\n    <li class=\"py-2\">Ornare arcu lacus, quis aliquet odio bibendum non.<\/li>\n    <li class=\"py-2\">Nulla sagittis efficitur ex<\/li>\n    <li class=\"py-2\">Fusce ac ipsum gravida, tristique sed felis augue<\/li>\n    <li class=\"py-2\">Aarcu lacus, quis aliquet odio bibendum non.<\/li>\n<\/ul>"
+            }
+          },
+          "1587748105186": {
+            "type": "conttent",
+            "settings": {
+              "title_right": "<span class=\"text-primary2\">03.<\/span> Contact us",
+              "contenthtml": "<p class=\"text-body\">\n123 South Main Street, Los Angeles,\nUnited States\n<br>\nPhone: +0180 808 880<br>\nEmail: rubiktheme@gmail.com\n<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "1587745634317",
+          "1587745980629",
+          "1587748105186"
+        ],
+        "settings": {
+          "image1": "shopify:\/\/shop_images\/C-P2.jpg",
+          "image2": "shopify:\/\/shop_images\/C-P1.jpg"
+        }
+      },
+      "page-about-v3": {
+        "type": "page-about-v3",
+        "blocks": {
+          "1587749168904": {
+            "type": "html",
+            "settings": {
+              "code": "<h2>Welcome to Doppo<br>\nStore - Amazing<br>\nfurniture<\/h2>",
+              "width": "50%",
+              "align": "auto"
+            }
+          },
+          "1587749209476": {
+            "type": "html",
+            "settings": {
+              "code": "<p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per \ninceptos himenaeos. Suspendisse faucibus sed dolor eget posuere. Sed \nid interdum urna faucibus sed dolor eget posuere.<br><br>\n\nSed id interdum urna. Nam ac elit a ante commodo tristique. Duis lacus \nurna, condimentum a vehicula a, hendrerit ac nisi Lorem ipsum dolor sit \namet dolor eget posuere.<\/p>\n<div class=\"text-body mt-5\">\n<span class=\"text-primary\">JONT HENRRY <\/span>- CEO<\/div>",
+              "width": "50%",
+              "align": "auto"
+            }
+          }
+        },
+        "block_order": [
+          "1587749168904",
+          "1587749209476"
+        ],
+        "settings": {
+          "animation": "fade",
+          "paddingsection": "0px 0px 80px 0px",
+          "marginsection": "0px 0px 0px 0px",
+          "bgsection": "#fefefe",
+          "title": "",
+          "des": "",
+          "setwidth": "container"
+        }
+      },
+      "page-image-v3": {
+        "type": "page-image-v3",
+        "settings": {
+          "animation": "",
+          "paddingsection": "0px 0px 0px 0px",
+          "marginsection": "0px 0px 0px 0px",
+          "bgsection": "#fefefe",
+          "setwidth": "full",
+          "image": ""
+        }
+      },
+      "service-v3": {
+        "type": "service-v3",
+        "blocks": {
+          "1587751215011": {
+            "type": "address",
+            "settings": {
+              "store_addess": "<div class=\"mb-4\">\n<h2 class=\"mb-3 f-90\">01<\/h2>\n<span class=\"text-body font-weight-bold\">STORE NEWYORK<\/span>\n<\/div>",
+              "contact_addess": "123 Sky Tower, West 21th Street, Suite 721, NY",
+              "contact_phone": "+844 123 456 789",
+              "contact_mail": "sale@yourcompany.com"
+            }
+          },
+          "1587751341165": {
+            "type": "address",
+            "settings": {
+              "store_addess": "<div class=\"mb-4\">\n<h2 class=\"mb-3 f-90\">02<\/h2>\n<span class=\"text-body font-weight-bold\">STORE NEWYORK<\/span>\n<\/div>",
+              "contact_addess": "123 Sky Tower, West 21th Street, Suite 721, NY",
+              "contact_phone": "+844 123 456 789",
+              "contact_mail": "sale@yourcompany.com"
+            }
+          },
+          "1587751398826": {
+            "type": "address",
+            "settings": {
+              "store_addess": "<div class=\"mb-4\">\n<h2 class=\"mb-3 f-90\">03<\/h2>\n<span class=\"text-body font-weight-bold\">STORE NEWYORK<\/span>\n<\/div>",
+              "contact_addess": "123 Sky Tower, West 21th Street, Suite 721, NY",
+              "contact_phone": "+844 123 456 789",
+              "contact_mail": "sale@yourcompany.com"
+            }
+          }
+        },
+        "block_order": [
+          "1587751215011",
+          "1587751341165",
+          "1587751398826"
+        ],
+        "settings": {
+          "animation": "",
+          "paddingsection": "80px 0px 80px 0px",
+          "marginsection": "0px 0px 0px 0px",
+          "bgsection": "#fefefe",
+          "setwidth": "container"
+        }
+      },
+      "html-v3": {
+        "type": "html-v3",
+        "settings": {
+          "animation": "",
+          "paddingsection": "180px 0px 180px 0px",
+          "marginsection": "0px 0px 0px 0px",
+          "bgsection": "#e4cec0",
+          "setwidth": "container",
+          "code": "<div class=\"text-center\">\n<h2 class=\"mb-4\">Don’t miss a thing,<br>\nsubscribe to our quarterly newsletter<\/h2>\n<a href=\"#\" class=\"btn btn-underline\">Join our Mailing List<\/a>\n<\/div>"
+        }
+      },
+      "pnewsletter-2": {
+        "type": "pnewsletter-2",
+        "settings": {
+          "pnewletter_enable": true,
+          "pnewletter_time": 10,
+          "pnewletter_background": "#ffffff",
+          "pnewletter_bgimage": "shopify:\/\/shop_images\/pnewletter_bg.png",
+          "pnewletter_title": "SIGN UP FOR OUR NEWSLETTER",
+          "pnewletter_title_cl": "#ffffff",
+          "pnewletter_description": "<p>Subscribe for the latest news & get 15% off your first order.<\/p>",
+          "pnewletter_description_cl": "#ffffff"
+        }
+      },
+      "footer-5": {
+        "type": "footer-5",
+        "settings": {
+          "fullwidth": false,
+          "remove_powered": false,
+          "background": "#282828",
+          "border-copryright": "#f8f8f8",
+          "text": "#ffffff",
+          "enablemethod": true
+        }
+      },
+      "cart-template": {
+        "type": "cart-template",
+        "settings": {
+          "cart_notes_enable": true
+        }
+      },
+      "pnewsletter-3": {
+        "type": "pnewsletter-3",
+        "settings": {
+          "pnewletter_enable": true,
+          "pnewletter_time": 20,
+          "pnewletter_background": "rgba(0,0,0,0)",
+          "pnewletter_title": "Follow us",
+          "pnewletter_title_cl": "rgba(0,0,0,0)",
+          "pnewletter_description": "<p>We promise we won't write to you often, only for the fun stuff.<\/p>\n<ul>\n<li>Exclusive offers<\/li>\n<li>Sales<\/li>\n<\/ul>",
+          "pnewletter_description_cl": "rgba(0,0,0,0)"
+        }
+      },
+      "1607066023b5a74cc7": {
+        "type": "service",
+        "blocks": {
+          "1607066023b5a74cc7-0": {
+            "type": "service",
+            "settings": {
+              "title": "HIRE EQUIPMENT",
+              "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam imperdiet odio neque, vel finibus purus porttitor vitae. Fusce ac vehicula dolor.",
+              "icon": "<img src=\"data:image\/webp;base64,UklGRm4JAABXRUJQVlA4WAoAAAAQAAAASQAAUQAAQUxQSLQCAAARoFttexvL+cKN9mDlpYhyOWTTy0j+nmWoTChgzXQw7OCyA1Auc9MB0QHZwUwHQAdvMLTg+igiJkDT5q5nh12lNXt2Wq9wgBR2CNhlJyi0QweHZQG0xxLql7Buj\/1ae33WaY\/l88DcZL5JSebPrvI4fp4IdZ7NnO44XkRmjtTK0vZzpk\/swkYYhkUBgq5DTjbCYMJEreudVBEGo2eBA1ppB0\/tIge0ktTn5ol2wRFoJcmTmQeqeR5wkuTJxLsR4wGn2R5wkuTJxIOTZHpIVnPN\/4CTJA+kHDwkK5kektVc00OykuQBFzLwkKxU9JCs5poekpUkDzhlECFZyUYYjObaHpLVdQtOOUCyko0wGM0OMBiNt055JCuVEQaj+WYYjOZnkKzkgFaLrVFuteSAVttn8RRo9UzwgNMzIQJOzwbAaTexu44zzl2mceLcXY\/MnMh5ZDo0z4zkNBmudlhCrcXPnI9up410e\/v1Nl\/e3m7yK9Pf6j78s83f8M7z4fNH0+9Ljx79uM13jx7d22KHb8a0YPdwgGpZDeUeGiiXlVBnZY43VwG0vIBTVg4aSTCsoAsxqxNYqYRmjRaqjAq4SGqgWqOENqMWnKRI0qoXosnGwkWSg3adGupsBnCSOijXMYloMmkhSCohaOUamjwcpELSGcq1TAKbgwNKSTUEre7gbLZrACfJAsV6CuC3KjrASTJnqLWhSdBsYo4RUiXJ9BC0aQm49czTMzAUkuThYraRA+5WqnwE0kGSTAfJamsHeLPEPDx2XKfaSFLRQ7La3gG9XVAyejkYXVcRklWOZQKOZpYBhsZqtOiAoVCeJgDxaGboUGqy8ACN8j0kIN7ZqemH\/wNcSuVsWq7P\/rebCXPz9P8IkGrlXjSJyXPXRSYvzmiP1SmNzLw0Vvu1hzqEAUI41a7QxlZQOCCUBgAAkB8AnQEqSgBSAD6BNpVIpSKhoSeZLTCgEAlqAML11f8B0vGsPIfznm9\/I++eefPJ\/hPUftm\/MB+13qv\/6D1Rf4T1AP9B1GXoc\/tV6cnstfuxhHf8a7cf8x+JfX7JX4DZZVyj+s98dqBSZWTb9D9QD84\/7X08c4b5f\/jP\/L7hH8m\/qXoq+ub9tfYb\/Xg6cVLMF0psdmSESEuo4aee1zTkiBspU\/+7XqAJfVX1IT0IAGFoYpCFMRrIs41IuioKHPjG0ctIAdlpf8dmTnCZFdbNqi8Fcp0NTmk8Ew4TfeXRx8\/GKDkwz7r+pMvHld72JDfHkAxZtP6OvKtyFx9+858H8a0lHb6AAP7LAyXLPya\/4asYq9ZI\/qHDuXow4N0Kth71qsRpQaA7a60RXpd6v6Tz0g3cz33c3ToNWRHk4qd\/1FOU2Ni4OtiPIwYqE5OxuUXhXYM7mD2VSQsXCdUPJ\/YqoYN9RuI8vc7j2GdhbYtUjW8NB0TBYfWv9\/wAcm9TWclK3xzi5C5ISXSjn9yPCU36J7Pu\/zcaNYinJNquPVHI1vhLA5ngtjekJ50mvprp3KobTUWF8F+xOdLmEdl1I2mvbwLe553TvhGQnbqufrUTkyG75gyfpnbdX8G6P59WJP1KJ8RpMa0zy7YDqGguTrmyMuIeIHUXEtPhxL4BJWK2ZIQvY5PM\/8ds+McV3rZ\/yZ\/Nr9\/zadptX6UVPLow25Zx2UpBa3ZYi1U+jp094OCXisAba0b6YJRDzRVs3QZYw+JGaxzUGRtDirPTP4AkR4Euun\/T4B7rSVryqbvMnqN0NegAuis9I5Tl+7N87YOTIJ2e1lYCu4e9DxYa31kQCIpYJv3uKibSjpwicMJrOEOAsRia3qESoI\/4z2P6g8+mKV6jZn6YGgC\/QXjIY\/BAdVxQv7WD9AiZ+CUzh5u9qCZ1xs+WmC7jddV+RSrOWRM2tLDt\/KscNh95Hz8pO4MCwFEEHG3z8rvnbV6wAwieWSRO7hJMf4MFq2pJ6hm2hkdSgiYQQSGcUXtjXZKD80AKd38v+p0nqPpZ85kysKSWKSesHQWj9LIjhltBmSvzL2rDb3jZ7dLpmvaoJF8iwmNzX7bT7SvUqs8JKLVvsnInc0z9kAZN+Cf4XpCN7+k4KJO0wgEmlH23c+ZpcR7GsPA1C+gFJM03r3cZBATf3EPO0\/4VIG3v8L4L5N\/wWGp9nDIx6FAnvI9oyE5qujwttbKOTRff0HBeXy83cu7wyP1f6kVe9Xj6nB4EVQH3owWUbcMV9TFNUNzRwezun4OgWC0VjMpvdqXHZpQHfM6z+zZf3+pE53refl068FyG3sOfv\/9xzWH2Rurf5d4IPnDuqV5DN1674f\/DjfJuafxMedTg24ch3KR08NXkQz5QTC\/VZuX+W1uAH3hjOat23RQqPTpfcypwNIKGkvy065Y5GjATd2NWhLio\/nbRICz0ZkrBNyfjaK8qIep\/frAXo\/9BKfvKugbfYBJPf9P\/fX1S18QHp9LpXkrBsqC6dOMFUWFZ6WMUbgf7UBp0d9nAEgAUS6GZH2cE9pAPKcoA0r+OTSkIrhNp7ZHbhdBBPLLjYMskJiBC\/YkW8UZ8ugaGL1wey2+Sy\/BtXwhsDBs8OczuhFVgEUSbe73qyfW+OuZ\/f9BV8RQCAKxPPyl\/18K6sVAZxKHr363K+6+HpHp82v6bi693F3m19ieKkOHRD3w8pUwjoOAy0Ylt2rZUbfjVlBN4+PH0J2sa48jO8B79eA4BLf+aR1xzBRWKJ2IOqtvcWEIAbHMxuSKRt3wd3dVqgm70GuP701+Q9DHXiFssiPCBJPsxM4Kd08Q3ZQilGrqXlNgZ49sp9j9BJHVL\/a6iz3D3HqMrUGnfrydNGf0bUej1sNnOf+9HS8Hqki4K\/8llL3Y9PgjibGnus6mDfAptTSerwoPU5dWroODZsoGXTXta9\/d2pAz7BHVdZi0OPVr7oF2xlhVoRzFDnXEPe\/FYuog\/9qjxPTpMLwqIfiYFxrPk\/WlUY9XJ4CIH64dtDY1VLEgsU0wfPRsaHH6u5sUMyF3fiVLmqYHzPXkSfDdxQqhyisbHzRoqyrWpfOUxrZarKS408moK7wloqz\/ZCcBPkhV+GNvC3tGlLve1FkEGKhevaNlxJdXgFbxksMOVzNCqignvh2ud1FOfWxbhSaJY5fBBdUesch3z2O9LwHguK1ScCZEitSm3Dz\/+MH9tDb\/9MfHasv8YmLaIAAAAAA==\" class=\"\" title=\"\" alt=\"\" style=\" width:auto;              height:auto\">"
+            }
+          },
+          "1607066023b5a74cc7-2": {
+            "type": "service",
+            "settings": {
+              "title": "SHOP PRODUCTS",
+              "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam imperdiet odio neque, vel finibus purus porttitor vitae. Fusce ac vehicula dolor.",
+              "icon": "<img src=\"data:image\/webp;base64,UklGRm4JAABXRUJQVlA4WAoAAAAQAAAASQAAUQAAQUxQSLQCAAARoFttexvL+cKN9mDlpYhyOWTTy0j+nmWoTChgzXQw7OCyA1Auc9MB0QHZwUwHQAdvMLTg+igiJkDT5q5nh12lNXt2Wq9wgBR2CNhlJyi0QweHZQG0xxLql7Buj\/1ae33WaY\/l88DcZL5JSebPrvI4fp4IdZ7NnO44XkRmjtTK0vZzpk\/swkYYhkUBgq5DTjbCYMJEreudVBEGo2eBA1ppB0\/tIge0ktTn5ol2wRFoJcmTmQeqeR5wkuTJxLsR4wGn2R5wkuTJxIOTZHpIVnPN\/4CTJA+kHDwkK5kektVc00OykuQBFzLwkKxU9JCs5poekpUkDzhlECFZyUYYjObaHpLVdQtOOUCyko0wGM0OMBiNt055JCuVEQaj+WYYjOZnkKzkgFaLrVFuteSAVttn8RRo9UzwgNMzIQJOzwbAaTexu44zzl2mceLcXY\/MnMh5ZDo0z4zkNBmudlhCrcXPnI9up410e\/v1Nl\/e3m7yK9Pf6j78s83f8M7z4fNH0+9Ljx79uM13jx7d22KHb8a0YPdwgGpZDeUeGiiXlVBnZY43VwG0vIBTVg4aSTCsoAsxqxNYqYRmjRaqjAq4SGqgWqOENqMWnKRI0qoXosnGwkWSg3adGupsBnCSOijXMYloMmkhSCohaOUamjwcpELSGcq1TAKbgwNKSTUEre7gbLZrACfJAsV6CuC3KjrASTJnqLWhSdBsYo4RUiXJ9BC0aQm49czTMzAUkuThYraRA+5WqnwE0kGSTAfJamsHeLPEPDx2XKfaSFLRQ7La3gG9XVAyejkYXVcRklWOZQKOZpYBhsZqtOiAoVCeJgDxaGboUGqy8ACN8j0kIN7ZqemH\/wNcSuVsWq7P\/rebCXPz9P8IkGrlXjSJyXPXRSYvzmiP1SmNzLw0Vvu1hzqEAUI41a7QxlZQOCCUBgAAkB8AnQEqSgBSAD6BNpVIpSKhoSeZLTCgEAlqAML11f8B0vGsPIfznm9\/I++eefPJ\/hPUftm\/MB+13qv\/6D1Rf4T1AP9B1GXoc\/tV6cnstfuxhHf8a7cf8x+JfX7JX4DZZVyj+s98dqBSZWTb9D9QD84\/7X08c4b5f\/jP\/L7hH8m\/qXoq+ub9tfYb\/Xg6cVLMF0psdmSESEuo4aee1zTkiBspU\/+7XqAJfVX1IT0IAGFoYpCFMRrIs41IuioKHPjG0ctIAdlpf8dmTnCZFdbNqi8Fcp0NTmk8Ew4TfeXRx8\/GKDkwz7r+pMvHld72JDfHkAxZtP6OvKtyFx9+858H8a0lHb6AAP7LAyXLPya\/4asYq9ZI\/qHDuXow4N0Kth71qsRpQaA7a60RXpd6v6Tz0g3cz33c3ToNWRHk4qd\/1FOU2Ni4OtiPIwYqE5OxuUXhXYM7mD2VSQsXCdUPJ\/YqoYN9RuI8vc7j2GdhbYtUjW8NB0TBYfWv9\/wAcm9TWclK3xzi5C5ISXSjn9yPCU36J7Pu\/zcaNYinJNquPVHI1vhLA5ngtjekJ50mvprp3KobTUWF8F+xOdLmEdl1I2mvbwLe553TvhGQnbqufrUTkyG75gyfpnbdX8G6P59WJP1KJ8RpMa0zy7YDqGguTrmyMuIeIHUXEtPhxL4BJWK2ZIQvY5PM\/8ds+McV3rZ\/yZ\/Nr9\/zadptX6UVPLow25Zx2UpBa3ZYi1U+jp094OCXisAba0b6YJRDzRVs3QZYw+JGaxzUGRtDirPTP4AkR4Euun\/T4B7rSVryqbvMnqN0NegAuis9I5Tl+7N87YOTIJ2e1lYCu4e9DxYa31kQCIpYJv3uKibSjpwicMJrOEOAsRia3qESoI\/4z2P6g8+mKV6jZn6YGgC\/QXjIY\/BAdVxQv7WD9AiZ+CUzh5u9qCZ1xs+WmC7jddV+RSrOWRM2tLDt\/KscNh95Hz8pO4MCwFEEHG3z8rvnbV6wAwieWSRO7hJMf4MFq2pJ6hm2hkdSgiYQQSGcUXtjXZKD80AKd38v+p0nqPpZ85kysKSWKSesHQWj9LIjhltBmSvzL2rDb3jZ7dLpmvaoJF8iwmNzX7bT7SvUqs8JKLVvsnInc0z9kAZN+Cf4XpCN7+k4KJO0wgEmlH23c+ZpcR7GsPA1C+gFJM03r3cZBATf3EPO0\/4VIG3v8L4L5N\/wWGp9nDIx6FAnvI9oyE5qujwttbKOTRff0HBeXy83cu7wyP1f6kVe9Xj6nB4EVQH3owWUbcMV9TFNUNzRwezun4OgWC0VjMpvdqXHZpQHfM6z+zZf3+pE53refl068FyG3sOfv\/9xzWH2Rurf5d4IPnDuqV5DN1674f\/DjfJuafxMedTg24ch3KR08NXkQz5QTC\/VZuX+W1uAH3hjOat23RQqPTpfcypwNIKGkvy065Y5GjATd2NWhLio\/nbRICz0ZkrBNyfjaK8qIep\/frAXo\/9BKfvKugbfYBJPf9P\/fX1S18QHp9LpXkrBsqC6dOMFUWFZ6WMUbgf7UBp0d9nAEgAUS6GZH2cE9pAPKcoA0r+OTSkIrhNp7ZHbhdBBPLLjYMskJiBC\/YkW8UZ8ugaGL1wey2+Sy\/BtXwhsDBs8OczuhFVgEUSbe73qyfW+OuZ\/f9BV8RQCAKxPPyl\/18K6sVAZxKHr363K+6+HpHp82v6bi693F3m19ieKkOHRD3w8pUwjoOAy0Ylt2rZUbfjVlBN4+PH0J2sa48jO8B79eA4BLf+aR1xzBRWKJ2IOqtvcWEIAbHMxuSKRt3wd3dVqgm70GuP701+Q9DHXiFssiPCBJPsxM4Kd08Q3ZQilGrqXlNgZ49sp9j9BJHVL\/a6iz3D3HqMrUGnfrydNGf0bUej1sNnOf+9HS8Hqki4K\/8llL3Y9PgjibGnus6mDfAptTSerwoPU5dWroODZsoGXTXta9\/d2pAz7BHVdZi0OPVr7oF2xlhVoRzFDnXEPe\/FYuog\/9qjxPTpMLwqIfiYFxrPk\/WlUY9XJ4CIH64dtDY1VLEgsU0wfPRsaHH6u5sUMyF3fiVLmqYHzPXkSfDdxQqhyisbHzRoqyrWpfOUxrZarKS408moK7wloqz\/ZCcBPkhV+GNvC3tGlLve1FkEGKhevaNlxJdXgFbxksMOVzNCqignvh2ud1FOfWxbhSaJY5fBBdUesch3z2O9LwHguK1ScCZEitSm3Dz\/+MH9tDb\/9MfHasv8YmLaIAAAAAA==\" class=\"\" title=\"\" alt=\"\" style=\" width:auto;              height:auto\">"
+            }
+          },
+          "dbd540f7-56f6-4a53-82b7-c2a21a49c061": {
+            "type": "service",
+            "settings": {
+              "title": "REPAIR EQUIPMENT",
+              "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam imperdiet odio neque, vel finibus purus porttitor vitae. Fusce ac vehicula dolor.",
+              "icon": "<img src=\"data:image\/webp;base64,UklGRm4JAABXRUJQVlA4WAoAAAAQAAAASQAAUQAAQUxQSLQCAAARoFttexvL+cKN9mDlpYhyOWTTy0j+nmWoTChgzXQw7OCyA1Auc9MB0QHZwUwHQAdvMLTg+igiJkDT5q5nh12lNXt2Wq9wgBR2CNhlJyi0QweHZQG0xxLql7Buj\/1ae33WaY\/l88DcZL5JSebPrvI4fp4IdZ7NnO44XkRmjtTK0vZzpk\/swkYYhkUBgq5DTjbCYMJEreudVBEGo2eBA1ppB0\/tIge0ktTn5ol2wRFoJcmTmQeqeR5wkuTJxLsR4wGn2R5wkuTJxIOTZHpIVnPN\/4CTJA+kHDwkK5kektVc00OykuQBFzLwkKxU9JCs5poekpUkDzhlECFZyUYYjObaHpLVdQtOOUCyko0wGM0OMBiNt055JCuVEQaj+WYYjOZnkKzkgFaLrVFuteSAVttn8RRo9UzwgNMzIQJOzwbAaTexu44zzl2mceLcXY\/MnMh5ZDo0z4zkNBmudlhCrcXPnI9up410e\/v1Nl\/e3m7yK9Pf6j78s83f8M7z4fNH0+9Ljx79uM13jx7d22KHb8a0YPdwgGpZDeUeGiiXlVBnZY43VwG0vIBTVg4aSTCsoAsxqxNYqYRmjRaqjAq4SGqgWqOENqMWnKRI0qoXosnGwkWSg3adGupsBnCSOijXMYloMmkhSCohaOUamjwcpELSGcq1TAKbgwNKSTUEre7gbLZrACfJAsV6CuC3KjrASTJnqLWhSdBsYo4RUiXJ9BC0aQm49czTMzAUkuThYraRA+5WqnwE0kGSTAfJamsHeLPEPDx2XKfaSFLRQ7La3gG9XVAyejkYXVcRklWOZQKOZpYBhsZqtOiAoVCeJgDxaGboUGqy8ACN8j0kIN7ZqemH\/wNcSuVsWq7P\/rebCXPz9P8IkGrlXjSJyXPXRSYvzmiP1SmNzLw0Vvu1hzqEAUI41a7QxlZQOCCUBgAAkB8AnQEqSgBSAD6BNpVIpSKhoSeZLTCgEAlqAML11f8B0vGsPIfznm9\/I++eefPJ\/hPUftm\/MB+13qv\/6D1Rf4T1AP9B1GXoc\/tV6cnstfuxhHf8a7cf8x+JfX7JX4DZZVyj+s98dqBSZWTb9D9QD84\/7X08c4b5f\/jP\/L7hH8m\/qXoq+ub9tfYb\/Xg6cVLMF0psdmSESEuo4aee1zTkiBspU\/+7XqAJfVX1IT0IAGFoYpCFMRrIs41IuioKHPjG0ctIAdlpf8dmTnCZFdbNqi8Fcp0NTmk8Ew4TfeXRx8\/GKDkwz7r+pMvHld72JDfHkAxZtP6OvKtyFx9+858H8a0lHb6AAP7LAyXLPya\/4asYq9ZI\/qHDuXow4N0Kth71qsRpQaA7a60RXpd6v6Tz0g3cz33c3ToNWRHk4qd\/1FOU2Ni4OtiPIwYqE5OxuUXhXYM7mD2VSQsXCdUPJ\/YqoYN9RuI8vc7j2GdhbYtUjW8NB0TBYfWv9\/wAcm9TWclK3xzi5C5ISXSjn9yPCU36J7Pu\/zcaNYinJNquPVHI1vhLA5ngtjekJ50mvprp3KobTUWF8F+xOdLmEdl1I2mvbwLe553TvhGQnbqufrUTkyG75gyfpnbdX8G6P59WJP1KJ8RpMa0zy7YDqGguTrmyMuIeIHUXEtPhxL4BJWK2ZIQvY5PM\/8ds+McV3rZ\/yZ\/Nr9\/zadptX6UVPLow25Zx2UpBa3ZYi1U+jp094OCXisAba0b6YJRDzRVs3QZYw+JGaxzUGRtDirPTP4AkR4Euun\/T4B7rSVryqbvMnqN0NegAuis9I5Tl+7N87YOTIJ2e1lYCu4e9DxYa31kQCIpYJv3uKibSjpwicMJrOEOAsRia3qESoI\/4z2P6g8+mKV6jZn6YGgC\/QXjIY\/BAdVxQv7WD9AiZ+CUzh5u9qCZ1xs+WmC7jddV+RSrOWRM2tLDt\/KscNh95Hz8pO4MCwFEEHG3z8rvnbV6wAwieWSRO7hJMf4MFq2pJ6hm2hkdSgiYQQSGcUXtjXZKD80AKd38v+p0nqPpZ85kysKSWKSesHQWj9LIjhltBmSvzL2rDb3jZ7dLpmvaoJF8iwmNzX7bT7SvUqs8JKLVvsnInc0z9kAZN+Cf4XpCN7+k4KJO0wgEmlH23c+ZpcR7GsPA1C+gFJM03r3cZBATf3EPO0\/4VIG3v8L4L5N\/wWGp9nDIx6FAnvI9oyE5qujwttbKOTRff0HBeXy83cu7wyP1f6kVe9Xj6nB4EVQH3owWUbcMV9TFNUNzRwezun4OgWC0VjMpvdqXHZpQHfM6z+zZf3+pE53refl068FyG3sOfv\/9xzWH2Rurf5d4IPnDuqV5DN1674f\/DjfJuafxMedTg24ch3KR08NXkQz5QTC\/VZuX+W1uAH3hjOat23RQqPTpfcypwNIKGkvy065Y5GjATd2NWhLio\/nbRICz0ZkrBNyfjaK8qIep\/frAXo\/9BKfvKugbfYBJPf9P\/fX1S18QHp9LpXkrBsqC6dOMFUWFZ6WMUbgf7UBp0d9nAEgAUS6GZH2cE9pAPKcoA0r+OTSkIrhNp7ZHbhdBBPLLjYMskJiBC\/YkW8UZ8ugaGL1wey2+Sy\/BtXwhsDBs8OczuhFVgEUSbe73qyfW+OuZ\/f9BV8RQCAKxPPyl\/18K6sVAZxKHr363K+6+HpHp82v6bi693F3m19ieKkOHRD3w8pUwjoOAy0Ylt2rZUbfjVlBN4+PH0J2sa48jO8B79eA4BLf+aR1xzBRWKJ2IOqtvcWEIAbHMxuSKRt3wd3dVqgm70GuP701+Q9DHXiFssiPCBJPsxM4Kd08Q3ZQilGrqXlNgZ49sp9j9BJHVL\/a6iz3D3HqMrUGnfrydNGf0bUej1sNnOf+9HS8Hqki4K\/8llL3Y9PgjibGnus6mDfAptTSerwoPU5dWroODZsoGXTXta9\/d2pAz7BHVdZi0OPVr7oF2xlhVoRzFDnXEPe\/FYuog\/9qjxPTpMLwqIfiYFxrPk\/WlUY9XJ4CIH64dtDY1VLEgsU0wfPRsaHH6u5sUMyF3fiVLmqYHzPXkSfDdxQqhyisbHzRoqyrWpfOUxrZarKS408moK7wloqz\/ZCcBPkhV+GNvC3tGlLve1FkEGKhevaNlxJdXgFbxksMOVzNCqignvh2ud1FOfWxbhSaJY5fBBdUesch3z2O9LwHguK1ScCZEitSm3Dz\/+MH9tDb\/9MfHasv8YmLaIAAAAAA==\" class=\"\" title=\"\" alt=\"\" style=\" width:auto;              height:auto\">"
+            }
+          }
+        },
+        "block_order": [
+          "1607066023b5a74cc7-0",
+          "1607066023b5a74cc7-2",
+          "dbd540f7-56f6-4a53-82b7-c2a21a49c061"
+        ],
+        "settings": {
+          "animation": "fade-up",
+          "paddingsection": "180px 0px 180px 0px",
+          "marginsection": "0px 0px 0px 0px",
+          "bgsection": "#ffffff",
+          "layout": "style-3",
+          "title": "",
+          "des": "",
+          "setwidth": "container",
+          "arrows": false,
+          "draggable": true,
+          "dots": false,
+          "infinite": true
+        }
+      },
+      "161407619141f112c9": {
+        "type": "special-search",
+        "settings": {
+          "setwidth": "full",
+          "bg_image": "shopify:\/\/shop_images\/shutterstock_1496684738.jpg",
+          "text_color": "#ffffff",
+          "home_searchfilter_title": "SELECT YOUR VEHICLE",
+          "home_searchfilter_subtitle": "Customize, Modify, Upgrade, Repair, Replace",
+          "filter1_title": "Select Collection",
+          "filter2_title": "Select Make",
+          "filter2_tag": "audi,bmw,bugatti,ford,ferrari",
+          "filter3_title": "Select Year",
+          "filter3_tag": "2021,2020,2019,2018,2017,2016,2015,2014,2013,2012",
+          "filter4_title": "Select Price",
+          "filter4_tag": "Under $50,$50 - $100,$100 - $200,$200 - $400,Above $400",
+          "home_searchfilter_buttontext": "GO"
+        }
+      },
+      "slideshow-4": {
+        "type": "slideshow-4",
+        "settings": {}
+      },
+      "16154551447664a33d": {
+        "type": "service",
+        "blocks": {
+          "16154551447664a33d-0": {
+            "type": "service",
+            "settings": {
+              "title": "30-day free return",
+              "description": "",
+              "icon": "<svg aria-hidden=\"true\" focusable=\"false\" data-prefix=\"far\" data-icon=\"sync-alt\" role=\"img\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" viewbox=\"0 0 512 512\" class=\"svg-inline--fa fa-sync-alt fa-w-16 fa-3x\"><path fill=\"currentColor\" d=\"M483.515 28.485L431.35 80.65C386.475 35.767 324.485 8 256 8 123.228 8 14.824 112.338 8.31 243.493 7.971 250.311 13.475 256 20.301 256h28.045c6.353 0 11.613-4.952 11.973-11.294C66.161 141.649 151.453 60 256 60c54.163 0 103.157 21.923 138.614 57.386l-54.128 54.129c-7.56 7.56-2.206 20.485 8.485 20.485H492c6.627 0 12-5.373 12-12V36.971c0-10.691-12.926-16.045-20.485-8.486zM491.699 256h-28.045c-6.353 0-11.613 4.952-11.973 11.294C445.839 370.351 360.547 452 256 452c-54.163 0-103.157-21.923-138.614-57.386l54.128-54.129c7.56-7.56 2.206-20.485-8.485-20.485H20c-6.627 0-12 5.373-12 12v143.029c0 10.691 12.926 16.045 20.485 8.485L80.65 431.35C125.525 476.233 187.516 504 256 504c132.773 0 241.176-104.338 247.69-235.493.339-6.818-5.165-12.507-11.991-12.507z\" class=\"\"><\/path><\/svg>"
+            }
+          },
+          "16154551447664a33d-2": {
+            "type": "service",
+            "settings": {
+              "title": "Worldwide Shipping",
+              "description": "",
+              "icon": "<svg aria-hidden=\"true\" focusable=\"false\" data-prefix=\"fas\" data-icon=\"dolly\" role=\"img\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" viewbox=\"0 0 576 512\" class=\"svg-inline--fa fa-dolly fa-w-18 fa-3x\"><path fill=\"currentColor\" d=\"M294.2 277.7c18 5 34.7 13.4 49.5 24.7l161.5-53.8c8.4-2.8 12.9-11.9 10.1-20.2L454.9 47.2c-2.8-8.4-11.9-12.9-20.2-10.1l-61.1 20.4 33.1 99.4L346 177l-33.1-99.4-61.6 20.5c-8.4 2.8-12.9 11.9-10.1 20.2l53 159.4zm281 48.7L565 296c-2.8-8.4-11.9-12.9-20.2-10.1l-213.5 71.2c-17.2-22-43.6-36.4-73.5-37L158.4 21.9C154 8.8 141.8 0 128 0H16C7.2 0 0 7.2 0 16v32c0 8.8 7.2 16 16 16h88.9l92.2 276.7c-26.1 20.4-41.7 53.6-36 90.5 6.1 39.4 37.9 72.3 77.3 79.2 60.2 10.7 112.3-34.8 113.4-92.6l213.3-71.2c8.3-2.8 12.9-11.8 10.1-20.2zM256 464c-26.5 0-48-21.5-48-48s21.5-48 48-48 48 21.5 48 48-21.5 48-48 48z\" class=\"\"><\/path><\/svg>"
+            }
+          },
+          "16154551447664a33d-1": {
+            "type": "service",
+            "settings": {
+              "title": "Secure Payment",
+              "description": "",
+              "icon": "<svg aria-hidden=\"true\" focusable=\"false\" data-prefix=\"far\" data-icon=\"shield-alt\" role=\"img\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" viewbox=\"0 0 512 512\" class=\"svg-inline--fa fa-shield-alt fa-w-16 fa-3x\"><path fill=\"currentColor\" d=\"M256 409.6V100l-142.9 59.5c8.4 116.2 65.2 202.6 142.9 250.1zM466.5 83.7l-192-80a48.15 48.15 0 0 0-36.9 0l-192 80C27.7 91.1 16 108.6 16 128c0 198.5 114.5 335.7 221.5 380.3 11.8 4.9 25.1 4.9 36.9 0C360.1 472.6 496 349.3 496 128c0-19.4-11.7-36.9-29.5-44.3zM256 464C158.5 423.4 64 297.3 64 128l192-80 192 80c0 173.8-98.4 297-192 336z\" class=\"\"><\/path><\/svg>"
+            }
+          },
+          "65d28337-f07d-4105-b456-24741fd0463c": {
+            "type": "service",
+            "settings": {
+              "title": "Rewards Program",
+              "description": "",
+              "icon": "<svg aria-hidden=\"true\" focusable=\"false\" data-prefix=\"far\" data-icon=\"stars\" role=\"img\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" viewbox=\"0 0 512 512\" class=\"svg-inline--fa fa-stars fa-w-16 fa-3x\"><path fill=\"currentColor\" d=\"M259.68734,85.96808l49.6461,20.70054,20.70378,49.645a6.65746,6.65746,0,0,0,11.92616,0l20.70182-49.645,49.6461-20.70054a6.6661,6.6661,0,0,0,0-11.92542L362.6652,53.34017l-20.70182-49.643a6.65746,6.65746,0,0,0-11.92616,0l-20.70378,49.643-49.6461,20.70249a6.6661,6.6661,0,0,0,0,11.92542Zm249.3653,133.26937L469.3385,202.67936l-16.55912-39.71168a5.32691,5.32691,0,0,0-9.54132,0L426.677,202.67936,386.9648,219.23745a5.33414,5.33414,0,0,0,0,9.54072L426.677,245.33822l16.56107,39.70972a5.32534,5.32534,0,0,0,9.54132,0l16.55912-39.70972,39.71414-16.56005a5.33414,5.33414,0,0,0,0-9.54072ZM364.30783,267.30434,259.492,252.00793l-46.90773-95.20022a22.76642,22.76642,0,0,0-20.68816-12.79648,22.40194,22.40194,0,0,0-20.50065,12.79648l-46.90773,95.20022L19.67194,267.30434C.89009,270.00739-6.7039,293.2098,6.984,306.50627L82.89269,380.504,64.89212,485.09457C62.29829,500.00037,74.17366,512,87.48658,512a22.24712,22.24712,0,0,0,10.68784-2.703l93.81546-49.38912L285.80535,509.297a22.859,22.859,0,0,0,33.2823-24.20239L301.18084,380.504l75.90865-73.99774C390.68367,293.2098,383.08968,270.00739,364.30783,267.30434ZM249.4917,363.8014l13.68794,79.40382-71.18976-37.49885-71.31475,37.49885,13.71918-79.40382L76.58,307.50624l79.815-11.5934,35.59487-72.20092,35.59488,72.20092,79.815,11.5934Z\" class=\"\"><\/path><\/svg>"
+            }
+          },
+          "dbe6c0b8-32bc-4db7-8cee-cc40cbec9bed": {
+            "type": "service",
+            "settings": {
+              "title": "Quickly Suport",
+              "description": "",
+              "icon": "<svg aria-hidden=\"true\" focusable=\"false\" data-prefix=\"fal\" data-icon=\"user-headset\" role=\"img\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" viewbox=\"0 0 448 512\" class=\"svg-inline--fa fa-user-headset fa-w-14 fa-3x\"><path fill=\"currentColor\" d=\"M320 352h-4.7c-12.16 0-24 2.9-35.5 6.8a173.76 173.76 0 0 1-111.64 0c-11.48-3.9-23.29-6.78-35.42-6.78H128A128 128 0 0 0 0 480a32 32 0 0 0 32 32h384a32 32 0 0 0 32-32 128 128 0 0 0-128-128zM32 480a96.1 96.1 0 0 1 96-96h4.74c6.92 0 14.92 1.62 25.16 5.09a205.75 205.75 0 0 0 132.16 0c10.31-3.49 18.33-5.11 25.24-5.11h4.7a96.1 96.1 0 0 1 96 96zm16-256a16 16 0 0 0 16-16v-16c0-88.22 71.78-160 160-160s160 71.78 160 160v16a80.09 80.09 0 0 1-80 80h-32a32 32 0 0 0-32-32h-32a32 32 0 0 0 0 64h96a112.14 112.14 0 0 0 112-112v-16C416 86.12 329.88 0 224 0S32 86.12 32 192v16a16 16 0 0 0 16 16zM224 96a95.57 95.57 0 0 1 71.23 159.76c0 .09.13.15.18.24H304a47.89 47.89 0 0 0 40.55-22.58C349 220.36 352 206.58 352 192a128 128 0 0 0-256 0c0 40.42 19.1 76 48.35 99.47-.06-1.17-.35-2.28-.35-3.47a63.25 63.25 0 0 1 8.93-32A95.58 95.58 0 0 1 224 96z\" class=\"\"><\/path><\/svg>"
+            }
+          }
+        },
+        "block_order": [
+          "16154551447664a33d-0",
+          "16154551447664a33d-2",
+          "16154551447664a33d-1",
+          "65d28337-f07d-4105-b456-24741fd0463c",
+          "dbe6c0b8-32bc-4db7-8cee-cc40cbec9bed"
+        ],
+        "settings": {
+          "animation": "",
+          "paddingsection": "30px 0px 30px 0px",
+          "marginsection": "0px 0px 0px 0px",
+          "bgsection": "#f8f8f8",
+          "layout": "style-3",
+          "title": "",
+          "des": "",
+          "setwidth": "container",
+          "arrows": false,
+          "draggable": true,
+          "dots": false,
+          "infinite": true
+        }
+      },
+      "special-search": {
+        "type": "special-search",
+        "settings": {
+          "setwidth": "container",
+          "bg_image": "shopify:\/\/shop_images\/bg-testimonial-min.jpg",
+          "text_color": "#ffffff",
+          "home_searchfilter_title": "SELECT YOUR VEHICLE",
+          "home_searchfilter_subtitle": "Over 100,000 Auto and Truck Parts",
+          "filter1_title": "Select Collection",
+          "filter2_title": "Select Make",
+          "filter2_tag": "audi,bmw,bugatti,ford,ferrari",
+          "filter3_title": "Select Year",
+          "filter3_tag": "2021,2020,2019,2018,2017,2016,2015,2014,2013,2012",
+          "filter4_title": "Select Price",
+          "filter4_tag": "Under $50,$50 - $100,$100 - $200,$200 - $400,Above $400",
+          "home_searchfilter_buttontext": "GO"
+        }
+      }
+    },
+    "content_for_index": [
+      "161407619141f112c9",
+      "1607066023b5a74cc7",
+      "16154551447664a33d"
+    ]
+  },
+  "presets": {
+    "Classic": {
+      "header": "header-4",
+      "slideshow": "slideshow-1",
+      "footer": "footer-1",
+      "popupnewsletter": "newsletter-1",
+      "productpage": "product-1",
+      "collectionpage": "collection-1",
+      "blogpage": "blog-1",
+      "articlepage": "article-1",
+      "productgrid": "product-1",
+      "bloggrid": "blog-1",
+      "enable_rtl": false,
+      "container": 1200,
+      "gutter": 30,
+      "logo": "shopify:\/\/shop_images\/d30bb62a-f8d4-404d-ab26-b506a3519ec0_200x200_78b588c5-8150-4e3f-9dd1-59abf351502c.png",
+      "logo_max_width": 140,
+      "favicon": "shopify:\/\/shop_images\/shopify-128.png",
+      "safe_checkout_pcart": "shopify:\/\/shop_images\/safe-checkout.png",
+      "safe_checkout_detail": "shopify:\/\/shop_images\/safe-checkout.png",
+      "safe_checkout_cart": "",
+      "color_primary": "#c3935b",
+      "color_secondary": "#c3935b",
+      "color_cta": "#c3935b",
+      "color_body_bg": "#ffffff",
+      "color_content_bg": "#ffffff",
+      "color_body_headings": "#030303",
+      "color_body_text": "#666666",
+      "color_button_bg": "#c3935b",
+      "color_button_text": "#ffffff",
+      "type_accent_family": "rubik_n4",
+      "type_base_family": "rubik_n4",
+      "type_third_family": "karla_n4",
+      "type_base_size": "14px",
+      "main_linklist": "main-menu",
+      "menu_label_text": "#fff",
+      "menu_label_new": "#01bad4",
+      "menu_label_hot": "#ff414c",
+      "menu_label_sale": "#fe9931",
+      "menu_label_other": "#848484",
+      "apmenuitem_title_1": "layouts",
+      "apmenuitem_width_1": 0,
+      "apmenuitem_eblocklinks_1": true,
+      "apmenuitem_columns_blocklinks_1": "9",
+      "apmenuitem_columns_1": "3",
+      "apmenuitem_evideo_1": false,
+      "apmenuitem_columns_blockvideo_1": "9",
+      "apmenuitem_cvideo_1": "https:\/\/cdn.shopify.com\/s\/files\/1\/0092\/7563\/7839\/files\/Demovideo.mp4?39697",
+      "apmenuitem_video_height_1": 300,
+      "apmenuitem_video_loop_1": false,
+      "apmenuitem_video_mute_1": false,
+      "apmenuitem_eproduct_1": true,
+      "apmenuitem_columns_blockproducts_1": "3",
+      "apmenuitem_tproduct_1": "Collection",
+      "apmenuitem_cproduct_1": "new-arrivals",
+      "apmenuitem_ehtml_1": false,
+      "apmenuitem_columns_blockhtml_1": "9",
+      "apmenuitem_thtml_1": "Custom HTML",
+      "apmenuitem_eihtml_1": false,
+      "apmenuitem_ihtml_1": "",
+      "apmenuitem_chtml_1": "",
+      "apmenuitem_title_2": "home",
+      "apmenuitem_width_2": 0,
+      "apmenuitem_eblocklinks_2": true,
+      "apmenuitem_columns_blocklinks_2": "4",
+      "apmenuitem_columns_2": "12",
+      "apmenuitem_evideo_2": true,
+      "apmenuitem_columns_blockvideo_2": "8",
+      "apmenuitem_cvideo_2": "https:\/\/cdn.shopify.com\/s\/files\/1\/0092\/7563\/7839\/files\/Videomenu.mp4?39752",
+      "apmenuitem_video_height_2": 300,
+      "apmenuitem_video_loop_2": true,
+      "apmenuitem_video_mute_2": false,
+      "apmenuitem_eproduct_2": false,
+      "apmenuitem_columns_blockproducts_2": "6",
+      "apmenuitem_tproduct_2": "Trending",
+      "apmenuitem_cproduct_2": "shoes",
+      "apmenuitem_ehtml_2": false,
+      "apmenuitem_columns_blockhtml_2": "6",
+      "apmenuitem_thtml_2": "Megamenu",
+      "apmenuitem_eihtml_2": false,
+      "apmenuitem_ihtml_2": "",
+      "apmenuitem_chtml_2": "",
+      "apmenuitem_title_3": "",
+      "apmenuitem_width_3": 0,
+      "apmenuitem_eblocklinks_3": false,
+      "apmenuitem_columns_blocklinks_3": "1",
+      "apmenuitem_columns_3": "1",
+      "apmenuitem_evideo_3": false,
+      "apmenuitem_columns_blockvideo_3": "1",
+      "apmenuitem_cvideo_3": "",
+      "apmenuitem_video_height_3": 300,
+      "apmenuitem_video_loop_3": false,
+      "apmenuitem_video_mute_3": false,
+      "apmenuitem_eproduct_3": false,
+      "apmenuitem_columns_blockproducts_3": "1",
+      "apmenuitem_tproduct_3": "",
+      "apmenuitem_cproduct_3": "",
+      "apmenuitem_ehtml_3": false,
+      "apmenuitem_columns_blockhtml_3": "1",
+      "apmenuitem_thtml_3": "",
+      "apmenuitem_eihtml_3": false,
+      "apmenuitem_ihtml_3": "",
+      "apmenuitem_chtml_3": "",
+      "apmenuitem_title_4": "",
+      "apmenuitem_width_4": 0,
+      "apmenuitem_eblocklinks_4": false,
+      "apmenuitem_columns_blocklinks_4": "1",
+      "apmenuitem_columns_4": "1",
+      "apmenuitem_evideo_4": false,
+      "apmenuitem_columns_blockvideo_4": "1",
+      "apmenuitem_cvideo_4": "",
+      "apmenuitem_video_height_4": 300,
+      "apmenuitem_video_loop_4": false,
+      "apmenuitem_video_mute_4": false,
+      "apmenuitem_eproduct_4": false,
+      "apmenuitem_columns_blockproducts_4": "1",
+      "apmenuitem_tproduct_4": "",
+      "apmenuitem_cproduct_4": "",
+      "apmenuitem_ehtml_4": false,
+      "apmenuitem_columns_blockhtml_4": "1",
+      "apmenuitem_thtml_4": "",
+      "apmenuitem_eihtml_4": false,
+      "apmenuitem_ihtml_4": "",
+      "apmenuitem_chtml_4": "",
+      "apmenuitem_title_5": "",
+      "apmenuitem_width_5": 0,
+      "apmenuitem_eblocklinks_5": false,
+      "apmenuitem_columns_blocklinks_5": "1",
+      "apmenuitem_columns_5": "1",
+      "apmenuitem_evideo_5": false,
+      "apmenuitem_columns_blockvideo_5": "1",
+      "apmenuitem_cvideo_5": "",
+      "apmenuitem_video_height_5": 300,
+      "apmenuitem_video_loop_5": false,
+      "apmenuitem_video_mute_5": false,
+      "apmenuitem_eproduct_5": false,
+      "apmenuitem_columns_blockproducts_5": "1",
+      "apmenuitem_tproduct_5": "",
+      "apmenuitem_cproduct_5": "",
+      "apmenuitem_ehtml_5": false,
+      "apmenuitem_columns_blockhtml_5": "1",
+      "apmenuitem_thtml_5": "",
+      "apmenuitem_eihtml_5": false,
+      "apmenuitem_ihtml_5": "",
+      "apmenuitem_chtml_5": "",
+      "share_image": "",
+      "social_facebook_link": "https:\/\/www.facebook.com\/shopify",
+      "social_twitter_link": "https:\/\/twitter.com\/shopify",
+      "social_pinterest_link": "https:\/\/www.pinterest.com\/shopify",
+      "social_instagram_link": "https:\/\/instagram.com\/shopify",
+      "social_tumblr_link": "http:\/\/shopify.tumblr.com",
+      "social_snapchat_link": "https:\/\/www.snapchat.com\/add\/shopify",
+      "social_youtube_link": "https:\/\/www.youtube.com\/user\/shopify",
+      "social_vimeo_link": "",
+      "share_facebook": true,
+      "share_twitter": true,
+      "share_pinterest": true,
+      "categories_block_enable": true,
+      "categories_block_productcount": true,
+      "categories_block_title": "Collections",
+      "categories_block_number": "10",
+      "categories_block_items": "",
+      "shop_by_vendor_enable": true,
+      "shop_by_vendor_title": "Vendors",
+      "shop_by_vendor_number": "10",
+      "shop_by_vendor_custom_list": "",
+      "shop_by_type_enable": true,
+      "shop_by_type_title": "Types",
+      "shop_by_type_number": "10",
+      "shop_by_type_custom_list": "",
+      "price_range_enable": true,
+      "price_range_title": "Price range",
+      "shop_by_catalog_enable": true,
+      "shop_by_catalog_title": "",
+      "filter_title_1": "Size",
+      "filter_list_1": "tiny,small,medium,large,big",
+      "filter_title_2": "Material",
+      "filter_list_2": "pimas,supima,polyester,linen,organic cotton",
+      "filter_title_3": "Other",
+      "filter_list_3": "gift,hot,deal",
+      "shop_by_color_enable": true,
+      "shop_by_color_title": "Color",
+      "shop_by_color_text_1": "white",
+      "shop_by_color_text_2": "silver",
+      "shop_by_color_text_3": "gray",
+      "shop_by_color_text_4": "black",
+      "shop_by_color_text_5": "red",
+      "shop_by_color_text_6": "yellow",
+      "shop_by_color_text_7": "green",
+      "shop_by_color_text_8": "blue",
+      "shop_by_color_text_9": "",
+      "shop_by_color_text_10": "",
+      "shop_by_color_text_11": "",
+      "shop_by_color_text_12": "",
+      "shop_by_color_text_13": "",
+      "shop_by_color_text_14": "",
+      "shop_by_color_text_15": "",
+      "shop_by_color_text_16": "",
+      "shop_by_color_text_17": "",
+      "shop_by_color_text_18": "",
+      "shop_by_color_text_19": "",
+      "shop_by_color_text_20": "",
+      "crosssell_title": "USUALLY BOUGHT WITH",
+      "upsell_accept": "Yes, let me select variants",
+      "upsell_decline": "No, thanks",
+      "upsell_time": 2.5,
+      "free_shipping_enable": true,
+      "free_shipping_value": 200,
+      "enable_compare": true,
+      "enable_wishlsit": true,
+      "page_wishlist": "wishlist",
+      "enable_countdown_page": true,
+      "enable_countdown_card": true,
+      "show_multiple_currencies": true,
+      "supported_currencies_1": "EUR",
+      "supported_currencies_2": "AUD",
+      "supported_currencies_3": "GBP",
+      "supported_currencies_4": "JPY",
+      "supported_currencies_5": "CAD",
+      "supported_currencies_6": "",
+      "supported_currencies_7": "",
+      "supported_currencies_8": "",
+      "supported_currencies_9": "",
+      "supported_currencies_10": "",
+      "checkout_header_image": "",
+      "checkout_logo_image": "",
+      "checkout_logo_position": "left",
+      "checkout_logo_size": "medium",
+      "checkout_body_background_image": "",
+      "checkout_body_background_color": "#ffffff",
+      "checkout_input_background_color_mode": "white",
+      "checkout_sidebar_background_image": "",
+      "checkout_sidebar_background_color": "#fafafa",
+      "checkout_heading_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+      "checkout_body_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+      "checkout_accent_color": "#006eff",
+      "checkout_button_color": "#006eff",
+      "checkout_error_color": "#e32c2b",
+      "apmenuitem_nproduct_1": 6,
+      "apmenuitem_nproduct_2": 1,
+      "apmenuitem_nproduct_3": 2,
+      "apmenuitem_nproduct_4": 2,
+      "apmenuitem_nproduct_5": 2,
+      "crosssell_accept": "Yes, let me select variant",
+      "categories_block_style": "show_all",
+      "shop_by_vendor_custom_enable": false,
+      "shop_by_type_custom_enable": false,
+      "safe_checkout_pcart1": "shopify:\/\/shop_images\/safe-checkout.png",
+      "safe_checkout_detail1": "shopify:\/\/shop_images\/safe-checkout.png",
+      "safe_checkout_cart1": "shopify:\/\/shop_images\/safe-checkout.png",
+      "collection_perpage": 24,
+      "collection_perrow": "3",
+      "sidebar_collection_enable": true,
+      "sidebar_collection_poisition": "left",
+      "pnewletter_enable": false,
+      "pnewletter_time": 900,
+      "pnewletter_bgenable": true,
+      "pnewletter_background": "#bbbbbb",
+      "pnewletter_bgimage": "shopify:\/\/shop_images\/slideshow_image_1.jpg",
+      "pnewletter_title": "Popup Newsletter",
+      "pnewletter_title_cl": "#ffffff",
+      "pnewletter_description": "<p>We promise we won't write to you often, only for the fun stuff.<\/p>\n<ul>\n<li>Exclusive offers<\/li>\n<li>Sales<\/li>\n<\/ul>",
+      "pnewletter_description_cl": "#ffffff",
+      "color_header_bg": "#282828",
+      "color_header_links": "#ffffff",
+      "color_footer_bg": "#282828",
+      "color_footer_text": "#ffffff",
+      "color_cart": "#e09938",
+      "filter_enable_1": "true",
+      "filter_enable_2": "true",
+      "filter_enable_3": "true",
+      "upsell_title": "",
+      "enable_countdown": true,
+      "shop_by_size_enable": true,
+      "shop_by_size_title": "Size",
+      "shop_by_size_list": "L,M,N,S,XS",
+      "shop_by_price_enable": true,
+      "shop_by_price_title": "Price",
+      "shop_by_price_list": "$50 - $100,$100 - $200,$200 - $400,Above $400",
+      "sidebar_style_moblie": "accordion_sidebar",
+      "categories_block_class": "",
+      "shop_by_vendor_class": "",
+      "shop_by_type_class": "",
+      "use_multiple_filter": true,
+      "shop_by_catalog_class": "",
+      "sidebar_products_enable": false,
+      "sidebar_products_title": "",
+      "sidebar_products_class": "",
+      "sidebar_products_collection": "",
+      "sidebar_products_number": "1",
+      "sidebar_products_more_title": "",
+      "sidebar_products_recently_enable": false,
+      "sidebar_products_recently_title": "",
+      "sidebar_products_recently_class": "",
+      "sidebar_products_recently_number": "1",
+      "sidebar_banner_enable": false,
+      "sidebar_banner_link": "#",
+      "apmenuitem_fullwidth_1": false,
+      "apmenuitem_fullwidth_2": false,
+      "apmenuitem_fullwidth_3": false,
+      "apmenuitem_fullwidth_4": false,
+      "apmenuitem_fullwidth_5": false,
+      "theme_rtl_enable": false,
+      "type_nav_size": "14px",
+      "product_images_padding": true,
+      "color_hero_text": "#fff",
+      "color_hero_bg": "#006eff",
+      "type_accent_spacing": true,
+      "type_accent_transform": true,
+      "type_nav_spacing": true,
+      "type_nav_transform": true,
+      "product_vendor_enable": false,
+      "checkout_banner_background_color": "#fff",
+      "checkout_call_to_action_color": "#006eff",
+      "checkout_use_header_image": false,
+      "color_newsletter_input": "#1a1a1a",
+      "sections": {
+        "product-suggest": {
+          "type": "product-suggest",
+          "blocks": {
+            "1560580908623": {
+              "type": "product",
+              "settings": {
+                "product": "aloha-t-shirt",
+                "local": "in Blumenau, Brazil",
+                "time": "About 50 minutes ago"
+              }
+            },
+            "1560581969631": {
+              "type": "product",
+              "settings": {
+                "product": "bennih-cropped-striped",
+                "local": "in Bauru, Brazil",
+                "time": "about 35 minutes ago"
+              }
+            },
+            "1560582020821": {
+              "type": "product",
+              "settings": {
+                "product": "aenean-consequat-sagittis",
+                "local": "in Blackburn, UK",
+                "time": "about 21 minutes ago"
+              }
+            },
+            "1560585073156": {
+              "type": "product",
+              "settings": {
+                "product": "drihanna-sneaker",
+                "local": "in California, US",
+                "time": "about 5 hours ago"
+              }
+            },
+            "1560585151739": {
+              "type": "product",
+              "settings": {
+                "product": "gevlochten",
+                "local": "in Ho Chi Minh, VN",
+                "time": "about 2 hours ago"
+              }
+            }
+          },
+          "block_order": [
+            "1560580908623",
+            "1560581969631",
+            "1560582020821",
+            "1560585073156",
+            "1560585151739"
+          ],
+          "settings": {
+            "enable": true,
+            "duration": 10,
+            "text": "Someone recently bought"
+          }
+        },
+        "recently-viewed": {
+          "type": "recently-viewed",
+          "settings": {
+            "enable": true,
+            "title": "Recently viewed",
+            "limit": 4
+          }
+        },
+        "list-collections-template": {
+          "type": "list-collections-template",
+          "blocks": {
+            "1561109015407": {
+              "type": "collection",
+              "settings": {
+                "collection": "new-arrivals"
+              }
+            },
+            "1561109039640": {
+              "type": "collection",
+              "settings": {
+                "collection": "frontpage"
+              }
+            }
+          },
+          "block_order": [
+            "1561109015407",
+            "1561109039640"
+          ],
+          "settings": {
+            "display_type": "selected",
+            "layout": "list",
+            "sort": "alphabetical"
+          }
+        },
+        "featured-products-subsection": {
+          "type": "featured-products-subsection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "header-1": {
+          "type": "header-1",
+          "settings": {
+            "enable_transparent": true,
+            "enable_sticky": true,
+            "background": "#ffffff",
+            "textcolor": "#111111",
+            "linkcolor": "#111111",
+            "linkhover": "#eb8f73",
+            "menutext": "#111111",
+            "menutexthover": "#eb8f73",
+            "menudroptext": "#111111",
+            "menudropbg": "#fcf8ec"
+          }
+        },
+        "footer-1": {
+          "type": "footer-1",
+          "settings": {}
+        },
+        "product-template-1": {
+          "type": "product-template-1",
+          "settings": {
+            "stock_enable": true,
+            "enable_payment_button": true,
+            "social_sharing_products": true,
+            "next_prev_enable": true,
+            "product_vendor_enable": true,
+            "product_type_enable": true,
+            "variant_sku_enable": true,
+            "variant_available_enable": true,
+            "product_selector": "radio",
+            "sizeguide_enable": true,
+            "sizeguide_title": "Size guide",
+            "sizeguide_page": "size-guide",
+            "fake_view_enable": true,
+            "fake_view_min": 12,
+            "fake_view_max": 30,
+            "fake_view_duration": 3,
+            "fake_view_text_prefix": "Currently there are",
+            "fake_view_text_suffix": "peoples are currently looking at this product",
+            "gtab_des": "Description",
+            "gtab_review_enable": true,
+            "gtab_review": "Review",
+            "stab_title1": "Specific tab 1",
+            "stab_title2": "Specific tab 2",
+            "stab_title3": "Specific tab 3",
+            "stab_title4": "Specific tab 4"
+          }
+        },
+        "slideshow-1": {
+          "type": "slideshow-1",
+          "blocks": {
+            "1561259906467": {
+              "type": "image",
+              "settings": {
+                "image": "shopify:\/\/shop_images\/01_10_slider2-min.jpg",
+                "alignment": "center center",
+                "text_alignment": "center center",
+                "slide_title": "May Weekend Sale",
+                "slide_title_color": "#ffffff",
+                "subheading": "40 off everything",
+                "subheading_color": "#ffffff",
+                "button_label": "Shop now",
+                "button_link": "shopify:\/\/products\/libero-quis"
+              }
+            },
+            "1561259904381": {
+              "type": "image",
+              "settings": {
+                "image": "shopify:\/\/shop_images\/01_10_slider3-min.jpg",
+                "alignment": "center center",
+                "text_alignment": "center top",
+                "slide_title": "Good design is always in season",
+                "slide_title_color": "#ffffff",
+                "subheading": "With 29 years in experience, we are professional in Fashion Trends",
+                "subheading_color": "#ffffff",
+                "button_label": "View more",
+                "button_link": "shopify:\/\/collections\/new-arrivals"
+              }
+            }
+          },
+          "block_order": [
+            "1561259906467",
+            "1561259904381"
+          ],
+          "settings": {
+            "slideshow_height": "adapt",
+            "show_overlay": false,
+            "autorotate": false,
+            "autorotate_speed": 5
+          }
+        },
+        "pnewsletter-1": {
+          "type": "pnewsletter-1",
+          "settings": {
+            "pnewletter_enable": false,
+            "pnewletter_time": 500,
+            "pnewletter_background": "#848484",
+            "pnewletter_bgimage": "shopify:\/\/shop_images\/alaska2.jpg",
+            "pnewletter_title": "Follow us",
+            "pnewletter_title_cl": "#ffffff",
+            "pnewletter_description": "<p>We promise we won't write to you often, only for the fun stuff.<\/p>\n<ul>\n<li>Exclusive offers<\/li>\n<li>Sales<\/li>\n<\/ul>",
+            "pnewletter_description_cl": "#ffffff"
+          }
+        },
+        "header-2": {
+          "type": "header-2",
+          "settings": {
+            "enable_transparent": false,
+            "enable_sticky": true,
+            "background": "#ffffff",
+            "textcolor": "#111111",
+            "linkcolor": "#111111",
+            "linkhover": "#c3935b",
+            "menutext": "#111111",
+            "menutexthover": "#c3935b",
+            "menudroptext": "#222222",
+            "menudropbg": "#ffffff"
+          }
+        },
+        "collection-template-1": {
+          "type": "collection-template-1",
+          "settings": {
+            "collection_perpage": 24,
+            "collection_perrow": "3",
+            "sidebar_col": "col-md-2-4",
+            "enable_description": true
+          }
+        },
+        "s_team_member": {
+          "type": "s_team_member",
+          "blocks": {
+            "1561564468399": {
+              "type": "member",
+              "settings": {
+                "image": "shopify:\/\/shop_images\/1_1.jpg",
+                "name": "Danielle Kim",
+                "position": "Senior Producer",
+                "twitter": "https:\/\/twitter.com\/",
+                "google": "https:\/\/plus.google.com",
+                "facebook": "https:\/\/www.facebook.com\/",
+                "linkedin": "https:\/\/www.linkedin.com\/"
+              }
+            },
+            "1561564888625": {
+              "type": "member",
+              "settings": {
+                "image": "shopify:\/\/shop_images\/1_3.jpg",
+                "name": "Ian Watt",
+                "position": "Director of Motion & Visual Effects",
+                "twitter": "https:\/\/twitter.com\/",
+                "google": "https:\/\/plus.google.com",
+                "facebook": "https:\/\/www.facebook.com\/",
+                "linkedin": "https:\/\/www.linkedin.com\/"
+              }
+            },
+            "1561564968664": {
+              "type": "member",
+              "settings": {
+                "image": "shopify:\/\/shop_images\/1_13.jpg",
+                "name": "Alex Sturtevant",
+                "position": "Global Director of Brand",
+                "twitter": "https:\/\/twitter.com\/",
+                "google": "https:\/\/plus.google.com",
+                "facebook": "https:\/\/www.facebook.com\/",
+                "linkedin": ""
+              }
+            },
+            "1561565036423": {
+              "type": "member",
+              "settings": {
+                "image": "shopify:\/\/shop_images\/1_26.jpg",
+                "name": "Jon Lawton",
+                "position": "UX Designer",
+                "twitter": "https:\/\/twitter.com\/",
+                "google": "https:\/\/plus.google.com",
+                "facebook": "https:\/\/www.facebook.com\/",
+                "linkedin": ""
+              }
+            },
+            "1561565047238": {
+              "type": "member",
+              "settings": {
+                "image": "shopify:\/\/shop_images\/1_7.jpg",
+                "name": "Arpad Ray",
+                "position": "Executive Technical Director",
+                "twitter": "https:\/\/twitter.com\/",
+                "google": "https:\/\/plus.google.com",
+                "facebook": "https:\/\/www.facebook.com\/",
+                "linkedin": ""
+              }
+            },
+            "1561565058401": {
+              "type": "member",
+              "settings": {
+                "image": "shopify:\/\/shop_images\/2_6.jpg",
+                "name": "Erin Noel",
+                "position": "Director of Operations",
+                "twitter": "https:\/\/twitter.com\/",
+                "google": "https:\/\/plus.google.com",
+                "facebook": "https:\/\/www.facebook.com\/",
+                "linkedin": ""
+              }
+            },
+            "1561565071217": {
+              "type": "member",
+              "settings": {
+                "image": "shopify:\/\/shop_images\/2_7.jpg",
+                "name": "Katie Sharrow-Reabe",
+                "position": "Social Strategist",
+                "twitter": "https:\/\/twitter.com\/",
+                "google": "https:\/\/plus.google.com",
+                "facebook": "https:\/\/www.facebook.com\/",
+                "linkedin": ""
+              }
+            },
+            "1561565080408": {
+              "type": "member",
+              "settings": {
+                "image": "shopify:\/\/shop_images\/2_3.jpg",
+                "name": "Tim Blount",
+                "position": "Technical Director",
+                "twitter": "https:\/\/twitter.com\/",
+                "google": "https:\/\/plus.google.com",
+                "facebook": "https:\/\/www.facebook.com\/",
+                "linkedin": ""
+              }
+            },
+            "1561565091506": {
+              "type": "member",
+              "settings": {
+                "image": "shopify:\/\/shop_images\/1_19.jpg",
+                "name": "Mick Coelho",
+                "position": "Sr. Creative Developer",
+                "twitter": "https:\/\/twitter.com\/",
+                "google": "https:\/\/plus.google.com",
+                "facebook": "https:\/\/www.facebook.com\/",
+                "linkedin": ""
+              }
+            },
+            "1561565099186": {
+              "type": "member",
+              "settings": {
+                "image": "shopify:\/\/shop_images\/1_24.jpg",
+                "name": "Rhianon Taylor",
+                "position": "Senior Producer",
+                "twitter": "https:\/\/twitter.com\/",
+                "google": "https:\/\/plus.google.com",
+                "facebook": "https:\/\/www.facebook.com\/",
+                "linkedin": ""
+              }
+            },
+            "1561565109760": {
+              "type": "member",
+              "settings": {
+                "image": "shopify:\/\/shop_images\/2_2.jpg",
+                "name": "Lauren Saunders",
+                "position": "Senior Producer",
+                "twitter": "https:\/\/twitter.com\/",
+                "google": "https:\/\/plus.google.com",
+                "facebook": "https:\/\/www.facebook.com\/",
+                "linkedin": ""
+              }
+            },
+            "1561565136083": {
+              "type": "member",
+              "settings": {
+                "image": "shopify:\/\/shop_images\/1_21.jpg",
+                "name": "Simon Cheadle",
+                "position": "Executive Producer",
+                "twitter": "https:\/\/twitter.com\/",
+                "google": "https:\/\/plus.google.com",
+                "facebook": "https:\/\/www.facebook.com\/",
+                "linkedin": ""
+              }
+            }
+          },
+          "block_order": [
+            "1561564468399",
+            "1561564888625",
+            "1561564968664",
+            "1561565036423",
+            "1561565047238",
+            "1561565058401",
+            "1561565071217",
+            "1561565080408",
+            "1561565091506",
+            "1561565099186",
+            "1561565109760",
+            "1561565136083"
+          ],
+          "settings": {
+            "items": "4",
+            "layout": "4",
+            "main_color": "#c55b3b",
+            "bg_image": "",
+            "bg_color": "",
+            "bg_attachment": false,
+            "margin_top": 0,
+            "margin_bottom": 0,
+            "padding_top": 10,
+            "padding_bottom": 35,
+            "title": "Meet Our Team",
+            "title_cl": "#3d4246",
+            "title_style": "font-weight:bold;font-size:30px;text-align:center;",
+            "subtitle": "Our team brings a wealth of experience from some of the world’s most formidable production studios, agencies and startups.",
+            "subtitle_cl": "#3d4246",
+            "subtitle_style": "font-style:italic;font-size:18px;text-align:center;font-weight:100;"
+          }
+        },
+        "s_timeline": {
+          "type": "s_timeline",
+          "blocks": {
+            "1561567030482": {
+              "type": "time",
+              "settings": {
+                "image": "",
+                "bg": "#75ce66",
+                "title": "Start developing",
+                "description": "",
+                "time": "Mar 22, 2019",
+                "link": ""
+              }
+            },
+            "1561567005786": {
+              "type": "time",
+              "settings": {
+                "image": "shopify:\/\/shop_images\/favorite-512.png",
+                "bg": "#eb8f73",
+                "title": "Wishlist function",
+                "description": "Wishlist function smart and fast, with just one click",
+                "time": "Mar 26, 2019",
+                "link": "shopify:\/\/collections\/all"
+              }
+            },
+            "1561567706480": {
+              "type": "time",
+              "settings": {
+                "image": "shopify:\/\/shop_images\/compare_balance-512.png",
+                "bg": "#eb8f73",
+                "title": "Compare function",
+                "description": "",
+                "time": "Mar 27, 2019",
+                "link": ""
+              }
+            },
+            "1561568201725": {
+              "type": "time",
+              "settings": {
+                "image": "",
+                "bg": "#75ce66",
+                "title": "Shortcode",
+                "description": "Easily add content with the shortcodes built-in snippets in our theme",
+                "time": "Mar 28, 2019",
+                "link": "shopify:\/\/pages\/shortcode"
+              }
+            },
+            "1561568520359": {
+              "type": "time",
+              "settings": {
+                "image": "",
+                "bg": "#75ce66",
+                "title": "Boostraps 4.0",
+                "description": "Bootstrap 4 is the newest version of Bootstrap, which is the most popular HTML, CSS, and JavaScript framework for developing responsive, mobile-first websites",
+                "time": "Mar 28, 2019",
+                "link": ""
+              }
+            },
+            "1561568674547": {
+              "type": "time",
+              "settings": {
+                "image": "",
+                "bg": "#75ce66",
+                "title": "Deploy in Github",
+                "description": "GitHub is an American company that provides hosting for software development version control using Git",
+                "time": "Apr 9, 2019",
+                "link": ""
+              }
+            },
+            "1561568960976": {
+              "type": "time",
+              "settings": {
+                "image": "",
+                "bg": "#75ce66",
+                "title": "Newsletter, Countdown added",
+                "description": "Develop the basic functions of an e-commerce store",
+                "time": "Apr 16, 2019",
+                "link": ""
+              }
+            },
+            "1561569090623": {
+              "type": "time",
+              "settings": {
+                "image": "",
+                "bg": "#75ce66",
+                "title": "Product Related featured",
+                "description": "",
+                "time": "Apr 18, 2019",
+                "link": ""
+              }
+            },
+            "1561569238378": {
+              "type": "time",
+              "settings": {
+                "image": "",
+                "bg": "#75ce66",
+                "title": "Megamenu featured",
+                "description": "Megamenu with 4 blocks are built-in, with high customization ability",
+                "time": "May 2, 2019",
+                "link": ""
+              }
+            },
+            "1561569388874": {
+              "type": "time",
+              "settings": {
+                "image": "",
+                "bg": "#75ce66",
+                "title": "Filter function",
+                "description": "Powerful and fast Ajax Filter works with product cards, combined with the Price Range, helps customers easily select the desired products",
+                "time": "May 8, 2019",
+                "link": "shopify:\/\/collections\/all"
+              }
+            },
+            "1561569751412": {
+              "type": "time",
+              "settings": {
+                "image": "",
+                "bg": "#75ce66",
+                "title": "Cross-sell featured",
+                "description": "Show more suggestions when customers add products to the cart",
+                "time": "May 20, 2019",
+                "link": "shopify:\/\/products\/aloha-t-shirt"
+              }
+            },
+            "1561569915429": {
+              "type": "time",
+              "settings": {
+                "image": "",
+                "bg": "#75ce66",
+                "title": "Swatch variant images",
+                "description": "Display product images corresponding to each product variant",
+                "time": "May 22, 2019",
+                "link": "shopify:\/\/collections\/all"
+              }
+            },
+            "1561570018778": {
+              "type": "time",
+              "settings": {
+                "image": "",
+                "bg": "#75ce66",
+                "title": "Ajax Mini Cart",
+                "description": "Designed with a minimalist, user-friendly and the mobile first standard, full display of important information in the customer orders",
+                "time": "May 25, 2019",
+                "link": ""
+              }
+            },
+            "1561570184261": {
+              "type": "time",
+              "settings": {
+                "image": "",
+                "bg": "#75ce66",
+                "title": "Quickview function",
+                "description": "",
+                "time": "May 28, 2019",
+                "link": ""
+              }
+            },
+            "1561570228141": {
+              "type": "time",
+              "settings": {
+                "image": "",
+                "bg": "#75ce66",
+                "title": "Suggest product, display viewers",
+                "description": "Functions to create crowd effects, help your customers trust more when shopping",
+                "time": "Jun 15, 2019",
+                "link": ""
+              }
+            },
+            "1561570436107": {
+              "type": "time",
+              "settings": {
+                "image": "",
+                "bg": "#75ce66",
+                "title": "Recently viewed function",
+                "description": "A smart function, designed in the form of a popup, to help your customers find products that have been viewed wherever and whenever",
+                "time": "Jun 17, 2019",
+                "link": ""
+              }
+            },
+            "1561570602485": {
+              "type": "time",
+              "settings": {
+                "image": "",
+                "bg": "#75ce66",
+                "title": "Notify a soldout variant",
+                "description": "Notify and suggest customers leave email when the product version has sold out, helping to increase conversions, and collecting customer datas",
+                "time": "Jun 20, 2019",
+                "link": "shopify:\/\/products\/grifin-lace-up-cotton-blend"
+              }
+            },
+            "1561570850099": {
+              "type": "time",
+              "settings": {
+                "image": "",
+                "bg": "#75ce66",
+                "title": "Product video function",
+                "description": "You can easily upload *.mp4 files on the store, and add each product by the metafields",
+                "time": "Jun 22, 2019",
+                "link": "shopify:\/\/products\/jbags-round-neck"
+              }
+            },
+            "1561571026065": {
+              "type": "time",
+              "settings": {
+                "image": "",
+                "bg": "#75ce66",
+                "title": "BIG UPDATE: Restructuring files and folders",
+                "description": "Change the organization of files in the theme to support multi-layout (header, footer,..) and multi-template (product page, collection page,..). The number of layouts and templates are unlimited",
+                "time": "Jun 25, 2019",
+                "link": ""
+              }
+            },
+            "1561571402426": {
+              "type": "time",
+              "settings": {
+                "image": "",
+                "bg": "#75ce66",
+                "title": "To be continued...",
+                "description": "",
+                "time": "",
+                "link": ""
+              }
+            }
+          },
+          "block_order": [
+            "1561567030482",
+            "1561567005786",
+            "1561567706480",
+            "1561568201725",
+            "1561568520359",
+            "1561568674547",
+            "1561568960976",
+            "1561569090623",
+            "1561569238378",
+            "1561569388874",
+            "1561569751412",
+            "1561569915429",
+            "1561570018778",
+            "1561570184261",
+            "1561570228141",
+            "1561570436107",
+            "1561570602485",
+            "1561570850099",
+            "1561571026065",
+            "1561571402426"
+          ],
+          "settings": {
+            "border": "#bfced9",
+            "caption-bg": "#e0e0e0",
+            "title_color": "#222222",
+            "des_color": "#666666",
+            "btn-bg": "#767676",
+            "button-text": "View now",
+            "caption_font": "lato_n4",
+            "bg_image": "shopify:\/\/shop_images\/679358.jpg",
+            "bg_color": "#ffffff",
+            "bg_attachment": true,
+            "max_width": 1390,
+            "margin_top": 0,
+            "margin_bottom": 0,
+            "padding_top": 10,
+            "padding_bottom": 10,
+            "title": "Our journey",
+            "title_cl": "#ffffff",
+            "title_font": "lato_n4",
+            "title_style": "font-weight:bold;font-size:24px;text-align:center;",
+            "subtitle": "Follow us here",
+            "subtitle_cl": "#ffffff",
+            "subtitle_font": "lato_n4",
+            "subtitle_style": "font-style:italic;font-size:18px;text-align:center;font-weight:100;"
+          }
+        },
+        "1561993581158": {
+          "type": "featured-collections",
+          "blocks": {
+            "1561993581158-0": {
+              "type": "collection",
+              "settings": {
+                "collection": "new-arrivals"
+              }
+            },
+            "1561993581158-1": {
+              "type": "collection",
+              "settings": {
+                "collection": "shoes"
+              }
+            },
+            "1561993581158-2": {
+              "type": "collection",
+              "settings": {
+                "collection": "new-arrivals"
+              }
+            }
+          },
+          "block_order": [
+            "1561993581158-0",
+            "1561993581158-1",
+            "1561993581158-2"
+          ],
+          "settings": {}
+        },
+        "header-3": {
+          "type": "header-3",
+          "settings": {
+            "enable_transparent": false,
+            "enable_sticky": true,
+            "background": "#fff",
+            "textcolor": "#666",
+            "linkcolor": "#666",
+            "linkhover": "#c3935b",
+            "menutext": "#222222",
+            "menutexthover": "#c3935b",
+            "menudroptext": "#222222",
+            "menudropbg": "#ffffff"
+          }
+        },
+        "brand-list": {
+          "type": "brand-list",
+          "blocks": {
+            "1562225745504": {
+              "type": "logo",
+              "settings": {
+                "image": "shopify:\/\/shop_images\/somest-5_250x250_394a9e3a-aefc-4be2-b4dd-1f4abfbf831c.png"
+              }
+            },
+            "1562225679234": {
+              "type": "logo",
+              "settings": {
+                "image": "shopify:\/\/shop_images\/d30bb62a-f8d4-404d-ab26-b506a3519ec0_200x200_78b588c5-8150-4e3f-9dd1-59abf351502c.png"
+              }
+            },
+            "1562225756576": {
+              "type": "logo",
+              "settings": {
+                "image": "shopify:\/\/shop_images\/the-face-shop-2_250x250_5a96e2d8-61b4-470b-9d2b-5c9267ed4c60.png"
+              }
+            },
+            "1562225765606": {
+              "type": "logo",
+              "settings": {
+                "image": "shopify:\/\/shop_images\/tonymoly-3_250x250_3f34070f-d3e9-42bb-8105-f2a80df8a636.png"
+              }
+            }
+          },
+          "block_order": [
+            "1562225745504",
+            "1562225679234",
+            "1562225756576",
+            "1562225765606"
+          ],
+          "settings": {
+            "title": "Platinum partner"
+          }
+        },
+        "page-brands": {
+          "type": "page-brands",
+          "blocks": {
+            "1562225793110": {
+              "type": "character",
+              "settings": {
+                "linklist": "main-menu"
+              }
+            },
+            "1562225801379": {
+              "type": "character",
+              "settings": {
+                "linklist": "main-menu"
+              }
+            },
+            "1562225804072": {
+              "type": "character",
+              "settings": {
+                "linklist": "main-menu"
+              }
+            },
+            "1562225817854": {
+              "type": "character",
+              "settings": {
+                "linklist": "main-menu"
+              }
+            }
+          },
+          "block_order": [
+            "1562225793110",
+            "1562225801379",
+            "1562225804072",
+            "1562225817854"
+          ],
+          "settings": {
+            "heading": "All Brands",
+            "subheading": "<p>Promotions, new products and sales. Directly to your inbox.<\/p>"
+          }
+        },
+        "page-story": {
+          "type": "page-story",
+          "blocks": {
+            "1562226014393": {
+              "type": "story",
+              "settings": {
+                "avatar": "shopify:\/\/shop_images\/ava_2.png",
+                "name": "Grailasia",
+                "info": "From United Kingdom",
+                "story": "The theme is very good, the after-sales service is very fast, and patiently help you solve the problem."
+              }
+            },
+            "1562226059233": {
+              "type": "story",
+              "settings": {
+                "avatar": "shopify:\/\/shop_images\/ava_3.png",
+                "name": "Jessica",
+                "info": "From DefinitionShapewear",
+                "story": "The customer support after purchase have been great! We have been working together with the xtheme team and we are very satisfied with all the improvements achieved! And we are very happy with the results! Just check it out :) www.definitionshapewear.com Even thought, the xtheme team is 7 hours ahead of us, they have made the effort to catch up with us almost on a daily basis. A big thank you specially to Tuan!"
+              }
+            },
+            "1562226081931": {
+              "type": "story",
+              "settings": {
+                "avatar": "shopify:\/\/shop_images\/avatar_1.png",
+                "name": "Pickett",
+                "info": "Located in Canada",
+                "story": "Love this theme! The customer service is platinum level. I had many questions and needed help with multiple things since I am new to Shopify.\nThey always answered my questions very quickly and fixed many things for me that I could not figure out. They are awesome!"
+              }
+            }
+          },
+          "block_order": [
+            "1562226014393",
+            "1562226059233",
+            "1562226081931"
+          ],
+          "settings": {
+            "heading": "Our story",
+            "subheading": "<p>Promotions, new products and sales. Directly to your inbox.<\/p>",
+            "banner": "shopify:\/\/shop_images\/2_6.jpg",
+            "righttitle": "Tell us your story",
+            "righttext": "Give us a call, shoot us an email, or drop in for some wonderfully brewed coffee, or click the button below",
+            "button": "Share it now"
+          }
+        },
+        "header-4": {
+          "type": "header-4",
+          "settings": {
+            "enable_sticky": true,
+            "topbartext": "Free Shipping and Returns above $100!",
+            "topbarbg": "#292929",
+            "background": "#fff",
+            "textcolor": "#666",
+            "linkcolor": "#666",
+            "linkhover": "#ad2c34",
+            "menutext": "#222",
+            "menutexthover": "#ad2c34",
+            "menudroptext": "#fff",
+            "menudropbg": "#3c3c3d"
+          }
+        }
+      },
+      "content_for_index": [
+        "1561993581158"
+      ]
+    }
+  }
+}

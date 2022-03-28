@@ -1,0 +1,31 @@
+<style>
+  .section-title-2{font-size: 25px;font-weight:500;}
+</style>
+{%- if settings.sectionheading == 'heading-0' -%}
+  {%- if section.settings.title != blank -%}
+  <h3 class="section-title-0 text-center mb-5 font-family-2">
+    <span>{{section.settings.title}}</span>
+  </h3>
+  {%- endif -%}
+  {%- if section.settings.des != blank -%}
+  <p class="text-center mb-5 mt-n5">{{section.settings.des}}</p>
+  {%- endif -%}
+{%- elsif settings.sectionheading == 'heading-1' -%}
+  {%- if section.settings.title != blank -%}
+  <h3 class="section-title-1 text-center mb-5 font-family-2">
+    <span>{{section.settings.title}}</span>
+  </h3>
+  {%- endif -%}
+  {%- if section.settings.des != blank -%}
+  <p class="text-center mb-4 mt-n4">{{section.settings.des}}</p>
+  {%- endif -%}
+{%- elsif settings.sectionheading == 'heading-2' -%}
+  {%- if section.settings.title != blank -%}
+  <h3 class="section-title-2 mb-4 pb-3 border-bottom">
+    <span>{{section.settings.title}}</span>
+  </h3>
+  {%- endif -%}
+  {%- if section.settings.des != blank -%}
+  <p class="mb-5 mt-n5">{{section.settings.des}}</p>
+  {%- endif -%}
+{%- endif -%}

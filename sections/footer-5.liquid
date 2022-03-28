@@ -1,0 +1,71 @@
+<!-- footer-1.liquid -->
+
+  <style>
+    :root {--footer-bg:{{section.settings.background}}}
+   .site-footer__copyright{
+      border-top: 1px solid {{section.settings.border-copryright}};
+      background-color:var(--footer-bg);
+    }
+  </style>
+  
+  <footer class="site-footer" role="contentinfo">
+    <div class="site-footer__copyright" >
+      <div class="{% if section.settings.fullwidth %}container-fluid{% else %}container{% endif %}">
+        <div class="d-flex justify-content-between flex-column flex-md-row py-4">
+        <span>&copy; {{ 'now' | date: "%Y" }}, <b>{{ shop.name | link_to: '/' }}</b>.{% if section.settings.remove_powered %}{%else%} {{ powered_by_link }}{%endif%}</span>
+        {%- if section.settings.enablemethod -%}
+        <img class="lazyload mt-4 mt-md-0" src="{%- include 'srcBlank' -%}" data-src="{{section.settings.imgpaymethod | img_url : '400x'}}" />
+        {%- endif -%}
+        </div>
+      </div>
+    </div>
+  </footer>
+  {% schema %}
+  {
+    "name": "Footer 5",
+    "settings": [
+        {
+        "type": "checkbox",
+        "id": "fullwidth",
+        "label": "Full width",
+        "default": false
+        },
+		{
+        "type": "checkbox",
+        "id": "remove_powered",
+        "label": "Remove Powered Text",
+        "default": false
+        },
+        {
+          "type": "color",
+          "id": "background",
+          "label": "Background",
+          "default": "#282828"
+        },
+          {
+            "type": "color",
+            "id": "border-copryright",
+            "label": "Border Bottom Footer",
+            "default": "#f8f8f8"
+          },
+          
+          {
+            "type": "color",
+            "id": "text",
+            "label": "Text",
+            "default": "#fff"
+          },
+          {
+            "type": "checkbox",
+            "id": "enablemethod",
+            "label": "Enable Image Payment",
+            "default": true
+          },
+          {
+            "type": "image_picker",
+            "id": "imgpaymethod",
+            "label": "Image Payment"
+          }
+    ]
+  }
+  {% endschema %}

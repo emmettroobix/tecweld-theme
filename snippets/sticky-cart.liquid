@@ -1,0 +1,217 @@
+{%- if section.settings.enable -%}
+{%- assign current_variant = product.selected_or_first_available_variant -%}
+  <!-- sticky-cart.liquid -->
+  <style>
+    :root{
+      --sticky-cart-mix: {{section.settings.mix_1}};
+      --sticky-cart-mix2: {{section.settings.mix_2}};
+      --sticky-cart-text: {{section.settings.text_cl}};
+      --sticky-cart-bg: {{section.settings.cart_bg}};
+      --sticky-cart-cl: {{section.settings.cart_cl}};
+      }
+  </style>
+  <style>
+    .sticky-cart-wr{
+      box-shadow:0 0 20px 0 rgba(0,0,0,0.15);
+      position: fixed;
+      width: 100%;
+      padding:10px 0;
+      bottom: 0;
+      z-index: 100000;
+      background: var(--sticky-cart-mix);
+        left:0;
+        -webkit-transition: all ease .45s;
+        -o-transition: all ease .45s;
+        transition: all ease .45s;
+        -webkit-transform: translateY(100%);
+        -ms-transform: translateY(100%);
+        transform: translateY(100%);
+        }
+    .sticky-cart-wr.active{
+      -webkit-transform: translateY(0);
+      -ms-transform: translateY(0);
+      transform: translateY(0);
+    }
+    .sticky-cart-wr.disable{
+      -webkit-transform: translateY(100%) !important;
+      -ms-transform: translateY(100%) !important;
+      transform: translateY(100%) !important;
+    }
+    #js-sticky-btn{
+      background:var(--sticky-cart-bg);
+      color:var(--sticky-cart-cl);
+      padding:12px 30px;
+    }
+    #js-sticky-prd{
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+      position:relative;
+    }
+    #js-sticky-prd h3{
+      font-size: 20px;
+      max-width: 500px;
+      overflow: hidden;
+      -o-text-overflow: ellipsis;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      color:var(--sticky-cart-text);
+    }
+    #js-sticky-prd .product-card__price{margin-top:0;}
+    #js-sticky-price .money{
+      color:var(--sticky-cart-text);
+    }
+    #js-sticky-img{
+      height:70px;
+    }
+    .sticky-cart-select{
+      background: transparent;
+      border: 1px solid #333;
+    }
+    .sticky-cart-select select{
+      background: transparent;
+      font-weight:bold;
+      padding: 13px;
+      text-transform:uppercase;
+    }
+    #js-sticky-quantity{
+      max-width: 70px;
+      font-weight: bold;
+      text-align: center;
+      padding: 13px;
+    }
+
+    #js-sticky-close{
+      display: block;
+      width: 40px;
+      height: 40px;
+      border: none;
+      top: 0;
+      left: 10px;
+      line-height: 35px;
+      text-align: center;
+      position: absolute;
+      color:var(--sticky-cart-mix);;
+      border-radius: 5px;
+      opacity:0;
+      background: transparent;
+      border: 2px solid #888;
+      position: absolute;
+      right: 0;
+      left: auto;
+    }
+    #js-sticky-close .icon-close{margin:0 auto;color:#000;}
+    .active #js-sticky-close{opacity:1}
+    .active.disable #js-sticky-close{opacity:1;top:-49px;background:#fff;}
+    #js-sticky-close .icon-close+.icon-bag{display:none}
+    .disable #js-sticky-close .icon-close{display:none}
+    .disable #js-sticky-close .icon-close+.icon-bag{display:block;color:#000;margin:0 auto;}
+    @media(max-width:991px){
+      #js-sticky-close{
+      	right:auto;
+        left:0;
+      }
+      .sticky-cart-selectors{display:none !Important;}
+    }
+    @media(max-width:767px){
+      #js-sticky-prd h3{display:none !Important;}
+      #js-sticky-btn{padding:8px 12px;}
+      .sticky-cart-wr.active #js-sticky-close {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    top: -10px; }
+    .sticky-cart-wr.active #js-sticky-close .icon-close {
+      font-size: 12px;
+      display: flex;
+      align-items: center;
+      width: auto;
+      height: auto; }
+      .sticky-cart-wr.active.disable #js-sticky-close .icon-close{display:none;}
+  .sticky-cart-wr.active.disable #js-sticky-close {
+    top: -49px; }
+    .sticky-cart-wr.active.disable #js-sticky-close .icon-bag {
+      width: auto;
+      height: auto;
+      display: flex;
+      justify-content: center; }
+    }
+  </style>
+<div id="js-anchor-sticky-cart"></div>
+  <div class="sticky-cart-wr d-flex" >
+    <div id="js-sticky-prd" class="container align-self-center">
+      <img id="js-sticky-img" src="{{product.featured_image | img_url: '200x'}}" />
+      <div id="js-sticky-price" class="product-card__price">
+        <h3 class="font-family-2 px-4 m-0">{{product.title}} <span id="js-sticky-title">{%- unless product.has_only_default_variant -%}- {{current_variant.title}}{%- endunless -%}</span></h3>
+        <p class="font-family-2 px-4 m-0">{{ current_variant.price | money }}<p>
+      </div>
+      <div class="sticky-cart-selectors d-flex py-2 text-center">
+        {%- unless product.has_only_default_variant -%}
+        {%- for option in product.options_with_values -%}
+        {% unless option.name == 'default' %}
+        <div class="sticky-cart-select px-3 mx-2">
+          <label>{{ option.name }}</label>
+          <select data-name="{{ option.name }}"
+                  onchange="triggerOption(this)"
+                  id="js-sticky-option-{{ forloop.index }}"
+                  data-radio="ProductSelect-option-{{ forloop.index0 }}"
+                  data-selectbox="SingleOptionSelector-{{ forloop.index0 }}">
+            {% for value in option.values %}
+            <option value="{{ value | escape }}" {% if option.selected_value == value %} selected="selected"{% endif %}>{{ value }}</option>
+            {% endfor %}
+          </select>
+        </div>
+        {%- endunless -%}
+        {%- endfor -%}
+        {%- endunless -%}
+      </div>
+
+      <button id="js-sticky-btn" {% unless current_variant.available %}disabled="disabled"{% endunless %}
+              class="btn btn-theme my-2 ml-2" 
+              onclick="triggerCart(this)" 
+              data-buttonid="AddToCart-{{ section.id }}">
+        {%- unless current_variant.available -%}
+        {{ 'products.product.sold_out' | t }}
+        {%- else -%}
+        {{ 'products.product.add_to_cart' | t }}
+        {%- endunless -%}
+      </button>
+      <button id="js-sticky-close">
+        {%- include 'icon-close' -%}
+        {%- include 'icon-bag' -%}
+      </button>
+    </div>
+  </div>
+  <script>
+    triggerCart = function (e){
+      var elementButton = e.getAttribute('data-buttonid');
+      document.getElementById(elementButton).click();
+    }
+
+    triggerOption = function (e){
+      var index = e.selectedIndex;
+      var value = e.value;
+      var elementRadio = document.getElementById(e.getAttribute('data-radio'));
+      var elementSelect = document.getElementById(e.getAttribute('data-selectbox'));
+
+      //     Swatch variant
+      if (elementRadio !== null){
+        elementRadio.getElementsByTagName('input')[index].click();
+      }
+
+      //     dropdown variant
+      if (elementSelect !== null){
+        elementSelect.value  = value;
+        elementSelect.dispatchEvent(new Event('change'));
+      }
+    }
+  </script>
+{%- endif -%}

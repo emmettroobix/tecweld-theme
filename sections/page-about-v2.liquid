@@ -1,0 +1,95 @@
+
+  <!-- page-about-v2.liquid -->
+  <div class="container">
+    {%- if section.settings.title_page != blank -%}
+    <h1 class="h2 mb-3">{{ section.settings.title_page }}</h1>
+    {%- endif -%}
+    {%- if section.settings.contact_des != blank -%}
+    <div class="contact-page__des" >{{section.settings.contact_des}}</div>
+    {%- endif -%}
+    {%- if page.content != blank -%}
+    <div class="content-block">
+      <div class="rte">
+        {{ page.content }}
+      </div>
+    </div>
+    {%- endif -%}
+    <div class="contact-content">
+      
+      <div class="row">
+        <div class="col-md-5 pr-md-5">
+          {%- if section.settings.image1 != blank -%}
+            <img src="{%- include 'srcBlank' -%}" class="lazyload mb-3" data-src="{{section.settings.image1 | img_url : '1920x'}}" data-aos="fade-up" />
+          {%- endif -%}
+          {%- if section.settings.image2 != blank -%}
+            <img src="{%- include 'srcBlank' -%}" class="lazyload mb-3" data-src="{{section.settings.image2 | img_url : '1920x'}}" data-aos="fade-up"/>
+          {%- endif -%}
+          {%- if section.settings.image3 != blank -%}
+            <img src="{%- include 'srcBlank' -%}" class="lazyload" data-src="{{section.settings.image3 | img_url : '1920x'}}" data-aos="fade-up"/>
+          {%- endif -%}
+        </div>
+        <div class="col-md-7 pl-4">
+          {%- if section.blocks.size > 0 -%}
+            {%- for block in section.blocks -%}
+              {% if block.type == 'conttent' %}
+                <div data-aos="fade-up" class="about-v2">
+                  {%- if block.settings.title_right != blank -%}
+                    <h3 class="h2 mb-4">{{block.settings.title_right}}</h3>
+                  {%- endif -%}
+                  {%- if block.settings.contenthtml != blank -%}
+                    <div class="mb-5">
+                      {{block.settings.contenthtml}}
+                    </div> 
+                  {%- endif -%}
+                </div>
+              {%- endif -%}
+            {%- endfor -%}
+          {%- endif -%}
+          {%- if section.blocks.size == 0 -%} 
+            {%- include 'no-blocks' -%}
+          {%- endif -%}
+        </div>
+      </div>
+    </div>
+  </div>
+  {% schema %}
+    {
+      "name": "About us v2",
+      "settings": [
+      {
+        "type": "image_picker",
+        "id": "image1",
+        "label": "Image 1"
+      },
+      {
+        "type": "image_picker",
+        "id": "image2",
+        "label": "Image 2"
+      },
+      {
+        "type": "image_picker",
+        "id": "image3",
+        "label": "Image 3"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "conttent",
+        "name": "Conttent",
+        "settings": [
+          {
+            "type": "text",
+            "id": "title_right",
+            "label": "Title",
+            "default": "Who we are"
+          },
+          {
+            "type": "html",
+            "id": "contenthtml",
+            "label": "Content Html"
+          }
+        ]
+      }
+    ]
+    }
+  {% endschema %}
