@@ -9494,3 +9494,92 @@ html.has-scroll-dragging {
     }
 }
 #jsQuickview .qv-product-description{display:none;}
+
+#service-list-1607066023b5a74cc7 .media-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+
+#service-list-1607066023b5a74cc7 .media-body h6 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#service-list-1607066023b5a74cc7 {
+  .services-item {
+      &:nth-child(2) {
+        .media {
+          .media-body {
+            border-left: 1px solid rgba(112, 112, 112, 0.4);
+            border-right: 1px solid rgba(112, 112, 112, 0.4);
+
+          }
+        }
+      }
+
+    .media-body {
+      padding-left: 5rem;
+      padding-right: 5rem;
+      min-height: 21rem;
+
+      h6 {
+        margin-bottom: 1rem !important;
+        span {
+          img {
+            margin-bottom: 1rem;
+          }
+        }
+      }
+    }
+
+  }
+}
+
+.header-bottom {
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+}
+
+#topbar {
+  background: #004A84 !important;
+
+  .col {
+    color: #fff;
+  }
+}
+
+.testimonials {
+
+  position: relative;
+  padding-top: 3rem;
+  padding-bottom: 7rem;
+
+  &:before {
+    content: ' ';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background-image: url({{ 'tecweld-bg-testimonials.jpg' | asset_url }});
+    background-size: cover;
+    background-position: center center;
+    height: 100%;
+  }
+
+  .slick-dots {
+    button {
+      background: #fff;
+      border-color: #fff;
+    }
+  }
+
+  h4, p, h6 {
+    color: #fff;
+  }
+
+}

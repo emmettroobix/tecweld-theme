@@ -2,3 +2,5 @@ development:
   password: shptka_0fa6637eca710b907ebae2cd97bb6bae
   theme_id: "131657564388"
   store: techweld.myshopify.com
+  ignore_files:
+    - settings_data.json
