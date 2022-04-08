@@ -1,3 +1,9 @@
+@mixin mobile-down() {
+  @media (max-width: 450px) {
+
+  }
+}
+
 @media (max-width: 450px) {
 
   .tecweld-hero {
