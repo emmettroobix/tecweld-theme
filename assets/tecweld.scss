@@ -305,3 +305,13 @@
     background-size: cover !important;
   }
 }
+
+.site-header {
+  &__logo {
+    img {
+      @media (max-width: 450px) {
+        
+      }
+    }
+  }
+}
