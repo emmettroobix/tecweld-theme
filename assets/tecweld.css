@@ -299,3 +299,7 @@
     width: auto !important;
   }
 }
+
+.right-col-cta {
+  padding: 2rem;
+}
