@@ -1,0 +1,251 @@
+@media (max-width: 450px) {
+
+  .tecweld-hero {
+    .parallax-banner {
+      &__meta {
+        padding-left: 0;
+        padding-right: 0;
+        margin: 0;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+      }
+
+      &__wrapper {
+        background-size: cover;
+      }
+    }
+  }
+
+  .header-bottom {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .header-1-menu {
+    padding-top: 0;
+    padding-bottom: 0;
+    border: none;
+  }
+}
+
+.tmenu_item {
+  &_text {
+    text-transform: capitalize !important;
+  }
+}
+
+.header-1-menu {
+  padding-top: 0;
+  padding-bottom: 0;
+  border: none !important;
+}
+
+#search-filter {
+  padding: 80px 0 !important;
+}
+
+.breadcrumb {
+  border-radius: 0;
+}
+
+.collection-sidebar {
+  background: #221F20;
+  padding-left: 0;
+  padding-right: 0;
+
+  > div {
+    padding-top: 0 !important;
+  }
+
+  h5 {
+    text-transform: uppercase;
+    margin: 0;
+    font-size: 16px;
+    font-weight: 500;
+    background: #004A84;
+    color: #fff;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    min-height: 2rem;
+    display: flex;
+    align-items: center;
+
+    text-transform: uppercase;
+    margin: 0;
+    font-size: 16px;
+    font-weight: 500;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    display: flex;
+    align-items: center;
+  }
+
+  .categories_block {
+    padding-top: 0;
+  }
+
+  #ul_list_categories {
+    padding-left: 0;
+    padding-right: 0;
+    li {
+      a {
+        color: #fff;
+      }
+    }
+  }
+}
+
+.collection-sidebar {
+  min-width: 19rem;
+  h5 {
+    &:after {
+      top: 15px !important;
+    }
+  }
+
+  > div {
+    border-bottom: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  #ul_list_categories {
+    margin-top: 0 !important;
+  }
+
+  .catalog_filters {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    border-bottom: 0 !important;
+  }
+
+  .block-content {
+    ul {
+      margin-top: 0 !important;
+    }
+  }
+
+  .catalog_filters {
+    padding-top: 0;
+    padding-bottom: 0;
+    border-top: 0;
+    border-bottom: 0;
+  }
+
+  .catalog_filter_ul {
+    padding-left: 1rem!important;
+    margin-top: 0 !important;
+    padding-top: 1rem !important;
+    padding-bottom: 1rem;
+  }
+
+  li {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
+  a {
+    color: #ffffff;
+  }
+}
+
+.g-breadcrumb {
+  a {
+    color: #fff !important;
+    font-weight: 900;
+  }
+}
+
+.product-form__item--submit {
+  .product-form__cart-submit {
+    background: #FFEA00;
+    color: #000;
+    &:hover {
+      background: #012c3c;
+      color: #fff;
+    }
+  }
+}
+
+.product-card {
+  border: 1px solid #a8a8a82b !important;
+}
+
+
+.support_line {
+  .text {
+    color: #012c3c;
+    display: block;
+    line-height: 16px;
+    font-weight: 900;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-top: 6px;
+  }
+
+  svg {
+    margin-right: 9px;
+    margin-top: 10px;
+    float: left;
+    width: 29px;
+    height: 34px;
+  }
+}
+
+#search-filter {
+  .searchform {
+    &:before {
+      content: ' ';
+      border-top: 7px solid #012c3c !important;
+    }
+
+
+    select {
+      background: linear-gradient( 135deg , #222222 0%, #222222 50%, #f8e71c 51%, #ffea00 71%, #f8e71c 100%);
+
+    &:before {
+      content: ' ';
+      border-top: 7px solid #012c3c !important;
+    }
+    }
+  }
+
+
+
+}
+
+.product-single {
+  &__hero {
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    min-height: 22rem;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding-bottom: 2rem;
+    position: relative;
+    &:before {
+      content: ' ';
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      right: 0;
+      bottom: 0;
+      background: #012c3c8f;
+    }
+    h1 {
+      color: #fff;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 20px;
+      font-weight: 800;
+      z-index: 1;
+    }
+
+  }
+}
+

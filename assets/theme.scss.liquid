@@ -9508,6 +9508,10 @@ html.has-scroll-dragging {
   display: flex;
   flex-direction: column;
   align-items: center;
+  font-size: 21px !important;
+  font-weight: 900;
+  line-height: 38px;
+  font-family: 'Montserrat', sans-serif;
 }
 
 #service-list-1607066023b5a74cc7 {
@@ -9557,7 +9561,8 @@ html.has-scroll-dragging {
 }
 @media (min-width: 769px) {
   .site-header--full .header-bottom {
-    padding-bottom: 0.5rem !important;
+    padding-bottom: 0 !important;
+    padding-top: 0 !important;
   }
 }
 
@@ -9567,10 +9572,18 @@ html.has-scroll-dragging {
 .site-nav__item .site-nav__link {
   font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
-  font-weight: 700;
-  font-size: 1.2em;
+  font-weight: 600;
+  font-size: 1em;
   letter-spacing: 0px;
+  padding-top: 4rem;
+  padding-bottom: 1rem;
 }
+
+
+.header-1-menu .site-nav>li.site-nav__item .site-nav__link {
+  padding: 12px 15px !important;
+}
+
 .testimonials {
 
   position: relative;
@@ -9612,11 +9625,108 @@ html.has-scroll-dragging {
     color: #fff;
   }
 }
-
-
+.header-1-menu .site-nav>li.site-nav__item {
+  border-right: 1px solid #ffffff !important;
+}
+.header-1-menu .site-nav>li.site-nav__item .site-nav__link {
+  padding: 16px 14px;
+  font-weight: 700 !important;
+}
 .left-img {
   height: 100%;
   min-height: 20rem;
   background-size: cover;
   background-position: center center;
+}
+
+.parallax-banner__wraper--16485372088fba1b04 .parallax-banner__sub {
+  color: #ffffff;
+  font-size: 29px !important;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  text-transform: uppercase;
+  width: 24rem;
+  text-align: center;
+}
+.header-1-menu .site-nav {
+  text-align: left;
+}
+.parallax-banner__wraper--16485372088fba1b04 .parallax-banner__btn {
+  display: flex;
+  justify-content: center;
+
+  a.btn {
+    padding: 0 0 3px;
+    background: transparent;
+    color: #000000;
+    font-weight: 500;
+    text-transform: none;
+    font-size: 19px;
+    border: 2px solid #ffe800;
+    padding: 0.5rem;
+    width: 9rem;
+    background: #ffe800;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    margin-top: 1rem;
+  }
+}
+
+.parallax-banner__wraper--16485372088fba1b04 .parallax-banner__title {
+  display: none;
+}
+
+.header-1-menu {
+  background-color: #FFEA00 !important;
+  border: 1px solid #ffffff;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
+.site-nav {
+    &.__link {
+        padding: 13px 15px !important;
+    }
+}
+
+.header {
+  .header-bottom {
+    .d-lg-block.col-md-8 {
+      display: flex;
+      align-items: center;
+      padding-top: 1rem;
+    }
+  }
+}
+
+.admin-bar {
+  display: none !important;
+}
+
+.support_line {
+  svg {
+   color: #012c3c !important;
+  }
+}
+
+.breadcrumb {
+  color: #ffffff !important;
+  background: #012c3c !important;
+}
+
+#search-filter .searchform:before {
+  border-top: 7px solid #012c3c;
+}
+
+
+.tecweld-hero {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+.parallax-banner {
+  .parallax-banner__meta {
+    padding-left: 0;
+    padding-right: 0;
+  }
 }
