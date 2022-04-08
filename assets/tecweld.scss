@@ -290,3 +290,10 @@
   color: #000;
   padding-top: 0.3rem;
 }
+
+.js-sidebar.active {
+  @media (max-width: 450px) {
+    width: auto;
+    padding: 0;
+  }
+}
