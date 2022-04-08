@@ -300,6 +300,8 @@
   }
 }
 
-.right-col-cta {
-  padding: 2rem;
+@media (max-width: 450px) {
+  .right-col-cta {
+    padding: 2rem;
+  }
 }

@@ -321,5 +321,7 @@
 }
 
 .right-col-cta {
-  padding: 2rem;
+  @include mobile-down() {
+    padding: 2rem;
+  }
 }
