@@ -171,14 +171,14 @@
 
 #search-filter .searchform:before {
   content: " ";
-  border-top: 7px solid #012c3c !important;
 }
 #search-filter .searchform select {
-  background: linear-gradient(135deg, #222222 0%, #222222 50%, #f8e71c 51%, #ffea00 71%, #f8e71c 100%);
+  background: linear-gradient(135deg, #222222 0%, #222222 50%, #002c3c 51%, #002c3c 71%, #002c3c 100%);
+  border-bottom: 1px solid #002c3c;
 }
 #search-filter .searchform select:before {
   content: " ";
-  border-top: 7px solid #012c3c !important;
+  border-top: 7px solid #fff !important;
 }
 
 .product-single__hero {
@@ -216,4 +216,59 @@
   font-size: 20px;
   font-weight: 800;
   z-index: 1;
+}
+
+.style-search {
+  border: 1px solid #012c3c !important;
+}
+
+.site-header__search-submit {
+  background: #002c3c !important;
+}
+.site-header__search-submit svg {
+  color: #fff !important;
+}
+.site-header #SiteNavSearch {
+  color: #002c3c !important;
+}
+.site-header #SiteNavSearch::-webkit-input-placeholder {
+  color: #002c3c !important;
+  font-weight: 900 !important;
+}
+.site-header #SiteNavSearch::-moz-placeholder {
+  color: #002c3c !important;
+  font-weight: 900 !important;
+}
+.site-header #SiteNavSearch:-ms-input-placeholder {
+  color: #002c3c !important;
+  font-weight: 900 !important;
+}
+.site-header #SiteNavSearch::-ms-input-placeholder {
+  color: #002c3c !important;
+  font-weight: 900 !important;
+}
+.site-header #SiteNavSearch::placeholder {
+  color: #002c3c !important;
+  font-weight: 900 !important;
+}
+
+.product-card {
+  -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+          box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  padding-top: 1rem;
+}
+.product-card__image {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-box-pack: center !important;
+      -ms-flex-pack: center !important;
+          justify-content: center !important;
+}
+.product-card__image img {
+  width: 90%;
+}
+.product-card__name {
+  color: #000;
+  font-size: 17px;
 }

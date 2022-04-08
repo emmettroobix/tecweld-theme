@@ -1,32 +1,32 @@
 {
   "current": {
-    "header": "header-4",
+    "header": "header-1",
     "slideshow": "slideshow-4",
     "footer": "footer-1",
     "pnewsletter": "pnewsletter-1",
-    "productpage": "product-1",
+    "productpage": "product-2",
     "collectionpage": "collection-1",
     "blogpage": "blog-1",
     "articlepage": "article-1",
-    "productgrid": "product-3",
+    "productgrid": "product-1",
     "sectionheading": "heading-2",
-    "collectiongrid": "collection-1",
+    "collectiongrid": "collection-2",
     "bloggrid": "blog-3",
     "loading": "grow",
-    "loading_color": "#6c757d",
+    "loading_color": "#012c3c",
     "search_suggest": "",
     "enable_rtl": false,
     "show_more_image": true,
-    "container": 1400,
-    "gutter": 20,
+    "container": 1200,
+    "gutter": 24,
     "logo": "shopify:\/\/shop_images\/tecweld-logo.png",
-    "logo_max_width": 155,
-    "favicon": "",
+    "logo_max_width": 120,
+    "favicon": "shopify:\/\/shop_images\/favvicon.x14470.png",
     "safe_checkout_pcart": "",
     "safe_checkout_detail": "",
-    "safe_checkout_cart": "",
+    "safe_checkout_cart": "shopify:\/\/shop_images\/shutterstock_1496684738.jpg",
     "color_primary": "#012c3c",
-    "color_secondary": "#005599",
+    "color_secondary": "#000000",
     "color_body_bg": "#ffffff",
     "color_content_bg": "#ffffff",
     "color_body_headings": "#030303",
@@ -41,11 +41,11 @@
     "color_button_bg_hover": "#dd3d27",
     "alert_text": "#000000",
     "alert_bg": "#ffffff",
-    "alert_bd": "#6c757d",
+    "alert_bd": "#012c3c",
     "gradient_enable": false,
     "gradient_start": "#ff5f6d",
     "gradient_end": "#ffc371",
-    "font_family": "rubik_n5",
+    "font_family": "montserrat_n4",
     "font_family_google": "",
     "font_family2": "rubik_n4",
     "font_family_google2": "",
@@ -69,11 +69,11 @@
     "apmenuitem_video_height_1": 280,
     "apmenuitem_video_loop_1": true,
     "apmenuitem_video_mute_1": true,
-    "apmenuitem_eproduct_1": false,
+    "apmenuitem_eproduct_1": true,
     "apmenuitem_columns_blockproducts_1": "3",
     "apmenuitem_tproduct_1": "Collection",
     "apmenuitem_cproduct_1": "frontpage",
-    "apmenuitem_ehtml_1": true,
+    "apmenuitem_ehtml_1": false,
     "apmenuitem_columns_blockhtml_1": "8",
     "apmenuitem_thtml_1": "",
     "apmenuitem_eihtml_1": false,
@@ -262,17 +262,17 @@
     "show_multiple_currencies": true,
     "list_currencies": "EUR,AUD,GBP,JPY,CAD",
     "shipping_calculator_default_country": "United States",
-    "image_404": "shopify:\/\/shop_images\/slideshow.jpg",
+    "image_404": "shopify:\/\/shop_images\/tecweld-bg-testimonials.jpg",
     "found_text_color": "#303030",
     "found_html": "Opps! page not found.",
     "sub_404": "We are sorry, but the page you're looking for cannot be found.",
     "found_btnleft_text": "Go to shopping",
     "found_btnleft_link": "shopify:\/\/collections\/all",
-    "checkout_header_image": "",
-    "checkout_logo_image": "",
+    "checkout_header_image": "shopify:\/\/shop_images\/tecweld-bg-testimonials.jpg",
+    "checkout_logo_image": "shopify:\/\/shop_images\/favvicon.x14470.png",
     "checkout_logo_position": "left",
     "checkout_logo_size": "medium",
-    "checkout_body_background_image": "",
+    "checkout_body_background_image": "shopify:\/\/shop_images\/shutterstock_1496684738.jpg",
     "checkout_body_background_color": "#ffffff",
     "checkout_input_background_color_mode": "white",
     "checkout_sidebar_background_image": "",
@@ -398,53 +398,35 @@
           "1560580908623": {
             "type": "product",
             "settings": {
-              "product": "glasses-dhillon-lue",
+              "product": "shp3-oxy-lpg-super-heating-tip-307118-mixer",
               "local": "in São Paulo, Brazil",
               "time": "About 50 minutes ago"
             }
           },
-          "1560581969631": {
+          "6b295e62-203a-4c5d-a334-722c308ddbf6": {
             "type": "product",
             "settings": {
-              "product": "nullam-volutpat-1",
-              "local": "in Manchester, UK",
-              "time": "about 35 minutes ago"
-            }
-          },
-          "1560582020821": {
-            "type": "product",
-            "settings": {
-              "product": "vestibulum-mi",
+              "product": "cigweld-transmig-220i",
               "local": "in Blackburn, UK",
               "time": "about 21 minutes ago"
             }
           },
-          "1560585151739": {
+          "435fa748-f1d2-4ea6-a494-c2d9f30ae619": {
             "type": "product",
             "settings": {
-              "product": "kam-dhillon-3086-atlas-blue",
-              "local": "in Rome, Italy",
-              "time": "about 2 hours ago"
-            }
-          },
-          "1560585073156": {
-            "type": "product",
-            "settings": {
-              "product": "fanny-pack",
-              "local": "in California, US",
-              "time": "about 5 hours ago"
+              "product": "speedglas-ninja-100v",
+              "local": "in Blackburn, UK",
+              "time": "about 21 minutes ago"
             }
           }
         },
         "block_order": [
           "1560580908623",
-          "1560581969631",
-          "1560582020821",
-          "1560585151739",
-          "1560585073156"
+          "6b295e62-203a-4c5d-a334-722c308ddbf6",
+          "435fa748-f1d2-4ea6-a494-c2d9f30ae619"
         ],
         "settings": {
-          "enable": true,
+          "enable": false,
           "duration": 20,
           "text": "Someone recently bought"
         }
@@ -452,7 +434,7 @@
       "recently-viewed": {
         "type": "recently-viewed",
         "settings": {
-          "enable": true,
+          "enable": false,
           "title": "Recently viewed",
           "limit": 4
         }
@@ -475,21 +457,21 @@
         "type": "header-1",
         "settings": {
           "enable_transparent": false,
-          "enable_sticky": false,
+          "enable_sticky": true,
           "enable_dropdownfull": true,
           "enable_hotline": true,
-          "phonetext": "Hotline:",
-          "phonenumber": "0(+987)654-321",
-          "topbartext": "Free Shipping and Returns above $200!",
-          "topbarbg": "#292929",
+          "phonetext": "Phone:",
+          "phonenumber": "(08) 277 1444",
+          "topbartext": "Monday – Friday 7.30am-4.00pm",
+          "topbarbg": "#012c3c",
           "background": "#ffffff",
-          "textcolor": "#999999",
-          "linkcolor": "#999999",
-          "linkhover": "#dd3d27",
-          "menutext": "#000000",
-          "menutexthover": "#dd3d27",
+          "textcolor": "#ffffff",
+          "linkcolor": "#ffffff",
+          "linkhover": "#ffffff",
+          "menutext": "#221f20",
+          "menutexthover": "#012c3c",
           "menudroptexttitle": "#222222",
-          "menudroptext": "#888888",
+          "menudroptext": "#221f20",
           "menudropbg": "#ffffff",
           "enable_cateogry": true,
           "enable_image_cate": true,
@@ -515,10 +497,10 @@
           "46eeb684-b121-40c2-b7a7-ff1602bee8f3": {
             "type": "social",
             "settings": {
-              "title": "",
-              "sub_title": "<div>123 South Main Street, Los Angeles<br>\nUnited States<br>\nPhone: +0180 808 880<br>\nEmail: mixxstore@cars.com<br>\n<\/div>",
+              "title": "GET IN TOUCH",
+              "sub_title": "<div>15 Robinson Avenue, BELMONT WA 6104<br>\nAustralia<br>\nPhone: <a href=\"tel:082771444\">(08) 277 1444<\/a><br>\nEmail: harvey@tecweld.com.au<br>\n<\/div>",
               "align": "left",
-              "width": "20%"
+              "width": "33%"
             }
           },
           "5c183967-6da7-47b8-aba7-8bd3d871d1f8": {
@@ -528,24 +510,10 @@
               "width": "20%"
             }
           },
-          "1567410176792": {
-            "type": "menu",
-            "settings": {
-              "link_list": "",
-              "width": "20%"
-            }
-          },
           "2868a2e4-656a-4ace-ae2e-baf118135b95": {
             "type": "menu",
             "settings": {
               "link_list": "footer",
-              "width": "20%"
-            }
-          },
-          "1562342622030": {
-            "type": "menu",
-            "settings": {
-              "link_list": "",
               "width": "20%"
             }
           }
@@ -553,20 +521,18 @@
         "block_order": [
           "46eeb684-b121-40c2-b7a7-ff1602bee8f3",
           "5c183967-6da7-47b8-aba7-8bd3d871d1f8",
-          "1567410176792",
-          "2868a2e4-656a-4ace-ae2e-baf118135b95",
-          "1562342622030"
+          "2868a2e4-656a-4ace-ae2e-baf118135b95"
         ],
         "settings": {
           "fullwidth": false,
-          "remove_powered": false,
-          "background": "#f5f5f5",
-          "border_headfooter": "#f5f5f5",
+          "remove_powered": true,
+          "background": "#012c3c",
+          "border_headfooter": "#ffffff",
           "background_bot": "rgba(0,0,0,0)",
-          "border-copryright": "#cccccc",
-          "text": "#999999",
+          "border-copryright": "#fffffa",
+          "text": "#ffffff",
           "title": "#ffffff",
-          "enablemethod": true
+          "enablemethod": false
         }
       },
       "product-template-1": {
@@ -689,7 +655,7 @@
       "pnewsletter-1": {
         "type": "pnewsletter-1",
         "settings": {
-          "pnewletter_enable": true,
+          "pnewletter_enable": false,
           "pnewletter_time": 10,
           "pnewletter_background": "#ffffff",
           "pnewletter_title": "NEWSLETTER SIGN UP",
@@ -716,10 +682,10 @@
       "collection-template-1": {
         "type": "collection-template-1",
         "settings": {
-          "collection_width": "container",
+          "collection_width": "container-fluid",
           "collection_perpage": 15,
           "collection_perrow": "3",
-          "sidebar_col": "col-md-2-4",
+          "sidebar_col": "col-md-3",
           "enable_title": true,
           "enable_description": true
         }
@@ -1346,17 +1312,17 @@
         "type": "header-4",
         "settings": {
           "enable_sticky": false,
-          "enable_dropdownfull": false,
-          "topbartext": "Free Shipping and Returns above $200!",
-          "topbarbg": "#333333",
-          "background": "#ffea00",
-          "textcolor": "#999999",
-          "linkcolor": "#999999",
-          "linkhover": "#dd3d27",
-          "menutext": "#222222",
-          "menutexthover": "#dd3d27",
+          "enable_dropdownfull": true,
+          "topbartext": "Monday – Friday 7.30am - 4.00pm",
+          "topbarbg": "#012c3c",
+          "background": "#ffe800",
+          "textcolor": "#ffffff",
+          "linkcolor": "#ffffff",
+          "linkhover": "#ffffff",
+          "menutext": "#000000",
+          "menutexthover": "#000000",
           "menudroptext": "#ffffff",
-          "menudropbg": "#3c3c3d"
+          "menudropbg": "#000000"
         }
       },
       "page-demoHTML": {
@@ -1401,7 +1367,8 @@
           "1565708450613",
           "1562509535458"
         ],
-        "settings": {}
+        "settings": {
+        }
       },
       "page-faqs": {
         "type": "page-faqs",
@@ -1536,7 +1503,7 @@
           "title_page": "Stay in touch! Contact us",
           "contact_des": "<p>Minimalist styling is not about creating a cold, hard, empty white box of a home. It is about using simple and natural forms, <br>\nand taking away layers without losing the aesthetic appeal of the space.<\/p>",
           "gmap": true,
-          "gmap_iframe": "<div class=\"mapouter\">\n<div class=\"gmap_canvas\">\n<iframe width=\"1080\" height=\"500\" id=\"gmap_canvas\" src=\"https:\/\/maps.google.com\/maps?q=123%20South%20Main%20Street%2C%20Los%20Angeles%20United%20States&t=&z=15&ie=UTF8&iwloc=&output=embed\" frameborder=\"0\" scrolling=\"no\" marginheight=\"0\" marginwidth=\"0\"><\/iframe><a href=\"https:\/\/embedgooglemap.net\/128\/\"><\/a>\n<\/div>\n<style>.mapouter{position:relative;text-align:right;height:500px;width:1080px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:1080px;}<\/style>\n<\/div>\n<style>.mapouter{position:relative;text-align:right;height:500px;width:1080px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:1080px;}.gmap-iframe .mapouter, .gmap-iframe .gmap_canvas, .gmap-iframe iframe{ width:100% !important; } @media (max-width:767px){ .gmap-iframe .mapouter, .gmap-iframe .gmap_canvas, .gmap-iframe iframe{ height:350px !important; } }<\/style>"
+          "gmap_iframe": "<div class=\"mapouter\">\n<div class=\"gmap_canvas\">\n<iframe src=\"https:\/\/www.google.com\/maps\/embed?pb=!1m14!1m8!1m3!1d13541.250511950615!2d115.9216197!3d-31.9524144!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa6c13357925482b3!2sTec-Weld%20Services!5e0!3m2!1sen!2sau!4v1648552679122!5m2!1sen!2sau\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"><\/iframe><a href=\"https:\/\/embedgooglemap.net\/128\/\"><\/a>\n<\/div>\n<style>.mapouter{position:relative;text-align:right;height:500px;width:1080px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:1080px;}<\/style>\n<\/div>\n<style>.mapouter{position:relative;text-align:right;height:500px;width:1080px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:1080px;}.gmap-iframe .mapouter, .gmap-iframe .gmap_canvas, .gmap-iframe iframe{ width:100% !important; } @media (max-width:767px){ .gmap-iframe .mapouter, .gmap-iframe .gmap_canvas, .gmap-iframe iframe{ height:350px !important; } }<\/style>"
         }
       },
       "footer-2": {
@@ -1572,10 +1539,10 @@
       "collection-template-2": {
         "type": "collection-template-2",
         "settings": {
-          "collection_width": "container",
+          "collection_width": "container-fluid",
           "collection_perpage": 24,
           "collection_perrow": "3",
-          "sidebar_col": "col-md-3",
+          "sidebar_col": "col-md-2-4",
           "enable_title": true,
           "enable_description": true
         }
@@ -1881,7 +1848,7 @@
         "type": "announcement-bar",
         "settings": {
           "enable": false,
-          "background": "#222222",
+          "background": "#012c3c",
           "text": "#ffffff",
           "icon": "",
           "announcement": "Free delivery - On all orders over $200"
@@ -2005,10 +1972,31 @@
               "setwidthcontent": "container",
               "relate_products_title": "Related product"
             }
+          },
+          "3604c1e7-a94b-4ff4-9918-277d44dd6833": {
+            "type": "html",
+            "settings": {
+              "setwidthcontent": "container",
+              "content_html": ""
+            }
+          },
+          "b65eaa5e-3a08-4d64-9f94-98494645284b": {
+            "type": "service",
+            "settings": {
+              "setwidthcontent": "container",
+              "style_service": "pro__ser_1",
+              "ser_1": "",
+              "ser_2": "",
+              "ser_3": "",
+              "ser_4": "",
+              "ser_5": ""
+            }
           }
         },
         "block_order": [
-          "1586364393354"
+          "1586364393354",
+          "3604c1e7-a94b-4ff4-9918-277d44dd6833",
+          "b65eaa5e-3a08-4d64-9f94-98494645284b"
         ],
         "settings": {
           "stock_enable": true,
@@ -2033,7 +2021,7 @@
           "gtab_review_enable": true,
           "gtab_review": "Review",
           "positiontab": "bottom",
-          "enable_tabvertical": false,
+          "enable_tabvertical": true,
           "stab_title1": "Specifications",
           "stab_title2": "Shipping&Return",
           "stab_title3": "Specific tab 3",
@@ -2807,7 +2795,7 @@
             "settings": {
               "title": "HIRE EQUIPMENT",
               "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam imperdiet odio neque, vel finibus purus porttitor vitae. Fusce ac vehicula dolor.",
-              "icon": "<img src=\"data:image\/webp;base64,UklGRm4JAABXRUJQVlA4WAoAAAAQAAAASQAAUQAAQUxQSLQCAAARoFttexvL+cKN9mDlpYhyOWTTy0j+nmWoTChgzXQw7OCyA1Auc9MB0QHZwUwHQAdvMLTg+igiJkDT5q5nh12lNXt2Wq9wgBR2CNhlJyi0QweHZQG0xxLql7Buj\/1ae33WaY\/l88DcZL5JSebPrvI4fp4IdZ7NnO44XkRmjtTK0vZzpk\/swkYYhkUBgq5DTjbCYMJEreudVBEGo2eBA1ppB0\/tIge0ktTn5ol2wRFoJcmTmQeqeR5wkuTJxLsR4wGn2R5wkuTJxIOTZHpIVnPN\/4CTJA+kHDwkK5kektVc00OykuQBFzLwkKxU9JCs5poekpUkDzhlECFZyUYYjObaHpLVdQtOOUCyko0wGM0OMBiNt055JCuVEQaj+WYYjOZnkKzkgFaLrVFuteSAVttn8RRo9UzwgNMzIQJOzwbAaTexu44zzl2mceLcXY\/MnMh5ZDo0z4zkNBmudlhCrcXPnI9up410e\/v1Nl\/e3m7yK9Pf6j78s83f8M7z4fNH0+9Ljx79uM13jx7d22KHb8a0YPdwgGpZDeUeGiiXlVBnZY43VwG0vIBTVg4aSTCsoAsxqxNYqYRmjRaqjAq4SGqgWqOENqMWnKRI0qoXosnGwkWSg3adGupsBnCSOijXMYloMmkhSCohaOUamjwcpELSGcq1TAKbgwNKSTUEre7gbLZrACfJAsV6CuC3KjrASTJnqLWhSdBsYo4RUiXJ9BC0aQm49czTMzAUkuThYraRA+5WqnwE0kGSTAfJamsHeLPEPDx2XKfaSFLRQ7La3gG9XVAyejkYXVcRklWOZQKOZpYBhsZqtOiAoVCeJgDxaGboUGqy8ACN8j0kIN7ZqemH\/wNcSuVsWq7P\/rebCXPz9P8IkGrlXjSJyXPXRSYvzmiP1SmNzLw0Vvu1hzqEAUI41a7QxlZQOCCUBgAAkB8AnQEqSgBSAD6BNpVIpSKhoSeZLTCgEAlqAML11f8B0vGsPIfznm9\/I++eefPJ\/hPUftm\/MB+13qv\/6D1Rf4T1AP9B1GXoc\/tV6cnstfuxhHf8a7cf8x+JfX7JX4DZZVyj+s98dqBSZWTb9D9QD84\/7X08c4b5f\/jP\/L7hH8m\/qXoq+ub9tfYb\/Xg6cVLMF0psdmSESEuo4aee1zTkiBspU\/+7XqAJfVX1IT0IAGFoYpCFMRrIs41IuioKHPjG0ctIAdlpf8dmTnCZFdbNqi8Fcp0NTmk8Ew4TfeXRx8\/GKDkwz7r+pMvHld72JDfHkAxZtP6OvKtyFx9+858H8a0lHb6AAP7LAyXLPya\/4asYq9ZI\/qHDuXow4N0Kth71qsRpQaA7a60RXpd6v6Tz0g3cz33c3ToNWRHk4qd\/1FOU2Ni4OtiPIwYqE5OxuUXhXYM7mD2VSQsXCdUPJ\/YqoYN9RuI8vc7j2GdhbYtUjW8NB0TBYfWv9\/wAcm9TWclK3xzi5C5ISXSjn9yPCU36J7Pu\/zcaNYinJNquPVHI1vhLA5ngtjekJ50mvprp3KobTUWF8F+xOdLmEdl1I2mvbwLe553TvhGQnbqufrUTkyG75gyfpnbdX8G6P59WJP1KJ8RpMa0zy7YDqGguTrmyMuIeIHUXEtPhxL4BJWK2ZIQvY5PM\/8ds+McV3rZ\/yZ\/Nr9\/zadptX6UVPLow25Zx2UpBa3ZYi1U+jp094OCXisAba0b6YJRDzRVs3QZYw+JGaxzUGRtDirPTP4AkR4Euun\/T4B7rSVryqbvMnqN0NegAuis9I5Tl+7N87YOTIJ2e1lYCu4e9DxYa31kQCIpYJv3uKibSjpwicMJrOEOAsRia3qESoI\/4z2P6g8+mKV6jZn6YGgC\/QXjIY\/BAdVxQv7WD9AiZ+CUzh5u9qCZ1xs+WmC7jddV+RSrOWRM2tLDt\/KscNh95Hz8pO4MCwFEEHG3z8rvnbV6wAwieWSRO7hJMf4MFq2pJ6hm2hkdSgiYQQSGcUXtjXZKD80AKd38v+p0nqPpZ85kysKSWKSesHQWj9LIjhltBmSvzL2rDb3jZ7dLpmvaoJF8iwmNzX7bT7SvUqs8JKLVvsnInc0z9kAZN+Cf4XpCN7+k4KJO0wgEmlH23c+ZpcR7GsPA1C+gFJM03r3cZBATf3EPO0\/4VIG3v8L4L5N\/wWGp9nDIx6FAnvI9oyE5qujwttbKOTRff0HBeXy83cu7wyP1f6kVe9Xj6nB4EVQH3owWUbcMV9TFNUNzRwezun4OgWC0VjMpvdqXHZpQHfM6z+zZf3+pE53refl068FyG3sOfv\/9xzWH2Rurf5d4IPnDuqV5DN1674f\/DjfJuafxMedTg24ch3KR08NXkQz5QTC\/VZuX+W1uAH3hjOat23RQqPTpfcypwNIKGkvy065Y5GjATd2NWhLio\/nbRICz0ZkrBNyfjaK8qIep\/frAXo\/9BKfvKugbfYBJPf9P\/fX1S18QHp9LpXkrBsqC6dOMFUWFZ6WMUbgf7UBp0d9nAEgAUS6GZH2cE9pAPKcoA0r+OTSkIrhNp7ZHbhdBBPLLjYMskJiBC\/YkW8UZ8ugaGL1wey2+Sy\/BtXwhsDBs8OczuhFVgEUSbe73qyfW+OuZ\/f9BV8RQCAKxPPyl\/18K6sVAZxKHr363K+6+HpHp82v6bi693F3m19ieKkOHRD3w8pUwjoOAy0Ylt2rZUbfjVlBN4+PH0J2sa48jO8B79eA4BLf+aR1xzBRWKJ2IOqtvcWEIAbHMxuSKRt3wd3dVqgm70GuP701+Q9DHXiFssiPCBJPsxM4Kd08Q3ZQilGrqXlNgZ49sp9j9BJHVL\/a6iz3D3HqMrUGnfrydNGf0bUej1sNnOf+9HS8Hqki4K\/8llL3Y9PgjibGnus6mDfAptTSerwoPU5dWroODZsoGXTXta9\/d2pAz7BHVdZi0OPVr7oF2xlhVoRzFDnXEPe\/FYuog\/9qjxPTpMLwqIfiYFxrPk\/WlUY9XJ4CIH64dtDY1VLEgsU0wfPRsaHH6u5sUMyF3fiVLmqYHzPXkSfDdxQqhyisbHzRoqyrWpfOUxrZarKS408moK7wloqz\/ZCcBPkhV+GNvC3tGlLve1FkEGKhevaNlxJdXgFbxksMOVzNCqignvh2ud1FOfWxbhSaJY5fBBdUesch3z2O9LwHguK1ScCZEitSm3Dz\/+MH9tDb\/9MfHasv8YmLaIAAAAAA==\" class=\"\" title=\"\" alt=\"\" style=\" width:auto;              height:auto\">"
+              "icon": "<img src=\"data:image\/webp;base64,UklGRs4HAABXRUJQVlA4WAoAAAAQAAAASQAAUQAAQUxQSLQCAAARoFttexvL+cKN9mDlpYhyOWTTy0j+nmWoTChgzXQw7OCyA1Auc9MB0QHZwUwHQAdvMLTg+igiJkDT5q5nh12lNXt2Wq9wgBR2CNhlJyi0QweHZQG0xxLql7Buj\/1ae33WaY\/l88DcZL5JSebPrvI4fp4IdZ7NnO44XkRmjtTK0vZzpk\/swkYYhkUBgq5DTjbCYMJEreudVBEGo2eBA1ppB0\/tIge0ktTn5ol2wRFoJcmTmQeqeR5wkuTJxLsR4wGn2R5wkuTJxIOTZHpIVnPN\/4CTJA+kHDwkK5kektVc00OykuQBFzLwkKxU9JCs5poekpUkDzhlECFZyUYYjObaHpLVdQtOOUCyko0wGM0OMBiNt055JCuVEQaj+WYYjOZnkKzkgFaLrVFuteSAVttn8RRo9UzwgNMzIQJOzwbAaTexu44zzl2mceLcXY\/MnMh5ZDo0z4zkNBmudlhCrcXPnI9up410e\/v1Nl\/e3m7yK9Pf6j78s83f8M7z4fNH0+9Ljx79uM13jx7d22KHb8a0YPdwgGpZDeUeGiiXlVBnZY43VwG0vIBTVg4aSTCsoAsxqxNYqYRmjRaqjAq4SGqgWqOENqMWnKRI0qoXosnGwkWSg3adGupsBnCSOijXMYloMmkhSCohaOUamjwcpELSGcq1TAKbgwNKSTUEre7gbLZrACfJAsV6CuC3KjrASTJnqLWhSdBsYo4RUiXJ9BC0aQm49czTMzAUkuThYraRA+5WqnwE0kGSTAfJamsHeLPEPDx2XKfaSFLRQ7La3gG9XVAyejkYXVcRklWOZQKOZpYBhsZqtOiAoVCeJgDxaGboUGqy8ACN8j0kIN7ZqemH\/wNcSuVsWq7P\/rebCXPz9P8IkGrlXjSJyXPXRSYvzmiP1SmNzLw0Vvu1hzqEAUI41a7QxlZQOCD0BAAAkBsAnQEqSgBSAD6BOphKJSMiIaRYCTigEAlpABXnn87\/Br9OfI3+5fjtlnW\/2MFl3tWb1ZyD+qf7jwK9QKSC\/qvDt+if672AP5J\/XP9z6aech8n\/v\/\/g\/zXwD\/yD+k\/9P+8eyr6zv2n9hz9d0yodRAX8Y3cMLUQjcDlACo5b62vn2B\/WE0avVSvsm2vTLPMmDQLt2UrxFC0Czvq1NxOa1w0YJ0TOfpqyBxi6xVxV6X2GPoIvmN2VzbY+Tz\/0u7LPKvQoil5kEO56ESlNJXnGXwl9d4Nde+krqng0BPTFxoDCUK16AADx6BLFRC\/X\/kU8EG44ZekBc\/DuQEotG2JkFbCYVBmDr8f5Xq\/aBAggjF4jej4A4CkgNi4EcWVXXnHzC4Sfw2rOOx54VisLNMwWrVBkE7hJLY\/VPhssubIW6Acosc6t08ViWSHvb56+\/L27r7MASvLgNDF9hxexAFTanbVEv+sAAzZUQmuwLX5RxFME0Q9XUVzft40eL\/z75sFsZ4\/AMBEVVcVrFkBhz55JI1LYw\/uzCTDjaaxvH1O19i9MY\/6ykcVLQdxrTdoS6XKj1hLYrI6SU11FORpksvq7Kt07yaddfUT68D0TlMm0a9a+nbn8+Ygi3bY5GMabcQJIzy3tra2dbIxGxvaNZLbDHz2f18eMpT+leZ7j+qn\/JeOAiA1GeQh1P4D5b5asJP2IN82FVkih945N2UoSxEfqVy+Pa1bNRFIbwk7Tjm\/4\/URRKPYN0Da6TFT340kpWMWOGU3Vcf3C+Wg8iOVHHxRr97AZb7EEG7a+jQC1FBoYCmh\/6skLpVBs8vd6coog4s6oc5WIAk85YnNpxJR+\/f6B7CPlHDZXe1IRMnQyXA\/Pup7o+71BygOFbvYT0WB4LjGYqUa8djdoXjlWxOdprc8vlM+BZoag186KnXQeNuax3vgdKm0vP\/RvonZebKvU9frjQdH4A2PUhU+7d4ii+EyqWgZoxCwBiqoRLEz+hKRn5tEbNH7LvfczbhvJokuWHbzcWVu3XqRDfLpuUONGZnQx7w433\/4i3WeTZjrm50P19wsBQKOiFEsL1RjFNG+7x51UeJ3gUoICJB55+2xDEDIFtIxHy893XLWmMgalJen\/0Bf2NEQi0ZrhollQNQd7kGVgglmyQyf8\/OSXzd7mUzxlwX7a7CnpfuBN1vuPmh+Qbnc+WCopB9eLeMUvOAduAehSsdVm0Xl5JYqPeoSYgWpBDoqwV32dASa\/nCMayEbQ2\/LGqf+PVfjFO1bjje0wr7CBUbpsJ6HCjUmQtawg6cJ3ujNCL9EzNoASBtBlIj6NKyep+Cqt4lD2BJyI78M1MBNiqKgXPbwrNSNzbWdJzNy4tCwW978bpyrDri\/Y3OdM6LLTrJxBSYOMtxTjr4uS\/i5KewMS5nQSMIxgczukdXThtLIDjip\/xJy4X\/qxNKlD2iiASmP8HwOZxNaMpLPfrkeJ4cCzX\/0Gw+HTGIr7aruAibYRnAkU0gUpYzUwbLHHE9MRReQrVthrQ5\/lxptKoc5Xl9TUfB\/8sTBlw6iyJ9FE5x7pZAcGHurnPcsxb\/QJ1fHI6tfNNhlMZCRY6GmAI2g8w04f1WZHulUT4IspCH9oBpCFow7MzDUvnzbLPXDEIPPmfXo4mgo0d\/hzjut4rzQS+ofK+TlROhU8NNIPKCr\/7kwAAAA=\" class=\"\" title=\"\" alt=\"\" style=\" width:auto;              height:auto\">"
             }
           },
           "1607066023b5a74cc7-2": {
@@ -2815,7 +2803,7 @@
             "settings": {
               "title": "SHOP PRODUCTS",
               "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam imperdiet odio neque, vel finibus purus porttitor vitae. Fusce ac vehicula dolor.",
-              "icon": "<img src=\"data:image\/webp;base64,UklGRm4JAABXRUJQVlA4WAoAAAAQAAAASQAAUQAAQUxQSLQCAAARoFttexvL+cKN9mDlpYhyOWTTy0j+nmWoTChgzXQw7OCyA1Auc9MB0QHZwUwHQAdvMLTg+igiJkDT5q5nh12lNXt2Wq9wgBR2CNhlJyi0QweHZQG0xxLql7Buj\/1ae33WaY\/l88DcZL5JSebPrvI4fp4IdZ7NnO44XkRmjtTK0vZzpk\/swkYYhkUBgq5DTjbCYMJEreudVBEGo2eBA1ppB0\/tIge0ktTn5ol2wRFoJcmTmQeqeR5wkuTJxLsR4wGn2R5wkuTJxIOTZHpIVnPN\/4CTJA+kHDwkK5kektVc00OykuQBFzLwkKxU9JCs5poekpUkDzhlECFZyUYYjObaHpLVdQtOOUCyko0wGM0OMBiNt055JCuVEQaj+WYYjOZnkKzkgFaLrVFuteSAVttn8RRo9UzwgNMzIQJOzwbAaTexu44zzl2mceLcXY\/MnMh5ZDo0z4zkNBmudlhCrcXPnI9up410e\/v1Nl\/e3m7yK9Pf6j78s83f8M7z4fNH0+9Ljx79uM13jx7d22KHb8a0YPdwgGpZDeUeGiiXlVBnZY43VwG0vIBTVg4aSTCsoAsxqxNYqYRmjRaqjAq4SGqgWqOENqMWnKRI0qoXosnGwkWSg3adGupsBnCSOijXMYloMmkhSCohaOUamjwcpELSGcq1TAKbgwNKSTUEre7gbLZrACfJAsV6CuC3KjrASTJnqLWhSdBsYo4RUiXJ9BC0aQm49czTMzAUkuThYraRA+5WqnwE0kGSTAfJamsHeLPEPDx2XKfaSFLRQ7La3gG9XVAyejkYXVcRklWOZQKOZpYBhsZqtOiAoVCeJgDxaGboUGqy8ACN8j0kIN7ZqemH\/wNcSuVsWq7P\/rebCXPz9P8IkGrlXjSJyXPXRSYvzmiP1SmNzLw0Vvu1hzqEAUI41a7QxlZQOCCUBgAAkB8AnQEqSgBSAD6BNpVIpSKhoSeZLTCgEAlqAML11f8B0vGsPIfznm9\/I++eefPJ\/hPUftm\/MB+13qv\/6D1Rf4T1AP9B1GXoc\/tV6cnstfuxhHf8a7cf8x+JfX7JX4DZZVyj+s98dqBSZWTb9D9QD84\/7X08c4b5f\/jP\/L7hH8m\/qXoq+ub9tfYb\/Xg6cVLMF0psdmSESEuo4aee1zTkiBspU\/+7XqAJfVX1IT0IAGFoYpCFMRrIs41IuioKHPjG0ctIAdlpf8dmTnCZFdbNqi8Fcp0NTmk8Ew4TfeXRx8\/GKDkwz7r+pMvHld72JDfHkAxZtP6OvKtyFx9+858H8a0lHb6AAP7LAyXLPya\/4asYq9ZI\/qHDuXow4N0Kth71qsRpQaA7a60RXpd6v6Tz0g3cz33c3ToNWRHk4qd\/1FOU2Ni4OtiPIwYqE5OxuUXhXYM7mD2VSQsXCdUPJ\/YqoYN9RuI8vc7j2GdhbYtUjW8NB0TBYfWv9\/wAcm9TWclK3xzi5C5ISXSjn9yPCU36J7Pu\/zcaNYinJNquPVHI1vhLA5ngtjekJ50mvprp3KobTUWF8F+xOdLmEdl1I2mvbwLe553TvhGQnbqufrUTkyG75gyfpnbdX8G6P59WJP1KJ8RpMa0zy7YDqGguTrmyMuIeIHUXEtPhxL4BJWK2ZIQvY5PM\/8ds+McV3rZ\/yZ\/Nr9\/zadptX6UVPLow25Zx2UpBa3ZYi1U+jp094OCXisAba0b6YJRDzRVs3QZYw+JGaxzUGRtDirPTP4AkR4Euun\/T4B7rSVryqbvMnqN0NegAuis9I5Tl+7N87YOTIJ2e1lYCu4e9DxYa31kQCIpYJv3uKibSjpwicMJrOEOAsRia3qESoI\/4z2P6g8+mKV6jZn6YGgC\/QXjIY\/BAdVxQv7WD9AiZ+CUzh5u9qCZ1xs+WmC7jddV+RSrOWRM2tLDt\/KscNh95Hz8pO4MCwFEEHG3z8rvnbV6wAwieWSRO7hJMf4MFq2pJ6hm2hkdSgiYQQSGcUXtjXZKD80AKd38v+p0nqPpZ85kysKSWKSesHQWj9LIjhltBmSvzL2rDb3jZ7dLpmvaoJF8iwmNzX7bT7SvUqs8JKLVvsnInc0z9kAZN+Cf4XpCN7+k4KJO0wgEmlH23c+ZpcR7GsPA1C+gFJM03r3cZBATf3EPO0\/4VIG3v8L4L5N\/wWGp9nDIx6FAnvI9oyE5qujwttbKOTRff0HBeXy83cu7wyP1f6kVe9Xj6nB4EVQH3owWUbcMV9TFNUNzRwezun4OgWC0VjMpvdqXHZpQHfM6z+zZf3+pE53refl068FyG3sOfv\/9xzWH2Rurf5d4IPnDuqV5DN1674f\/DjfJuafxMedTg24ch3KR08NXkQz5QTC\/VZuX+W1uAH3hjOat23RQqPTpfcypwNIKGkvy065Y5GjATd2NWhLio\/nbRICz0ZkrBNyfjaK8qIep\/frAXo\/9BKfvKugbfYBJPf9P\/fX1S18QHp9LpXkrBsqC6dOMFUWFZ6WMUbgf7UBp0d9nAEgAUS6GZH2cE9pAPKcoA0r+OTSkIrhNp7ZHbhdBBPLLjYMskJiBC\/YkW8UZ8ugaGL1wey2+Sy\/BtXwhsDBs8OczuhFVgEUSbe73qyfW+OuZ\/f9BV8RQCAKxPPyl\/18K6sVAZxKHr363K+6+HpHp82v6bi693F3m19ieKkOHRD3w8pUwjoOAy0Ylt2rZUbfjVlBN4+PH0J2sa48jO8B79eA4BLf+aR1xzBRWKJ2IOqtvcWEIAbHMxuSKRt3wd3dVqgm70GuP701+Q9DHXiFssiPCBJPsxM4Kd08Q3ZQilGrqXlNgZ49sp9j9BJHVL\/a6iz3D3HqMrUGnfrydNGf0bUej1sNnOf+9HS8Hqki4K\/8llL3Y9PgjibGnus6mDfAptTSerwoPU5dWroODZsoGXTXta9\/d2pAz7BHVdZi0OPVr7oF2xlhVoRzFDnXEPe\/FYuog\/9qjxPTpMLwqIfiYFxrPk\/WlUY9XJ4CIH64dtDY1VLEgsU0wfPRsaHH6u5sUMyF3fiVLmqYHzPXkSfDdxQqhyisbHzRoqyrWpfOUxrZarKS408moK7wloqz\/ZCcBPkhV+GNvC3tGlLve1FkEGKhevaNlxJdXgFbxksMOVzNCqignvh2ud1FOfWxbhSaJY5fBBdUesch3z2O9LwHguK1ScCZEitSm3Dz\/+MH9tDb\/9MfHasv8YmLaIAAAAAA==\" class=\"\" title=\"\" alt=\"\" style=\" width:auto;              height:auto\">"
+              "icon": "<img src=\"data:image\/webp;base64,UklGRpoJAABXRUJQVlA4WAoAAAAQAAAAQgAAYQAAQUxQSGgDAAARkFTbehZZV8InIRLioOOgcdA4KBwUDh4OCgeFA3AADsABcXAG\/IUwfJOImACldq++J+ncf36VZzFz6\/rP7vM9t6\/vu4oVoCuDU8pQNAvA124pAVrTneUCjHZDASxed7dAn86tMJnuL4EmWQ\/RlGMDuEQBCMpzgD5RB60yDYBPYoDLRR3USUqYlG0JY5IamnwMSDJAmY8Alyjsudc7\/e\/BAOGWiltHyyJw8zeLFqb6eIJYb1dY6roBshgg6NADlSQVQJA0QUjlPiskGWGSJFuhk6ThDIx\/Z\/zK7rUK8JsGoiWAz4mZRG6FWpICUCoJxUGAGDQk6GGxzQyDrgXXQXdQwaAUBRAkqQZcCgUYDupEtkIrSR6o9YwWom16mPSMABSSVAHhGTbDIEm2QqNn1BDd5guLPcMDtSQVQKFnjDBJks3QKYcqQQX4TQPRsgiw+hMdfFfof35+fv6Az8\/ZX8Ad2Qe6Ay3s71TcvOhgtzwK8ZSGe2I41+qk706pGm5snc4sta4OJ7IcICjh\/xEduMdZHZQx4FPkbYBS173PpITlnH2+tudgyKSF5lwJ\/V4FXR4O8Oc8EHYmqPL4wqCLA\/QbB7gsKiBccUCQVMKkHEug1eUWZkkdVHvm7ngBk11zQCkD\/MbeK02y0APRlLCFWQEWSfqbgSGNf\/UAk+lkOX\/\/bGORKBeppb8ZYPE7fiRlo9Ns+5eTfBsk8\/IzQKxNuw0JO6fz7QYYCx12QKxNh8WV2FVOl30zbViPCmDs+8\/L78jCWVNyVw0wHKnicH6bcrZgJ8ojWF85nbYR+qqqO7Zfy8be6+oOAtv5369VERgtD3uvQH2gdgOshXXAaDmUK8DkdsLLZGW3YZBK4HNfMQMspdTwkYNe26KNlJIaoLgtArGWZIA8EDYnO1jtrolYmySVMEkd9BcswvcuC6bdDhrJAeGcCqC46WQEL6mF+YI6WC2PAhZJckB5wSK0ebTQbtTAfEElELKIUOxYBH9BA8yWA0Ttl7HVVRehyaGJ5UHSCgj28\/656e4B1hWYw4Nc5NA\/5w2wDBHGx3wAGpMH6odUwBQkqQb8M0ZotT\/B+AzADjxQPyJCcaAa8E9oYbYDTTA+wUVojjwQHqAKCAeqiPYEDTDbgZzpkS5Cc\/TYCghP0wD141yM\/nF3AlZQOCAMBgAAEB8AnQEqQwBiAD6BNpdJJSKiISdYCmCgEAlpABXkX877Sf7j+N3WZ+3MtSs0wj34ZTbWXxdPnX+57\/jUC7l+iP+o+d3etfS\/8\/7Af8W\/t3\/G9F7\/f\/uHms\/J\/8B\/2v9D8Av8f\/q3\/T\/t\/tLeuD9mfYP\/V\/\/zrBX5EdVPOBIa3Uxwg214zNjIdno2SxZgntVlNBjpNoe4oJ9vBXGVgpRd+xfQr\/ZRmM7vMGx4xioi0dz8YZ\/8La2GlODy003MNn6uMC3ay6Ax1sMCtZnC+6zbVoIEjeMvM22VUxj1BtOnbk5ST5zIW7eXrXxOEO3wr+\/v12dvhQeJI\/SYMkOY7aaAqgAA\/tJeC7gFvNU5ATdbz0tPuhaI5\/iSiS4ryaRhC45nOWsKzCUuF0Wdl5RYgmF4uXH+LU4TOLdvCUMMJCAl5dZCxvb2cyVoMKQ9Z+yeDYMyK9gvN7QKZczbThqOl5WPOt2MNFI4Q885VCgkgaeA1y9LX01y+HtSWAhABEGc8Uw8LDT3JjelYRir00gm3Lmolmu97h5WpzC2OV9Asqs7c4HOU6J3gwCLQWvg698A7nB2bzKOhcsojYPzxDVDwuP0PXNQbgGpL1vknkQxkt3\/+goGIIvgLRobi\/3eDlEzY0skVnX\/asWWzoN33y6jMzUTBXsh9BCuyyWuVvALl3NhjtR80nsey4VATa2jk0rHRdJzTkFdouDHonhrEZxVFbxR71thd4AvUCad0IgSo4tQHtlTMzbjOXHSvj+CkhDiAvtqtRfzZdP0ayA7D2gqb0t1\/FGujhEyCIYYxSfeB41LTM8+h+GWt9DG7rGKy6c8dFdGqw645vypWnFl0\/JOpXpbINH7avoi5nqIWrpJAJqCwotQVhqp8OVHR1ooQwjRbdNhRN8jpVDzulkbdKanKbpNOmKB3d89LVF7Li\/22t7UZTyJkh2ArgZ3Wp4rl8QW+al8Ph56oQBAegLxM5KouQnb5yQKd599dLwC4XpF6gd4MvK7lPGKfjk+eBoTY2+oM59emveNe02sGKs5\/1YKOMqMuwItO+cRXR\/KNbVL0H9mp\/bphhYezgVZNZWdCf5v\/Bhevrqx4wM2+QWCok57UJpMK9v2FYVpzZFKUHCqBGeOb\/WxfHJYxMotkYyamT\/DX8TMLp8\/fZQ8NQ14O7yDj+d0Cd9b\/cUEQM2z+czRZDNapsP+laf+JlfcSGcZ9V2dTuY5lrijTn3HBNSiOHMa3Qm2CQMdIyC5bZsRxnsjCudKxaiUTsds7C4ktpsx+FdoPcZGargF2zZ8F9DLj5QojvbXS+4nz+BYcL3y3+gX\/8WalRi9AjZvSwkzwZorimSHvvmk5ojDW6CauAps+XkRDlvYluYfqmmDUOMgImXkJms\/pLsfvPs54TDvf03sP3fCgy0nkfXDpu12Vs+2+mIwX6+27UCAxslb7UXUFgaE3sY9F8HwNPMXHxtUSgY3CiKsni+NFz+SBIKh+fs6uzFlyVz\/5cnWB0ATyo5YpqirbtH+5AOHOEPJeba9nKFg0vHpX24AAhSsNuo0nbpEheH900bk6ReKwzVD6lgswx7\/rW2af4yO9NaZ82Ws0TJ8Fruyt6LXzfx\/XfKByZRgRsIcaiAbcTNXC+FVwdfjD0hNIY3l2Gu8MqxGdTppPyqx8q4wI5+XNZonVSriXNb7e1YOckwJGu3p153JrH0TrQYr7Hu2KQquDESxaIfCT+PLQZZns0qCL1HImBIrhaThMuJLzb+HDhjif\/mfhuaNRNSZU8CzGAERoEe8kkdvgsVP4+oD1YST32kCX9wx0f471bLVMCsZYMskTC5aRWHAf28D6+fh\/\/22D\/9uQ\/\/9sT8BLZjVLtfpp5\/32bZ5qhzcor\/kt5GXKoIvkCpPmxfDfDhq1AcIZfc8N7Ow65jFuPjJ56uVqmgSLLrZwXrJRNpcu8dn9SzIbgiH8Qa74GcLftblN\/E4798U1MqLvCmuQp2Asrle14YdG2blIM3PwR3sldZgG7H5XO0fQy0D0FLTzgBO3pJsuuaQvabeKcFWsg0gx7gKThOodas15gRX\/UsgAAAA\" class=\"\" title=\"\" alt=\"\" style=\" width:auto;              height:auto\">"
             }
           },
           "dbd540f7-56f6-4a53-82b7-c2a21a49c061": {
@@ -2823,7 +2811,7 @@
             "settings": {
               "title": "REPAIR EQUIPMENT",
               "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam imperdiet odio neque, vel finibus purus porttitor vitae. Fusce ac vehicula dolor.",
-              "icon": "<img src=\"data:image\/webp;base64,UklGRm4JAABXRUJQVlA4WAoAAAAQAAAASQAAUQAAQUxQSLQCAAARoFttexvL+cKN9mDlpYhyOWTTy0j+nmWoTChgzXQw7OCyA1Auc9MB0QHZwUwHQAdvMLTg+igiJkDT5q5nh12lNXt2Wq9wgBR2CNhlJyi0QweHZQG0xxLql7Buj\/1ae33WaY\/l88DcZL5JSebPrvI4fp4IdZ7NnO44XkRmjtTK0vZzpk\/swkYYhkUBgq5DTjbCYMJEreudVBEGo2eBA1ppB0\/tIge0ktTn5ol2wRFoJcmTmQeqeR5wkuTJxLsR4wGn2R5wkuTJxIOTZHpIVnPN\/4CTJA+kHDwkK5kektVc00OykuQBFzLwkKxU9JCs5poekpUkDzhlECFZyUYYjObaHpLVdQtOOUCyko0wGM0OMBiNt055JCuVEQaj+WYYjOZnkKzkgFaLrVFuteSAVttn8RRo9UzwgNMzIQJOzwbAaTexu44zzl2mceLcXY\/MnMh5ZDo0z4zkNBmudlhCrcXPnI9up410e\/v1Nl\/e3m7yK9Pf6j78s83f8M7z4fNH0+9Ljx79uM13jx7d22KHb8a0YPdwgGpZDeUeGiiXlVBnZY43VwG0vIBTVg4aSTCsoAsxqxNYqYRmjRaqjAq4SGqgWqOENqMWnKRI0qoXosnGwkWSg3adGupsBnCSOijXMYloMmkhSCohaOUamjwcpELSGcq1TAKbgwNKSTUEre7gbLZrACfJAsV6CuC3KjrASTJnqLWhSdBsYo4RUiXJ9BC0aQm49czTMzAUkuThYraRA+5WqnwE0kGSTAfJamsHeLPEPDx2XKfaSFLRQ7La3gG9XVAyejkYXVcRklWOZQKOZpYBhsZqtOiAoVCeJgDxaGboUGqy8ACN8j0kIN7ZqemH\/wNcSuVsWq7P\/rebCXPz9P8IkGrlXjSJyXPXRSYvzmiP1SmNzLw0Vvu1hzqEAUI41a7QxlZQOCCUBgAAkB8AnQEqSgBSAD6BNpVIpSKhoSeZLTCgEAlqAML11f8B0vGsPIfznm9\/I++eefPJ\/hPUftm\/MB+13qv\/6D1Rf4T1AP9B1GXoc\/tV6cnstfuxhHf8a7cf8x+JfX7JX4DZZVyj+s98dqBSZWTb9D9QD84\/7X08c4b5f\/jP\/L7hH8m\/qXoq+ub9tfYb\/Xg6cVLMF0psdmSESEuo4aee1zTkiBspU\/+7XqAJfVX1IT0IAGFoYpCFMRrIs41IuioKHPjG0ctIAdlpf8dmTnCZFdbNqi8Fcp0NTmk8Ew4TfeXRx8\/GKDkwz7r+pMvHld72JDfHkAxZtP6OvKtyFx9+858H8a0lHb6AAP7LAyXLPya\/4asYq9ZI\/qHDuXow4N0Kth71qsRpQaA7a60RXpd6v6Tz0g3cz33c3ToNWRHk4qd\/1FOU2Ni4OtiPIwYqE5OxuUXhXYM7mD2VSQsXCdUPJ\/YqoYN9RuI8vc7j2GdhbYtUjW8NB0TBYfWv9\/wAcm9TWclK3xzi5C5ISXSjn9yPCU36J7Pu\/zcaNYinJNquPVHI1vhLA5ngtjekJ50mvprp3KobTUWF8F+xOdLmEdl1I2mvbwLe553TvhGQnbqufrUTkyG75gyfpnbdX8G6P59WJP1KJ8RpMa0zy7YDqGguTrmyMuIeIHUXEtPhxL4BJWK2ZIQvY5PM\/8ds+McV3rZ\/yZ\/Nr9\/zadptX6UVPLow25Zx2UpBa3ZYi1U+jp094OCXisAba0b6YJRDzRVs3QZYw+JGaxzUGRtDirPTP4AkR4Euun\/T4B7rSVryqbvMnqN0NegAuis9I5Tl+7N87YOTIJ2e1lYCu4e9DxYa31kQCIpYJv3uKibSjpwicMJrOEOAsRia3qESoI\/4z2P6g8+mKV6jZn6YGgC\/QXjIY\/BAdVxQv7WD9AiZ+CUzh5u9qCZ1xs+WmC7jddV+RSrOWRM2tLDt\/KscNh95Hz8pO4MCwFEEHG3z8rvnbV6wAwieWSRO7hJMf4MFq2pJ6hm2hkdSgiYQQSGcUXtjXZKD80AKd38v+p0nqPpZ85kysKSWKSesHQWj9LIjhltBmSvzL2rDb3jZ7dLpmvaoJF8iwmNzX7bT7SvUqs8JKLVvsnInc0z9kAZN+Cf4XpCN7+k4KJO0wgEmlH23c+ZpcR7GsPA1C+gFJM03r3cZBATf3EPO0\/4VIG3v8L4L5N\/wWGp9nDIx6FAnvI9oyE5qujwttbKOTRff0HBeXy83cu7wyP1f6kVe9Xj6nB4EVQH3owWUbcMV9TFNUNzRwezun4OgWC0VjMpvdqXHZpQHfM6z+zZf3+pE53refl068FyG3sOfv\/9xzWH2Rurf5d4IPnDuqV5DN1674f\/DjfJuafxMedTg24ch3KR08NXkQz5QTC\/VZuX+W1uAH3hjOat23RQqPTpfcypwNIKGkvy065Y5GjATd2NWhLio\/nbRICz0ZkrBNyfjaK8qIep\/frAXo\/9BKfvKugbfYBJPf9P\/fX1S18QHp9LpXkrBsqC6dOMFUWFZ6WMUbgf7UBp0d9nAEgAUS6GZH2cE9pAPKcoA0r+OTSkIrhNp7ZHbhdBBPLLjYMskJiBC\/YkW8UZ8ugaGL1wey2+Sy\/BtXwhsDBs8OczuhFVgEUSbe73qyfW+OuZ\/f9BV8RQCAKxPPyl\/18K6sVAZxKHr363K+6+HpHp82v6bi693F3m19ieKkOHRD3w8pUwjoOAy0Ylt2rZUbfjVlBN4+PH0J2sa48jO8B79eA4BLf+aR1xzBRWKJ2IOqtvcWEIAbHMxuSKRt3wd3dVqgm70GuP701+Q9DHXiFssiPCBJPsxM4Kd08Q3ZQilGrqXlNgZ49sp9j9BJHVL\/a6iz3D3HqMrUGnfrydNGf0bUej1sNnOf+9HS8Hqki4K\/8llL3Y9PgjibGnus6mDfAptTSerwoPU5dWroODZsoGXTXta9\/d2pAz7BHVdZi0OPVr7oF2xlhVoRzFDnXEPe\/FYuog\/9qjxPTpMLwqIfiYFxrPk\/WlUY9XJ4CIH64dtDY1VLEgsU0wfPRsaHH6u5sUMyF3fiVLmqYHzPXkSfDdxQqhyisbHzRoqyrWpfOUxrZarKS408moK7wloqz\/ZCcBPkhV+GNvC3tGlLve1FkEGKhevaNlxJdXgFbxksMOVzNCqignvh2ud1FOfWxbhSaJY5fBBdUesch3z2O9LwHguK1ScCZEitSm3Dz\/+MH9tDb\/9MfHasv8YmLaIAAAAAA==\" class=\"\" title=\"\" alt=\"\" style=\" width:auto;              height:auto\">"
+              "icon": "<img src=\"data:image\/webp;base64,UklGRn4IAABXRUJQVlA4WAoAAAAQAAAAXQAAVgAAQUxQSHcCAAARkBtte9xGKMD2Yu+U6Ua+wx1CMxvfmxsdLDsgOrA6ILMNfcYmOoAa0AgdkB18M\/px8Pj3jCICghtJiqTIisXruzwaeoJglisH7GopeKZwCNIrlpz0QDQnXF2rk2oAOqZqavAZQMHUIB5QjBVuD2MLACd8lQ7wvIXmbfun9+RHydlrAJ2cZNMsSQOKmyTQLOsAIP1Xf5MVG7mkG9kSlYjQ3BSCxsmIHXDLy3BuUls1ycp4QhQAdgqd+EmdUAOOWpHYV93wUdaRQxFRAXB13fHQoQlN7Z8sKDzebQF0OYVsQ24ZrJAbIDSdk9baVonF36XXfSiXyBsgscJJoZnpkgKuYilc\/BmYmNmo68Rwswg36vFoZgoVHNXFE8kpA9DHs+OnWCM1DNVAYpjq4zGA5edG6mCCo7KWoUIEc7V3KDgqGiBa83t2oyxumRoXEP+pVbwVLW8LAJqvwgCeibIclR6ogquO6D+Vc2QKDmNz3WPGmAmARew0bDY+LjtT\/GSyTU56wpvZvpqZzCgtXfLiyW14OY0hAIiRAlDB2aRZGmmUYEtYjyUnu8T\/Ta+zyC7ZaQl0XXdIZVfX9Z7vWr8d0Ql1MmomLEYkvI5UUqcpMbPSKkqVIdtpIdbWDtTx\/Wp1oIDBWmr68+npOOjkqdPlavVKZTdMer4PsUQPHKsxNQ3hgI8q\/\/f8W+CkLF3QfLt9t8eVuTTE43b7gUgXKmb8kPg\/VE3aM6lFl3U1pcmT7rQYS8XM9yFVktv8EWESv9AySWOM8UA7YndIndqgky1mZ8QvR03c8v+moM1OsME5SZHsdBJ00gswc343lAunmQiD\/MrogQH+ZDwCAFZQOCDgBQAAMB0AnQEqXgBXAD6BNpVIJSKiISnV3WigEAlpDbtAmSX+V\/g127vC\/xt+SfbzkOMpPLnub+2DwZ2wt3Rrx30\/9pxncYX+J8Iv5J\/rPYA\/j39J+kD4mv+H\/J+a\/8w\/wfsB\/yb+jfrx7QHqy\/YX2Ef1AS7RG3xnEe\/glpXDHvAVu04v0hyA4666\/9ZGZrgTB3f\/ePlp0DPD+52m60XKC7bhdv5Mh+at93HfQH9bDBd1svjkCKubPOPrh+Z\/hOW+N5nfNSjBTXl9EaDSrWeuEtzBkRhDBzB7xLFe\/sT2WLkd\/L+4jjnRPE3FsMKHoImioN14NYAA\/vyoBWUfhl8Ua5j7bZJUmeUqiLPfiTO7j3+PdIdd0qscvXfxpTdqDNSwbs6FsUP7IxdQ42QIV\/Z\/VxlSyHiFx5H+Lu8rXZmIYWWRWPdwO6+MX0EfD+yMXTtZkPQhrd2YD6IQCSPs3zU+HvDm\/JfH2mNKxXzJ268FvJo\/8lB9bBn+nNJDJheP7wK3XCa\/UtRugzJzsoN\/aFQzxEeuFEj7vA27373+IJw3Dh262E1FwM2a43U5\/ZFqkyaIvWrJj74\/LkWjPV98eqH+vAn8v8FQ3HH3d8R0AAThjiWV3GVG9MoDsJ1YSo\/cpTuo1kKxvaWg\/OVLjlBTMXoT1bhmjNHm2C0toXGePn6aO3OjCeNjsgjqq2c835x3tU0A+lAzFH7GvW5qNDgfyIcxjuWeifnVCPiM8xMJmhku9+E70zgkGMK\/P1SlvsNvD2ibCpdHbCL9390uuDbqQ7B6nYnjmwkn1KInL0AbAZz0VbsRaRVltwJwjdmvDi6Izb37MCgqZKLpytKrj529te499YYjJOKHvSQZdndeeEXDazZuh8wWLF\/a5gmeJb4wq34HdJ2wOkigoO\/hjDW\/NzqrkhhW5ODmLHOfZ8D2HRIbdo+aObzt9Sepzj\/mJPHUjPOUJLDrjrYImUdBcrReDPbzF1au\/IqtO6jz+\/fo1rLTzx8N0TPeRonpFiuBagSXOD+f7iB5CUTTPVLEKUoSAxbjUngfvofQqJKxg\/mmijxvoGAdfgY7hNtYVZ1fIVzAmlsqZZT\/zxq6+PwuQ6j2vUHo+mYptG6UBtUSZ1MLb6Z6YBn\/XCq4jy2FP3AbfazqgFKJrIxMI\/w3PIw488vX1hSeAbjPTRmFTmeZB2\/4lz0B7W2XDaNi98SPvkaWXgqPDNytIg6armC8o4FtWSKzzMwjqYv3Lnebbbs6a3fj2aJ3tU7hLd9akb6Gx6DKWCFChSVueT1Yk3q8A1wR7VCBafYYtgKrxTO9wk0NyB6qspCOTFojQflBlbfS9eZYXIXfIK+55J88kG88ExLRIefHscGdJbfFrrPpBMJmLHa9OT18pnO6mvuVUBUYaVW\/MmvJNUfdpc0df9t93yE8jpw9BqTmyTyuDf4XXlMgTPjtrQDUVInnauwiiJoc6faQf3qVWZLvv057XqFgUdkEF61lAbtxzeUrimgqW7nqWPqGp\/ZlmJlpJVXVNv\/RrP3Rc0vH9XGvQ\/+TsVVCa76btEk2aJk17jNUfJDdHqm+Cjxr99j8fl+AUC94WsWOcqeZXNxzJ33D8wcjMxdHB4yvPzDr2SNFM4Qjreo1W0k96V1hffaChXENbmsEATLC5Z6XK4k9TdwqjC0lm+eITFffuHD9v4o7UGxCyhbYh773VMho+pCPDkxz7iYjHI3wi3\/TQ9ZIODdm73DhvshKZ4Lm0+hjR3CqfpNMias8Nqt8\/LybCgz+o2Pa\/Eh\/S3gwKwl\/FYDg5x2c2ho6aAwX6HleoUbbpqOnre\/7VuqXQ81hshsUb9TnSMVwx\/e\/aMhqGVq7U15yCnAp2Y7pyMIINSYLb3VL8U\/EzRhTOcxEFvSoHK50BBkQkj8HOMDnFw77+LT4GRxh5E6IGpGLKKWJ87eH\/5zI91SwifLiz+\/Fl9hAAX5MLLwGqcVer4NIyhQ9fcT5j+66UdaRO9fFgxompgQBuy8VEgxg4vgAAA==\" class=\"\" title=\"\" alt=\"\" style=\" width:auto;              height:auto\">"
             }
           }
         },
@@ -2833,8 +2821,8 @@
           "dbd540f7-56f6-4a53-82b7-c2a21a49c061"
         ],
         "settings": {
-          "animation": "fade-up",
-          "paddingsection": "180px 0px 180px 0px",
+          "animation": "",
+          "paddingsection": "84px 0px 84px 0px",
           "marginsection": "0px 0px 0px 0px",
           "bgsection": "#ffffff",
           "layout": "style-3",
@@ -2842,13 +2830,14 @@
           "des": "",
           "setwidth": "container",
           "arrows": false,
-          "draggable": true,
+          "draggable": false,
           "dots": false,
-          "infinite": true
+          "infinite": false
         }
       },
       "161407619141f112c9": {
         "type": "special-search",
+        "disabled": true,
         "settings": {
           "setwidth": "full",
           "bg_image": "shopify:\/\/shop_images\/shutterstock_1496684738.jpg",
@@ -2867,82 +2856,17 @@
       },
       "slideshow-4": {
         "type": "slideshow-4",
-        "settings": {}
-      },
-      "16154551447664a33d": {
-        "type": "service",
-        "blocks": {
-          "16154551447664a33d-0": {
-            "type": "service",
-            "settings": {
-              "title": "30-day free return",
-              "description": "",
-              "icon": "<svg aria-hidden=\"true\" focusable=\"false\" data-prefix=\"far\" data-icon=\"sync-alt\" role=\"img\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" viewbox=\"0 0 512 512\" class=\"svg-inline--fa fa-sync-alt fa-w-16 fa-3x\"><path fill=\"currentColor\" d=\"M483.515 28.485L431.35 80.65C386.475 35.767 324.485 8 256 8 123.228 8 14.824 112.338 8.31 243.493 7.971 250.311 13.475 256 20.301 256h28.045c6.353 0 11.613-4.952 11.973-11.294C66.161 141.649 151.453 60 256 60c54.163 0 103.157 21.923 138.614 57.386l-54.128 54.129c-7.56 7.56-2.206 20.485 8.485 20.485H492c6.627 0 12-5.373 12-12V36.971c0-10.691-12.926-16.045-20.485-8.486zM491.699 256h-28.045c-6.353 0-11.613 4.952-11.973 11.294C445.839 370.351 360.547 452 256 452c-54.163 0-103.157-21.923-138.614-57.386l54.128-54.129c7.56-7.56 2.206-20.485-8.485-20.485H20c-6.627 0-12 5.373-12 12v143.029c0 10.691 12.926 16.045 20.485 8.485L80.65 431.35C125.525 476.233 187.516 504 256 504c132.773 0 241.176-104.338 247.69-235.493.339-6.818-5.165-12.507-11.991-12.507z\" class=\"\"><\/path><\/svg>"
-            }
-          },
-          "16154551447664a33d-2": {
-            "type": "service",
-            "settings": {
-              "title": "Worldwide Shipping",
-              "description": "",
-              "icon": "<svg aria-hidden=\"true\" focusable=\"false\" data-prefix=\"fas\" data-icon=\"dolly\" role=\"img\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" viewbox=\"0 0 576 512\" class=\"svg-inline--fa fa-dolly fa-w-18 fa-3x\"><path fill=\"currentColor\" d=\"M294.2 277.7c18 5 34.7 13.4 49.5 24.7l161.5-53.8c8.4-2.8 12.9-11.9 10.1-20.2L454.9 47.2c-2.8-8.4-11.9-12.9-20.2-10.1l-61.1 20.4 33.1 99.4L346 177l-33.1-99.4-61.6 20.5c-8.4 2.8-12.9 11.9-10.1 20.2l53 159.4zm281 48.7L565 296c-2.8-8.4-11.9-12.9-20.2-10.1l-213.5 71.2c-17.2-22-43.6-36.4-73.5-37L158.4 21.9C154 8.8 141.8 0 128 0H16C7.2 0 0 7.2 0 16v32c0 8.8 7.2 16 16 16h88.9l92.2 276.7c-26.1 20.4-41.7 53.6-36 90.5 6.1 39.4 37.9 72.3 77.3 79.2 60.2 10.7 112.3-34.8 113.4-92.6l213.3-71.2c8.3-2.8 12.9-11.8 10.1-20.2zM256 464c-26.5 0-48-21.5-48-48s21.5-48 48-48 48 21.5 48 48-21.5 48-48 48z\" class=\"\"><\/path><\/svg>"
-            }
-          },
-          "16154551447664a33d-1": {
-            "type": "service",
-            "settings": {
-              "title": "Secure Payment",
-              "description": "",
-              "icon": "<svg aria-hidden=\"true\" focusable=\"false\" data-prefix=\"far\" data-icon=\"shield-alt\" role=\"img\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" viewbox=\"0 0 512 512\" class=\"svg-inline--fa fa-shield-alt fa-w-16 fa-3x\"><path fill=\"currentColor\" d=\"M256 409.6V100l-142.9 59.5c8.4 116.2 65.2 202.6 142.9 250.1zM466.5 83.7l-192-80a48.15 48.15 0 0 0-36.9 0l-192 80C27.7 91.1 16 108.6 16 128c0 198.5 114.5 335.7 221.5 380.3 11.8 4.9 25.1 4.9 36.9 0C360.1 472.6 496 349.3 496 128c0-19.4-11.7-36.9-29.5-44.3zM256 464C158.5 423.4 64 297.3 64 128l192-80 192 80c0 173.8-98.4 297-192 336z\" class=\"\"><\/path><\/svg>"
-            }
-          },
-          "65d28337-f07d-4105-b456-24741fd0463c": {
-            "type": "service",
-            "settings": {
-              "title": "Rewards Program",
-              "description": "",
-              "icon": "<svg aria-hidden=\"true\" focusable=\"false\" data-prefix=\"far\" data-icon=\"stars\" role=\"img\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" viewbox=\"0 0 512 512\" class=\"svg-inline--fa fa-stars fa-w-16 fa-3x\"><path fill=\"currentColor\" d=\"M259.68734,85.96808l49.6461,20.70054,20.70378,49.645a6.65746,6.65746,0,0,0,11.92616,0l20.70182-49.645,49.6461-20.70054a6.6661,6.6661,0,0,0,0-11.92542L362.6652,53.34017l-20.70182-49.643a6.65746,6.65746,0,0,0-11.92616,0l-20.70378,49.643-49.6461,20.70249a6.6661,6.6661,0,0,0,0,11.92542Zm249.3653,133.26937L469.3385,202.67936l-16.55912-39.71168a5.32691,5.32691,0,0,0-9.54132,0L426.677,202.67936,386.9648,219.23745a5.33414,5.33414,0,0,0,0,9.54072L426.677,245.33822l16.56107,39.70972a5.32534,5.32534,0,0,0,9.54132,0l16.55912-39.70972,39.71414-16.56005a5.33414,5.33414,0,0,0,0-9.54072ZM364.30783,267.30434,259.492,252.00793l-46.90773-95.20022a22.76642,22.76642,0,0,0-20.68816-12.79648,22.40194,22.40194,0,0,0-20.50065,12.79648l-46.90773,95.20022L19.67194,267.30434C.89009,270.00739-6.7039,293.2098,6.984,306.50627L82.89269,380.504,64.89212,485.09457C62.29829,500.00037,74.17366,512,87.48658,512a22.24712,22.24712,0,0,0,10.68784-2.703l93.81546-49.38912L285.80535,509.297a22.859,22.859,0,0,0,33.2823-24.20239L301.18084,380.504l75.90865-73.99774C390.68367,293.2098,383.08968,270.00739,364.30783,267.30434ZM249.4917,363.8014l13.68794,79.40382-71.18976-37.49885-71.31475,37.49885,13.71918-79.40382L76.58,307.50624l79.815-11.5934,35.59487-72.20092,35.59488,72.20092,79.815,11.5934Z\" class=\"\"><\/path><\/svg>"
-            }
-          },
-          "dbe6c0b8-32bc-4db7-8cee-cc40cbec9bed": {
-            "type": "service",
-            "settings": {
-              "title": "Quickly Suport",
-              "description": "",
-              "icon": "<svg aria-hidden=\"true\" focusable=\"false\" data-prefix=\"fal\" data-icon=\"user-headset\" role=\"img\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" viewbox=\"0 0 448 512\" class=\"svg-inline--fa fa-user-headset fa-w-14 fa-3x\"><path fill=\"currentColor\" d=\"M320 352h-4.7c-12.16 0-24 2.9-35.5 6.8a173.76 173.76 0 0 1-111.64 0c-11.48-3.9-23.29-6.78-35.42-6.78H128A128 128 0 0 0 0 480a32 32 0 0 0 32 32h384a32 32 0 0 0 32-32 128 128 0 0 0-128-128zM32 480a96.1 96.1 0 0 1 96-96h4.74c6.92 0 14.92 1.62 25.16 5.09a205.75 205.75 0 0 0 132.16 0c10.31-3.49 18.33-5.11 25.24-5.11h4.7a96.1 96.1 0 0 1 96 96zm16-256a16 16 0 0 0 16-16v-16c0-88.22 71.78-160 160-160s160 71.78 160 160v16a80.09 80.09 0 0 1-80 80h-32a32 32 0 0 0-32-32h-32a32 32 0 0 0 0 64h96a112.14 112.14 0 0 0 112-112v-16C416 86.12 329.88 0 224 0S32 86.12 32 192v16a16 16 0 0 0 16 16zM224 96a95.57 95.57 0 0 1 71.23 159.76c0 .09.13.15.18.24H304a47.89 47.89 0 0 0 40.55-22.58C349 220.36 352 206.58 352 192a128 128 0 0 0-256 0c0 40.42 19.1 76 48.35 99.47-.06-1.17-.35-2.28-.35-3.47a63.25 63.25 0 0 1 8.93-32A95.58 95.58 0 0 1 224 96z\" class=\"\"><\/path><\/svg>"
-            }
-          }
-        },
-        "block_order": [
-          "16154551447664a33d-0",
-          "16154551447664a33d-2",
-          "16154551447664a33d-1",
-          "65d28337-f07d-4105-b456-24741fd0463c",
-          "dbe6c0b8-32bc-4db7-8cee-cc40cbec9bed"
-        ],
         "settings": {
-          "animation": "",
-          "paddingsection": "30px 0px 30px 0px",
-          "marginsection": "0px 0px 0px 0px",
-          "bgsection": "#f8f8f8",
-          "layout": "style-3",
-          "title": "",
-          "des": "",
-          "setwidth": "container",
-          "arrows": false,
-          "draggable": true,
-          "dots": false,
-          "infinite": true
         }
       },
       "special-search": {
         "type": "special-search",
         "settings": {
           "setwidth": "container",
-          "bg_image": "shopify:\/\/shop_images\/bg-testimonial-min.jpg",
+          "bg_image": "shopify:\/\/shop_images\/tecweld-bg-testimonials.jpg",
           "text_color": "#ffffff",
-          "home_searchfilter_title": "SELECT YOUR VEHICLE",
-          "home_searchfilter_subtitle": "Over 100,000 Auto and Truck Parts",
+          "home_searchfilter_title": "Find Welding Equipment",
+          "home_searchfilter_subtitle": "For professional welding equipment and consumable products and the best in customer service right here in Perth.",
           "filter1_title": "Select Collection",
           "filter2_title": "Select Make",
           "filter2_tag": "audi,bmw,bugatti,ford,ferrari",
@@ -2952,12 +2876,102 @@
           "filter4_tag": "Under $50,$50 - $100,$100 - $200,$200 - $400,Above $400",
           "home_searchfilter_buttontext": "GO"
         }
+      },
+      "1648519797a2e1cd78": {
+        "type": "quotes",
+        "blocks": {
+          "1648519797a2e1cd78-0": {
+            "type": "quote",
+            "settings": {
+              "author": "Author's name",
+              "info": "",
+              "title": "Comment",
+              "rate": 5,
+              "quote": "Add customer reviews and testimonials to showcase your store’s happy customers."
+            }
+          },
+          "1648519797a2e1cd78-1": {
+            "type": "quote",
+            "settings": {
+              "author": "Author's name",
+              "info": "",
+              "title": "Comment",
+              "rate": 5,
+              "quote": "Add customer reviews and testimonials to showcase your store’s happy customers."
+            }
+          },
+          "1648519797a2e1cd78-2": {
+            "type": "quote",
+            "settings": {
+              "author": "Author's name",
+              "info": "",
+              "title": "Comment",
+              "rate": 5,
+              "quote": "Add customer reviews and testimonials to showcase your store’s happy customers."
+            }
+          }
+        },
+        "block_order": [
+          "1648519797a2e1cd78-0",
+          "1648519797a2e1cd78-1",
+          "1648519797a2e1cd78-2"
+        ],
+        "settings": {
+          "animation": "",
+          "paddingsection": "0px 0px 0px 0px",
+          "marginsection": "0px 0px 0px 0px",
+          "bgsection": "#fefefe",
+          "title": "",
+          "des": "",
+          "fullwidth": false,
+          "show": 1,
+          "arrows": false,
+          "draggable": true,
+          "dots": true,
+          "infinite": true,
+          "gaps": 1
+        }
+      },
+      "1648535313d84319fe": {
+        "type": "rich-text",
+        "settings": {
+          "home_page_full_width": false,
+          "section_title": "Talk about your brand",
+          "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+        }
+      },
+      "16485372088fba1b04": {
+        "type": "parallax-banner",
+        "settings": {
+          "animation": "",
+          "paddingsection": "0px 0px 0px 0px",
+          "marginsection": "0px 0px 0px 0px",
+          "bgsection": "#ffffff",
+          "setwidth": "full",
+          "align": "right",
+          "padding_desktop": 240,
+          "padding_mobile": 80,
+          "bg_box": "#ffffff",
+          "opacity_bgbox": 0,
+          "bg_overlay": "#000000",
+          "opacity_bg_overlay": 0.1,
+          "title": "TECWELD",
+          "title_color": "#ffffff",
+          "subtext": "The best brands at competitive prices with friendly service",
+          "subtitle_color": "#ffffff",
+          "button": "SHOP NOW",
+          "link": "shopify:\/\/collections\/all",
+          "parrallax_enable": true,
+          "image": "shopify:\/\/shop_images\/shutterstock_1496684738.jpg"
+        }
       }
     },
     "content_for_index": [
       "161407619141f112c9",
+      "16485372088fba1b04",
       "1607066023b5a74cc7",
-      "16154551447664a33d"
+      "1648519797a2e1cd78",
+      "1648535313d84319fe"
     ]
   },
   "presets": {
@@ -3391,7 +3405,8 @@
         },
         "footer-1": {
           "type": "footer-1",
-          "settings": {}
+          "settings": {
+          }
         },
         "product-template-1": {
           "type": "product-template-1",
@@ -3983,7 +3998,8 @@
             "1561993581158-1",
             "1561993581158-2"
           ],
-          "settings": {}
+          "settings": {
+          }
         },
         "header-3": {
           "type": "header-3",
