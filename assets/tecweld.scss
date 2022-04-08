@@ -293,7 +293,7 @@
 
 .js-sidebar.active {
   @media (max-width: 450px) {
-    width: auto;
-    padding: 0;
+    width: auto !important;
+    padding: 0 !important;
   }
 }

@@ -281,7 +281,7 @@
 
 @media (max-width: 450px) {
   .js-sidebar.active {
-    width: auto;
-    padding: 0;
+    width: auto !important;
+    padding: 0 !important;
   }
 }
