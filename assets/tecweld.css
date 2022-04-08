@@ -293,3 +293,9 @@
     background-size: cover !important;
   }
 }
+
+@media (max-width: 450px) {
+  .site-header__logo img {
+    width: auto !important;
+  }
+}

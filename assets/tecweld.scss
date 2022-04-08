@@ -172,7 +172,6 @@
   border: 1px solid #a8a8a82b !important;
 }
 
-
 .support_line {
   .text {
     color: #012c3c;
@@ -284,7 +283,6 @@
   }
 }
 
-
 .badge-light {
   background-color: #fff;
   color: #000;
@@ -310,7 +308,7 @@
   &__logo {
     img {
       @media (max-width: 450px) {
-        
+        width: auto !important;
       }
     }
   }
