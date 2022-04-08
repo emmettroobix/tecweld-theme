@@ -285,3 +285,11 @@
     padding: 0 !important;
   }
 }
+
+@media (max-width: 450px) {
+  #search-filter {
+    padding-top: 2rem !important;
+    padding-bottom: 0 !important;
+    background-size: cover !important;
+  }
+}
