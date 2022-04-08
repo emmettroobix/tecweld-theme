@@ -1,6 +1,6 @@
 @mixin mobile-down() {
   @media (max-width: 450px) {
-
+    @content;
   }
 }
 
