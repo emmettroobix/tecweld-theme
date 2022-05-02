@@ -526,7 +526,7 @@
         "settings": {
           "fullwidth": false,
           "remove_powered": true,
-          "background": "#012c3c",
+          "background": "#221f20",
           "border_headfooter": "#ffffff",
           "background_bot": "rgba(0,0,0,0)",
           "border-copryright": "#fffffa",
