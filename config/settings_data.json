@@ -485,9 +485,9 @@
           "resolution": "thumbnail",
           "show": 3,
           "arrows": true,
-          "draggable": false,
-          "dots": false,
-          "infinite": false,
+          "draggable": true,
+          "dots": true,
+          "infinite": true,
           "radius": true
         }
       },
