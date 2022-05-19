@@ -524,14 +524,14 @@
           "2868a2e4-656a-4ace-ae2e-baf118135b95"
         ],
         "settings": {
-          "fullwidth": false,
+          "fullwidth": true,
           "remove_powered": true,
-          "background": "#221f20",
-          "border_headfooter": "#ffffff",
-          "background_bot": "rgba(0,0,0,0)",
+          "background": "#ffffff",
+          "border_headfooter": "#ffea00",
+          "background_bot": "#ffea00",
           "border-copryright": "#fffffa",
-          "text": "#ffffff",
-          "title": "#ffffff",
+          "text": "#222222",
+          "title": "#222222",
           "enablemethod": false
         }
       },
