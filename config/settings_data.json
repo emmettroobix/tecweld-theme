@@ -2964,6 +2964,27 @@
           "parrallax_enable": true,
           "image": "shopify:\/\/shop_images\/shutterstock_1496684738.jpg"
         }
+      },
+      "1652949079176d01a5": {
+        "type": "product-list",
+        "settings": {
+          "animation": "",
+          "paddingsection": "0px 0px 0px 0px",
+          "marginsection": "0px 0px 0px 0px",
+          "bgsection": "#012c3c",
+          "setwidth": "container-fluid",
+          "title": "Featured Products",
+          "des": "",
+          "collection": "cigweld",
+          "arrows": true,
+          "draggable": true,
+          "dots": true,
+          "infinite": true,
+          "rows": "1",
+          "limit": 8,
+          "show": 4,
+          "gaps": 2
+        }
       }
     },
     "content_for_index": [
@@ -2971,7 +2992,8 @@
       "16485372088fba1b04",
       "1607066023b5a74cc7",
       "1648535313d84319fe",
-      "1648519797a2e1cd78"
+      "1648519797a2e1cd78",
+      "1652949079176d01a5"
     ]
   },
   "presets": {
