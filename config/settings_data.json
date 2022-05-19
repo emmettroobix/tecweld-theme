@@ -2969,9 +2969,9 @@
         "type": "product-list",
         "settings": {
           "animation": "",
-          "paddingsection": "0px 0px 0px 0px",
-          "marginsection": "0px 0px 0px 0px",
-          "bgsection": "#012c3c",
+          "paddingsection": "24px 0px 24px 0px",
+          "marginsection": "48px 0px 16px 0px",
+          "bgsection": "#ffffff",
           "setwidth": "container-fluid",
           "title": "Featured Products",
           "des": "",
