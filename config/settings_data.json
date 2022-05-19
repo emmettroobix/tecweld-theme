@@ -2975,7 +2975,7 @@
           "setwidth": "container-fluid",
           "title": "Featured Products",
           "des": "",
-          "collection": "cigweld",
+          "collection": "featured-products",
           "arrows": true,
           "draggable": true,
           "dots": true,
