@@ -2969,7 +2969,7 @@
         "type": "product-list",
         "settings": {
           "animation": "",
-          "paddingsection": "24px 0px 24px 0px",
+          "paddingsection": "32px 0px 32px 0px",
           "marginsection": "48px 0px 16px 0px",
           "bgsection": "#ffffff",
           "setwidth": "container-fluid",
@@ -2981,9 +2981,9 @@
           "dots": true,
           "infinite": true,
           "rows": "1",
-          "limit": 8,
-          "show": 4,
-          "gaps": 2
+          "limit": 9,
+          "show": 5,
+          "gaps": 3
         }
       }
     },
