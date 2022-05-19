@@ -507,14 +507,14 @@
             "type": "menu",
             "settings": {
               "link_list": "footer",
-              "width": "20%"
+              "width": "16%"
             }
           },
           "2868a2e4-656a-4ace-ae2e-baf118135b95": {
             "type": "menu",
             "settings": {
               "link_list": "footer",
-              "width": "20%"
+              "width": "16%"
             }
           }
         },
