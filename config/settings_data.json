@@ -526,12 +526,12 @@
         "settings": {
           "fullwidth": false,
           "remove_powered": true,
-          "background": "#ffffff",
-          "border_headfooter": "#ffea00",
-          "background_bot": "#ffffff",
-          "border-copryright": "#fffffa",
-          "text": "#222222",
-          "title": "#222222",
+          "background": "#012c3c",
+          "border_headfooter": "#ffffff",
+          "background_bot": "#012c3c",
+          "border-copryright": "#ffffff",
+          "text": "#ffffff",
+          "title": "#ffffff",
           "enablemethod": false
         }
       },
