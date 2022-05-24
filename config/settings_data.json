@@ -19,7 +19,7 @@
     "show_more_image": true,
     "container": 1200,
     "gutter": 24,
-    "logo": "shopify:\/\/shop_images\/logo.png",
+    "logo": "shopify:\/\/shop_images\/tecweld-logo.png",
     "logo_max_width": 120,
     "favicon": "shopify:\/\/shop_images\/favvicon.x14470.png",
     "safe_checkout_pcart": "",
@@ -456,8 +456,8 @@
       "header-1": {
         "type": "header-1",
         "settings": {
-          "enable_transparent": false,
-          "enable_sticky": true,
+          "enable_transparent": true,
+          "enable_sticky": false,
           "enable_dropdownfull": true,
           "enable_hotline": true,
           "phonetext": "Phone:",
