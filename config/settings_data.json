@@ -456,7 +456,7 @@
       "header-1": {
         "type": "header-1",
         "settings": {
-          "enable_transparent": false,
+          "enable_transparent": true,
           "enable_sticky": false,
           "enable_dropdownfull": false,
           "enable_hotline": true,
