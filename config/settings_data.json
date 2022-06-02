@@ -456,9 +456,9 @@
       "header-1": {
         "type": "header-1",
         "settings": {
-          "enable_transparent": true,
-          "enable_sticky": false,
-          "enable_dropdownfull": false,
+          "enable_transparent": false,
+          "enable_sticky": true,
+          "enable_dropdownfull": true,
           "enable_hotline": true,
           "phonetext": "Phone:",
           "phonenumber": "(08) 277 1444",
