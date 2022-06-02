@@ -457,7 +457,7 @@
         "type": "header-1",
         "settings": {
           "enable_transparent": false,
-          "enable_sticky": false,
+          "enable_sticky": true,
           "enable_dropdownfull": true,
           "enable_hotline": true,
           "phonetext": "Phone:",
@@ -498,7 +498,7 @@
             "type": "social",
             "settings": {
               "title": "GET IN TOUCH",
-              "sub_title": "<div>15 Robinson Avenue, BELMONT WA 6104<br>\nAustralia<br>\nPhone: <a href=\"tel:082771444\">(08) 277 1444<\/a><br>\nEmail: harvey@tecweld.com.au<br>\n<\/div>",
+              "sub_title": "<div>15 Robinson Avenue, BELMONT WA 6104<br>\nAustralia<br>\nPhone: <a href=\"tel:082771444\">(08) 277 1444<\/a><br>\nEmail: quotes@tecweld.com.au<br>\n<\/div>",
               "align": "left",
               "width": "33%"
             }
