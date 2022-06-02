@@ -1847,11 +1847,11 @@
       "announcement-bar": {
         "type": "announcement-bar",
         "settings": {
-          "enable": true,
+          "enable": false,
           "background": "#012c3c",
           "text": "#ffffff",
           "icon": "",
-          "announcement": "Free delivery - On all orders over $200"
+          "announcement": "Free delivery - On all orders over $500"
         }
       },
       "blog-template-3": {
