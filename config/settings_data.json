@@ -2943,14 +2943,14 @@
       "16485372088fba1b04": {
         "type": "parallax-banner",
         "settings": {
-          "animation": "",
+          "animation": "fade-down",
           "paddingsection": "0px 0px 0px 0px",
           "marginsection": "0px 0px 0px 0px",
           "bgsection": "#ffffff",
           "setwidth": "full",
           "align": "right",
-          "padding_desktop": 240,
-          "padding_mobile": 80,
+          "padding_desktop": 340,
+          "padding_mobile": 190,
           "bg_box": "#ffffff",
           "opacity_bgbox": 0,
           "bg_overlay": "#000000",
