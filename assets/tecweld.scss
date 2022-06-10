@@ -375,5 +375,10 @@
 }
 
 .product-card {
-  min-height: 30rem !important;
+  min-height: 27rem !important;
+}
+
+.product-card img {
+  min-height: 20rem !important;
+  object-fit: contain !important;
 }
