@@ -361,3 +361,10 @@
     padding: 3rem;
   }
 }
+
+
+.product-card__image {
+  img {
+    min-height: 20rem;
+  }
+}
