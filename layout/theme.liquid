@@ -18,7 +18,6 @@
     {%- include 'social-meta-tags' -%}
     {%- include 'header-css' -%}
     {{ content_for_header }}
-  
   {% render 'qikify-apps' %}
 </head>
   <body class="template-{{ template | replace: '.', ' ' | truncatewords: 1, '' | handle }} body-theme {% if settings.productpage == 'product-2' or settings.productpage == 'product-6' or settings.productpage == 'product-7' or settings.productpage == 'product-8'%} product-hide-breadcrumb {% endif %}" >
