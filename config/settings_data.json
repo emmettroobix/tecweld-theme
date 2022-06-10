@@ -2964,12 +2964,34 @@
           "parrallax_enable": true,
           "image": "shopify:\/\/shop_images\/shutterstock_1496684738.jpg"
         }
+      },
+      "1654831060acd6d975": {
+        "type": "product-list",
+        "settings": {
+          "animation": "",
+          "paddingsection": "0px 0px 0px 0px",
+          "marginsection": "0px 0px 0px 0px",
+          "bgsection": "#ffffff",
+          "setwidth": "container",
+          "title": "Product list",
+          "des": "",
+          "collection": "featured-products",
+          "arrows": true,
+          "draggable": true,
+          "dots": true,
+          "infinite": true,
+          "rows": "1",
+          "limit": 10,
+          "show": 6,
+          "gaps": 1
+        }
       }
     },
     "content_for_index": [
       "161407619141f112c9",
       "16485372088fba1b04",
       "1607066023b5a74cc7",
+      "1654831060acd6d975",
       "1648519797a2e1cd78",
       "1648535313d84319fe"
     ]
