@@ -2981,7 +2981,7 @@
           "dots": true,
           "infinite": true,
           "rows": "1",
-          "limit": 10,
+          "limit": 27,
           "show": 6,
           "gaps": 1
         }
