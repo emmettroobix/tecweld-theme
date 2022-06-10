@@ -288,6 +288,14 @@
     }
   }
 
+  .tecweld-hero {
+    .section-title-2 {
+      display: flex;
+      justify-content: center;
+      padding-bottom: 1rem !important;
+    }
+  }
+
   &__name {
     color: #000;
     font-size: 17px;
