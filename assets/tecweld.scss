@@ -285,9 +285,9 @@
     justify-content: center !important;
     img {
       width: 90%;
-      min-height: 14rem !important;
+      display: block;
+      min-height: 16rem;
       object-fit: contain;
-      object-position: center center;
     }
   }
 
