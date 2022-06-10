@@ -2969,8 +2969,8 @@
         "type": "product-list",
         "settings": {
           "animation": "",
-          "paddingsection": "0px 0px 0px 0px",
-          "marginsection": "0px 0px 0px 0px",
+          "paddingsection": "0 0px 0 0px",
+          "marginsection": "48px 0px 48px 0px",
           "bgsection": "#ffffff",
           "setwidth": "container",
           "title": "Product list",
