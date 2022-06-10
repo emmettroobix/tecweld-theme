@@ -279,7 +279,8 @@
       min-height: unset !important;
     }
     &__image-wr {
-
+      position: relative;
+      min-height: 13rem;
     }
   }
   .product-card__info {
