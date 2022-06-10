@@ -2970,7 +2970,7 @@
         "settings": {
           "animation": "",
           "paddingsection": "64px 0px 64px 0px",
-          "marginsection": "0px 0px 0px 0px",
+          "marginsection": "64px 0px 64px 0px",
           "bgsection": "#ffffff",
           "setwidth": "container-fluid",
           "title": "Featured Products",
