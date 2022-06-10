@@ -4,11 +4,11 @@
     "slideshow": "slideshow-4",
     "footer": "footer-1",
     "pnewsletter": "pnewsletter-1",
-    "productpage": "product-1",
+    "productpage": "product-2",
     "collectionpage": "collection-1",
     "blogpage": "blog-1",
     "articlepage": "article-1",
-    "productgrid": "product-2",
+    "productgrid": "product-1",
     "sectionheading": "heading-2",
     "collectiongrid": "collection-2",
     "bloggrid": "blog-3",
@@ -72,7 +72,7 @@
     "apmenuitem_eproduct_1": true,
     "apmenuitem_columns_blockproducts_1": "3",
     "apmenuitem_tproduct_1": "Collection",
-    "apmenuitem_cproduct_1": "featured-products",
+    "apmenuitem_cproduct_1": "frontpage",
     "apmenuitem_ehtml_1": false,
     "apmenuitem_columns_blockhtml_1": "8",
     "apmenuitem_thtml_1": "",
@@ -464,11 +464,11 @@
           "phonenumber": "(08) 277 1444",
           "topbartext": "Monday – Friday 7.30am-4.00pm",
           "topbarbg": "#012c3c",
-          "background": "#f8f8f8",
+          "background": "#ffffff",
           "textcolor": "#ffffff",
           "linkcolor": "#ffffff",
           "linkhover": "#ffffff",
-          "menutext": "#012c3c",
+          "menutext": "#221f20",
           "menutexthover": "#012c3c",
           "menudroptexttitle": "#222222",
           "menudroptext": "#221f20",
@@ -485,9 +485,9 @@
           "resolution": "thumbnail",
           "show": 3,
           "arrows": true,
-          "draggable": true,
-          "dots": true,
-          "infinite": true,
+          "draggable": false,
+          "dots": false,
+          "infinite": false,
           "radius": true
         }
       },
@@ -498,7 +498,7 @@
             "type": "social",
             "settings": {
               "title": "GET IN TOUCH",
-              "sub_title": "<div>15 Robinson Avenue, BELMONT WA 6104<br>\nAustralia<br>\nPhone: <a href=\"tel:082771444\">(08) 277 1444<\/a><br>\nEmail: quotes@tecweld.com.au<br>\n<\/div>",
+              "sub_title": "<div>15 Robinson Avenue, BELMONT WA 6104<br>\nAustralia<br>\nPhone: <a href=\"tel:082771444\">(08) 277 1444<\/a><br>\nEmail: harvey@tecweld.com.au<br>\n<\/div>",
               "align": "left",
               "width": "33%"
             }
@@ -507,14 +507,14 @@
             "type": "menu",
             "settings": {
               "link_list": "footer",
-              "width": "16%"
+              "width": "20%"
             }
           },
           "2868a2e4-656a-4ace-ae2e-baf118135b95": {
             "type": "menu",
             "settings": {
               "link_list": "footer",
-              "width": "16%"
+              "width": "20%"
             }
           }
         },
@@ -528,8 +528,8 @@
           "remove_powered": true,
           "background": "#012c3c",
           "border_headfooter": "#ffffff",
-          "background_bot": "#012c3c",
-          "border-copryright": "#ffffff",
+          "background_bot": "rgba(0,0,0,0)",
+          "border-copryright": "#fffffa",
           "text": "#ffffff",
           "title": "#ffffff",
           "enablemethod": false
@@ -1851,7 +1851,7 @@
           "background": "#012c3c",
           "text": "#ffffff",
           "icon": "",
-          "announcement": "Free delivery - On all orders over $500"
+          "announcement": "Free delivery - On all orders over $200"
         }
       },
       "blog-template-3": {
@@ -2936,21 +2936,21 @@
         "type": "rich-text",
         "settings": {
           "home_page_full_width": false,
-          "section_title": "WELCOME TO TECWELD",
-          "text": "<p>For professional welding equipment and consumable products and the best in customer service right here in Perth. Supplying quality welding, industrial & mining supplies. Major brands include Cigweld, Speedglas, Lincoln, Profax, Tesuco, Elliotts, Austarc, and Tweco plus many more.<\/p>"
+          "section_title": "Talk about your brand",
+          "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
         }
       },
       "16485372088fba1b04": {
         "type": "parallax-banner",
         "settings": {
-          "animation": "fade-down",
+          "animation": "",
           "paddingsection": "0px 0px 0px 0px",
           "marginsection": "0px 0px 0px 0px",
           "bgsection": "#ffffff",
           "setwidth": "full",
           "align": "right",
-          "padding_desktop": 120,
-          "padding_mobile": 190,
+          "padding_desktop": 240,
+          "padding_mobile": 80,
           "bg_box": "#ffffff",
           "opacity_bgbox": 0,
           "bg_overlay": "#000000",
@@ -2964,36 +2964,14 @@
           "parrallax_enable": true,
           "image": "shopify:\/\/shop_images\/shutterstock_1496684738.jpg"
         }
-      },
-      "1652949079176d01a5": {
-        "type": "product-list",
-        "settings": {
-          "animation": "",
-          "paddingsection": "32px 0px 32px 0px",
-          "marginsection": "48px 0px 16px 0px",
-          "bgsection": "#ffffff",
-          "setwidth": "container-fluid",
-          "title": "Featured Products",
-          "des": "",
-          "collection": "featured-products",
-          "arrows": true,
-          "draggable": true,
-          "dots": true,
-          "infinite": true,
-          "rows": "1",
-          "limit": 9,
-          "show": 5,
-          "gaps": 3
-        }
       }
     },
     "content_for_index": [
       "161407619141f112c9",
       "16485372088fba1b04",
       "1607066023b5a74cc7",
-      "1648535313d84319fe",
-      "1652949079176d01a5",
-      "1648519797a2e1cd78"
+      "1648519797a2e1cd78",
+      "1648535313d84319fe"
     ]
   },
   "presets": {
