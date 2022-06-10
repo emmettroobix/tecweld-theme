@@ -2985,27 +2985,6 @@
           "show": 5,
           "gaps": 1
         }
-      },
-      "1654830201b0421280": {
-        "type": "product-list",
-        "settings": {
-          "animation": "",
-          "paddingsection": "0px 0px 0px 0px",
-          "marginsection": "0px 0px 0px 0px",
-          "bgsection": "#ffffff",
-          "setwidth": "container",
-          "title": "Product list",
-          "des": "",
-          "collection": "",
-          "arrows": true,
-          "draggable": true,
-          "dots": true,
-          "infinite": true,
-          "rows": "1",
-          "limit": 10,
-          "show": 3,
-          "gaps": 1
-        }
       }
     },
     "content_for_index": [
@@ -3013,7 +2992,6 @@
       "16485372088fba1b04",
       "1607066023b5a74cc7",
       "1648535313d84319fe",
-      "1654830201b0421280",
       "1654829878a3b9c0a4",
       "1648519797a2e1cd78"
     ]
