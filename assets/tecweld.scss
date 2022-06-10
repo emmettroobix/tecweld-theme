@@ -273,6 +273,12 @@
 
 
 .tecweld-hero {
+  .product-card {
+    &__info {
+      height: 100%;
+      min-height: unset !important;
+    }
+  }
   .product-card__info {
     height: 100%;
     min-height: unset !important;
