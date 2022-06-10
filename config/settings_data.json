@@ -2982,7 +2982,7 @@
           "infinite": true,
           "rows": "1",
           "limit": 27,
-          "show": 6,
+          "show": 4,
           "gaps": 1
         }
       }
