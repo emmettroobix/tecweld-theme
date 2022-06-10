@@ -2970,7 +2970,7 @@
         "settings": {
           "animation": "",
           "paddingsection": "64px 0px 64px 0px",
-          "marginsection": "64px 0px 64px 0px",
+          "marginsection": "64px 0px 48px 0px",
           "bgsection": "#ffffff",
           "setwidth": "container-fluid",
           "title": "Featured Products",
@@ -2981,7 +2981,7 @@
           "dots": true,
           "infinite": true,
           "rows": "1",
-          "limit": 10,
+          "limit": 11,
           "show": 6,
           "gaps": 1
         }
