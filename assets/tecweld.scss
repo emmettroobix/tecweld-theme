@@ -298,7 +298,6 @@
 .product-card {
   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
   padding-top: 1rem;
-  min-height: 26rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -374,9 +373,6 @@
   object-fit: contain;
 }
 
-.product-card {
-  min-height: 27rem !important;
-}
 
 .product-card__image img {
   min-height: 25rem !important;
