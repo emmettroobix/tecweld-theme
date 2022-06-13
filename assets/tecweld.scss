@@ -368,18 +368,13 @@
 }
 
 .product-card__image img {
-  min-height: 18rem;
   object-fit: contain;
 }
 
 
 .product-card__image img {
-  min-height: 25rem !important;
-  object-fit: contain !important;
-}
 
-.product-card__image {
-  min-height: 11rem;
+  object-fit: contain !important;
 }
 
 .tecweld-hero h3 {
