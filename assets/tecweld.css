@@ -291,6 +291,7 @@
       -ms-flex-pack: justify;
           justify-content: space-between;
   padding-bottom: 1rem;
+  padding: 0;
 }
 .product-card__image {
   display: -webkit-box !important;
