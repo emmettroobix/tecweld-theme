@@ -264,7 +264,6 @@
 }
 .tecweld-hero .product-card__info {
   height: 100%;
-  min-height: 12rem !important;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
