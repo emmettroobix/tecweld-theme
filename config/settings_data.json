@@ -686,8 +686,8 @@
           "collection_perpage": 15,
           "collection_perrow": "3",
           "sidebar_col": "col-md-3",
-          "enable_title": true,
-          "enable_description": true
+          "enable_title": false,
+          "enable_description": false
         }
       },
       "s_team_member": {
