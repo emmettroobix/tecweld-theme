@@ -273,7 +273,7 @@
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
-  padding-bottom: 4rem;
+  padding-bottom: 0;
 }
 
 .product-card {
