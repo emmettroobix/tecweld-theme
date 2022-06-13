@@ -400,4 +400,13 @@
 
 .product-card__info {
   background: #f8e72d !important;
+  min-height: 7rem !important;
+}
+
+.product-card__swatch {
+  padding: 0 !important;
+}
+
+.product-card__name {
+  font-size: 14px !important;
 }
