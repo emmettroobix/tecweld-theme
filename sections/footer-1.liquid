@@ -34,10 +34,10 @@
 </style>
 
 <footer class="site-footer pt-3 pt-md-5 tecweld-footer" role="contentinfo">
+  <div class="request-quote">
+    <h6>Request a Quote</h6>
+  </div>
   <div class="{% if section.settings.fullwidth %}container-fluid{% else %}container{% endif %} pt-3 pt-md-3">
-    <div class="request-quote">
-      <h6>Request a Quote</h6>
-    </div>
     <div class="flex-footer">
       {%- for block in section.blocks -%}
       {%- case block.settings.width -%}
