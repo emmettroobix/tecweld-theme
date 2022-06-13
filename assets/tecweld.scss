@@ -407,3 +407,10 @@
     background-color: #fff !important;
   }
 }
+
+.product-single {
+  &__hero {
+    display: flex;
+    align-items: center;
+  }
+}
