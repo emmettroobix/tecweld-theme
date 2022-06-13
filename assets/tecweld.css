@@ -396,7 +396,7 @@
 
 .product-card__info {
   background: #f8e72d !important;
-  min-height: 7rem !important;
+  max-height: 7rem !important;
 }
 
 .product-card__swatch {
