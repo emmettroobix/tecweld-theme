@@ -418,6 +418,10 @@
 
 .services-slider {
   .services-item {
-    
+    .media-body {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
   }
 }
