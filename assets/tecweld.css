@@ -396,3 +396,8 @@
 .product-card__swatch {
   padding: 0 !important;
 }
+
+.shopify-section-collection-template-1 .product-card {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
