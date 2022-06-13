@@ -398,6 +398,6 @@
 }
 
 .shopify-section-collection-template-1 .product-card {
+  box-shadow: none !important;
   -webkit-box-shadow: none !important;
-          box-shadow: none !important;
 }
