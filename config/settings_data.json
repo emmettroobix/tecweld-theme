@@ -506,22 +506,14 @@
           "5c183967-6da7-47b8-aba7-8bd3d871d1f8": {
             "type": "menu",
             "settings": {
-              "link_list": "footer",
-              "width": "20%"
-            }
-          },
-          "2868a2e4-656a-4ace-ae2e-baf118135b95": {
-            "type": "menu",
-            "settings": {
-              "link_list": "footer",
+              "link_list": "product-range",
               "width": "20%"
             }
           }
         },
         "block_order": [
           "46eeb684-b121-40c2-b7a7-ff1602bee8f3",
-          "5c183967-6da7-47b8-aba7-8bd3d871d1f8",
-          "2868a2e4-656a-4ace-ae2e-baf118135b95"
+          "5c183967-6da7-47b8-aba7-8bd3d871d1f8"
         ],
         "settings": {
           "fullwidth": false,
