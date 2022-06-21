@@ -7,8 +7,8 @@
 <div class="swiper swiper-{{section.id}}">
     <div class="swiper-wrapper">
         {% for block in section.blocks %}
-            <div class="swiper-slide slide-align-{{ block.settings.slide_txt_align }}">
-                <div class="inner">
+            <div class="swiper-slide">
+                <div class="inner content-align-{{ block.settings.slide_txt_align }}">
                     <div class="container txt-align-{{ block.settings.slide_txt_align }}">
                     
                         {% if block.settings.slide_image %}
