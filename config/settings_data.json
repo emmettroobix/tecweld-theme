@@ -2941,6 +2941,7 @@
             "settings": {
               "slide_image": "shopify:\/\/shop_images\/shutterstock_1496684738.jpg",
               "slide_title": "sds",
+              "slide_description": "sdsdsds",
               "button_label": "Button label",
               "button_link": "#"
             }
@@ -2950,6 +2951,7 @@
             "settings": {
               "slide_image": "shopify:\/\/shop_images\/tecweld-bg-testimonials.jpg",
               "slide_title": "xcvxcv",
+              "slide_description": "",
               "button_label": "Button label",
               "button_link": "#"
             }
