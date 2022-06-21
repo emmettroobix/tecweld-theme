@@ -17,6 +17,9 @@
                         {% if block.settings.slide_title %}
                             <h2>{{ block.settings.slide_title }}</h2>
                         {% endif %}
+                      	{% if block.settings.slide_title %}
+                            <div class="hero-description">{{ block.settings.slide_description }}</div>
+                        {% endif %}
                         {% if block.settings.button_label %}
                             <a class="hero-btn" href="{{ block.settings.button_link }}">{{ block.settings.button_label }}</a>
                         {% endif %}
@@ -73,6 +76,11 @@
                     "type": "text",
                     "id": "slide_title",
                     "label": "Title"
+                },
+				{
+                    "type": "textarea",
+                    "id": "slide_description",
+                    "label": "Description"
                 },
                 {
                     "type": "text",
