@@ -2943,7 +2943,9 @@
               "slide_title": "sds",
               "slide_description": "sdsdsds",
               "button_label": "Button label",
-              "button_link": "#"
+              "button_link": "#",
+              "slide_align": "left",
+              "slide_txt_align": "right"
             }
           },
           "6618c7d2-4dc5-40ba-9d83-f370015761bb": {
@@ -2953,7 +2955,9 @@
               "slide_title": "xcvxcv",
               "slide_description": "",
               "button_label": "Button label",
-              "button_link": "#"
+              "button_link": "#",
+              "slide_align": "center",
+              "slide_txt_align": "center"
             }
           }
         },
