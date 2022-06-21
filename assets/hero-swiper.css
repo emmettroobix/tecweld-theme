@@ -2,16 +2,21 @@
     position: relative;
     padding-block: 60px;
     background: rgb(0 0 0 / 40%);
+    min-height: 400px;
+}
+
+.hero-swiper .swiper-slide .container {
     display: flex;
     justify-content: center;
     align-items: flex-end;
     flex-direction: column;
-    min-height: 400px;
 }
-.hero-swiper .swiper-slide .container {
+
+.hero-swiper .swiper-slide .content-wrapper {
     width: 500px;
     max-width: 100%;
 }
+
 .hero-swiper .swiper-slide img {
 	position: absolute;
 	top: 0;
