@@ -2839,38 +2839,38 @@
           "1648519797a2e1cd78-0": {
             "type": "quote",
             "settings": {
-              "author": "Author's name",
+              "author": "Clinton Dalby",
               "info": "",
-              "title": "Comment",
-              "rate": 5,
-              "quote": "Add customer reviews and testimonials to showcase your store’s happy customers."
+              "title": "Service with a smile",
+              "rate": 0,
+              "quote": "“Service with a smile, nothing is too hard for these guys. One of the best customer service teams I've ever had the pleasure of dealing with. I highly recommend.”"
             }
           },
-          "1648519797a2e1cd78-1": {
+          "984af500-accb-432c-96ef-4138a0308041": {
+            "type": "quote",
+            "settings": {
+              "author": "Steve Clift",
+              "info": "",
+              "title": "Speedglas specialists",
+              "rate": 0,
+              "quote": "Speedglas specialists, they know their stuff when it comes to anything Speedglas."
+            }
+          },
+          "061d3486-21f5-4483-b1a8-47e68a834a50": {
             "type": "quote",
             "settings": {
               "author": "Author's name",
               "info": "",
-              "title": "Comment",
-              "rate": 5,
-              "quote": "Add customer reviews and testimonials to showcase your store’s happy customers."
-            }
-          },
-          "1648519797a2e1cd78-2": {
-            "type": "quote",
-            "settings": {
-              "author": "Author's name",
-              "info": "",
-              "title": "Comment",
-              "rate": 5,
-              "quote": "Add customer reviews and testimonials to showcase your store’s happy customers."
+              "title": "Best service in town",
+              "rate": 0,
+              "quote": "Best service in town, if we need anything urgently Tecweld is who I call."
             }
           }
         },
         "block_order": [
           "1648519797a2e1cd78-0",
-          "1648519797a2e1cd78-1",
-          "1648519797a2e1cd78-2"
+          "984af500-accb-432c-96ef-4138a0308041",
+          "061d3486-21f5-4483-b1a8-47e68a834a50"
         ],
         "settings": {
           "animation": "",
