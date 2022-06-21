@@ -1,4 +1,7 @@
+{{ 'https://unpkg.com/swiper/swiper-bundle.min.js' | script_tag }}
+{{ 'https://unpkg.com/swiper/swiper-bundle.min.css' | stylesheet_tag }}
 {{ 'hero-swiper.css' | asset_url | stylesheet_tag }}
+
 {% assign mySwiper = ".swiper-" %}
 
 <div class="swiper swiper-{{section.id}}">
