@@ -24,6 +24,15 @@
     width: 500px;
     max-width: 100%;
 }
+.hero-swiper .swiper-slide .content-wrapper.txt-align-left {
+    text-align: left;
+}
+.hero-swiper .swiper-slide .content-wrapper.txt-align-center {
+    text-align: left;
+}
+.hero-swiper .swiper-slide .content-wrapper.txt-align-right {
+    text-align: right;
+}
 
 .hero-swiper .swiper-slide img {
 	position: absolute;
