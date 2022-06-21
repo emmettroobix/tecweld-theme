@@ -187,11 +187,11 @@
     "categories_block_productcount": true,
     "categories_block_collapse": true,
     "categories_block_title": "Categories",
-    "categories_block_number": "12",
+    "categories_block_number": "124",
     "categories_block_items": "",
     "shop_by_vendor_enable": true,
     "shop_by_vendor_collapse": false,
-    "shop_by_vendor_title": "Vendors",
+    "shop_by_vendor_title": "Supplier",
     "shop_by_vendor_number": "10",
     "shop_by_vendor_custom_list": "",
     "shop_by_type_enable": true,
@@ -498,7 +498,7 @@
             "type": "social",
             "settings": {
               "title": "GET IN TOUCH",
-              "sub_title": "<div>15 Robinson Avenue, BELMONT WA 6104<br>\nAustralia<br>\nPhone: <a href=\"tel:082771444\">(08) 277 1444<\/a><br>\nEmail: harvey@tecweld.com.au<br>\n<\/div>",
+              "sub_title": "<div>15 Robinson Avenue, BELMONT WA 6104<br>\nAustralia<br>\nPhone: <a href=\"tel:082771444\">(08) 277 1444<\/a><br>\nEmail: quotes@tecweld.com.au<br>\n<\/div>",
               "align": "left",
               "width": "33%"
             }
@@ -686,8 +686,8 @@
           "collection_perpage": 15,
           "collection_perrow": "3",
           "sidebar_col": "col-md-3",
-          "enable_title": true,
-          "enable_description": true
+          "enable_title": false,
+          "enable_description": false
         }
       },
       "s_team_member": {
@@ -1469,35 +1469,15 @@
           "1587569402997": {
             "type": "address",
             "settings": {
-              "store_addess": "<div class=\"mt-5\">\n<h2 class=\"mb-3 f-90\">01<\/h2>\n<span class=\"text-body font-weight-bold\">STORE NEWYORK<\/span>\n<\/div>",
-              "contact_addess": "123 Sky Tower, West 21th Street, Suite 721, NY",
-              "contact_phone": "+844 123 456 789",
-              "contact_mail": "sale@yourcompany.com"
-            }
-          },
-          "1587569420887": {
-            "type": "address",
-            "settings": {
-              "store_addess": "<div class=\"mt-5\">\n<h2 class=\"mb-3 f-90\">02<\/h2>\n<span class=\"text-body font-weight-bold\">STORE NEWYORK<\/span>\n<\/div>",
-              "contact_addess": "123 Sky Tower, West 21th Street, Suite 721, NY",
-              "contact_phone": "+844 123 456 789",
-              "contact_mail": "sale@yourcompany.com"
-            }
-          },
-          "1587569429598": {
-            "type": "address",
-            "settings": {
-              "store_addess": "<div class=\"mt-5\">\n<h2 class=\"mb-3 f-90\">03<\/h2>\n<span class=\"text-body font-weight-bold\">STORE NEWYORK<\/span>\n<\/div>",
-              "contact_addess": "123 Sky Tower, West 21th Street, Suite 721, NY",
-              "contact_phone": "+844 123 456 789",
-              "contact_mail": "sale@yourcompany.com"
+              "store_addess": "<div class=\"mt-5\">\n<span class=\"text-body font-weight-bold\">Address<\/span>\n<\/div>\n<a href=\"https:\/\/goo.gl\/maps\/LNJFaNT27RBkquvF9\" style=\"padding-top:24px;\">15 Robinson Avenue, BELMONT WA 6104<\/a>",
+              "contact_addess": "",
+              "contact_phone": "(08) 277 1444",
+              "contact_mail": ""
             }
           }
         },
         "block_order": [
-          "1587569402997",
-          "1587569420887",
-          "1587569429598"
+          "1587569402997"
         ],
         "settings": {
           "title_page": "Stay in touch! Contact us",
@@ -2612,37 +2592,7 @@
       },
       "page-about-v2": {
         "type": "page-about-v2",
-        "blocks": {
-          "1587745634317": {
-            "type": "conttent",
-            "settings": {
-              "title_right": "<span class=\"text-primary2\">01.<\/span> Who we are",
-              "contenthtml": "<p>\nFrom the parks of Toronto to the Tuileries in Paris, we’ve got a penchant \nfor capturing the best street style across the globe year-round. If you’ve\ngot a thing for shimmering layers, Susie Bubble and spotting editrixes in \ntheir natural habitat, look no further than this.\n<br><br>\nYou’ve got a thing for shimmering layers, Susie Bubble and spotting in \ntheir natural habitat, look no further than this, our constantly updated \nstreet style page! Ornare arcu lacus, quis aliquet odio bibendum non. \nNulla sagittis efficitur ex fusce ac ipsum gravida.\n\n<\/p>"
-            }
-          },
-          "1587745980629": {
-            "type": "conttent",
-            "settings": {
-              "title_right": "<span class=\"text-primary2\">02.<\/span> What we do",
-              "contenthtml": "<p>\nYou’ve got a thing for shimmering layers, Susie Bubble and spotting \neditrixes in their natural habitat, look no further than this, our constantly \nupdated street style page!\n<\/p>\n<ul class=\"list-unstyled\">\n    <li class=\"py-2\">Ornare arcu lacus, quis aliquet odio bibendum non.<\/li>\n    <li class=\"py-2\">Nulla sagittis efficitur ex<\/li>\n    <li class=\"py-2\">Fusce ac ipsum gravida, tristique sed felis augue<\/li>\n    <li class=\"py-2\">Aarcu lacus, quis aliquet odio bibendum non.<\/li>\n<\/ul>"
-            }
-          },
-          "1587748105186": {
-            "type": "conttent",
-            "settings": {
-              "title_right": "<span class=\"text-primary2\">03.<\/span> Contact us",
-              "contenthtml": "<p class=\"text-body\">\n123 South Main Street, Los Angeles,\nUnited States\n<br>\nPhone: +0180 808 880<br>\nEmail: rubiktheme@gmail.com\n<\/p>"
-            }
-          }
-        },
-        "block_order": [
-          "1587745634317",
-          "1587745980629",
-          "1587748105186"
-        ],
         "settings": {
-          "image1": "shopify:\/\/shop_images\/C-P2.jpg",
-          "image2": "shopify:\/\/shop_images\/C-P1.jpg"
         }
       },
       "page-about-v3": {
@@ -2942,8 +2892,8 @@
         "type": "rich-text",
         "settings": {
           "home_page_full_width": false,
-          "section_title": "Talk about your brand",
-          "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+          "section_title": "WELCOME TO TECWELD",
+          "text": "<p>For professional welding equipment and consumable products and the best in customer service right here in Perth. Supplying quality welding, industrial & mining supplies. Major brands include Cigweld, Speedglas, Lincoln, Profax, Tesuco, Elliotts, Austarc, and Tweco plus many more.<\/p><p>We are currently working on listing and showcasing all products but for now, please use the drop down menus to check out the range or products and services we provide.<\/p>"
         }
       },
       "16485372088fba1b04": {
