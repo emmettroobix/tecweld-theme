@@ -24,9 +24,21 @@
 	color: #fff;
 }
 
-.hero-swiper .swiper-pagination-bullet{
-    --swiper-pagination-bullet-width: 10px;
-    --swiper-pagination-bullet-height: 10px;
-    --swiper-pagination-bullet-inactive-color: #FFF;
-    --swiper-pagination-bullet-inactive-opacity: .5;
+.hero-swiper .hero-btn {
+	color: #000;
+	text-transform: none;
+	font-size: 18px;
+	font-weight: 900;
+	border: 2px solid #ffe800;
+	padding: 0.75rem 1.5rem;
+	width: auto;
+	background: #ffe800;
+	margin-top: 1rem;
+}
+
+.hero-swiper .swiper-pagination-bullet {
+	--swiper-pagination-bullet-width: 10px;
+	--swiper-pagination-bullet-height: 10px;
+	--swiper-pagination-bullet-inactive-color: #fff;
+	--swiper-pagination-bullet-inactive-opacity: 0.5;
 }
