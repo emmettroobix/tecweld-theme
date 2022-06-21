@@ -7,9 +7,17 @@
 .hero-swiper .swiper-slide .container {
     display: flex;
     justify-content: center;
-    align-items: flex-end;
     flex-direction: column;
     min-height: 400px;
+}
+.hero-swiper .swiper-slide .container.content-align-left{
+    align-items: flex-start;
+}
+.hero-swiper .swiper-slide .container.content-align-center{
+    align-items: center;
+}
+.hero-swiper .swiper-slide .container.content-align-right{
+    align-items: flex-end;
 }
 
 .hero-swiper .swiper-slide .content-wrapper {
