@@ -2592,37 +2592,7 @@
       },
       "page-about-v2": {
         "type": "page-about-v2",
-        "blocks": {
-          "1587745634317": {
-            "type": "conttent",
-            "settings": {
-              "title_right": "<span class=\"text-primary2\">01.<\/span> Who we are",
-              "contenthtml": "<p>\nFrom the parks of Toronto to the Tuileries in Paris, we’ve got a penchant \nfor capturing the best street style across the globe year-round. If you’ve\ngot a thing for shimmering layers, Susie Bubble and spotting editrixes in \ntheir natural habitat, look no further than this.\n<br><br>\nYou’ve got a thing for shimmering layers, Susie Bubble and spotting in \ntheir natural habitat, look no further than this, our constantly updated \nstreet style page! Ornare arcu lacus, quis aliquet odio bibendum non. \nNulla sagittis efficitur ex fusce ac ipsum gravida.\n\n<\/p>"
-            }
-          },
-          "1587745980629": {
-            "type": "conttent",
-            "settings": {
-              "title_right": "<span class=\"text-primary2\">02.<\/span> What we do",
-              "contenthtml": "<p>\nYou’ve got a thing for shimmering layers, Susie Bubble and spotting \neditrixes in their natural habitat, look no further than this, our constantly \nupdated street style page!\n<\/p>\n<ul class=\"list-unstyled\">\n    <li class=\"py-2\">Ornare arcu lacus, quis aliquet odio bibendum non.<\/li>\n    <li class=\"py-2\">Nulla sagittis efficitur ex<\/li>\n    <li class=\"py-2\">Fusce ac ipsum gravida, tristique sed felis augue<\/li>\n    <li class=\"py-2\">Aarcu lacus, quis aliquet odio bibendum non.<\/li>\n<\/ul>"
-            }
-          },
-          "1587748105186": {
-            "type": "conttent",
-            "settings": {
-              "title_right": "<span class=\"text-primary2\">03.<\/span> Contact us",
-              "contenthtml": "<p class=\"text-body\">\n123 South Main Street, Los Angeles,\nUnited States\n<br>\nPhone: +0180 808 880<br>\nEmail: rubiktheme@gmail.com\n<\/p>"
-            }
-          }
-        },
-        "block_order": [
-          "1587745634317",
-          "1587745980629",
-          "1587748105186"
-        ],
         "settings": {
-          "image1": "shopify:\/\/shop_images\/C-P2.jpg",
-          "image2": "shopify:\/\/shop_images\/C-P1.jpg"
         }
       },
       "page-about-v3": {
