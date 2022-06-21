@@ -509,11 +509,20 @@
               "link_list": "product-range",
               "width": "20%"
             }
+          },
+          "1a8826c7-e081-4804-8f81-f67c117c4c54": {
+            "type": "text",
+            "settings": {
+              "title": "",
+              "text": "<div class=\"tecweld-logo\"><\/div>",
+              "width": "25%"
+            }
           }
         },
         "block_order": [
           "46eeb684-b121-40c2-b7a7-ff1602bee8f3",
-          "5c183967-6da7-47b8-aba7-8bd3d871d1f8"
+          "5c183967-6da7-47b8-aba7-8bd3d871d1f8",
+          "1a8826c7-e081-4804-8f81-f67c117c4c54"
         ],
         "settings": {
           "fullwidth": false,
