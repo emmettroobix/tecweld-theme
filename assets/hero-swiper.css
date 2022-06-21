@@ -20,7 +20,8 @@
 	z-index: -1;
 }
 
-.hero-swiper .swiper-slide h2 {
+.hero-swiper .swiper-slide h2,
+.hero-swiper .swiper-slide .hero-description {
 	color: #fff;
 }
 
@@ -33,7 +34,7 @@
 	padding: 0.75rem 1.5rem;
 	width: auto;
 	background: #ffe800;
-	margin-top: 1rem; 
+	margin-top: 1rem;
 }
 
 .hero-swiper .swiper-pagination-bullet {
