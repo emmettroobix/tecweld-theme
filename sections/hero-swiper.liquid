@@ -8,22 +8,22 @@
     <div class="swiper-wrapper">
         {% for block in section.blocks %}
             <div class="swiper-slide">
-                <div class="inner content-align-{{ block.settings.slide_txt_align }}">
-                    <div class="container txt-align-{{ block.settings.slide_txt_align }}">
-                    
-                        {% if block.settings.slide_image %}
-                            <img src="{{ block.settings.slide_image | img_url:"1920x" }}" alt="{{ block.settings.button_label }}" />
-                        {% endif %}
-                        {% if block.settings.slide_title %}
-                            <h2>{{ block.settings.slide_title }}</h2>
-                        {% endif %}
-                      	{% if block.settings.slide_title %}
-                            <div class="hero-description">{{ block.settings.slide_description }}</div>
-                        {% endif %}
-                        {% if block.settings.button_label %}
-                            <a class="hero-btn" href="{{ block.settings.button_link }}">{{ block.settings.button_label }}</a>
-                        {% endif %}
-
+                <div class="inner">
+                    <div class="container content-align-{{ block.settings.slide_txt_align }}">
+                    	<div class="content-wrapper txt-align-{{ block.settings.slide_txt_align }}"
+                          {% if block.settings.slide_image %}
+                              <img src="{{ block.settings.slide_image | img_url:"1920x" }}" alt="{{ block.settings.button_label }}" />
+                          {% endif %}
+                          {% if block.settings.slide_title %}
+                              <h2>{{ block.settings.slide_title }}</h2>
+                          {% endif %}
+                          {% if block.settings.slide_title %}
+                              <div class="hero-description">{{ block.settings.slide_description }}</div>
+                          {% endif %}
+                          {% if block.settings.button_label %}
+                              <a class="hero-btn" href="{{ block.settings.button_link }}">{{ block.settings.button_label }}</a>
+                          {% endif %}
+						</div>
                     </div>
                 </div>
             </div>
