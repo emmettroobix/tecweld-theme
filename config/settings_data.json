@@ -2939,12 +2939,12 @@
           "1655861960b3444658-0": {
             "type": "slide",
             "settings": {
-              "slide_image": "shopify:\/\/shop_images\/banner.x14470.png",
-              "slide_title": "this is heading 1",
-              "slide_description": "this is descriptions",
-              "button_label": "Button label",
-              "button_link": "#",
-              "slide_align": "center",
+              "slide_image": "shopify:\/\/shop_images\/shutterstock_1496684738.jpg",
+              "slide_title": "THE BEST BRANDS AT COMPETITIVE PRICES WITH FRIENDLY SERVICE",
+              "slide_description": "",
+              "button_label": "SHOP NOW",
+              "button_link": "shopify:\/\/collections",
+              "slide_align": "right",
               "slide_txt_align": "center"
             }
           },
@@ -2970,6 +2970,8 @@
           "show_dots": true,
           "content_width": 500,
           "content_height": 800,
+          "content_height_tablet": 400,
+          "content_height_mobile": 350,
           "autoplay": true,
           "autoplay_speed": 4000,
           "effect": "slide"
