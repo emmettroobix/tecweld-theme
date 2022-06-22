@@ -4,7 +4,7 @@
 
 {% assign mySwiper = ".swiper-" %}
 
-<div class="swiper swiper-{{section.id}}" style="--content-width:{{ section.settings.content_width }}px;">
+<div class="swiper swiper-{{section.id}}" style="--content-width:{{ section.settings.content_width }}px;--content-height:{{ section.settings.content_height }}">
     <div class="swiper-wrapper">
         {% for block in section.blocks %}
             <div class="swiper-slide">
@@ -69,7 +69,7 @@
 			"default": false,
 			"label": "Show Dots"
 		},
-        {
+		{
           "type": "range",
           "id": "content_width",
           "min": 100,
@@ -77,7 +77,17 @@
           "step": 100,
           "unit": "px",
           "label": "Content Width",
-          "default": 300
+          "default": 500
+        },
+        {
+          "type": "range",
+          "id": "content_height",
+          "min": 100,
+          "max": 1600,
+          "step": 100,
+          "unit": "px",
+          "label": "Content Height",
+          "default": 500
         }
 	],
 	"blocks": [
