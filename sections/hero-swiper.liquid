@@ -29,7 +29,15 @@
             </div>
         {% endfor %}
     </div>
+  	{% if section.settings.show_arrows %}
+  	<div class="swiper-button-next"></div>
+  	<div class="swiper-button-prev"></div>
+  	{% endif %}
+  
+  	{% if section.settings.show_arrows %}
     <div class="swiper-pagination"></div>
+  	{% endif %}
+  	
 </div>
 <script>
     document.addEventListener("DOMContentLoaded", function(event) { 
@@ -98,18 +106,18 @@
                   "id": "slide_align",
                   "label": "Content alignment",
                   "options": [
-                    {
-                      "value": "left",
-                      "label": "left"
-                    },
-                    {
-                      "value": "center",
-                      "label": "center"
-                    },
-                    {
-                      "value": "right",
-                      "label": "right"
-                    }
+                      {
+                        "value": "left",
+                        "label": "left"
+                      },
+                      {
+                        "value": "center",
+                        "label": "center"
+                      },
+                      {
+                        "value": "right",
+                        "label": "right"
+                      }
                   ],
                   "default": "center"
                 },
@@ -118,18 +126,18 @@
                   "id": "slide_txt_align",
                   "label": "Text alignment",
                   "options": [
-                    {
-                      "value": "left",
-                      "label": "left"
-                    },
-                    {
-                      "value": "center",
-                      "label": "center"
-                    },
-                    {
-                      "value": "right",
-                      "label": "right"
-                    }
+                      {
+                        "value": "left",
+                        "label": "left"
+                      },
+                      {
+                        "value": "center",
+                        "label": "center"
+                      },
+                      {
+                        "value": "right",
+                        "label": "right"
+                      }
                   ],
                   "default": "center"
                 }
