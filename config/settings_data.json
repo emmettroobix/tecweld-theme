@@ -2966,7 +2966,7 @@
           "a51cc922-03fc-4e68-a3f4-b15ecdb4e05d"
         ],
         "settings": {
-          "show_arrows": true,
+          "show_arrows": false,
           "show_dots": false
         }
       }
