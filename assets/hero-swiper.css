@@ -16,7 +16,7 @@
     justify-content: center;
     flex-direction: column;
   	padding-block: 60px;
-    min-height: 400px;
+    min-height: var(--content_height, 400px);
 }
 .hero-swiper .swiper-slide .container.content-align-left{
     align-items: flex-start;
