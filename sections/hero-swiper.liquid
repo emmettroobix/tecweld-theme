@@ -46,7 +46,7 @@
             loop: true,
             {% if section.settings.autoplay %}                    
             autoplay: {
-                delay: 2500,
+                delay: {{ section.settings.autoplay_speed }},
                 disableOnInteraction: false,
             },
             {% endif %}
@@ -100,6 +100,16 @@
           "id": "autoplay",
           "label": "Auto play",
           "default": true
+        },
+        {
+          "type": "range",
+          "id": "autoplay_speed",
+          "min": 0,
+          "max": 9000,
+          "step": 100,
+          "unit": "px",
+          "label": "Content Height",
+          "default": 4000
         }
 	],
 	"blocks": [
