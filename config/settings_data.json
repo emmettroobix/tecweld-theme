@@ -2974,7 +2974,7 @@
           "content_height": 800,
           "content_height_tablet": 400,
           "content_height_mobile": 350,
-          "autoplay": false,
+          "autoplay": true,
           "autoplay_speed": 5000,
           "effect": "slide"
         }
