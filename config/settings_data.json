@@ -2967,7 +2967,10 @@
         ],
         "settings": {
           "show_arrows": true,
-          "show_dots": true
+          "show_dots": true,
+          "content_width": 500,
+          "content_height": 800,
+          "autoplay": false
         }
       }
     },
