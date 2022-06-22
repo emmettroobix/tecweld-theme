@@ -71,6 +71,18 @@
 .hero-swiper .swiper-slide .hero-description {
 	color: #fff;
 }
+.hero-swiper .swiper-slide .hero-description{
+    font-size: 20px;
+}
+  
+@media (max-width: 767px){
+  .hero-swiper .swiper-slide h2{
+  	font-size: 23px;
+  }
+  .hero-swiper .swiper-slide .hero-description{
+  	font-size: 16px;
+  }
+}
 
 .hero-swiper .hero-btn {
     color: #000;
