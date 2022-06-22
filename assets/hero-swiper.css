@@ -5,6 +5,7 @@
 	--swiper-pagination-bullet-height: 10px;
 	--swiper-pagination-bullet-inactive-color: #fff;
 	--swiper-pagination-bullet-inactive-opacity: 0.5;
+  	--swiper-navigation-size: 25px;
 }
 .hero-swiper .swiper-slide .inner {
     position: relative;
@@ -15,7 +16,7 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-  	padding-block: 60px;
+  	padding: 60px 40px;
  	min-height: var(--content-height-mobile, 350px);
 }
 @media (min-width: 768px){
@@ -24,6 +25,9 @@
     }
 }
 @media (min-width: 1024px){
+  	.hero-swiper{
+    	--swiper-navigation-size: 40px;
+    }
     .hero-swiper .swiper-slide .container {
     	min-height: var(--content-height, 500px);
     }
