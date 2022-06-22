@@ -2889,6 +2889,7 @@
       },
       "16485372088fba1b04": {
         "type": "parallax-banner",
+        "disabled": true,
         "settings": {
           "animation": "",
           "paddingsection": "0px 0px 0px 0px",
