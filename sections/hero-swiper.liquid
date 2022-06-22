@@ -9,8 +9,8 @@
         {% for block in section.blocks %}
             <div class="swiper-slide">
                 <div class="inner">
-                    <div class="container content-align-{{ block.settings.slide_txt_align }}">
-                    	<div class="content-wrapper txt-align-{{ block.settings.slide_txt_align }}" >
+                    <div class="container">
+                    	<div class="content-wrapper txt-align-{{ block.settings.slide_txt_align }} content-align-{{ block.settings.slide_txt_align }}" >
                           {% if block.settings.slide_image %}
                               <img src="{{ block.settings.slide_image | img_url:"1920x" }}" alt="{{ block.settings.button_label }}" />
                           {% endif %}
