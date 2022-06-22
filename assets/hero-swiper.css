@@ -33,6 +33,9 @@
     }
 }
 
+.hero-swiper .swiper-slide .container{
+  	max-width: var(--container-width, 1200px);
+}
 .hero-swiper .swiper-slide .container.content-align-left{
     align-items: flex-start;
 }
