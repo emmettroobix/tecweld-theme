@@ -50,6 +50,7 @@
                 disableOnInteraction: false,
             },
             {% endif %}
+            effect: {{ section.settings.effect }},
             navigation: {
               nextEl: ".swiper-button-next",
               prevEl: ".swiper-button-prev",
@@ -114,6 +115,22 @@
           "unit": "px",
           "label": "Content Height",
           "default": 4000
+        },
+        {
+          "type": "select",
+          "id": "effect",
+          "label": "Effect",
+          "options": [
+              {
+                "value": "fade",
+                "label": "fade"
+              },
+              {
+                "value": "slide",
+                "label": "slide"
+              }
+          ],
+          "default": "slide"
         }
 	],
 	"blocks": [
