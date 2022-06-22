@@ -4,7 +4,7 @@
 
 {% assign mySwiper = ".swiper-" %}
 
-<div class="swiper swiper-{{section.id}}" style="--content-width:{{ section.settings.content_width }}px;--content-height:{{ section.settings.content_height }}">
+<div class="swiper swiper-{{section.id}}" style="--content-width:{{ section.settings.content_width }}px;--content-height:{{ section.settings.content_height }}px;">
     <div class="swiper-wrapper">
         {% for block in section.blocks %}
             <div class="swiper-slide">
