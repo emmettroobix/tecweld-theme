@@ -11,13 +11,13 @@
     min-height: 400px;
 }
 .hero-swiper .swiper-slide .container.content-align-left{
-    align-items: flex-start;
+    margin-inline: 0 auto;
 }
 .hero-swiper .swiper-slide .container.content-align-center{
-    align-items: center;
+    margin-inline: auto;
 }
 .hero-swiper .swiper-slide .container.content-align-right{
-    align-items: flex-end;
+    margin-inline: auto 0;
 }
 
 .hero-swiper .swiper-slide .content-wrapper {
