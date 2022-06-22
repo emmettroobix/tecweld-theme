@@ -2972,7 +2972,7 @@
           "content_height": 800,
           "autoplay": true,
           "autoplay_speed": 4000,
-          "effect": "fade"
+          "effect": "slide"
         }
       }
     },
