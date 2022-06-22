@@ -2944,7 +2944,7 @@
               "slide_description": "",
               "button_label": "SHOP NOW",
               "button_link": "shopify:\/\/collections",
-              "slide_align": "right",
+              "slide_align": "center",
               "slide_txt_align": "right"
             }
           },
