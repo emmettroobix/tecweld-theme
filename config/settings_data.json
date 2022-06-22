@@ -2970,7 +2970,9 @@
           "show_dots": true,
           "content_width": 500,
           "content_height": 800,
-          "autoplay": true
+          "autoplay": true,
+          "autoplay_speed": 4000,
+          "effect": "fade"
         }
       }
     },
