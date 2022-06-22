@@ -1,3 +1,6 @@
+.hero-swiper {
+	--swiper-navigation-color: #ffe800;
+}
 .hero-swiper .swiper-slide .inner {
     position: relative;
     padding-block: 60px;
