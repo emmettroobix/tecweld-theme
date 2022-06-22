@@ -2932,11 +2932,49 @@
           "show": 4,
           "gaps": 1
         }
+      },
+      "1655861960b3444658": {
+        "type": "hero-swiper",
+        "blocks": {
+          "1655861960b3444658-0": {
+            "type": "slide",
+            "settings": {
+              "slide_image": "shopify:\/\/shop_images\/banner.x14470.png",
+              "slide_title": "this is heading 1",
+              "slide_description": "this is descriptions",
+              "button_label": "Button label",
+              "button_link": "#",
+              "slide_align": "center",
+              "slide_txt_align": "center"
+            }
+          },
+          "a51cc922-03fc-4e68-a3f4-b15ecdb4e05d": {
+            "type": "slide",
+            "settings": {
+              "slide_image": "shopify:\/\/shop_images\/tecweld-bg-testimonials.jpg",
+              "slide_title": "this is heading 2",
+              "slide_description": "this is description",
+              "button_label": "Button label",
+              "button_link": "#",
+              "slide_align": "center",
+              "slide_txt_align": "center"
+            }
+          }
+        },
+        "block_order": [
+          "1655861960b3444658-0",
+          "a51cc922-03fc-4e68-a3f4-b15ecdb4e05d"
+        ],
+        "settings": {
+          "show_arrows": true,
+          "show_dots": false
+        }
       }
     },
     "content_for_index": [
       "161407619141f112c9",
       "16485372088fba1b04",
+      "1655861960b3444658",
       "1607066023b5a74cc7",
       "1648535313d84319fe",
       "1655103286d07b1cb5",
