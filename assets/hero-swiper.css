@@ -1,5 +1,10 @@
 .hero-swiper {
 	--swiper-navigation-color: #ffe800;
+	--swiper-pagination-color: #ffe800;
+  	--swiper-pagination-bullet-width: 10px;
+	--swiper-pagination-bullet-height: 10px;
+	--swiper-pagination-bullet-inactive-color: #fff;
+	--swiper-pagination-bullet-inactive-opacity: 0.5;
 }
 .hero-swiper .swiper-slide .inner {
     position: relative;
@@ -66,11 +71,4 @@
 }
 .hero-swiper .hero-btn:hover {
     background: #FFF;
-}
-
-.hero-swiper .swiper-pagination-bullet {
-	--swiper-pagination-bullet-width: 10px;
-	--swiper-pagination-bullet-height: 10px;
-	--swiper-pagination-bullet-inactive-color: #fff;
-	--swiper-pagination-bullet-inactive-opacity: 0.5;
 }
