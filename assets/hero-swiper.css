@@ -16,8 +16,19 @@
     justify-content: center;
     flex-direction: column;
   	padding-block: 60px;
-    min-height: var(--content-height, 500px);
+ 	min-height: var(--content-height-mobile, 350px);
 }
+@media (min-width: 768px){
+    .hero-swiper .swiper-slide .container {
+    	min-height: var(--content-height-tablet, 400px);
+    }
+}
+@media (min-width: 1024px){
+    .hero-swiper .swiper-slide .container {
+    	min-height: var(--content-height, 500px);
+    }
+}
+
 .hero-swiper .swiper-slide .container.content-align-left{
     align-items: flex-start;
 }
