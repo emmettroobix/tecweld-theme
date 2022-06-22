@@ -74,6 +74,9 @@
 .hero-swiper .swiper-slide .hero-description {
 	color: #fff;
 }
+.hero-swiper .swiper-slide h2{
+  	line-height: 1.3;
+}
 .hero-swiper .swiper-slide .hero-description{
     font-size: 20px;
 }
