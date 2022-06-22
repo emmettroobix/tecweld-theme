@@ -2967,7 +2967,7 @@
         ],
         "settings": {
           "show_arrows": false,
-          "show_dots": false
+          "show_dots": true
         }
       }
     },
