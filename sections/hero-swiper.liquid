@@ -4,7 +4,7 @@
 
 {% assign mySwiper = ".swiper-" %}
 
-<div class="swiper swiper-{{section.id}}">
+<div class="swiper swiper-{{section.id}}" style="--content-width:{{ section.settings.content_width }}px;">
     <div class="swiper-wrapper">
         {% for block in section.blocks %}
             <div class="swiper-slide">
@@ -71,12 +71,12 @@
 		},
         {
           "type": "range",
-          "id": "container_width",
+          "id": "content_width",
           "min": 100,
           "max": 1600,
           "step": 100,
           "unit": "px",
-          "label": "Container Width",
+          "label": "Content Width",
           "default": 300
         }
 	],
