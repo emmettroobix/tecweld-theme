@@ -510,6 +510,11 @@
     }
 }
 
+@media (max-width: 1300px){
+    body .progress-wrap{
+        bottom: 1vh;
+    }
+}
 body .progress-wrap:before{
     color: #f8e72d;
 }
