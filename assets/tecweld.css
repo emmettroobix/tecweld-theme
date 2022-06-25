@@ -509,3 +509,10 @@
         margin-bottom: 19px;
     }
 }
+
+.progress-wrap .progress-wrap::before{
+    color: #f8e72d;
+}
+.progress-wrap svg.progress-circle path{
+    stroke: #f8e72d;
+}
