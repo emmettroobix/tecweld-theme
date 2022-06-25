@@ -40,8 +40,20 @@
 	border: none !important;
 }
 
-#search-filter {
+/* #search-filter {
 	padding: 80px 0 !important;
+} */
+#search-filter {
+	padding: 60px 0 !important;
+}
+@media (min-width: 768px){
+    #search-filter h3{
+        font-size: 50px;
+    }
+    #search-filter p{
+        font-size: 20px;
+        margin-bottom: 40px;
+    }
 }
 
 .breadcrumb {
