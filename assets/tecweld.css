@@ -625,3 +625,7 @@ body .progress-wrap svg.progress-circle path {
 #CartProducts a.small:focus{
     color: red;
 }
+
+.template-cart .mini-cart-content{
+    display: block !important;
+}
