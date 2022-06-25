@@ -629,3 +629,10 @@ body .progress-wrap svg.progress-circle path {
 .template-cart .site-header__link .mini-cart-content{
     display: block !important;
 }
+
+
+@media (max-width: 767px){
+    #topbar {
+        display: block !important;
+    }
+}
