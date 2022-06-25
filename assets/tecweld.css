@@ -631,6 +631,11 @@ body .progress-wrap svg.progress-circle path {
 }
 
 
+@media (max-width: 991px){
+    #topbar {
+        padding-block: 5px;
+    }
+}
 @media (max-width: 767px){
     #topbar {
         display: block !important;
