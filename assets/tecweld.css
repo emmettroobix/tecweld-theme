@@ -490,7 +490,7 @@
 .search-results .ajax-search-item .title {
     color: #222;
 }
-.search-results .ajax-search-item:last-child{
+.ajax-search-item:last-child{
     display: none;
 }
 
