@@ -606,3 +606,7 @@ body .progress-wrap svg.progress-circle path {
     z-index: 10;
     text-align: center;
 }
+
+#productrelated .slick_content{
+    padding-bottom: 50px;
+}
