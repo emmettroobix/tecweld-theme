@@ -585,10 +585,10 @@ body .progress-wrap svg.progress-circle path {
 }
 
 .collection-sidebar #js-slider-range {
-	color: #fff;
+	border-color: #fff;
 }
 .collection-sidebar #js-slider-range .ui-slider-handle {
-	color: #fff;
+	background-color: #fff;
 }
 .collection-sidebar .slider-range-wr .amount {
 	color: #fff;
