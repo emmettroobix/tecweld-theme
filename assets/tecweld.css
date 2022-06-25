@@ -490,3 +490,7 @@
     border-color: #FFF;
     opacity: 1;
 }
+
+.site-footer a:hover {
+    color: #ffea00;
+}
