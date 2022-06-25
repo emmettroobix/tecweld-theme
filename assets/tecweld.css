@@ -477,6 +477,9 @@
 }
 .header-search .button-close{
     right: 16px;
+    top: 11px;
+}
+.site-header.active .header-search .button-close{
     top: 6px;
 }
 .header-search .button-close .rb-close{
