@@ -483,8 +483,8 @@
     width: 38px;
     height: 38px;
 }
-.search-results .ajax-search-item:hover,
-.search-results .ajax-search-item:focus{
+.search-results .ajax-search-item a:hover,
+.search-results .ajax-search-item a:focus{
     color: var(--g-main);
 }
 .search-results .ajax-search-item .title {
