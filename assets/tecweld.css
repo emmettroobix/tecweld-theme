@@ -528,4 +528,11 @@ body .progress-wrap svg.progress-circle path{
 
 .collection-card-2 .collection-card__image svg.placeholder-svg{
     height: 200px;
+    opacity: .6;
+    transition: all ease .45s;
+}
+.collection-card-2 .collection-card__image .hv-image-brightness:hover svg.placeholder-svg{
+    -webkit-filter: brightness(.5);
+    filter: brightness(.5);
+    transform: scale(1.1);
 }
