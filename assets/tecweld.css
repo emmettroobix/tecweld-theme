@@ -488,4 +488,5 @@
 .testimonials .slick-dots li.slick-active button{
     background: #FFF;
     color: #FFF;
+    opacity: 1;
 }
