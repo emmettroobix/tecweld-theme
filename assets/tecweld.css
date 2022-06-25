@@ -471,6 +471,9 @@
 }
 
 /* header */
+.site-header.active .header-bottom > .container {
+    z-index: 999;
+}
 @media (min-width: 769px) {
 	.site-header.active .header-bottom > .container {
 		padding-block: 10px !important;
