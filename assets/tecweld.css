@@ -536,3 +536,7 @@ body .progress-wrap svg.progress-circle path{
     filter: brightness(.5);
     transform: scale(1.1);
 }
+
+.progress.js-free-shipping{
+    display: none!important;
+}
