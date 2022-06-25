@@ -610,3 +610,8 @@ body .progress-wrap svg.progress-circle path {
 #productrelated .slick_content{
     padding-bottom: 50px;
 }
+
+.return-link:hover,
+.return-link:focus{
+    color: #ffea00;
+}
