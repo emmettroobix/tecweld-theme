@@ -471,3 +471,7 @@
         height: 39px;
     }
 }
+
+.find-out-more:hover {
+    color: #002c3c;
+}
