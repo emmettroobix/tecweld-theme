@@ -495,3 +495,14 @@
 .site-footer .flex-footer a:focus {
     color: #ffea00;
 }
+
+@media (min-width: 992px){
+    .site-footer .flex-footer{
+        justify-content: space-between;
+    }
+    .site-footer .flex-footer > div[class^=col-]{
+        flex: 0 0 auto;
+        width: auto;
+        max-width: 100%;
+    }
+}
