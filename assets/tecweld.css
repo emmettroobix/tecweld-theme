@@ -473,5 +473,6 @@
 }
 
 .find-out-more:hover {
-    color: #002c3c;
+    color: #000;
+    transform: scale(1.1);
 }
