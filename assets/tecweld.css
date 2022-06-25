@@ -444,6 +444,9 @@
 #topbar .col-right #currencies li {
     line-height: 1;
 }
+#topbar .col-right #currencies li:hover {
+    transform: scale(1.1);
+}
 #topbar .col-right #currencies li:not(:last-child) {
     margin-bottom: 15px;
 }
@@ -453,4 +456,18 @@
 }
 #topbar .col-right #currencies li a.selected{
     color: var(--g-main);
+}
+
+/* header */
+@media (min-width: 769px){
+    .site-header.active .header-bottom > .container{
+        padding-block: 10px!important;
+    }
+    .site-header.active .header-bottom .site-header__logo img{
+        width: auto;
+        max-height: 50px;
+    }
+    .site-header.active .header-bottom .header-1-menu .tmenu_item_link{
+        height: 39px;
+    }
 }
