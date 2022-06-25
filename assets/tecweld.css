@@ -660,3 +660,7 @@ body .progress-wrap svg.progress-circle path {
 		top: 20px;
 	}
 }
+
+.humbergerbar .categories_block h6.mt-5{
+    margin-top: 0!important;
+}
