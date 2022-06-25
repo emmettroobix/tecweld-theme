@@ -7,7 +7,7 @@
   <div class="mini-cart-content shadow text-center">
     <div class="js-mini-cart-content"></div>
     <div class="mini-cart-total">
-      {{'cart.label.total' | t }}: <span class="js-cart-total">{{cart.total_price | money}}</span>
+      {{'cart.label.total' | t }}: <span class="js-cart-total">{{cart.total_price | money_with_currency }}</span>
     </div>
     {%- include 'free-shipping' -%}
     <div class="mini-cart-taxes">
