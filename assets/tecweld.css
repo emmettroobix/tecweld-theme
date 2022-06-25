@@ -664,3 +664,17 @@ body .progress-wrap svg.progress-circle path {
 .humbergerbar .categories_block h6.mt-5{
     margin-top: 0!important;
 }
+
+@media (max-width: 1199px){
+    .header-bottom .support_line,
+    .header-bottom .header-search {
+        width: auto;
+        max-width: 100%;
+    }
+    .header-bottom .support_line{
+        flex: 0 0 auto;
+    }
+    .header-bottom .header-search {
+        flex: 1;
+    }
+}
