@@ -626,6 +626,6 @@ body .progress-wrap svg.progress-circle path {
     color: red;
 }
 
-.template-cart .mini-cart-content{
+.template-cart .site-header__link .mini-cart-content{
     display: block !important;
 }
