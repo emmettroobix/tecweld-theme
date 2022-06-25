@@ -651,3 +651,8 @@ body .progress-wrap svg.progress-circle path {
         display: block !important;
     }
 }
+@media (max-width: 450px){
+    .header-bottom .header-bottom__right{
+        top: 20px;
+    }
+}
