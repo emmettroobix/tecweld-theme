@@ -472,7 +472,8 @@
     }
 }
 
-.find-out-more:hover {
+.find-out-more:hover,
+.find-out-more:focus {
     color: #000;
     transform: scale(1.1);
 }
