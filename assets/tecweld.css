@@ -584,6 +584,9 @@ body .progress-wrap svg.progress-circle path {
 	color: #ffea00;
 }
 
+.collection-sidebar .slider-range-wr .block_content{
+    padding-inline: 16px;
+}
 .collection-sidebar #js-slider-range {
 	border-color: #fff;
 }
