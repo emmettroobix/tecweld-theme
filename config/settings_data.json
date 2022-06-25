@@ -256,7 +256,7 @@
     "page_wishlist": "wishlist",
     "cookie_enable": true,
     "cookie_message": "This website uses cookies to ensure you get the best experience on our website.",
-    "cookie_url": "shopify:\/\/pages\/contact-us",
+    "cookie_url": "shopify:\/\/pages\/cookie-policy",
     "cookie_url_text": "Learn More",
     "cookie_ok": "Got it!",
     "show_multiple_currencies": true,
