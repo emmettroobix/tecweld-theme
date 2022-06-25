@@ -438,6 +438,14 @@
 /* #topbar .col-right #currencies */
 #topbar .col-right #currencies{
     min-width: 90px;
+    cursor: auto;
+}
+
+#topbar .col-right #currencies li {
+    line-height: 1;
+}
+#topbar .col-right #currencies li:not(:last-child) {
+    margin-bottom: 15px;
 }
 #topbar .col-right #currencies a{
     color: currentColor;
