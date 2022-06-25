@@ -238,6 +238,11 @@
 	font-weight: 800;
 	z-index: 1;
 }
+@media (max-width: 600px){
+    .product-single__hero h1 {
+        font-size: 25px;
+    }
+}
 
 .style-search {
 	border: 1px solid #012c3c !important;
@@ -613,5 +618,5 @@ body .progress-wrap svg.progress-circle path {
 
 .return-link:hover,
 .return-link:focus{
-    color: #ffea00;
+    color: gray;
 }
