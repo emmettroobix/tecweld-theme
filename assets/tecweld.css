@@ -481,3 +481,11 @@
 .tecweld-hero.product-list h3 {
     border-bottom: 0 !important;
 }
+
+.testimonials .slick-dots li button{
+    opacity: .4;
+}
+.testimonials .slick-dots li.slick-active button{
+    background: #FFF;
+    color: #FFF;
+}
