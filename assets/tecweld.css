@@ -238,10 +238,10 @@
 	font-weight: 800;
 	z-index: 1;
 }
-@media (max-width: 600px){
-    .product-single__hero h1 {
-        font-size: 25px;
-    }
+@media (max-width: 600px) {
+	.product-single__hero h1 {
+		font-size: 25px;
+	}
 }
 
 .style-search {
@@ -589,9 +589,9 @@ body .progress-wrap svg.progress-circle path {
 	color: #ffea00;
 }
 
-.collection-sidebar .slider-range-wr .block_content{
-    padding: 16px;
-    margin-top: 30px !important;
+.collection-sidebar .slider-range-wr .block_content {
+	padding: 16px;
+	margin-top: 30px !important;
 }
 .collection-sidebar #js-slider-range {
 	border-color: #fff;
@@ -604,55 +604,59 @@ body .progress-wrap svg.progress-circle path {
 }
 
 .product-single__hero {
-    padding-block: 60px;
-    min-height: 280px;
+	padding-block: 60px;
+	min-height: 280px;
 }
-.product-single__hero .container{
-    z-index: 10;
-    text-align: center;
+.product-single__hero .container {
+	z-index: 10;
+	text-align: center;
 }
 
-#productrelated .slick_content{
-    padding-bottom: 50px;
+#productrelated .slick_content {
+	padding-bottom: 50px;
 }
 
 .return-link:hover,
-.return-link:focus{
-    color: gray;
+.return-link:focus {
+	color: gray;
 }
 
 #CartProducts a.small:hover,
-#CartProducts a.small:focus{
-    color: red;
+#CartProducts a.small:focus {
+	color: red;
 }
 
-.template-cart .site-header__link .mini-cart-content{
-    display: block !important;
+.template-cart .site-header__link .mini-cart-content {
+	display: block !important;
 }
 
-
-@media (max-width: 991px){
-    #topbar {
-        padding-block: 5px;
-    }
-    .site-header__compare{
-        display: block !important;
-    }
-    .header-bottom .header-bottom__right{
-        right: 10px;
-        top: 22px;
-    }
+@media (max-width: 991px) {
+	#topbar {
+		padding-block: 5px;
+	}
+	.site-header__compare {
+		display: block !important;
+	}
+	.header-bottom .header-bottom__right {
+		right: 10px;
+		top: 22px;
+	}
 }
-@media (max-width: 767px){
-    .header-bottom .header-bottom__right{
-        top: 30px;
-    }
-    #topbar {
-        display: block !important;
-    }
+@media (max-width: 767px) {
+	.header-bottom .header-bottom__right {
+		top: 30px;
+	}
+	#topbar {
+		display: block !important;
+	}
+	.humbergerbar .block_currencies,
+	.humbergerbar .site-header__wishlist,
+	.humbergerbar .site-header__compare {
+		display: none !important;
+	}
 }
-@media (max-width: 450px){
-    .header-bottom .header-bottom__right{
-        top: 20px;
-    }
+@media (max-width: 450px) {
+	.header-bottom .header-bottom__right {
+		top: 20px;
+	}
 }
