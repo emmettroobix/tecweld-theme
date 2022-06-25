@@ -34,7 +34,7 @@
 }
 @media (min-width: 1366px){
     .hero-swiper .swiper-slide .container {
-    	min-height: calc(100vh - 254px);
+    	min-height: calc(100vh - 200px);
     }
 }
 
