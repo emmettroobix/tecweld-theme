@@ -490,6 +490,9 @@
 .search-results .ajax-search-item .title {
     color: #222;
 }
+.search-results .ajax-search-item:last-child{
+    display: none;
+}
 
 @media (min-width: 769px) {
 	.site-header.active .header-bottom > .container {
