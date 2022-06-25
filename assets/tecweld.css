@@ -46,14 +46,14 @@
 #search-filter {
 	padding: 60px 0 !important;
 }
-@media (min-width: 768px){
-    #search-filter h3{
-        font-size: 50px;
-    }
-    #search-filter p{
-        font-size: 20px;
-        margin-bottom: 40px;
-    }
+@media (min-width: 768px) {
+	#search-filter h3 {
+		font-size: 50px !important;
+	}
+	#search-filter p {
+		font-size: 20px !important;
+		margin-bottom: 40px !important;
+	}
 }
 
 .breadcrumb {
@@ -448,107 +448,107 @@
 }
 
 /* #topbar .col-right #currencies */
-#topbar .col-right #currencies{
-    min-width: 90px;
-    cursor: auto;
+#topbar .col-right #currencies {
+	min-width: 90px;
+	cursor: auto;
 }
 
 #topbar .col-right #currencies li {
-    line-height: 1;
+	line-height: 1;
 }
 #topbar .col-right #currencies li:hover {
-    transform: scale(1.1);
+	transform: scale(1.1);
 }
 #topbar .col-right #currencies li:not(:last-child) {
-    margin-bottom: 15px;
+	margin-bottom: 15px;
 }
-#topbar .col-right #currencies a{
-    color: currentColor;
-    line-height: 1;
+#topbar .col-right #currencies a {
+	color: currentColor;
+	line-height: 1;
 }
-#topbar .col-right #currencies li a.selected{
-    color: var(--g-main);
+#topbar .col-right #currencies li a.selected {
+	color: var(--g-main);
 }
 
 /* header */
-@media (min-width: 769px){
-    .site-header.active .header-bottom > .container{
-        padding-block: 10px!important;
-    }
-    .site-header.active .header-bottom .site-header__logo img{
-        width: auto;
-        max-height: 50px;
-    }
-    .site-header.active .header-bottom .header-1-menu .tmenu_item_link{
-        height: 39px;
-    }
+@media (min-width: 769px) {
+	.site-header.active .header-bottom > .container {
+		padding-block: 10px !important;
+	}
+	.site-header.active .header-bottom .site-header__logo img {
+		width: auto;
+		max-height: 50px;
+	}
+	.site-header.active .header-bottom .header-1-menu .tmenu_item_link {
+		height: 39px;
+	}
 }
 
 .find-out-more:hover,
 .find-out-more:focus {
-    color: #000;
-    transform: scale(1.1);
+	color: #000;
+	transform: scale(1.1);
 }
 
 .tecweld-hero.product-list h3 {
-    border-bottom: 0 !important;
+	border-bottom: 0 !important;
 }
 
-.testimonials .slick-dots li button{
-    opacity: .4;
+.testimonials .slick-dots li button {
+	opacity: 0.4;
 }
-.testimonials .slick-dots li.slick-active button{
-    background: #FFF;
-    border-color: #FFF;
-    opacity: 1;
+.testimonials .slick-dots li.slick-active button {
+	background: #fff;
+	border-color: #fff;
+	opacity: 1;
 }
 
 .site-footer .flex-footer a:hover,
 .site-footer .flex-footer a:focus {
-    color: #ffea00;
+	color: #ffea00;
 }
 
-@media (min-width: 992px){
-    .site-footer .flex-footer{
-        justify-content: space-between;
-    }
-    .site-footer .flex-footer > div[class^=col-]{
-        flex: 0 0 auto;
-        width: auto;
-        max-width: 100%;
-    }
-    .site-footer .flex-footer > div[class^=col-]:last-child .site-footer__section-title{
-        margin-bottom: 19px;
-    }
+@media (min-width: 992px) {
+	.site-footer .flex-footer {
+		justify-content: space-between;
+	}
+	.site-footer .flex-footer > div[class^='col-'] {
+		flex: 0 0 auto;
+		width: auto;
+		max-width: 100%;
+	}
+	.site-footer .flex-footer > div[class^='col-']:last-child .site-footer__section-title {
+		margin-bottom: 19px;
+	}
 }
 
-@media (max-width: 1300px){
-    body .progress-wrap{
-        bottom: 1vh;
-    }
+@media (max-width: 1300px) {
+	body .progress-wrap {
+		bottom: 1vh;
+	}
 }
-body .progress-wrap:before{
-    color: #f8e72d;
+body .progress-wrap:before {
+	color: #f8e72d;
 }
-body .progress-wrap svg.progress-circle path{
-    stroke: #f8e72d;
-}
-
-.content-block .rte{
-    line-height: 30px;
+body .progress-wrap svg.progress-circle path {
+	stroke: #f8e72d;
 }
 
-.collection-card-2 .collection-card__image svg.placeholder-svg{
-    height: 200px;
-    opacity: .6;
-    transition: all ease .45s;
-}
-.collection-card-2 .collection-card__image .hv-image-brightness:hover svg.placeholder-svg{
-    -webkit-filter: brightness(.5);
-    filter: brightness(.5);
-    transform: scale(1.1);
+.content-block .rte {
+	line-height: 30px;
 }
 
-.progress.js-free-shipping{
-    display: none!important;
+.collection-card-2 .collection-card__image svg.placeholder-svg {
+	height: 200px;
+	opacity: 0.6;
+	transition: all ease 0.45s;
+}
+.collection-card-2 .collection-card__image .hv-image-brightness:hover svg.placeholder-svg {
+	-webkit-filter: brightness(0.5);
+	filter: brightness(0.5);
+	transform: scale(1.1);
+}
+
+.progress.js-free-shipping {
+	display: none !important;
 }
