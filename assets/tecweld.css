@@ -521,3 +521,7 @@ body .progress-wrap:before{
 body .progress-wrap svg.progress-circle path{
     stroke: #f8e72d;
 }
+
+.content-block .rte{
+    line-height: 30px;
+}
