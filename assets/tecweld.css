@@ -505,4 +505,7 @@
         width: auto;
         max-width: 100%;
     }
+    .site-footer .flex-footer > div[class^=col-]:last-child .site-footer__section-title{
+        margin-bottom: 19px;
+    }
 }
