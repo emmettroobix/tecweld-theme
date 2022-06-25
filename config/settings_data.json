@@ -2971,7 +2971,7 @@
           "show_dots": true,
           "container_width": 1500,
           "content_width": 500,
-          "content_height": 500,
+          "content_height": 600,
           "content_height_tablet": 400,
           "content_height_mobile": 350,
           "autoplay": true,
