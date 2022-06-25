@@ -475,11 +475,11 @@
     position: relative;
     z-index: 999;
 }
-#form-search-header .button-close{
+.header-search .button-close{
     right: 16px;
     top: 6px;
 }
-#form-search-header .button-close .rb-close{
+.header-search .button-close .rb-close{
     width: 38px;
     height: 38px;
 }
