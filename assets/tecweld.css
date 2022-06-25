@@ -472,29 +472,29 @@
 
 /* header */
 .site-header .header-bottom > .container {
-    position: relative;
-    z-index: 999;
+	position: relative;
+	z-index: 999;
 }
-.header-search .button-close{
-    right: 16px;
-    top: 11px;
+.header-search .button-close {
+	right: 16px;
+	top: 11px;
 }
-.site-header.active .header-search .button-close{
-    top: 6px;
+.site-header.active .header-search .button-close {
+	top: 6px;
 }
-.header-search .button-close .rb-close{
-    width: 38px;
-    height: 38px;
+.header-search .button-close .rb-close {
+	width: 38px;
+	height: 38px;
 }
 .search-results .ajax-search-item a:hover,
-.search-results .ajax-search-item a:focus{
-    color: var(--g-main);
+.search-results .ajax-search-item a:focus {
+	color: var(--g-main);
 }
 .search-results .ajax-search-item .title {
-    color: #222;
+	color: #222;
 }
 .search-results .ajax-search-item:last-of-type {
-    display: none;
+	display: none;
 }
 
 @media (min-width: 769px) {
@@ -580,6 +580,16 @@ body .progress-wrap svg.progress-circle path {
 }
 
 .collection-sidebar .list-unstyled a:hover,
-.collection-sidebar .list-unstyled a:focus{
-    color: #ffea00;
+.collection-sidebar .list-unstyled a:focus {
+	color: #ffea00;
+}
+
+.collection-sidebar #js-slider-range {
+	color: #fff;
+}
+.collection-sidebar #js-slider-range .ui-slider-handle {
+	color: #fff;
+}
+.collection-sidebar .slider-range-wr .amount {
+	color: #fff;
 }
