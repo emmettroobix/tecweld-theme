@@ -585,7 +585,8 @@ body .progress-wrap svg.progress-circle path {
 }
 
 .collection-sidebar .slider-range-wr .block_content{
-    padding-inline: 16px;
+    padding: 16px;
+    margin-top: 30px !important;
 }
 .collection-sidebar #js-slider-range {
 	border-color: #fff;
@@ -595,4 +596,13 @@ body .progress-wrap svg.progress-circle path {
 }
 .collection-sidebar .slider-range-wr .amount {
 	color: #fff;
+}
+
+.product-single__hero {
+    padding-block: 60px;
+    min-height: 280px;
+}
+.product-single__hero .container{
+    z-index: 10;
+    text-align: center;
 }
