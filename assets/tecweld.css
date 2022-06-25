@@ -638,12 +638,15 @@ body .progress-wrap svg.progress-circle path {
     .site-header__compare{
         display: block !important;
     }
-    .header-bottom__right{
+    .header-bottom .header-bottom__right{
         right: 10px;
-        top: 30px;
+        top: 22px;
     }
 }
 @media (max-width: 767px){
+    .header-bottom .header-bottom__right{
+        top: 30px;
+    }
     #topbar {
         display: block !important;
     }
