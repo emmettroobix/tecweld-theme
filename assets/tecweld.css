@@ -525,3 +525,7 @@ body .progress-wrap svg.progress-circle path{
 .content-block .rte{
     line-height: 30px;
 }
+
+.collection-card-2 .collection-card__image svg.placeholder-svg{
+    height: 200px;
+}
