@@ -620,3 +620,8 @@ body .progress-wrap svg.progress-circle path {
 .return-link:focus{
     color: gray;
 }
+
+#CartProducts a.small:hover,
+#CartProducts a.small:focus{
+    color: red;
+}
