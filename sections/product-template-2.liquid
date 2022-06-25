@@ -145,7 +145,9 @@
 
 </style>
 <div class="product-single__hero" style="background-image: url({{ 'tecweld-bg.jpg' | asset_url }})">
-  <h1>{{ product.title }}</h1>
+  <div class="container">
+    <h1>{{ product.title }}</h1>
+  </div>
 </div>
 
 <div class="js-recently-view container-fluid" itemscope itemtype="http://schema.org/Product" id="ProductSection-{{ section.id }}" data-section-id="{{ section.id }}" data-section-type="product" data-enable-history-state="true" data-ajax="true" data-stock="{{ section.settings.stock_enable }}" data-handle="{{product.handle}}">
