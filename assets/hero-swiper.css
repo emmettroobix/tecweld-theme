@@ -32,6 +32,11 @@
     	min-height: var(--content-height, 500px);
     }
 }
+@media (min-width: 1366px){
+    .hero-swiper .swiper-slide .container {
+    	min-height: calc(100vh - 254px);
+    }
+}
 
 .hero-swiper .swiper-slide .container{
   	max-width: var(--container-width, 1200px);
