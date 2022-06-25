@@ -491,6 +491,7 @@
     opacity: 1;
 }
 
-.site-footer a:hover {
+.site-footer .flex-footer a:hover,
+.site-footer .flex-footer a:focus {
     color: #ffea00;
 }
