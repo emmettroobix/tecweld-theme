@@ -471,7 +471,7 @@
 }
 
 /* header */
-.site-header.active .header-bottom > .container {
+.site-header .header-bottom > .container {
     position: relative;
     z-index: 999;
 }
