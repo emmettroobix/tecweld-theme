@@ -682,3 +682,9 @@ body .progress-wrap svg.progress-circle path {
     visibility: hidden;
     pointer-events: none;
 }
+
+.product-card__overlay .btn {
+    background: #dd3d27 !important;
+    color: #FFF!important;
+  	border-color: #dd3d27 !important;
+}
