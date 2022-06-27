@@ -403,14 +403,14 @@
 	text-align: center;
 }
 
-.tecweld-hero .slick-list {
+/* .tecweld-hero .slick-list {
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
 	-webkit-box-pack: center;
 	-ms-flex-pack: center;
 	justify-content: center;
-}
+} */
 
 .product-card__info {
 	background: #f8e72d !important;
