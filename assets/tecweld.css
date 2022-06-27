@@ -705,5 +705,6 @@ body .progress-wrap svg.progress-circle path {
 
 .drawer__nav-item a:focus,
 .drawer__nav-item a:hover{
-  color: #ffea00;
+  background-color: #ffea00;
+  color: #000;
 }
