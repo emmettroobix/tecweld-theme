@@ -679,5 +679,6 @@ body .progress-wrap svg.progress-circle path {
     }
 }
 .site-header__cart{
-  display: none !important;
+    visibility: hidden;
+    pointer-events: none;
 }
