@@ -697,6 +697,6 @@ body .progress-wrap svg.progress-circle path {
   	border-color: #000 !important;
 }
 
-.toggle-menu-mobile{
+.site-header .toggle-menu-mobile{
   z-index: 9999;
 }
