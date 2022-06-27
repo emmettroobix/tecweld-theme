@@ -43,7 +43,7 @@
     document.addEventListener("DOMContentLoaded", function(event) { 
         var swiper = new Swiper('{{mySwiper | append: section.id }}', {
             slidesPerView: 1,
-            loop: true,
+            loop: {{section.settings.infinite}},
             {% if section.settings.autoplay %}                    
             autoplay: {
                 delay: {{ section.settings.autoplay_speed }},
@@ -68,6 +68,12 @@
 	"tag": "section",
     "class": "hero-swiper",
 	"settings": [
+		{
+			"type": "checkbox",
+			"id": "infinite",
+			"default": true,
+			"label": "infinite"
+		},
         {
 			"type": "checkbox",
 			"id": "show_arrows",
