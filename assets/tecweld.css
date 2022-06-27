@@ -702,3 +702,8 @@ body .progress-wrap svg.progress-circle path {
 .site-header .toggle-menu-mobile{
   z-index: 9999;
 }
+
+.drawer__nav-item a:focus,
+.drawer__nav-item a:hover{
+  color: #ffea00;
+}
