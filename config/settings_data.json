@@ -2954,7 +2954,7 @@
         ],
         "settings": {
           "infinite": false,
-          "show_arrows": true,
+          "show_arrows": false,
           "show_dots": false,
           "container_width": 1500,
           "content_width": 500,
