@@ -687,6 +687,8 @@ body .progress-wrap svg.progress-circle path {
     background: #dd3d27 !important;
     color: #FFF!important;
   	border-color: #dd3d27 !important;
+  	font-size: 14px;
+    padding: 5px 10px;
 }
 
 .product-card__overlay .btn:hover,
