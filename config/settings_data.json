@@ -2953,6 +2953,7 @@
           "1655861960b3444658-0"
         ],
         "settings": {
+          "infinite": false,
           "show_arrows": false,
           "show_dots": false,
           "container_width": 1500,
