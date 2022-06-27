@@ -250,7 +250,7 @@
     "page_shipping": "",
     "enable_countdown_page": true,
     "enable_countdown_card": true,
-    "enable_compare": true,
+    "enable_compare": false,
     "enable_wishlsit": false,
     "page_wishlist": "wishlist",
     "cookie_enable": true,
