@@ -688,6 +688,8 @@ body .progress-wrap svg.progress-circle path {
     color: #FFF!important;
   	border-color: #dd3d27 !important;
   	font-size: 14px;
+  	line-height: 1.5!important;
+  	height: auto !important;
     padding: 5px 10px;
 }
 
