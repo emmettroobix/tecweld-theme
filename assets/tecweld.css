@@ -661,55 +661,54 @@ body .progress-wrap svg.progress-circle path {
 	}
 }
 
-.humbergerbar .categories_block h6.mt-5{
-    margin-top: 0!important;
+.humbergerbar .categories_block h6.mt-5 {
+	margin-top: 0 !important;
 }
 
-@media (max-width: 1199px){
-    .header-bottom .support_line,
-    .header-bottom .header-search {
-        width: auto;
-        max-width: 100%;
-    }
-    .header-bottom .support_line{
-        flex: 0 0 auto;
-    }
-    .header-bottom .header-search {
-        flex: 1;
-    }
+@media (max-width: 1199px) {
+	.header-bottom .support_line,
+	.header-bottom .header-search {
+		width: auto;
+		max-width: 100%;
+	}
+	.header-bottom .support_line {
+		flex: 0 0 auto ;
+	}
+	.header-bottom .header-search {
+		flex: 1 !important;
+	}
 }
-.site-header__cart{
-    visibility: hidden;
-    pointer-events: none;
+.site-header__cart {
+	visibility: hidden;
+	pointer-events: none;
 }
 
 .product-card__overlay .btn {
-    background: #dd3d27 !important;
-    color: #FFF!important;
-  	border-color: #dd3d27 !important;
-  	font-size: 14px;
-  	line-height: 1.5!important;
-  	height: auto !important;
-    padding: 5px 10px;
+	background: #dd3d27 !important;
+	color: #fff !important;
+	border-color: #dd3d27 !important;
+	font-size: 14px;
+	line-height: 1.5 !important;
+	height: auto !important;
+	padding: 5px 10px;
 }
 
 .product-card__overlay .btn:hover,
-.product-card__overlay .btn:focus{
-    background: #000 !important;
-  	border-color: #000 !important;
+.product-card__overlay .btn:focus {
+	background: #000 !important;
+	border-color: #000 !important;
 }
 
-.site-header .toggle-menu-mobile{
-  z-index: 9999;
+.site-header .toggle-menu-mobile {
+	z-index: 9999;
 }
-
 
 .drawer__nav-item a:focus,
-.drawer__nav-item a:hover{
-  background-color: #ffea00;
-  color: #000;
+.drawer__nav-item a:hover {
+	background-color: #ffea00;
+	color: #000;
 }
-.drawer__nav-item a[aria-current="page"]{
-  background-color: #012c3c;
-  color: #FFF;
+.drawer__nav-item a[aria-current='page'] {
+	background-color: #012c3c;
+	color: #fff;
 }
