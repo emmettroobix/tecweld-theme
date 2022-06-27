@@ -679,4 +679,5 @@ body .progress-wrap svg.progress-circle path {
     }
 }
 .site-header__cart{
-  display: none;
+  display: none !important;
+}
