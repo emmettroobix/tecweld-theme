@@ -260,6 +260,7 @@
     "cookie_ok": "Got it!",
     "show_multiple_currencies": false,
     "list_currencies": "EUR,AUD,GBP,JPY,CAD",
+    "shipping_calculator": "Disabled",
     "shipping_calculator_default_country": "United States",
     "image_404": "shopify:\/\/shop_images\/tecweld-bg-testimonials.jpg",
     "found_text_color": "#303030",
