@@ -2947,27 +2947,14 @@
               "slide_align": "right",
               "slide_txt_align": "center"
             }
-          },
-          "a51cc922-03fc-4e68-a3f4-b15ecdb4e05d": {
-            "type": "slide",
-            "settings": {
-              "slide_image": "shopify:\/\/shop_images\/tecweld-bg-testimonials.jpg",
-              "slide_title": "this is heading 2",
-              "slide_description": "this is description",
-              "button_label": "Button label",
-              "button_link": "#",
-              "slide_align": "center",
-              "slide_txt_align": "center"
-            }
           }
         },
         "block_order": [
-          "1655861960b3444658-0",
-          "a51cc922-03fc-4e68-a3f4-b15ecdb4e05d"
+          "1655861960b3444658-0"
         ],
         "settings": {
-          "show_arrows": true,
-          "show_dots": true,
+          "show_arrows": false,
+          "show_dots": false,
           "container_width": 1500,
           "content_width": 500,
           "content_height": 600,
