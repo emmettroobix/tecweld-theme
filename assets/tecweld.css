@@ -711,4 +711,5 @@ body .progress-wrap svg.progress-circle path {
 }
 .drawer__nav-item a[aria-current="page"]{
   background-color: #012c3c;
+  color: #FFF;
 }
