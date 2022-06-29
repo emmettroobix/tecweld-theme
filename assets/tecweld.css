@@ -712,3 +712,8 @@ body .progress-wrap svg.progress-circle path {
 	background-color: #012c3c;
 	color: #fff;
 }
+
+
+#service-list-1607066023b5a74cc7 .services-item:nth-child(2) .media .media-body{
+	border: 0 !important;
+}
