@@ -720,5 +720,5 @@ body .progress-wrap svg.progress-circle path {
 
 .site-header .toggle-menu-mobile,
 .site-header .humberger-right{
- 	color: #000; 
+ 	color: #000!important;
 }
