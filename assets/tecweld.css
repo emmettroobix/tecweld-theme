@@ -726,3 +726,7 @@ body .progress-wrap svg.progress-circle path {
 .humberger-right .humbergerbar::-webkit-scrollbar{
 	display: none;
 }
+
+.humberger-right .text-menu{
+  	display: block;
+}
