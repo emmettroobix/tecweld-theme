@@ -718,7 +718,7 @@ body .progress-wrap svg.progress-circle path {
 	border: 0 !important;
 }
 
-.site-header .toggle-menu-mobile,
+.site-header .toggle-menu-mobile button,
 .site-header .humberger-right{
- 	color: #000!important;
+ 	color: #000;
 }
