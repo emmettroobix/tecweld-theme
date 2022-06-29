@@ -727,6 +727,10 @@ body .progress-wrap svg.progress-circle path {
 	display: none;
 }
 
+.humberger-right .humberger{
+	gap: 15px;
+}
 .humberger-right .humberger .text-menu{
   	display: block!important;
+  	order: -1;
 }
