@@ -740,6 +740,6 @@ body .progress-wrap svg.progress-circle path {
 @media (max-width: 424px){
 	.humberger-right .humbergerbar{
       	padding: 20px!important;
-      	min-width: 0;
+      	min-width: 0 !important;
     }
 }
