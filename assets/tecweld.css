@@ -727,6 +727,6 @@ body .progress-wrap svg.progress-circle path {
 	display: none;
 }
 
-.humberger-right .text-menu{
-  	display: block;
+.humberger-right .humberger .text-menu{
+  	display: block!important;
 }
