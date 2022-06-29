@@ -722,3 +722,7 @@ body .progress-wrap svg.progress-circle path {
 .site-header .humberger-right{
  	color: #000;
 }
+
+.humberger-right .humbergerbar::-webkit-scrollbar{
+	display: none;
+}
