@@ -737,3 +737,9 @@ body .progress-wrap svg.progress-circle path {
         order: -1;
     }
 }
+@media (max-width: 424px){
+	.humberger-right .humbergerbar{
+      	padding: 20px!important;
+      	min-width: 0;
+    }
+}
