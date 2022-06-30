@@ -743,7 +743,7 @@ body .progress-wrap svg.progress-circle path {
 }
 
 .tmenu_submenu_tab_content > .tmenu_submenu_tab_item{
-  	max-height: 70vh;
+  	max-height: 80vh;
     overflow-y: scroll;
 }
 .tmenu_submenu_tab_content > .tmenu_submenu_tab_item > ul > li > ul > li > ul {
