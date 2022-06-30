@@ -749,6 +749,14 @@ body .progress-wrap svg.progress-circle path {
   	margin-top: -16px!important;
 }
 
+.tmenu_submenu_tab_content>.tmenu_submenu_tab_item>ul>li>ul>li>ul > li:before{
+  	content: '--';
+ 	display: inline-block !important;
+  	position: absolute;
+  	left: -15px;
+  	top: 1px;
+}
+
 .tmenu_submenu_tab_content>.tmenu_submenu_tab_item>ul>li>ul>li>ul > li a {
     height: auto !important;
 }
