@@ -743,3 +743,7 @@ body .progress-wrap svg.progress-circle path {
       	min-width: 0 !important;
     }
 }
+
+.tmenu_submenu_tab_content .tmenu_submenu_tab_item > ul > li > .tmenu_submenu{
+  	margin-left: 20px;
+}
