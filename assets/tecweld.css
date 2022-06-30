@@ -750,11 +750,12 @@ body .progress-wrap svg.progress-circle path {
 }
 
 .tmenu_submenu_tab_content>.tmenu_submenu_tab_item>ul>li>ul>li>ul > li:before{
-  	content: '--';
- 	display: inline-block !important;
-  	position: absolute;
-  	left: -15px;
-  	top: 1px;
+  	content: "--";
+    display: inline-block!important;
+    position: absolute;
+    left: -15px;
+    top: 2px;
+    color: #000;
 }
 
 .tmenu_submenu_tab_content>.tmenu_submenu_tab_item>ul>li>ul>li>ul > li a {
