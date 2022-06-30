@@ -746,4 +746,9 @@ body .progress-wrap svg.progress-circle path {
 
 .tmenu_submenu_tab_content > .tmenu_submenu_tab_item > ul > li > ul > li > ul{
   	margin-left: 20px !important;
+  	margin-top: -16px!important;
+}
+
+.tmenu_submenu_tab_content>.tmenu_submenu_tab_item>ul>li>ul>li>ul > li a {
+    height: auto !important;
 }
