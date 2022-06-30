@@ -744,6 +744,6 @@ body .progress-wrap svg.progress-circle path {
     }
 }
 
-.tmenu_submenu_tab_content .tmenu_submenu_tab_item > ul > li > .tmenu_submenu{
-  	margin-left: 20px;
+.tmenu_submenu_tab_content > .tmenu_submenu_tab_item > ul > li > .tmenu_submenu{
+  	margin-left: 20px !important;
 }
