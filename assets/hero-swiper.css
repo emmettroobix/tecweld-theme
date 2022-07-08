@@ -110,3 +110,7 @@
 .hero-swiper .hero-btn:hover {
     background: #FFF;
 }
+
+.hero-swiper {
+	display: none !important;
+}
