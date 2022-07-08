@@ -119,3 +119,7 @@
 .services-item .media-body {
 	min-height: 300px;
 }
+
+.tecweld-hero .product-card__info {
+	min-height: 5rem!important;
+}
