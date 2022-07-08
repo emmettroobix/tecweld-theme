@@ -2936,6 +2936,7 @@
       },
       "1655861960b3444658": {
         "type": "hero-swiper",
+        "disabled": true,
         "blocks": {
           "1655861960b3444658-0": {
             "type": "slide",
