@@ -122,4 +122,6 @@
 
 .tecweld-hero .product-card__info {
 	min-height: 5rem!important;
+	padding-left: 1rem;
+	padding-right: 1rem;
 }
