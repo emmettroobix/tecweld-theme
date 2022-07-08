@@ -1,0 +1,470 @@
+<div id="sc_raq_list" class="sc-shopiy-bs sc-raq-added-items container" style="margin-top: 10px; margin-bottom: 80px; max-width: 1080px; margin-left: auto; margin-right: auto; padding:5px;"></div>
+
+
+<script id="tpl_sc_raq_list" type="text/template">
+	<h2 id="raq_list_title"><%=sc_raq_settings.RequestAQuoteList.Title?sc_raq_settings.RequestAQuoteList.Title:'Your Quote List'%></h2>
+
+	<% if (sc_raq_settings.RequestAQuoteList.HeaderText) { %>
+	<div id="raq_list_header"><%=sc_raq_settings.RequestAQuoteList.HeaderText%></div>
+	<% } %>
+
+	<div style="clear: both;"></div>
+	<div class="row">
+		<div id="raq-form-container" class="col-sm-12 col-xs-12"></div>
+		<div id="loading_list">
+			<svg class="sc-shopify-qs-loader" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="margin: auto; background: rgba(0, 0, 0, 0) none repeat scroll 0% 0%; display: block; shape-rendering: auto;" width="78px" height="78px" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid">
+          <circle cx="50" cy="50" r="43" stroke-width="7" stroke="#a4b7c5" stroke-dasharray="67.54424205218055 67.54424205218055" fill="none" stroke-linecap="round">
+            <animateTransform attributeName="transform" type="rotate" repeatCount="indefinite" dur="1s" keyTimes="0;1" values="0 50 50;360 50 50"></animateTransform>
+          </circle>
+        </svg>
+			<%=sc_raq_settings.RequestAQuoteList.LoadingText?sc_raq_settings.RequestAQuoteList.LoadingText:'&nbsp;getting quote list ...'%>
+		</div>
+		<div id="success" style="display: none;" class="col-sm-12 col-xs-12"><%=sc_raq_settings.RequestAQuoteList.Success?sc_raq_settings.RequestAQuoteList.Success:'<b>Thank You!<br />Your Quote Request sent to the store admin.</b>'%></div>
+		<div id="no_item" style="display: none;" class="col-sm-12 col-xs-12"><%=sc_raq_settings.RequestAQuoteList.NoItem?sc_raq_settings.RequestAQuoteList.NoItem:'No Item added for quote.'%></div>
+	</div>
+	<div style="clear: both;"></div>
+
+	<% if (sc_raq_settings.RequestAQuoteList.FooterText) { %>
+	<div id="raq_list_footer" style="margin-top: 20px;"><%=sc_raq_settings.RequestAQuoteList.FooterText%></div>
+	<% } %>
+</script>
+
+<script id="tpl_sc_raq_list_content" type="text/template">
+
+
+<div class="sc-shopiy-bs sc-raq-add-to-quote-btn-hldr">
+<div class="row">
+<div class="col-sm-12 col-xs-12">
+<form id="raq-items-form" method="post" action="">
+	<input type="hidden" name="raq_form_type" value="raq-list-details" />
+	<input type="hidden" name="raq_shop_domain" value="<%=__shop_url.replace('https://','').trim()%>" />
+	<input type="hidden" name="raq_cnt" value="<%=items.length%>" />
+	<div class="row" style="border-bottom: 1px solid #E5E5E5;margin-bottom:10px">
+      <div class="col-sm-8 col-xs-8"><%= sc_raq_settings.RequestAQuoteList.TextName? sc_raq_settings.RequestAQuoteList.TextName : ''%></div>
+      <div class="col-sm-4 col-xs-4"><%= sc_raq_settings.RequestAQuoteList.TextQuantity? sc_raq_settings.RequestAQuoteList.TextQuantity : ''%></div>
+  	</div>
+    <% for(raq_indx in items){ %>
+    <div class="row" style="padding-bottom:10px">
+      <div class="col-sm-8 col-xs-8">
+        <div class="row">
+        	<div class="col-sm-4 col-xs-4">
+            <% if(items[raq_indx].product.variant.image==null){ %>
+							<a href="<%=items[raq_indx].product.image.src%>" target="_blank">
+								<img class="sc-shopify-prod-image" src="<%=items[raq_indx].product.image.src%>" style="width:100%;max-width:120px">
+							</a>
+                            <% }else{ %>
+                            <a href="<%=items[raq_indx].product.variant.image%>" target="_blank">
+								<img class="sc-shopify-prod-image" src="<%=items[raq_indx].product.variant.image%>" style="width:100%;max-width:120px">
+							</a>
+                            <% } %>
+  			</div>
+          	<div class="col-sm-8 col-xs-8">
+            	<div class="row"><div class="col-sm-12 col-xs-12"><a href="<%=items[raq_indx].product.variant.url%>" target="_blank"><%=items[raq_indx].product.title%></a></div></div>
+                <% if(items[raq_indx].product.variant.title!='Default Title'){ %>
+                <div class="row"><div class="col-sm-12 col-xs-12"><%=items[raq_indx].product.variant.title%></div></div>
+                <% } %>
+                <% if(sc_raq_settings.RequestAQuoteList.ChkSku=='1'){ %>
+                <div class="row"><div class="col-sm-12 col-xs-12"><%=sc_raq_settings.RequestAQuoteList.TextSku? (sc_raq_settings.RequestAQuoteList.TextSku+': ') : ''%><%=items[raq_indx].product.variant.sku%></div></div>
+                <% } %>
+                <% if(sc_raq_settings.RequestAQuoteList.ChkUnitPrice=='1'){ %>
+                <div class="row"><div class="col-sm-12 col-xs-12"><%=sc_raq_settings.RequestAQuoteList.TextUnitPrice? (sc_raq_settings.RequestAQuoteList.TextUnitPrice+': ') : ''%><%=sc_raq_app_global.price_with_current_currency(items[raq_indx].product.variant.price)%></div></div>
+                <% } %>
+  			</div>
+          
+      	</div>
+        <% if (sc_raq_settings.FormField.IndividualNote.FieldActive == "1") { %>
+        <div class="row" style="padding-top:5px;">
+        <div class="col-sm-12 col-xs-12">
+        <textarea name="raq_itm_notes_<%=raq_indx%>" id="notes_<%=items[raq_indx].variant_id%>" rows="1" placeholder="<%=sc_raq_settings.FormField.IndividualNote.Txt%>" style="width:100%;max-width:400px"></textarea>
+  		</div>
+  		</div>			
+		<% } %>
+        
+  	  </div>
+      <div class="col-sm-4 col-xs-4">
+      <% if(sc_raq_settings.RequestAQuoteList.ChkQuantity=='1'){ %>
+          <div class="row">
+          	<div class="col-sm-12 col-xs-12">
+            <input class="raq_qty" type="text"  data-qty="<%=items[raq_indx].qty%>" name="raq_itm_qty_<%=raq_indx%>" value="<%=items[raq_indx].qty%>" raq-item-indx="<%=raq_indx%>" style="max-width: 60px;height: 30px;text-align: center;"/>
+            <a href="javascript:void(0);" class="raq-item-remove" raq-item-indx="<%=raq_indx%>" vid="<%=items[raq_indx].variant_id%>">
+					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" aria-hidden="true" focusable="false" role="presentation" class="icon icon-remove" style="width:1.5rem;height:1.5rem;">
+                      <path d="M14 3h-3.53a3.07 3.07 0 00-.6-1.65C9.44.82 8.8.5 8 .5s-1.44.32-1.87.85A3.06 3.06 0 005.53 3H2a.5.5 0 000 1h1.25v10c0 .28.22.5.5.5h8.5a.5.5 0 00.5-.5V4H14a.5.5 0 000-1zM6.91 1.98c.23-.29.58-.48 1.09-.48s.85.19 1.09.48c.2.24.3.6.36 1.02h-2.9c.05-.42.17-.78.36-1.02zm4.84 11.52h-7.5V4h7.5v9.5z" fill="currentColor"></path>
+                      <path d="M6.55 5.25a.5.5 0 00-.5.5v6a.5.5 0 001 0v-6a.5.5 0 00-.5-.5zM9.45 5.25a.5.5 0 00-.5.5v6a.5.5 0 001 0v-6a.5.5 0 00-.5-.5z" fill="currentColor"></path>
+            		</svg>
+            </a>
+  			</div>
+            
+  		  </div>
+      <% } %>
+  	  </div>
+  	</div>
+    <input type="hidden" name="raq_itm_is_active_<%=raq_indx%>" value="1" />
+							<input type="hidden" name="raq_itm_id_<%=raq_indx%>" value="<%=items[raq_indx].variant_id%>" />
+							<input type="hidden" name="raq_itm_handle_<%=raq_indx%>" value="<%=items[raq_indx].product.handle%>" />
+							<input type="hidden" name="raq_itm_title_<%=raq_indx%>" value="<%=__sc__.escape(items[raq_indx].product.title)%>" />
+							<input type="hidden" name="raq_itm_price_<%=raq_indx%>" value="<%=items[raq_indx].product.variant.price%>" />
+							<input type="hidden" name="raq_itm_sku_<%=raq_indx%>" value="<%=items[raq_indx].product.variant.sku%>" />
+                            <% if(items[raq_indx].product.variant.image==null){ %>
+                            <input type="hidden" name="raq_itm_img_src_<%=raq_indx%>" value="<%=items[raq_indx].product.image.src%>" />
+                            <% }else{ %>
+							<input type="hidden" name="raq_itm_img_src_<%=raq_indx%>" value="<%=items[raq_indx].product.variant.image%>" />
+                            <% } %>
+    <% } %>
+    
+    <div id="sc-shopify-qs-error" style="text-align:center; border-radius:4px; margin-bottom:20px; padding:15px; background-color:#f2dede; border-color:#ebccd1; color:#a94442; box-sizing:border-box; display:none;"></div>
+
+		
+        <div class="row" style="border-top: 1px solid #E5E5E5;padding-top:20px;">
+<div class="col-sm-12 col-xs-12" style="text-align:right;">
+				<button id="sc-shopify-load-submit-popup" name="sc-shopify-load-submit-popup" type="button" class="sc-raq-btn-design-<%= sc_raq_settings.ListSubmitQuoteButton.DesignID%>">
+					<span aria-hidden="true"><%= sc_raq_settings.ListSubmitQuoteButton.Text%></span>
+				</button>
+		</div>
+        </div>
+    </form>
+    </div>
+    </div>
+</div>
+</script>
+
+
+<script id="tpl_sc_raq_quote_submit_form" type="text/template">
+        <style type="text/css">
+        #raq_quote_form_modal .sc-modal-body .row {margin: 0px 0px 10px;}
+        </style>
+        
+        
+        <!-- The Modal -->
+<div id="raq_quote_form_modal" class="sc-modal">
+
+   <!-- Modal content -->
+<div class="sc-modal-content sc-shopiy-bs">
+  <div class="sc-modal-header">
+    <span class="sc-modal-close">&times;</span>
+    <h2><%= sc_raq_settings.RequestAQuoteList.SubmitFormTitle? sc_raq_settings.RequestAQuoteList.SubmitFormTitle : 'Submit Your Quote'%></h2>
+  </div>
+  <div class="sc-modal-body">
+    
+    
+    <!-- Requester Name-->
+					<%
+					if (sc_raq_settings.FormField.RequesterName.FieldActive=='1') {
+						if (sc_raq_settings.FormField.RequesterName.Name == '1') { %>
+					<div class="row" style="max-width:100%;">
+						<input data-required="<%= sc_raq_settings.FormField.RequesterName.FieldRequired? sc_raq_settings.FormField.RequesterName.FieldRequired : 0%>" type="text" name="raq_name" id="raq_name" class="form-control" placeholder="<%= sc_raq_settings.FormField.RequesterName.NameTxt? sc_raq_settings.FormField.RequesterName.NameTxt : 'Enter your Name'%>"/>
+					</div>
+						<% } else { %>
+					<div class="row" style="max-width:100%; height:34px;">
+						<input data-required="<%= sc_raq_settings.FormField.RequesterName.FieldRequired? sc_raq_settings.FormField.RequesterName.FieldRequired : 0%>" type="text" name="raq_fname" id="raq_fname" class="form-control col-xs-5 col-sm-5 col-md-5 col-lg-5" placeholder="<%= sc_raq_settings.FormField.RequesterName.FnameTxt? sc_raq_settings.FormField.RequesterName.FnameTxt : 'Enter First Name'%>" style="max-width:48%;"/>
+						<input data-required="<%= sc_raq_settings.FormField.RequesterName.FieldRequired? sc_raq_settings.FormField.RequesterName.FieldRequired : 0%>" type="text" name="raq_lname" id="raq_lname" class="form-control col-xs-5 col-sm-5 col-md-5 col-lg-5" placeholder="<%= sc_raq_settings.FormField.RequesterName.LnameTxt? sc_raq_settings.FormField.RequesterName.LnameTxt : 'Enter Last Name'%>" style="max-width:48%; margin-left:22px;"/>
+					</div>
+						<%
+						}
+					}
+					%><!-- ./Requester Name -->
+
+					<!-- Requester Email -->
+					<div class="row" style="max-width: 100%;">
+						<input data-required="1" type="text" name="raq_email" id="raq_email" class="form-control" placeholder="<%= sc_raq_settings.FormField.Email.Txt? sc_raq_settings.FormField.Email.Txt : 'Enter your Email'%>" />
+					</div><!-- ./Requester Email -->
+
+					<!-- Requester Phone Number -->
+					<% if (sc_raq_settings.FormField.Phone.FieldActive == '1') { %>
+					<div class="row" style="max-width: 100%;">
+						<input data-required="<%= sc_raq_settings.FormField.Phone.FieldRequired? sc_raq_settings.FormField.Phone.FieldRequired : 0%>" type="text" name="raq_phone" id="raq_phone" placeholder="<%= sc_raq_settings.FormField.Phone.Txt? sc_raq_settings.FormField.Phone.Txt : 'Enter Phone Number'%>" class="form-control"/>
+					</div>
+					<% } %><!-- ./Requester Phone Number -->
+
+					<!-- Requester Address -->
+					<% if (sc_raq_settings.FormField.Address.FieldActive == '1') { %>
+					<div class="row" style="max-width: 100%;">
+						<textarea data-required="<%= sc_raq_settings.FormField.Address.FieldRequired? sc_raq_settings.FormField.Address.FieldRequired : 0%>" name="raq_address" id="raq_address" class="form-control" placeholder="<%= sc_raq_settings.FormField.Address.Txt? sc_raq_settings.FormField.Address.Txt : 'Enter Address'%>"></textarea>
+					</div>
+					<% } %><!-- ./Requester Address -->
+
+					<!-- Requester Company Name -->
+					<% if (sc_raq_settings.FormField.CompanyName.FieldActive == '1') { %>
+					<div class="row" style="max-width: 100%;">
+						<input data-required="<%= sc_raq_settings.FormField.CompanyName.FieldRequired? sc_raq_settings.FormField.CompanyName.FieldRequired : 0%>" type="text" name="raq_company_name" id="raq_company_name" class="form-control" placeholder="<%= sc_raq_settings.FormField.CompanyName.Txt? sc_raq_settings.FormField.CompanyName.Txt : 'Enter Company Name'%>"/>
+					</div>
+					<% } %><!-- ./Requester Company Name -->
+
+					<!-- Requester Company Address -->
+					<% if (sc_raq_settings.FormField.CompanyPhone.FieldActive == '1') { %>
+					<div class="row" style="max-width: 100%;">
+						<input type="text" data-required="<%= sc_raq_settings.FormField.CompanyPhone.FieldRequired? sc_raq_settings.FormField.CompanyPhone.FieldRequired : 0%>" name="raq_company_phone" id="raq_company_phone" placeholder="<%= sc_raq_settings.FormField.CompanyPhone.Txt? sc_raq_settings.FormField.CompanyPhone.Txt : 'Enter Company Phone'%>" class="form-control"/>
+					</div>
+					<% } %><!-- ./Requester Company Address -->
+
+					<!-- Requester Notes -->
+					<% if (sc_raq_settings.FormField.Notes.FieldActive == '1') { %>
+					<div class="row" style="max-width: 100%;">
+						<textarea name="raq_comments" id="raq_comments" class="form-control" placeholder="<%= sc_raq_settings.FormField.Notes.Txt? sc_raq_settings.FormField.Notes.Txt : 'Enter additional details or comments here'%>"></textarea>
+					</div>
+					<% } %><!-- ./Requester Notes -->
+
+
+
+
+<!-- Custom Fields -->
+					<div style="clear: both;"></div>
+					<div id="raq-popup-custom-fields-plc">
+						
+                        <% 
+                        if (sc_raq_settings.FormField.hasOwnProperty('custom_fields')){ 
+                        	if (sc_raq_settings.FormField.custom_fields.length > 0){
+                        %>
+						<style type="text/css">
+						.sc-raq-add-to-quote-btn-hldr .res-modal-body {
+							max-height: 600px;
+							overflow-y: auto;
+						}
+						</style>
+                        <%
+                        var raq_custom_fields=sc_raq_settings.FormField.custom_fields;
+                        var i=0;
+                        for(i=0;i<raq_custom_fields.length;i++){
+                        	var cfi=raq_custom_fields[i];
+                            cfi.field_id = cfi.field_id? parseInt(cfi.field_id) : 0;
+                            if(cfi.field_id <= 0){
+                            	continue;
+                            }
+                            
+                            cfi.field_title = cfi.field_title? cfi.field_title.trim() : 'NA';
+
+							cfi.field_type = cfi.field_type?cfi.field_type:'';
+							if (cfi.field_type == '') continue;
+							//'text', 'textarea', 'checkbox', 'radio', 'select', 'multi-select';
+
+                            cfi.is_required = cfi.is_required?cfi.is_required:0;
+                            cfi.placeholder_text = cfi.placeholder_text?cfi.placeholder_text.trim():'';
+                            cfi.is_checked = cfi.is_checked?cfi.is_checked:0;
+                        %>
+							
+
+						<%
+							if (cfi.field_type == 'text') {
+								var field_label = cfi.placeholder_text? cfi.placeholder_text : cfi.field_title;
+								%>
+								<div class="row" style="max-width: 100%;">
+									<input type="text" name="cfi-<%=cfi.field_id%>" data-required="<%=cfi.is_required%>" id="cfi-<%=cfi.field_id%>" data-cfi-id="<%=cfi.field_id%>" data-cfi-type="text" placeholder="<%=field_label%>" class="form-control cfi-fld"/>
+								</div>
+								<%
+							}
+                            else if (cfi.field_type == 'textarea') { 
+								var field_label = cfi.placeholder_text? cfi.placeholder_text : cfi.field_title;
+								%>
+								<div class="row" style="max-width: 100%;">
+									<textarea name="cfi-<%=cfi.field_id%>" data-required="<%=cfi.is_required%>" id="cfi-<%=cfi.field_id%>" data-cfi-id="<%=cfi.field_id%>" data-cfi-type="textarea" placeholder="<%=field_label%>" class="form-control cfi-fld"></textarea>
+								</div>
+								<%
+							}
+                            else if (cfi.field_type == 'checkbox') {
+                            	var field_label = cfi.field_title;								
+								var attr_checked = cfi.is_checked=='1'? 'checked="checked"' : '';                            %>	
+								<div class="row" style="max-width: 100%;">									
+									<input type="checkbox" name="cfi-<%=cfi.field_id%>" <%=attr_checked%> data-required="<%=cfi.is_required%>" id="cfi-<%=cfi.field_id%>" data-cfi-id="<%=cfi.field_id%>" data-cfi-type="checkbox" placeholder="<%=field_label%>" class="cfi-fld" style="display:inline;"/>&nbsp;&nbsp;<label for="cfi-<%=cfi.field_id%>"><%=field_label%></label>
+								</div>
+								<%
+							}
+                            else if (cfi.field_type == 'radio') {
+								var field_label = cfi.field_title;
+                                cfi.options_text = cfi.options_text? cfi.options_text.trim() : '';
+                                var arr_tmp=[];
+                                if(cfi.options_text!=''){
+                                	arr_tmp = cfi.options_text.split(',');
+                                }
+								
+								if (arr_tmp.length > 0) { 
+                            %>
+								<div class="row" style="max-width: 100%;">
+									<div data-cfi-name="cfi-<%=cfi.field_id%>" data-cfi-id="<%=cfi.field_id%>" data-cfi-type="radio" data-required="<%=cfi.is_required%>" class="cfi-fld" style="display: none;"></div>
+									<%=field_label%><br />
+									<%
+                                    var k=0;
+									for (k=0; k<arr_tmp.length; k++) {
+										var fld_lbl = arr_tmp[k].trim();
+										var fld_val = fld_lbl;
+										var attr_checked = (k == 0)? (cfi.is_checked=='1'? 'checked="checked"' : '') : '';
+									%>
+									<input type="radio" name="cfi-<%=cfi.field_id%>" value="<%=fld_val%>" <%=attr_checked%> id="cfi-<%=cfi.field_id%>-<%=k%>" class="cfi-<%=cfi.field_id%>" style="display:inline;"/>
+                                    <label for="cfi-<%=cfi.field_id%>-<%=k%>"><%=fld_lbl%></label>&nbsp;
+									<% } %>
+								</div>
+								<%
+								}
+							}
+                            else if (cfi.field_type == 'select') {
+								var field_label = cfi.field_title;
+                                cfi.options_text = cfi.options_text? cfi.options_text.trim() : '';
+                                var arr_tmp=[];
+                                if(cfi.options_text!=''){
+                                	arr_tmp = cfi.options_text.split(',');
+                                }
+								
+								if (arr_tmp.length > 0) { 
+                            %>
+								<div class="row" style="max-width: 100%;">
+									<%=field_label%><br />
+                                    <select name="cfi-<%=cfi.field_id%>" data-required="<%=cfi.is_required%>" id="cfi-<%=cfi.field_id%>" data-cfi-id="<%=cfi.field_id%>" data-cfi-type="select" class="form-control cfi-fld">
+									<%
+                                    var k=0;
+									for (k=0; k<arr_tmp.length; k++) {
+										var fld_lbl = arr_tmp[k].trim();
+										var fld_val = fld_lbl;
+									%>
+                                    <option value="<%=fld_val%>"><%=fld_lbl%></option>
+									<% } %>
+                                    </select>
+								</div>
+								<%
+								}
+							}
+                            else if (cfi.field_type == 'multi-select') {
+								var field_label = cfi.field_title;
+                                cfi.options_text = cfi.options_text? cfi.options_text.trim() : '';
+                                var arr_tmp=[];
+                                if(cfi.options_text!=''){
+                                	arr_tmp = cfi.options_text.split(',');
+                                }
+								
+								if (arr_tmp.length > 0) { 
+                            %>
+								<div class="row" style="max-width: 100%;">
+									<%=field_label%><br />
+                                    <select name="cfi-<%=cfi.field_id%>" data-required="<%=cfi.is_required%>" id="cfi-<%=cfi.field_id%>" data-cfi-id="<%=cfi.field_id%>" data-cfi-type="multi-select" class="form-control cfi-fld" multiple="yes">
+									<%
+                                    var k=0;
+									for (k=0; k<arr_tmp.length; k++) {
+										var fld_lbl = arr_tmp[k].trim();
+										var fld_val = fld_lbl;
+									%>
+                                    <option value="<%=fld_val%>"><%=fld_lbl%></option>
+									<% } %>
+                                    </select>
+								</div>
+								<%
+								}
+							}
+                            %>
+							
+						
+						
+						<% 
+                        	}
+                        } 
+                        } 
+                        %>
+
+						
+						
+					</div>
+					<div style="clear: both;"></div><!-- ./Custom Fields -->
+
+					<div id="form_error" class="row alert alert-danger" style="max-width:100%; display:none; text-align:center;"></div>
+
+
+
+
+
+<!-- -->
+    
+    
+  </div>
+  <div class="sc-modal-footer" style="text-align:right">
+    <button type="button" id="raq_form_submit" name="raq_form_submit" class="sc-raq-btn-design-<%=sc_raq_settings.PopupSubmitQuoteButton.DesignID%>">
+                              <span id="raq_form_submit_text"><%=sc_raq_settings.PopupSubmitQuoteButton.Text%></span>
+                              <span id="raq_form_submit_loading" style="display: none;">
+                                  <svg class="sc-shopify-qs-loader" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="margin: auto; background: rgba(0, 0, 0, 0) none repeat scroll 0% 0%; display: block; shape-rendering: auto;width:30px;height:30px" width="78px" height="78px" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid">
+                                    <circle cx="50" cy="50" r="43" stroke-width="7" stroke="#a4b7c5" stroke-dasharray="67.54424205218055 67.54424205218055" fill="none" stroke-linecap="round">
+                                      <animateTransform attributeName="transform" type="rotate" repeatCount="indefinite" dur="1s" keyTimes="0;1" values="0 50 50;360 50 50"></animateTransform>
+                                        </circle>
+                                  </svg>
+    	</span>
+    </button>
+  </div>
+</div> 
+
+</div>
+        
+</script>
+<style type="text/css">
+   /* The Modal (background) */
+.sc-modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 999; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.sc-modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.sc-modal-close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.sc-modal-close:hover,
+.sc-modal-close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+} 
+  
+ /* Modal Header */
+.sc-modal-header {
+  padding: 2px 16px;
+  /*background-color: #5cb85c;*/
+  color: #333333;
+  border-bottom: 1px solid #E5E5E5;
+}
+.sc-shopiy-bs .sc-modal-header h2{
+  font-size: 18px;
+}
+
+/* Modal Body */
+.sc-modal-body {padding: 12px 16px;}
+
+/* Modal Footer */
+.sc-modal-footer {
+  padding: 2px 16px;
+  /*background-color: #5cb85c;*/
+  color: #333333;
+  border-top: 1px solid #E5E5E5;
+}
+
+/* Modal Content */
+.sc-modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  border: 1px solid #888;
+  width: 80%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  animation-name: animatetop;
+  animation-duration: 0.4s
+}
+
+/* Add Animation */
+@keyframes animatetop {
+  from {top: -300px; opacity: 0}
+  to {top: 0; opacity: 1}
+} 
+</style>
