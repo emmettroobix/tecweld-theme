@@ -114,3 +114,8 @@
 .hero-swiper {
 	display: none !important;
 }
+
+
+.services-item .media-body {
+	min-height: 300px;
+}
