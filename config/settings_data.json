@@ -2954,9 +2954,9 @@
           "1655861960b3444658-0"
         ],
         "settings": {
-          "infinite": true,
-          "show_arrows": true,
-          "show_dots": true,
+          "infinite": false,
+          "show_arrows": false,
+          "show_dots": false,
           "container_width": 1500,
           "content_width": 500,
           "content_height": 800,
