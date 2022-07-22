@@ -454,7 +454,9 @@ AddToCart-product-template-2 .product-form__cart-submit {
   justify-content: flex-start;
   align-items: flex-start !important;
 }
-
+.product-form__item--submit button.rfq-btn {
+  font-weight: 900 !important;
+}
 .product-form__item--submit button.rfq-btn:hover {
   background: #ffea00 !important;
   color: #000 !important;
