@@ -438,3 +438,11 @@
 #productrelated .slick-dots {
   top: 21rem;
 }
+
+AddToCart-product-template-2 .product-form__cart-submit {
+  display: none !important;
+}
+
+#AddToCart-product-template-2 {
+  display: none !important;
+}
