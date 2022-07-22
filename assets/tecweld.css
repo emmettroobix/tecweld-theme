@@ -451,5 +451,6 @@ AddToCart-product-template-2 .product-form__cart-submit {
   display: none !important;
 }
 .product-form__quantity-submit {
-
+  justify-content: flex-start;
+  align-items: flex-start;
 }
