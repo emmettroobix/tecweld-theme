@@ -434,3 +434,7 @@
   background: #ffea02;
   color: #000;
 }
+
+.slick-dots {
+  padding-top: 2rem;
+}
