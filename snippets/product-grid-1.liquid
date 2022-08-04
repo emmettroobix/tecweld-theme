@@ -1,5 +1,5 @@
 <!-- product-grid-1.liquid -->
-<div class="product-card js-product-card product-card--style1" data-price="{{ product.price }}">
+<div class="product-card js-product-card product-card--style1 roobix-shopify" data-price="{{ product.price }}">
   <div class="product-card__image-wr">
 
     <a class="product-card__image js" href="{{ product.url | within: collection }}" style="max-width: 480px;" data-image-id="{{ image.id }}">
@@ -27,7 +27,27 @@
     </a>
 	
     <div class="product-card__overlay d-flex justify-content-center flex-column">
-      <a href="/pages/contact" class="btn">Request a Quote</a>
+	  {%- if settings.enable_wishlsit -%}
+      <span data-toggle="tooltip" data-placement="left" data-tooltipalltimes="true" class="btn btn-theme gradient-theme-vertical product-card__overlay-btn js-btn-wishlist" title="{{ 'products.product.wishlist_text' | t }}" data-handle="{{product.handle}}">
+        {%- include 'icon-heart' -%}
+      </span>
+      {%- endif -%}	
+     
+      <span data-tooltip="true" data-placement="left" class="btn btn-theme gradient-theme-vertical product-card__overlay-btn js-btn-quickview" title="{{ 'products.product.quickview_text' | t }}" data-toggle="modal" data-target="#jsQuickview" data-handle="{{product.handle}}">
+      <svg aria-hidden="true" focusable="false" data-prefix="fal" data-icon="expand-alt" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="svg-inline--fa fa-expand-alt fa-w-14 fa-3x"><path fill="currentColor" d="M198.829 275.515l5.656 5.656c4.686 4.686 4.686 12.284 0 16.971L54.627 448H116c6.627 0 12 5.373 12 12v8c0 6.627-5.373 12-12 12H12c-6.627 0-12-5.373-12-12V364c0-6.627 5.373-12 12-12h8c6.627 0 12 5.373 12 12v61.373l149.858-149.858c4.687-4.687 12.285-4.687 16.971 0zM436 32H332c-6.627 0-12 5.373-12 12v8c0 6.627 5.373 12 12 12h61.373L243.515 213.858c-4.686 4.686-4.686 12.284 0 16.971l5.656 5.656c4.686 4.686 12.284 4.686 16.971 0L416 86.627V148c0 6.627 5.373 12 12 12h8c6.627 0 12-5.373 12-12V44c0-6.627-5.373-12-12-12z" class=""></path></svg>        
+      </span>
+
+      {%- if settings.enable_compare -%}
+      <span data-tooltip="true" data-placement="left" class="btn btn-theme gradient-theme-vertical product-card__overlay-btn js-btn-compare" title="{{ 'products.product.compare_text' | t }}" data-handle="{{product.handle}}">
+        {%- include 'icon-exchange' -%}
+        {%- include 'icon-close' -%}
+        <span>{{ 'products.product.compare_text' | t }}</span>
+      </span>
+      {%- endif -%}
+       <span data-tooltip="true" data-placement="left" class="btn btn-theme gradient-theme-vertical product-card__overlay-btn js-grid-cart" title="{{ 'products.product.add_to_cart' | t }}" data-id="{{product.selected_or_first_available_variant.id}}">
+        <svg class="feather feather-shopping-cart sc-dnqmqq jxshSx" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" data-reactid="1061"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg>        <div class="product-card__loading spinner-{{settings.loading}}" role="status"></div>
+        <span>{{ 'products.product.add_to_cart' | t }}</span>
+      </span>
     </div>
 
     
@@ -50,7 +70,35 @@
 
     <a href="{{ product.url | within: collection }}" title="{{product.title}}" class="product-card__name">{{ product.title }}</a>
 
-    
+    {%- if product.available -%}
+    <div class="product-card__price">
+      {%- if product.compare_at_price > product.price -%}
+      {%- if product.price_varies -%}
+      {%- assign sale_price = product.price | money -%}
+      {{ 'products.product.on_sale_from_html' | t: price: sale_price }}
+      {%- else -%}
+      <span class="visually-hidden">{{ 'products.product.regular_price' | t }}</span>
+      {{ product.price | money }}
+      <s class="product-card__regular-price">{{ product.compare_at_price | money }}</s>
+      <span class="visually-hidden">{{ 'products.product.sale_price' | t }}</span>
+      
+      {%- endif -%}
+      {%- else -%}
+      {%- if product.price_varies -%}
+      {%- assign price = product.price | money -%}
+      {{ 'products.product.from_text_html' | t: price: price }}
+      {%- else -%}
+      <span class="visually-hidden">{{ 'products.product.regular_price' | t }}</span>
+      {{ product.price | money }}
+      {%- endif -%}
+
+      {%- endif -%}
+    </div>
+    {%- else -%}
+    <div class="product-card__availability">
+      {{ 'products.product.sold_out' | t }}
+    </div>
+    {%- endif -%}
     {%- include 'swatch-grid-1' -%}
   </div>
 </div>
