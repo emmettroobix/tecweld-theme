@@ -256,9 +256,7 @@
 
 .tecweld-hero .product-card__info {
   height: 100%;
-  min-height: 4rem !important;
-  padding-left: 1rem;
-  padding-right: 1rem;
+  min-height: unset !important;
 }
 .tecweld-hero .product-card__image-wr {
   position: relative;
@@ -381,15 +379,6 @@
   text-align: center;
 }
 
-.tecweld-hero .slick-list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
 .product-card__info {
   background: #f8e72d !important;
   max-height: 7rem !important;
@@ -428,36 +417,4 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-}
-
-.collection-sidebar h5 {
-  background: #ffea02;
-  color: #000;
-}
-
-#productrelated .slick-dots {
-  top: 21rem;
-}
-
-AddToCart-product-template-2 .product-form__cart-submit {
-  display: none !important;
-}
-
-#AddToCart-product-template-2 {
-  display: none !important;
-}
-
-.easy-quote-button {
-  display: none !important;
-}
-.product-form__quantity-submit {
-  justify-content: flex-start;
-  align-items: flex-start !important;
-}
-.product-form__item--submit button.rfq-btn {
-  font-weight: 900 !important;
-}
-.product-form__item--submit button.rfq-btn:hover {
-  background: #ffea00 !important;
-  color: #000 !important;
 }
