@@ -24,7 +24,6 @@
     "favicon": "shopify:\/\/shop_images\/favvicon.x14470.png",
     "safe_checkout_pcart": "",
     "safe_checkout_detail": "",
-    "safe_checkout_cart": "shopify:\/\/shop_images\/shutterstock_1496684738.jpg",
     "color_primary": "#012c3c",
     "color_secondary": "#000000",
     "color_body_bg": "#ffffff",
@@ -72,7 +71,7 @@
     "apmenuitem_eproduct_1": true,
     "apmenuitem_columns_blockproducts_1": "3",
     "apmenuitem_tproduct_1": "Collection",
-    "apmenuitem_cproduct_1": "frontpage",
+    "apmenuitem_cproduct_1": "heating-tips",
     "apmenuitem_ehtml_1": false,
     "apmenuitem_columns_blockhtml_1": "8",
     "apmenuitem_thtml_1": "",
@@ -172,13 +171,13 @@
     "style_breadcrumb": "style_1",
     "layout_bread": "full",
     "share_image": "",
-    "social_facebook_link": "#",
-    "social_twitter_link": "#",
-    "social_pinterest_link": "#",
-    "social_instagram_link": "#",
+    "social_facebook_link": "https:\/\/www.facebook.com\/TecweldServices\/",
+    "social_twitter_link": "",
+    "social_pinterest_link": "",
+    "social_instagram_link": "",
     "social_tumblr_link": "",
     "social_snapchat_link": "",
-    "social_youtube_link": "#",
+    "social_youtube_link": "",
     "social_vimeo_link": "",
     "share_facebook": true,
     "share_twitter": true,
@@ -187,11 +186,11 @@
     "categories_block_productcount": true,
     "categories_block_collapse": true,
     "categories_block_title": "Categories",
-    "categories_block_number": "12",
+    "categories_block_number": "124",
     "categories_block_items": "",
     "shop_by_vendor_enable": true,
     "shop_by_vendor_collapse": false,
-    "shop_by_vendor_title": "Vendors",
+    "shop_by_vendor_title": "Supplier",
     "shop_by_vendor_number": "10",
     "shop_by_vendor_custom_list": "",
     "shop_by_type_enable": true,
@@ -207,7 +206,7 @@
     "sidebar_post_limit": 3,
     "sidebar_html_title": "",
     "sidebar_html": "<div class=\"g-banner mb-3\">\n  <figure class=\"effect-milo\">\n    <img class=\"lazyload\" data-src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0071\/6944\/1892\/files\/Blog-other5.jpg?v=1616298551\">\n    <figcaption>\n      <h2>Racing <span>NIER<\/span>\n<\/h2>\n     \n      <a href=\"#\"><\/a>\n    <\/figcaption>\n  <\/figure>\n<\/div>",
-    "price_range_enable": true,
+    "price_range_enable": false,
     "price_range_title": "Price range",
     "shop_by_catalog_enable": true,
     "shop_by_catalog_title": "",
@@ -251,16 +250,17 @@
     "page_shipping": "",
     "enable_countdown_page": true,
     "enable_countdown_card": true,
-    "enable_compare": true,
-    "enable_wishlsit": true,
+    "enable_compare": false,
+    "enable_wishlsit": false,
     "page_wishlist": "wishlist",
     "cookie_enable": true,
     "cookie_message": "This website uses cookies to ensure you get the best experience on our website.",
-    "cookie_url": "shopify:\/\/pages\/contact-us",
+    "cookie_url": "shopify:\/\/pages\/cookie-policy",
     "cookie_url_text": "Learn More",
     "cookie_ok": "Got it!",
-    "show_multiple_currencies": true,
+    "show_multiple_currencies": false,
     "list_currencies": "EUR,AUD,GBP,JPY,CAD",
+    "shipping_calculator": "Disabled",
     "shipping_calculator_default_country": "United States",
     "image_404": "shopify:\/\/shop_images\/tecweld-bg-testimonials.jpg",
     "found_text_color": "#303030",
@@ -461,13 +461,13 @@
           "enable_dropdownfull": true,
           "enable_hotline": true,
           "phonetext": "Phone:",
-          "phonenumber": "(08) 277 1444",
-          "topbartext": "Monday – Friday 7.30am-4.00pm",
+          "phonenumber": "<a href=\"tel:0892771444\">(08) 9277 1444<\/a>",
+          "topbartext": "Monday – Friday 7.30am - 4.00pm",
           "topbarbg": "#012c3c",
           "background": "#ffffff",
           "textcolor": "#ffffff",
           "linkcolor": "#ffffff",
-          "linkhover": "#ffffff",
+          "linkhover": "#ffea00",
           "menutext": "#221f20",
           "menutexthover": "#012c3c",
           "menudroptexttitle": "#222222",
@@ -494,34 +494,35 @@
       "footer-1": {
         "type": "footer-1",
         "blocks": {
+          "5c183967-6da7-47b8-aba7-8bd3d871d1f8": {
+            "type": "menu",
+            "settings": {
+              "link_list": "product-range",
+              "width": "33%"
+            }
+          },
           "46eeb684-b121-40c2-b7a7-ff1602bee8f3": {
             "type": "social",
             "settings": {
               "title": "GET IN TOUCH",
-              "sub_title": "<div>15 Robinson Avenue, BELMONT WA 6104<br>\nAustralia<br>\nPhone: <a href=\"tel:082771444\">(08) 277 1444<\/a><br>\nEmail: harvey@tecweld.com.au<br>\n<\/div>",
+              "sub_title": "<div>15 Robinson Avenue, BELMONT WA 6104<br>\nAustralia<br>\nPhone: <a href=\"tel:0892771444\">(08) 9277 1444<\/a><br>\nEmail: <a href=\"mailto:quotes@tecweld.com.au\">quotes@tecweld.com.au<\/a>\n<br>\n<\/div>",
               "align": "left",
               "width": "33%"
             }
           },
-          "5c183967-6da7-47b8-aba7-8bd3d871d1f8": {
-            "type": "menu",
+          "1a8826c7-e081-4804-8f81-f67c117c4c54": {
+            "type": "text",
             "settings": {
-              "link_list": "footer",
-              "width": "20%"
-            }
-          },
-          "2868a2e4-656a-4ace-ae2e-baf118135b95": {
-            "type": "menu",
-            "settings": {
-              "link_list": "footer",
-              "width": "20%"
+              "title": "Visit Us",
+              "text": "<iframe src=\"https:\/\/www.google.com\/maps\/embed?pb=!1m18!1m12!1m3!1d3385.3127964173236!2d115.91943101474065!3d-31.952409829579135!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2a32bbb78b3081b1%3A0xa6c13357925482b3!2sTec-Weld%20Services!5e0!3m2!1sen!2sau!4v1655803737159!5m2!1sen!2sau\" width=\"350\" height=\"220\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"><\/iframe>",
+              "width": "33%"
             }
           }
         },
         "block_order": [
-          "46eeb684-b121-40c2-b7a7-ff1602bee8f3",
           "5c183967-6da7-47b8-aba7-8bd3d871d1f8",
-          "2868a2e4-656a-4ace-ae2e-baf118135b95"
+          "46eeb684-b121-40c2-b7a7-ff1602bee8f3",
+          "1a8826c7-e081-4804-8f81-f67c117c4c54"
         ],
         "settings": {
           "fullwidth": false,
@@ -686,8 +687,8 @@
           "collection_perpage": 15,
           "collection_perrow": "3",
           "sidebar_col": "col-md-3",
-          "enable_title": true,
-          "enable_description": true
+          "enable_title": false,
+          "enable_description": false
         }
       },
       "s_team_member": {
@@ -1083,31 +1084,31 @@
           "1562225756576": {
             "type": "logo",
             "settings": {
-              "image": "shopify:\/\/shop_images\/ezgif.com-gif-maker_12.jpg"
+              "link": ""
             }
           },
           "1587659591451": {
             "type": "logo",
             "settings": {
-              "image": "shopify:\/\/shop_images\/ezgif.com-gif-maker_11.jpg"
+              "link": ""
             }
           },
           "1587659594812": {
             "type": "logo",
             "settings": {
-              "image": "shopify:\/\/shop_images\/ezgif.com-gif-maker_4.jpg"
+              "link": ""
             }
           },
           "1587662931276": {
             "type": "logo",
             "settings": {
-              "image": "shopify:\/\/shop_images\/ezgif.com-gif-maker_7.jpg"
+              "link": ""
             }
           },
           "1587662944230": {
             "type": "logo",
             "settings": {
-              "image": "shopify:\/\/shop_images\/ezgif.com-gif-maker_10.jpg"
+              "link": ""
             }
           }
         },
@@ -1469,39 +1470,19 @@
           "1587569402997": {
             "type": "address",
             "settings": {
-              "store_addess": "<div class=\"mt-5\">\n<h2 class=\"mb-3 f-90\">01<\/h2>\n<span class=\"text-body font-weight-bold\">STORE NEWYORK<\/span>\n<\/div>",
-              "contact_addess": "123 Sky Tower, West 21th Street, Suite 721, NY",
-              "contact_phone": "+844 123 456 789",
-              "contact_mail": "sale@yourcompany.com"
-            }
-          },
-          "1587569420887": {
-            "type": "address",
-            "settings": {
-              "store_addess": "<div class=\"mt-5\">\n<h2 class=\"mb-3 f-90\">02<\/h2>\n<span class=\"text-body font-weight-bold\">STORE NEWYORK<\/span>\n<\/div>",
-              "contact_addess": "123 Sky Tower, West 21th Street, Suite 721, NY",
-              "contact_phone": "+844 123 456 789",
-              "contact_mail": "sale@yourcompany.com"
-            }
-          },
-          "1587569429598": {
-            "type": "address",
-            "settings": {
-              "store_addess": "<div class=\"mt-5\">\n<h2 class=\"mb-3 f-90\">03<\/h2>\n<span class=\"text-body font-weight-bold\">STORE NEWYORK<\/span>\n<\/div>",
-              "contact_addess": "123 Sky Tower, West 21th Street, Suite 721, NY",
-              "contact_phone": "+844 123 456 789",
-              "contact_mail": "sale@yourcompany.com"
+              "store_addess": "<div class=\"mt-5\">\n<span class=\"text-body font-weight-bold\">Address<\/span>\n<\/div>\n<a href=\"https:\/\/goo.gl\/maps\/LNJFaNT27RBkquvF9\" style=\"padding-top:24px;\">15 Robinson Avenue, BELMONT WA 6104<\/a>",
+              "contact_addess": "",
+              "contact_phone": "(08) 9277 1444",
+              "contact_mail": ""
             }
           }
         },
         "block_order": [
-          "1587569402997",
-          "1587569420887",
-          "1587569429598"
+          "1587569402997"
         ],
         "settings": {
           "title_page": "Stay in touch! Contact us",
-          "contact_des": "<p>Minimalist styling is not about creating a cold, hard, empty white box of a home. It is about using simple and natural forms, <br>\nand taking away layers without losing the aesthetic appeal of the space.<\/p>",
+          "contact_des": "",
           "gmap": true,
           "gmap_iframe": "<div class=\"mapouter\">\n<div class=\"gmap_canvas\">\n<iframe src=\"https:\/\/www.google.com\/maps\/embed?pb=!1m14!1m8!1m3!1d13541.250511950615!2d115.9216197!3d-31.9524144!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa6c13357925482b3!2sTec-Weld%20Services!5e0!3m2!1sen!2sau!4v1648552679122!5m2!1sen!2sau\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"><\/iframe><a href=\"https:\/\/embedgooglemap.net\/128\/\"><\/a>\n<\/div>\n<style>.mapouter{position:relative;text-align:right;height:500px;width:1080px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:1080px;}<\/style>\n<\/div>\n<style>.mapouter{position:relative;text-align:right;height:500px;width:1080px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:1080px;}.gmap-iframe .mapouter, .gmap-iframe .gmap_canvas, .gmap-iframe iframe{ width:100% !important; } @media (max-width:767px){ .gmap-iframe .mapouter, .gmap-iframe .gmap_canvas, .gmap-iframe iframe{ height:350px !important; } }<\/style>"
         }
@@ -1636,7 +1617,6 @@
           "1562991736405": {
             "type": "photo",
             "settings": {
-              "image": "shopify:\/\/shop_images\/home8-banner2.jpg",
               "title": "Top",
               "link": "#"
             }
@@ -1644,7 +1624,6 @@
           "1562991832725": {
             "type": "photo",
             "settings": {
-              "image": "shopify:\/\/shop_images\/home3_c6.jpg",
               "title": "Pack",
               "link": "#"
             }
@@ -1652,14 +1631,13 @@
           "1562991809926": {
             "type": "photo",
             "settings": {
-              "image": "shopify:\/\/shop_images\/home7_b4.jpg",
-              "title": "Decor"
+              "title": "Decor",
+              "link": ""
             }
           },
           "1562991850006": {
             "type": "photo",
             "settings": {
-              "image": "shopify:\/\/shop_images\/home7_b1.jpg",
               "title": "Single product",
               "link": "#"
             }
@@ -1667,7 +1645,6 @@
           "1562991892614": {
             "type": "photo",
             "settings": {
-              "image": "shopify:\/\/shop_images\/home7-banner1.jpg",
               "title": "Shoes",
               "link": "shopify:\/\/collections\/shoes"
             }
@@ -1675,7 +1652,6 @@
           "1562991919564": {
             "type": "photo",
             "settings": {
-              "image": "shopify:\/\/shop_images\/home8-banner1.jpg",
               "title": "Shirt",
               "link": "shopify:\/\/collections\/shirt"
             }
@@ -1683,7 +1659,6 @@
           "1562991968766": {
             "type": "photo",
             "settings": {
-              "image": "shopify:\/\/shop_images\/home2_c1.jpg",
               "title": "Top collection",
               "link": "shopify:\/\/collections\/tops"
             }
@@ -1691,7 +1666,6 @@
           "1562991997078": {
             "type": "photo",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Home-7-bigbanner.jpg",
               "title": "Our team",
               "link": "shopify:\/\/pages\/team-member"
             }
@@ -1699,7 +1673,6 @@
           "1562992017741": {
             "type": "photo",
             "settings": {
-              "image": "shopify:\/\/shop_images\/home6_banner2.jpg",
               "title": "FAQs",
               "link": "shopify:\/\/pages\/faqs"
             }
@@ -1707,7 +1680,6 @@
           "1562993011560": {
             "type": "photo",
             "settings": {
-              "image": "shopify:\/\/shop_images\/home7-cate3.jpg",
               "title": "Shopping",
               "link": "shopify:\/\/collections\/all"
             }
@@ -1715,7 +1687,6 @@
           "1562992970394": {
             "type": "photo",
             "settings": {
-              "image": "shopify:\/\/shop_images\/home7-cate2.jpg",
               "title": "About us",
               "link": "shopify:\/\/pages\/about-us"
             }
@@ -1723,7 +1694,6 @@
           "1562992909584": {
             "type": "photo",
             "settings": {
-              "image": "shopify:\/\/shop_images\/home8-banner3.jpg",
               "title": "Trousers",
               "link": "shopify:\/\/collections\/trousers"
             }
@@ -1731,7 +1701,6 @@
           "1562992046055": {
             "type": "photo",
             "settings": {
-              "image": "shopify:\/\/shop_images\/home3_banner6.jpg",
               "title": "Our story",
               "link": "shopify:\/\/pages\/our-story"
             }
@@ -1739,7 +1708,6 @@
           "1562992952360": {
             "type": "photo",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Home_1-banner1-nosale.jpg",
               "title": "Brands",
               "link": "shopify:\/\/pages\/brands"
             }
@@ -1747,7 +1715,6 @@
           "1562992997330": {
             "type": "photo",
             "settings": {
-              "image": "shopify:\/\/shop_images\/home3_c5.jpg",
               "title": "Blog",
               "link": "shopify:\/\/blogs\/news"
             }
@@ -1791,7 +1758,6 @@
           "1563897815428": {
             "type": "lookbook",
             "settings": {
-              "image": "",
               "instagram": "https:\/\/instagram.com",
               "product": "",
               "dot_color": "#4d9465",
@@ -1802,7 +1768,6 @@
           "1563895908631": {
             "type": "lookbook",
             "settings": {
-              "image": "",
               "instagram": "https:\/\/instagram.com",
               "product": "",
               "dot_color": "#ffc371",
@@ -1813,7 +1778,6 @@
           "1563897441683": {
             "type": "lookbook",
             "settings": {
-              "image": "",
               "instagram": "https:\/\/instagram.com",
               "product": "",
               "dot_color": "#01bad4",
@@ -2430,12 +2394,12 @@
           "1587653901780": {
             "type": "banner",
             "settings": {
-              "image": "shopify:\/\/shop_images\/image_des3.jpg",
               "width": "4",
               "description": "",
               "max-width": 290,
               "button_text": "",
               "button_icon": "",
+              "button_link": "",
               "vertical": "bottom",
               "horizontal": "center",
               "text_align": "center"
@@ -2444,12 +2408,12 @@
           "1587655482100": {
             "type": "banner",
             "settings": {
-              "image": "shopify:\/\/shop_images\/image_des2.jpg",
               "width": "4",
               "description": "",
               "max-width": 290,
               "button_text": "",
               "button_icon": "",
+              "button_link": "",
               "vertical": "bottom",
               "horizontal": "center",
               "text_align": "center"
@@ -2458,12 +2422,12 @@
           "1587655514774": {
             "type": "banner",
             "settings": {
-              "image": "shopify:\/\/shop_images\/image_des1.jpg",
               "width": "4",
               "description": "",
               "max-width": 290,
               "button_text": "",
               "button_icon": "",
+              "button_link": "",
               "vertical": "bottom",
               "horizontal": "center",
               "text_align": "center"
@@ -2519,7 +2483,9 @@
             "settings": {
               "title": "Free shipping",
               "description": "on all orders over $200.00",
-              "icon": "<svg aria-hidden=\"true\" focusable=\"false\" data-prefix=\"fal\" data-icon=\"truck\" role=\"img\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" viewbox=\"0 0 640 512\" class=\"svg-inline--fa fa-truck fa-w-20 fa-3x\"><path fill=\"currentColor\" d=\"M632 384h-24V275.9c0-16.8-6.8-33.3-18.8-45.2l-83.9-83.9c-11.8-12-28.3-18.8-45.2-18.8H416V78.6c0-25.7-22.2-46.6-49.4-46.6H49.4C22.2 32 0 52.9 0 78.6v290.8C0 395.1 22.2 416 49.4 416h16.2c-1.1 5.2-1.6 10.5-1.6 16 0 44.2 35.8 80 80 80s80-35.8 80-80c0-5.5-.6-10.8-1.6-16h195.2c-1.1 5.2-1.6 10.5-1.6 16 0 44.2 35.8 80 80 80s80-35.8 80-80c0-5.5-.6-10.8-1.6-16H632c4.4 0 8-3.6 8-8v-16c0-4.4-3.6-8-8-8zM460.1 160c8.4 0 16.7 3.4 22.6 9.4l83.9 83.9c.8.8 1.1 1.9 1.8 2.8H416v-96h44.1zM144 480c-26.5 0-48-21.5-48-48s21.5-48 48-48 48 21.5 48 48-21.5 48-48 48zm63.6-96C193 364.7 170 352 144 352s-49 12.7-63.6 32h-31c-9.6 0-17.4-6.5-17.4-14.6V78.6C32 70.5 39.8 64 49.4 64h317.2c9.6 0 17.4 6.5 17.4 14.6V384H207.6zM496 480c-26.5 0-48-21.5-48-48s21.5-48 48-48 48 21.5 48 48-21.5 48-48 48zm0-128c-26.1 0-49 12.7-63.6 32H416v-96h160v96h-16.4c-14.6-19.3-37.5-32-63.6-32z\" class=\"\"><\/path><\/svg>"
+              "icon": "<svg aria-hidden=\"true\" focusable=\"false\" data-prefix=\"fal\" data-icon=\"truck\" role=\"img\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" viewbox=\"0 0 640 512\" class=\"svg-inline--fa fa-truck fa-w-20 fa-3x\"><path fill=\"currentColor\" d=\"M632 384h-24V275.9c0-16.8-6.8-33.3-18.8-45.2l-83.9-83.9c-11.8-12-28.3-18.8-45.2-18.8H416V78.6c0-25.7-22.2-46.6-49.4-46.6H49.4C22.2 32 0 52.9 0 78.6v290.8C0 395.1 22.2 416 49.4 416h16.2c-1.1 5.2-1.6 10.5-1.6 16 0 44.2 35.8 80 80 80s80-35.8 80-80c0-5.5-.6-10.8-1.6-16h195.2c-1.1 5.2-1.6 10.5-1.6 16 0 44.2 35.8 80 80 80s80-35.8 80-80c0-5.5-.6-10.8-1.6-16H632c4.4 0 8-3.6 8-8v-16c0-4.4-3.6-8-8-8zM460.1 160c8.4 0 16.7 3.4 22.6 9.4l83.9 83.9c.8.8 1.1 1.9 1.8 2.8H416v-96h44.1zM144 480c-26.5 0-48-21.5-48-48s21.5-48 48-48 48 21.5 48 48-21.5 48-48 48zm63.6-96C193 364.7 170 352 144 352s-49 12.7-63.6 32h-31c-9.6 0-17.4-6.5-17.4-14.6V78.6C32 70.5 39.8 64 49.4 64h317.2c9.6 0 17.4 6.5 17.4 14.6V384H207.6zM496 480c-26.5 0-48-21.5-48-48s21.5-48 48-48 48 21.5 48 48-21.5 48-48 48zm0-128c-26.1 0-49 12.7-63.6 32H416v-96h160v96h-16.4c-14.6-19.3-37.5-32-63.6-32z\" class=\"\"><\/path><\/svg>",
+              "link_text": "",
+              "link_url": ""
             }
           },
           "1587655905045": {
@@ -2527,7 +2493,9 @@
             "settings": {
               "title": "15 days returns",
               "description": "moneyback guarantee",
-              "icon": "<svg aria-hidden=\"true\" focusable=\"false\" data-prefix=\"fal\" data-icon=\"money-bill-wave\" role=\"img\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" viewbox=\"0 0 640 512\" class=\"svg-inline--fa fa-money-bill-wave fa-w-20 fa-3x\"><path fill=\"currentColor\" d=\"M320 144c-53.02 0-96 50.14-96 112 0 61.85 42.98 112 96 112 53 0 96-50.13 96-112 0-61.86-42.98-112-96-112zm0 192c-35.29 0-64-35.89-64-80s28.71-80 64-80 64 35.89 64 80-28.71 80-64 80zM621.16 54.46C582.37 38.19 543.55 32 504.75 32c-123.17-.01-246.33 62.34-369.5 62.34C70.34 94.34 46.9 79 32.25 79 15.04 79 0 92.32 0 110.81v317.26c0 12.63 7.23 24.6 18.84 29.46C57.63 473.81 96.45 480 135.25 480c123.17 0 246.33-62.35 369.5-62.35 64.91 0 88.34 15.35 103 15.35 17.21 0 32.25-13.32 32.25-31.81V83.93c0-12.64-7.23-24.6-18.84-29.47zm-588.21 56.8c20.22 6.42 41.03 10.53 62.67 12.89-1.97 33.41-29.23 60.04-62.89 60.43l.22-73.32zM32 428.07l.13-42.54c33.58.07 60.88 26.31 63.38 59.43-22.45-3.04-43.63-8.45-63.51-16.89zm575.05-27.33c-20.16-6.4-40.9-10.51-62.47-12.87 2.89-32.5 29.69-58.14 62.69-58.52l-.22 71.39zm.31-103.54c-50 .34-90.59 39.32-94.58 88.6-70.73-1.43-137.18 15.82-200.6 31.87-75.07 19-126.54 31.21-184.41 29.87-1.23-52.02-43.48-94.01-95.55-94.13l.41-136.67c50.65-.34 91.72-40.32 94.78-90.52 70.53 1.41 137.02-15.83 200.4-31.87C402.6 75.41 454.3 63.13 512.03 64.46c.18 52.93 43.01 95.94 95.74 96.07l-.41 136.67zm.51-168.8c-34.24-.07-62.04-27.34-63.58-61.38 22.53 3.03 43.78 8.45 63.71 16.91l-.13 44.47z\" class=\"\"><\/path><\/svg>"
+              "icon": "<svg aria-hidden=\"true\" focusable=\"false\" data-prefix=\"fal\" data-icon=\"money-bill-wave\" role=\"img\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" viewbox=\"0 0 640 512\" class=\"svg-inline--fa fa-money-bill-wave fa-w-20 fa-3x\"><path fill=\"currentColor\" d=\"M320 144c-53.02 0-96 50.14-96 112 0 61.85 42.98 112 96 112 53 0 96-50.13 96-112 0-61.86-42.98-112-96-112zm0 192c-35.29 0-64-35.89-64-80s28.71-80 64-80 64 35.89 64 80-28.71 80-64 80zM621.16 54.46C582.37 38.19 543.55 32 504.75 32c-123.17-.01-246.33 62.34-369.5 62.34C70.34 94.34 46.9 79 32.25 79 15.04 79 0 92.32 0 110.81v317.26c0 12.63 7.23 24.6 18.84 29.46C57.63 473.81 96.45 480 135.25 480c123.17 0 246.33-62.35 369.5-62.35 64.91 0 88.34 15.35 103 15.35 17.21 0 32.25-13.32 32.25-31.81V83.93c0-12.64-7.23-24.6-18.84-29.47zm-588.21 56.8c20.22 6.42 41.03 10.53 62.67 12.89-1.97 33.41-29.23 60.04-62.89 60.43l.22-73.32zM32 428.07l.13-42.54c33.58.07 60.88 26.31 63.38 59.43-22.45-3.04-43.63-8.45-63.51-16.89zm575.05-27.33c-20.16-6.4-40.9-10.51-62.47-12.87 2.89-32.5 29.69-58.14 62.69-58.52l-.22 71.39zm.31-103.54c-50 .34-90.59 39.32-94.58 88.6-70.73-1.43-137.18 15.82-200.6 31.87-75.07 19-126.54 31.21-184.41 29.87-1.23-52.02-43.48-94.01-95.55-94.13l.41-136.67c50.65-.34 91.72-40.32 94.78-90.52 70.53 1.41 137.02-15.83 200.4-31.87C402.6 75.41 454.3 63.13 512.03 64.46c.18 52.93 43.01 95.94 95.74 96.07l-.41 136.67zm.51-168.8c-34.24-.07-62.04-27.34-63.58-61.38 22.53 3.03 43.78 8.45 63.71 16.91l-.13 44.47z\" class=\"\"><\/path><\/svg>",
+              "link_text": "",
+              "link_url": ""
             }
           },
           "1587655928022": {
@@ -2535,7 +2503,9 @@
             "settings": {
               "title": "Secure checkout",
               "description": "100% protected by Paypal",
-              "icon": "<svg aria-hidden=\"true\" focusable=\"false\" data-prefix=\"fal\" data-icon=\"lock-alt\" role=\"img\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" viewbox=\"0 0 448 512\" class=\"svg-inline--fa fa-lock-alt fa-w-14 fa-3x\"><path fill=\"currentColor\" d=\"M224 420c-11 0-20-9-20-20v-64c0-11 9-20 20-20s20 9 20 20v64c0 11-9 20-20 20zm224-148v192c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V272c0-26.5 21.5-48 48-48h16v-64C64 71.6 136-.3 224.5 0 312.9.3 384 73.1 384 161.5V224h16c26.5 0 48 21.5 48 48zM96 224h256v-64c0-70.6-57.4-128-128-128S96 89.4 96 160v64zm320 240V272c0-8.8-7.2-16-16-16H48c-8.8 0-16 7.2-16 16v192c0 8.8 7.2 16 16 16h352c8.8 0 16-7.2 16-16z\" class=\"\"><\/path><\/svg>"
+              "icon": "<svg aria-hidden=\"true\" focusable=\"false\" data-prefix=\"fal\" data-icon=\"lock-alt\" role=\"img\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" viewbox=\"0 0 448 512\" class=\"svg-inline--fa fa-lock-alt fa-w-14 fa-3x\"><path fill=\"currentColor\" d=\"M224 420c-11 0-20-9-20-20v-64c0-11 9-20 20-20s20 9 20 20v64c0 11-9 20-20 20zm224-148v192c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V272c0-26.5 21.5-48 48-48h16v-64C64 71.6 136-.3 224.5 0 312.9.3 384 73.1 384 161.5V224h16c26.5 0 48 21.5 48 48zM96 224h256v-64c0-70.6-57.4-128-128-128S96 89.4 96 160v64zm320 240V272c0-8.8-7.2-16-16-16H48c-8.8 0-16 7.2-16 16v192c0 8.8 7.2 16 16 16h352c8.8 0 16-7.2 16-16z\" class=\"\"><\/path><\/svg>",
+              "link_text": "",
+              "link_url": ""
             }
           },
           "1587655946108": {
@@ -2543,7 +2513,9 @@
             "settings": {
               "title": "100% free warranty",
               "description": "moneyback guarantee",
-              "icon": "<svg aria-hidden=\"true\" focusable=\"false\" data-prefix=\"fal\" data-icon=\"shield-alt\" role=\"img\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" viewbox=\"0 0 512 512\" class=\"svg-inline--fa fa-shield-alt fa-w-16 fa-3x\"><path fill=\"currentColor\" d=\"M466.5 83.7l-192-80a48.15 48.15 0 0 0-36.9 0l-192 80C27.7 91.1 16 108.6 16 128c0 198.5 114.5 335.7 221.5 380.3 11.8 4.9 25.1 4.9 36.9 0C360.1 472.6 496 349.3 496 128c0-19.4-11.7-36.9-29.5-44.3zM262.2 478.8c-4 1.6-8.4 1.6-12.3 0C152 440 48 304 48 128c0-6.5 3.9-12.3 9.8-14.8l192-80c3.9-1.6 8.4-1.6 12.3 0l192 80c6 2.5 9.9 8.3 9.8 14.8.1 176-103.9 312-201.7 350.8zM256 411V100l-142.7 59.5c10.1 120.1 77.1 215 142.7 251.5zm-32-66.8c-36.4-39.9-65.8-97.8-76.1-164.5L224 148z\" class=\"\"><\/path><\/svg>"
+              "icon": "<svg aria-hidden=\"true\" focusable=\"false\" data-prefix=\"fal\" data-icon=\"shield-alt\" role=\"img\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" viewbox=\"0 0 512 512\" class=\"svg-inline--fa fa-shield-alt fa-w-16 fa-3x\"><path fill=\"currentColor\" d=\"M466.5 83.7l-192-80a48.15 48.15 0 0 0-36.9 0l-192 80C27.7 91.1 16 108.6 16 128c0 198.5 114.5 335.7 221.5 380.3 11.8 4.9 25.1 4.9 36.9 0C360.1 472.6 496 349.3 496 128c0-19.4-11.7-36.9-29.5-44.3zM262.2 478.8c-4 1.6-8.4 1.6-12.3 0C152 440 48 304 48 128c0-6.5 3.9-12.3 9.8-14.8l192-80c3.9-1.6 8.4-1.6 12.3 0l192 80c6 2.5 9.9 8.3 9.8 14.8.1 176-103.9 312-201.7 350.8zM256 411V100l-142.7 59.5c10.1 120.1 77.1 215 142.7 251.5zm-32-66.8c-36.4-39.9-65.8-97.8-76.1-164.5L224 148z\" class=\"\"><\/path><\/svg>",
+              "link_text": "",
+              "link_url": ""
             }
           }
         },
@@ -2575,7 +2547,6 @@
           "setwidth": "container",
           "button_label": "",
           "video_url": "https:\/\/www.youtube.com\/watch?v=Fhhn8P3j4zM",
-          "cover_image": "shopify:\/\/shop_images\/bg-filter-search_8c7085fd-673d-492b-968e-6eb5cc36410d.jpg",
           "cover_image_position": "center center",
           "cover_image_height": "tall",
           "show_overlay": true,
@@ -2613,36 +2584,18 @@
       "page-about-v2": {
         "type": "page-about-v2",
         "blocks": {
-          "1587745634317": {
+          "dbb48d47-2f41-44a3-ad22-347ed123cb6f": {
             "type": "conttent",
             "settings": {
-              "title_right": "<span class=\"text-primary2\">01.<\/span> Who we are",
-              "contenthtml": "<p>\nFrom the parks of Toronto to the Tuileries in Paris, we’ve got a penchant \nfor capturing the best street style across the globe year-round. If you’ve\ngot a thing for shimmering layers, Susie Bubble and spotting editrixes in \ntheir natural habitat, look no further than this.\n<br><br>\nYou’ve got a thing for shimmering layers, Susie Bubble and spotting in \ntheir natural habitat, look no further than this, our constantly updated \nstreet style page! Ornare arcu lacus, quis aliquet odio bibendum non. \nNulla sagittis efficitur ex fusce ac ipsum gravida.\n\n<\/p>"
-            }
-          },
-          "1587745980629": {
-            "type": "conttent",
-            "settings": {
-              "title_right": "<span class=\"text-primary2\">02.<\/span> What we do",
-              "contenthtml": "<p>\nYou’ve got a thing for shimmering layers, Susie Bubble and spotting \neditrixes in their natural habitat, look no further than this, our constantly \nupdated street style page!\n<\/p>\n<ul class=\"list-unstyled\">\n    <li class=\"py-2\">Ornare arcu lacus, quis aliquet odio bibendum non.<\/li>\n    <li class=\"py-2\">Nulla sagittis efficitur ex<\/li>\n    <li class=\"py-2\">Fusce ac ipsum gravida, tristique sed felis augue<\/li>\n    <li class=\"py-2\">Aarcu lacus, quis aliquet odio bibendum non.<\/li>\n<\/ul>"
-            }
-          },
-          "1587748105186": {
-            "type": "conttent",
-            "settings": {
-              "title_right": "<span class=\"text-primary2\">03.<\/span> Contact us",
-              "contenthtml": "<p class=\"text-body\">\n123 South Main Street, Los Angeles,\nUnited States\n<br>\nPhone: +0180 808 880<br>\nEmail: rubiktheme@gmail.com\n<\/p>"
+              "title_right": "Who we are",
+              "contenthtml": ""
             }
           }
         },
         "block_order": [
-          "1587745634317",
-          "1587745980629",
-          "1587748105186"
+          "dbb48d47-2f41-44a3-ad22-347ed123cb6f"
         ],
         "settings": {
-          "image1": "shopify:\/\/shop_images\/C-P2.jpg",
-          "image2": "shopify:\/\/shop_images\/C-P1.jpg"
         }
       },
       "page-about-v3": {
@@ -2794,30 +2747,30 @@
             "type": "service",
             "settings": {
               "title": "HIRE EQUIPMENT",
-              "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam imperdiet odio neque, vel finibus purus porttitor vitae. Fusce ac vehicula dolor.",
+              "description": "Tecweld has an extensive range of 3 phase Mig Welders, Plasma Cutters, Welding Rotators and Manipulators for short or long term hire.",
               "icon": "<img src=\"data:image\/webp;base64,UklGRs4HAABXRUJQVlA4WAoAAAAQAAAASQAAUQAAQUxQSLQCAAARoFttexvL+cKN9mDlpYhyOWTTy0j+nmWoTChgzXQw7OCyA1Auc9MB0QHZwUwHQAdvMLTg+igiJkDT5q5nh12lNXt2Wq9wgBR2CNhlJyi0QweHZQG0xxLql7Buj\/1ae33WaY\/l88DcZL5JSebPrvI4fp4IdZ7NnO44XkRmjtTK0vZzpk\/swkYYhkUBgq5DTjbCYMJEreudVBEGo2eBA1ppB0\/tIge0ktTn5ol2wRFoJcmTmQeqeR5wkuTJxLsR4wGn2R5wkuTJxIOTZHpIVnPN\/4CTJA+kHDwkK5kektVc00OykuQBFzLwkKxU9JCs5poekpUkDzhlECFZyUYYjObaHpLVdQtOOUCyko0wGM0OMBiNt055JCuVEQaj+WYYjOZnkKzkgFaLrVFuteSAVttn8RRo9UzwgNMzIQJOzwbAaTexu44zzl2mceLcXY\/MnMh5ZDo0z4zkNBmudlhCrcXPnI9up410e\/v1Nl\/e3m7yK9Pf6j78s83f8M7z4fNH0+9Ljx79uM13jx7d22KHb8a0YPdwgGpZDeUeGiiXlVBnZY43VwG0vIBTVg4aSTCsoAsxqxNYqYRmjRaqjAq4SGqgWqOENqMWnKRI0qoXosnGwkWSg3adGupsBnCSOijXMYloMmkhSCohaOUamjwcpELSGcq1TAKbgwNKSTUEre7gbLZrACfJAsV6CuC3KjrASTJnqLWhSdBsYo4RUiXJ9BC0aQm49czTMzAUkuThYraRA+5WqnwE0kGSTAfJamsHeLPEPDx2XKfaSFLRQ7La3gG9XVAyejkYXVcRklWOZQKOZpYBhsZqtOiAoVCeJgDxaGboUGqy8ACN8j0kIN7ZqemH\/wNcSuVsWq7P\/rebCXPz9P8IkGrlXjSJyXPXRSYvzmiP1SmNzLw0Vvu1hzqEAUI41a7QxlZQOCD0BAAAkBsAnQEqSgBSAD6BOphKJSMiIaRYCTigEAlpABXnn87\/Br9OfI3+5fjtlnW\/2MFl3tWb1ZyD+qf7jwK9QKSC\/qvDt+if672AP5J\/XP9z6aech8n\/v\/\/g\/zXwD\/yD+k\/9P+8eyr6zv2n9hz9d0yodRAX8Y3cMLUQjcDlACo5b62vn2B\/WE0avVSvsm2vTLPMmDQLt2UrxFC0Czvq1NxOa1w0YJ0TOfpqyBxi6xVxV6X2GPoIvmN2VzbY+Tz\/0u7LPKvQoil5kEO56ESlNJXnGXwl9d4Nde+krqng0BPTFxoDCUK16AADx6BLFRC\/X\/kU8EG44ZekBc\/DuQEotG2JkFbCYVBmDr8f5Xq\/aBAggjF4jej4A4CkgNi4EcWVXXnHzC4Sfw2rOOx54VisLNMwWrVBkE7hJLY\/VPhssubIW6Acosc6t08ViWSHvb56+\/L27r7MASvLgNDF9hxexAFTanbVEv+sAAzZUQmuwLX5RxFME0Q9XUVzft40eL\/z75sFsZ4\/AMBEVVcVrFkBhz55JI1LYw\/uzCTDjaaxvH1O19i9MY\/6ykcVLQdxrTdoS6XKj1hLYrI6SU11FORpksvq7Kt07yaddfUT68D0TlMm0a9a+nbn8+Ygi3bY5GMabcQJIzy3tra2dbIxGxvaNZLbDHz2f18eMpT+leZ7j+qn\/JeOAiA1GeQh1P4D5b5asJP2IN82FVkih945N2UoSxEfqVy+Pa1bNRFIbwk7Tjm\/4\/URRKPYN0Da6TFT340kpWMWOGU3Vcf3C+Wg8iOVHHxRr97AZb7EEG7a+jQC1FBoYCmh\/6skLpVBs8vd6coog4s6oc5WIAk85YnNpxJR+\/f6B7CPlHDZXe1IRMnQyXA\/Pup7o+71BygOFbvYT0WB4LjGYqUa8djdoXjlWxOdprc8vlM+BZoag186KnXQeNuax3vgdKm0vP\/RvonZebKvU9frjQdH4A2PUhU+7d4ii+EyqWgZoxCwBiqoRLEz+hKRn5tEbNH7LvfczbhvJokuWHbzcWVu3XqRDfLpuUONGZnQx7w433\/4i3WeTZjrm50P19wsBQKOiFEsL1RjFNG+7x51UeJ3gUoICJB55+2xDEDIFtIxHy893XLWmMgalJen\/0Bf2NEQi0ZrhollQNQd7kGVgglmyQyf8\/OSXzd7mUzxlwX7a7CnpfuBN1vuPmh+Qbnc+WCopB9eLeMUvOAduAehSsdVm0Xl5JYqPeoSYgWpBDoqwV32dASa\/nCMayEbQ2\/LGqf+PVfjFO1bjje0wr7CBUbpsJ6HCjUmQtawg6cJ3ujNCL9EzNoASBtBlIj6NKyep+Cqt4lD2BJyI78M1MBNiqKgXPbwrNSNzbWdJzNy4tCwW978bpyrDri\/Y3OdM6LLTrJxBSYOMtxTjr4uS\/i5KewMS5nQSMIxgczukdXThtLIDjip\/xJy4X\/qxNKlD2iiASmP8HwOZxNaMpLPfrkeJ4cCzX\/0Gw+HTGIr7aruAibYRnAkU0gUpYzUwbLHHE9MRReQrVthrQ5\/lxptKoc5Xl9TUfB\/8sTBlw6iyJ9FE5x7pZAcGHurnPcsxb\/QJ1fHI6tfNNhlMZCRY6GmAI2g8w04f1WZHulUT4IspCH9oBpCFow7MzDUvnzbLPXDEIPPmfXo4mgo0d\/hzjut4rzQS+ofK+TlROhU8NNIPKCr\/7kwAAAA=\" class=\"\" title=\"\" alt=\"\" style=\" width:auto;              height:auto\">",
               "link_text": "",
-              "link_url": ""
+              "link_url": "shopify:\/\/pages\/hire-and-repairs"
             }
           },
           "1607066023b5a74cc7-2": {
             "type": "service",
             "settings": {
               "title": "SHOP PRODUCTS",
-              "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam imperdiet odio neque, vel finibus purus porttitor vitae. Fusce ac vehicula dolor.",
+              "description": "Search our large range of products from all the top brands including Cigweld, Speedglas, Lincoln, Profax, WIA and many more. Add items to your quote basket for a rapid response for price and availability.",
               "icon": "<img src=\"data:image\/webp;base64,UklGRpoJAABXRUJQVlA4WAoAAAAQAAAAQgAAYQAAQUxQSGgDAAARkFTbehZZV8InIRLioOOgcdA4KBwUDh4OCgeFA3AADsABcXAG\/IUwfJOImACldq++J+ncf36VZzFz6\/rP7vM9t6\/vu4oVoCuDU8pQNAvA124pAVrTneUCjHZDASxed7dAn86tMJnuL4EmWQ\/RlGMDuEQBCMpzgD5RB60yDYBPYoDLRR3USUqYlG0JY5IamnwMSDJAmY8Alyjsudc7\/e\/BAOGWiltHyyJw8zeLFqb6eIJYb1dY6roBshgg6NADlSQVQJA0QUjlPiskGWGSJFuhk6ThDIx\/Z\/zK7rUK8JsGoiWAz4mZRG6FWpICUCoJxUGAGDQk6GGxzQyDrgXXQXdQwaAUBRAkqQZcCgUYDupEtkIrSR6o9YwWom16mPSMABSSVAHhGTbDIEm2QqNn1BDd5guLPcMDtSQVQKFnjDBJks3QKYcqQQX4TQPRsgiw+hMdfFfof35+fv6Az8\/ZX8Ad2Qe6Ay3s71TcvOhgtzwK8ZSGe2I41+qk706pGm5snc4sta4OJ7IcICjh\/xEduMdZHZQx4FPkbYBS173PpITlnH2+tudgyKSF5lwJ\/V4FXR4O8Oc8EHYmqPL4wqCLA\/QbB7gsKiBccUCQVMKkHEug1eUWZkkdVHvm7ngBk11zQCkD\/MbeK02y0APRlLCFWQEWSfqbgSGNf\/UAk+lkOX\/\/bGORKBeppb8ZYPE7fiRlo9Ns+5eTfBsk8\/IzQKxNuw0JO6fz7QYYCx12QKxNh8WV2FVOl30zbViPCmDs+8\/L78jCWVNyVw0wHKnicH6bcrZgJ8ojWF85nbYR+qqqO7Zfy8be6+oOAtv5369VERgtD3uvQH2gdgOshXXAaDmUK8DkdsLLZGW3YZBK4HNfMQMspdTwkYNe26KNlJIaoLgtArGWZIA8EDYnO1jtrolYmySVMEkd9BcswvcuC6bdDhrJAeGcCqC46WQEL6mF+YI6WC2PAhZJckB5wSK0ebTQbtTAfEElELKIUOxYBH9BA8yWA0Ttl7HVVRehyaGJ5UHSCgj28\/656e4B1hWYw4Nc5NA\/5w2wDBHGx3wAGpMH6odUwBQkqQb8M0ZotT\/B+AzADjxQPyJCcaAa8E9oYbYDTTA+wUVojjwQHqAKCAeqiPYEDTDbgZzpkS5Cc\/TYCghP0wD141yM\/nF3AlZQOCAMBgAAEB8AnQEqQwBiAD6BNpdJJSKiISdYCmCgEAlpABXkX877Sf7j+N3WZ+3MtSs0wj34ZTbWXxdPnX+57\/jUC7l+iP+o+d3etfS\/8\/7Af8W\/t3\/G9F7\/f\/uHms\/J\/8B\/2v9D8Av8f\/q3\/T\/t\/tLeuD9mfYP\/V\/\/zrBX5EdVPOBIa3Uxwg214zNjIdno2SxZgntVlNBjpNoe4oJ9vBXGVgpRd+xfQr\/ZRmM7vMGx4xioi0dz8YZ\/8La2GlODy003MNn6uMC3ay6Ax1sMCtZnC+6zbVoIEjeMvM22VUxj1BtOnbk5ST5zIW7eXrXxOEO3wr+\/v12dvhQeJI\/SYMkOY7aaAqgAA\/tJeC7gFvNU5ATdbz0tPuhaI5\/iSiS4ryaRhC45nOWsKzCUuF0Wdl5RYgmF4uXH+LU4TOLdvCUMMJCAl5dZCxvb2cyVoMKQ9Z+yeDYMyK9gvN7QKZczbThqOl5WPOt2MNFI4Q885VCgkgaeA1y9LX01y+HtSWAhABEGc8Uw8LDT3JjelYRir00gm3Lmolmu97h5WpzC2OV9Asqs7c4HOU6J3gwCLQWvg698A7nB2bzKOhcsojYPzxDVDwuP0PXNQbgGpL1vknkQxkt3\/+goGIIvgLRobi\/3eDlEzY0skVnX\/asWWzoN33y6jMzUTBXsh9BCuyyWuVvALl3NhjtR80nsey4VATa2jk0rHRdJzTkFdouDHonhrEZxVFbxR71thd4AvUCad0IgSo4tQHtlTMzbjOXHSvj+CkhDiAvtqtRfzZdP0ayA7D2gqb0t1\/FGujhEyCIYYxSfeB41LTM8+h+GWt9DG7rGKy6c8dFdGqw645vypWnFl0\/JOpXpbINH7avoi5nqIWrpJAJqCwotQVhqp8OVHR1ooQwjRbdNhRN8jpVDzulkbdKanKbpNOmKB3d89LVF7Li\/22t7UZTyJkh2ArgZ3Wp4rl8QW+al8Ph56oQBAegLxM5KouQnb5yQKd599dLwC4XpF6gd4MvK7lPGKfjk+eBoTY2+oM59emveNe02sGKs5\/1YKOMqMuwItO+cRXR\/KNbVL0H9mp\/bphhYezgVZNZWdCf5v\/Bhevrqx4wM2+QWCok57UJpMK9v2FYVpzZFKUHCqBGeOb\/WxfHJYxMotkYyamT\/DX8TMLp8\/fZQ8NQ14O7yDj+d0Cd9b\/cUEQM2z+czRZDNapsP+laf+JlfcSGcZ9V2dTuY5lrijTn3HBNSiOHMa3Qm2CQMdIyC5bZsRxnsjCudKxaiUTsds7C4ktpsx+FdoPcZGargF2zZ8F9DLj5QojvbXS+4nz+BYcL3y3+gX\/8WalRi9AjZvSwkzwZorimSHvvmk5ojDW6CauAps+XkRDlvYluYfqmmDUOMgImXkJms\/pLsfvPs54TDvf03sP3fCgy0nkfXDpu12Vs+2+mIwX6+27UCAxslb7UXUFgaE3sY9F8HwNPMXHxtUSgY3CiKsni+NFz+SBIKh+fs6uzFlyVz\/5cnWB0ATyo5YpqirbtH+5AOHOEPJeba9nKFg0vHpX24AAhSsNuo0nbpEheH900bk6ReKwzVD6lgswx7\/rW2af4yO9NaZ82Ws0TJ8Fruyt6LXzfx\/XfKByZRgRsIcaiAbcTNXC+FVwdfjD0hNIY3l2Gu8MqxGdTppPyqx8q4wI5+XNZonVSriXNb7e1YOckwJGu3p153JrH0TrQYr7Hu2KQquDESxaIfCT+PLQZZns0qCL1HImBIrhaThMuJLzb+HDhjif\/mfhuaNRNSZU8CzGAERoEe8kkdvgsVP4+oD1YST32kCX9wx0f471bLVMCsZYMskTC5aRWHAf28D6+fh\/\/22D\/9uQ\/\/9sT8BLZjVLtfpp5\/32bZ5qhzcor\/kt5GXKoIvkCpPmxfDfDhq1AcIZfc8N7Ow65jFuPjJ56uVqmgSLLrZwXrJRNpcu8dn9SzIbgiH8Qa74GcLftblN\/E4798U1MqLvCmuQp2Asrle14YdG2blIM3PwR3sldZgG7H5XO0fQy0D0FLTzgBO3pJsuuaQvabeKcFWsg0gx7gKThOodas15gRX\/UsgAAAA\" class=\"\" title=\"\" alt=\"\" style=\" width:auto;              height:auto\">",
               "link_text": "",
-              "link_url": ""
+              "link_url": "shopify:\/\/collections\/all"
             }
           },
           "dbd540f7-56f6-4a53-82b7-c2a21a49c061": {
             "type": "service",
             "settings": {
               "title": "REPAIR EQUIPMENT",
-              "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam imperdiet odio neque, vel finibus purus porttitor vitae. Fusce ac vehicula dolor.",
+              "description": "We are a qualified repair & service agent for Cigweld gas repairs so we can repair – blowpipes, cutting attachments, regulators, mig guns, tig torches & heavy duty cutting torches. We can also test your flashback arrestors.\n<br>\nWe also repair mig welders, tig welders, caddy welders, rotators, straight line cutters & pipe cutters.",
               "icon": "<img src=\"data:image\/webp;base64,UklGRn4IAABXRUJQVlA4WAoAAAAQAAAAXQAAVgAAQUxQSHcCAAARkBtte9xGKMD2Yu+U6Ua+wx1CMxvfmxsdLDsgOrA6ILMNfcYmOoAa0AgdkB18M\/px8Pj3jCICghtJiqTIisXruzwaeoJglisH7GopeKZwCNIrlpz0QDQnXF2rk2oAOqZqavAZQMHUIB5QjBVuD2MLACd8lQ7wvIXmbfun9+RHydlrAJ2cZNMsSQOKmyTQLOsAIP1Xf5MVG7mkG9kSlYjQ3BSCxsmIHXDLy3BuUls1ycp4QhQAdgqd+EmdUAOOWpHYV93wUdaRQxFRAXB13fHQoQlN7Z8sKDzebQF0OYVsQ24ZrJAbIDSdk9baVonF36XXfSiXyBsgscJJoZnpkgKuYilc\/BmYmNmo68Rwswg36vFoZgoVHNXFE8kpA9DHs+OnWCM1DNVAYpjq4zGA5edG6mCCo7KWoUIEc7V3KDgqGiBa83t2oyxumRoXEP+pVbwVLW8LAJqvwgCeibIclR6ogquO6D+Vc2QKDmNz3WPGmAmARew0bDY+LjtT\/GSyTU56wpvZvpqZzCgtXfLiyW14OY0hAIiRAlDB2aRZGmmUYEtYjyUnu8T\/Ta+zyC7ZaQl0XXdIZVfX9Z7vWr8d0Ql1MmomLEYkvI5UUqcpMbPSKkqVIdtpIdbWDtTx\/Wp1oIDBWmr68+npOOjkqdPlavVKZTdMer4PsUQPHKsxNQ3hgI8q\/\/f8W+CkLF3QfLt9t8eVuTTE43b7gUgXKmb8kPg\/VE3aM6lFl3U1pcmT7rQYS8XM9yFVktv8EWESv9AySWOM8UA7YndIndqgky1mZ8QvR03c8v+moM1OsME5SZHsdBJ00gswc343lAunmQiD\/MrogQH+ZDwCAFZQOCDgBQAAMB0AnQEqXgBXAD6BNpVIJSKiISnV3WigEAlpDbtAmSX+V\/g127vC\/xt+SfbzkOMpPLnub+2DwZ2wt3Rrx30\/9pxncYX+J8Iv5J\/rPYA\/j39J+kD4mv+H\/J+a\/8w\/wfsB\/yb+jfrx7QHqy\/YX2Ef1AS7RG3xnEe\/glpXDHvAVu04v0hyA4666\/9ZGZrgTB3f\/ePlp0DPD+52m60XKC7bhdv5Mh+at93HfQH9bDBd1svjkCKubPOPrh+Z\/hOW+N5nfNSjBTXl9EaDSrWeuEtzBkRhDBzB7xLFe\/sT2WLkd\/L+4jjnRPE3FsMKHoImioN14NYAA\/vyoBWUfhl8Ua5j7bZJUmeUqiLPfiTO7j3+PdIdd0qscvXfxpTdqDNSwbs6FsUP7IxdQ42QIV\/Z\/VxlSyHiFx5H+Lu8rXZmIYWWRWPdwO6+MX0EfD+yMXTtZkPQhrd2YD6IQCSPs3zU+HvDm\/JfH2mNKxXzJ268FvJo\/8lB9bBn+nNJDJheP7wK3XCa\/UtRugzJzsoN\/aFQzxEeuFEj7vA27373+IJw3Dh262E1FwM2a43U5\/ZFqkyaIvWrJj74\/LkWjPV98eqH+vAn8v8FQ3HH3d8R0AAThjiWV3GVG9MoDsJ1YSo\/cpTuo1kKxvaWg\/OVLjlBTMXoT1bhmjNHm2C0toXGePn6aO3OjCeNjsgjqq2c835x3tU0A+lAzFH7GvW5qNDgfyIcxjuWeifnVCPiM8xMJmhku9+E70zgkGMK\/P1SlvsNvD2ibCpdHbCL9390uuDbqQ7B6nYnjmwkn1KInL0AbAZz0VbsRaRVltwJwjdmvDi6Izb37MCgqZKLpytKrj529te499YYjJOKHvSQZdndeeEXDazZuh8wWLF\/a5gmeJb4wq34HdJ2wOkigoO\/hjDW\/NzqrkhhW5ODmLHOfZ8D2HRIbdo+aObzt9Sepzj\/mJPHUjPOUJLDrjrYImUdBcrReDPbzF1au\/IqtO6jz+\/fo1rLTzx8N0TPeRonpFiuBagSXOD+f7iB5CUTTPVLEKUoSAxbjUngfvofQqJKxg\/mmijxvoGAdfgY7hNtYVZ1fIVzAmlsqZZT\/zxq6+PwuQ6j2vUHo+mYptG6UBtUSZ1MLb6Z6YBn\/XCq4jy2FP3AbfazqgFKJrIxMI\/w3PIw488vX1hSeAbjPTRmFTmeZB2\/4lz0B7W2XDaNi98SPvkaWXgqPDNytIg6armC8o4FtWSKzzMwjqYv3Lnebbbs6a3fj2aJ3tU7hLd9akb6Gx6DKWCFChSVueT1Yk3q8A1wR7VCBafYYtgKrxTO9wk0NyB6qspCOTFojQflBlbfS9eZYXIXfIK+55J88kG88ExLRIefHscGdJbfFrrPpBMJmLHa9OT18pnO6mvuVUBUYaVW\/MmvJNUfdpc0df9t93yE8jpw9BqTmyTyuDf4XXlMgTPjtrQDUVInnauwiiJoc6faQf3qVWZLvv057XqFgUdkEF61lAbtxzeUrimgqW7nqWPqGp\/ZlmJlpJVXVNv\/RrP3Rc0vH9XGvQ\/+TsVVCa76btEk2aJk17jNUfJDdHqm+Cjxr99j8fl+AUC94WsWOcqeZXNxzJ33D8wcjMxdHB4yvPzDr2SNFM4Qjreo1W0k96V1hffaChXENbmsEATLC5Z6XK4k9TdwqjC0lm+eITFffuHD9v4o7UGxCyhbYh773VMho+pCPDkxz7iYjHI3wi3\/TQ9ZIODdm73DhvshKZ4Lm0+hjR3CqfpNMias8Nqt8\/LybCgz+o2Pa\/Eh\/S3gwKwl\/FYDg5x2c2ho6aAwX6HleoUbbpqOnre\/7VuqXQ81hshsUb9TnSMVwx\/e\/aMhqGVq7U15yCnAp2Y7pyMIINSYLb3VL8U\/EzRhTOcxEFvSoHK50BBkQkj8HOMDnFw77+LT4GRxh5E6IGpGLKKWJ87eH\/5zI91SwifLiz+\/Fl9hAAX5MLLwGqcVer4NIyhQ9fcT5j+66UdaRO9fFgxompgQBuy8VEgxg4vgAAA==\" class=\"\" title=\"\" alt=\"\" style=\" width:auto;              height:auto\">",
               "link_text": "",
-              "link_url": ""
+              "link_url": "shopify:\/\/pages\/hire-and-repairs"
             }
           }
         },
@@ -2836,9 +2789,9 @@
           "des": "",
           "setwidth": "container",
           "arrows": false,
-          "draggable": false,
-          "dots": false,
-          "infinite": false
+          "draggable": true,
+          "dots": true,
+          "infinite": true
         }
       },
       "161407619141f112c9": {
@@ -2872,7 +2825,7 @@
           "bg_image": "shopify:\/\/shop_images\/tecweld-bg-testimonials.jpg",
           "text_color": "#ffffff",
           "home_searchfilter_title": "Find Welding Equipment",
-          "home_searchfilter_subtitle": "For professional welding equipment and consumable products and the best in customer service right here in Perth.",
+          "home_searchfilter_subtitle": "For professional welding, consumable products, and best customer service right here in Perth",
           "filter1_title": "Select Collection",
           "filter2_title": "Select Make",
           "filter2_tag": "audi,bmw,bugatti,ford,ferrari",
@@ -2889,38 +2842,38 @@
           "1648519797a2e1cd78-0": {
             "type": "quote",
             "settings": {
-              "author": "Author's name",
+              "author": "Clinton Dalby",
               "info": "",
-              "title": "Comment",
-              "rate": 5,
-              "quote": "Add customer reviews and testimonials to showcase your store’s happy customers."
+              "title": "Service with a smile",
+              "rate": 0,
+              "quote": "“Service with a smile, nothing is too hard for these guys. One of the best customer service teams I've ever had the pleasure of dealing with. I highly recommend.”"
             }
           },
-          "1648519797a2e1cd78-1": {
+          "984af500-accb-432c-96ef-4138a0308041": {
             "type": "quote",
             "settings": {
-              "author": "Author's name",
+              "author": "Steve Clift",
               "info": "",
-              "title": "Comment",
-              "rate": 5,
-              "quote": "Add customer reviews and testimonials to showcase your store’s happy customers."
+              "title": "Speedglas specialists",
+              "rate": 0,
+              "quote": "Speedglas specialists, they know their stuff when it comes to anything Speedglas."
             }
           },
-          "1648519797a2e1cd78-2": {
+          "061d3486-21f5-4483-b1a8-47e68a834a50": {
             "type": "quote",
             "settings": {
-              "author": "Author's name",
+              "author": "Ben Dean",
               "info": "",
-              "title": "Comment",
-              "rate": 5,
-              "quote": "Add customer reviews and testimonials to showcase your store’s happy customers."
+              "title": "Best service in town",
+              "rate": 0,
+              "quote": "Best service in town, if we need anything urgently Tecweld is who I call."
             }
           }
         },
         "block_order": [
           "1648519797a2e1cd78-0",
-          "1648519797a2e1cd78-1",
-          "1648519797a2e1cd78-2"
+          "984af500-accb-432c-96ef-4138a0308041",
+          "061d3486-21f5-4483-b1a8-47e68a834a50"
         ],
         "settings": {
           "animation": "",
@@ -2942,12 +2895,13 @@
         "type": "rich-text",
         "settings": {
           "home_page_full_width": false,
-          "section_title": "Talk about your brand",
-          "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+          "section_title": "WELCOME TO TECWELD",
+          "text": "<p>For professional welding equipment and consumable products and the best in customer service right here in Perth. Supplying quality welding, industrial & mining supplies. Major brands include Cigweld, Speedglas, Lincoln, Profax, Tesuco, Elliotts, Austarc, and Tweco plus many more.<\/p><p>We are currently working on listing and showcasing all products but for now, please use the drop down menus to check out the range or products and services we provide.<\/p>"
         }
       },
       "16485372088fba1b04": {
         "type": "parallax-banner",
+        "disabled": true,
         "settings": {
           "animation": "",
           "paddingsection": "0px 0px 0px 0px",
@@ -2976,7 +2930,7 @@
         "settings": {
           "animation": "",
           "paddingsection": "0px 0px 0px 0px",
-          "marginsection": "48px 0px 48px 0px",
+          "marginsection": "88px 0px 88px 0px",
           "bgsection": "#ffffff",
           "setwidth": "container",
           "title": "Product list",
@@ -2991,16 +2945,58 @@
           "show": 4,
           "gaps": 1
         }
+      },
+      "1655861960b3444658": {
+        "type": "hero-swiper",
+        "blocks": {
+          "1655861960b3444658-0": {
+            "type": "slide",
+            "settings": {
+              "slide_image": "shopify:\/\/shop_images\/shutterstock_1496684738.jpg",
+              "slide_title": "THE BEST BRANDS AT COMPETITIVE PRICES WITH FRIENDLY SERVICE",
+              "slide_description": "",
+              "button_label": "SHOP NOW",
+              "button_link": "shopify:\/\/collections\/all",
+              "slide_align": "right",
+              "slide_txt_align": "center"
+            }
+          }
+        },
+        "block_order": [
+          "1655861960b3444658-0"
+        ],
+        "settings": {
+          "infinite": false,
+          "show_arrows": false,
+          "show_dots": false,
+          "container_width": 1500,
+          "content_width": 500,
+          "content_height": 800,
+          "content_height_tablet": 400,
+          "content_height_mobile": 350,
+          "autoplay": true,
+          "autoplay_speed": 5000,
+          "effect": "slide"
+        }
       }
     },
     "content_for_index": [
       "161407619141f112c9",
       "16485372088fba1b04",
+      "1655861960b3444658",
       "1607066023b5a74cc7",
       "1648535313d84319fe",
       "1655103286d07b1cb5",
       "1648519797a2e1cd78"
-    ]
+    ],
+    "blocks": {
+      "16212576608872179499": {
+        "type": "shopify:\/\/apps\/g-request-a-quote-hide-price\/blocks\/app-embed-block\/56d84fcb-37c7-4592-bb51-641b7ec5eef0",
+        "disabled": false,
+        "settings": {
+        }
+      }
+    }
   },
   "presets": {
     "Classic": {
