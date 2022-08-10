@@ -506,23 +506,22 @@
           "5c183967-6da7-47b8-aba7-8bd3d871d1f8": {
             "type": "menu",
             "settings": {
-              "link_list": "product-range",
-              "width": "33%"
+              "link_list": "footer",
+              "width": "20%"
             }
           },
-          "e7d06058-4231-4e65-8d74-e042208da30d": {
-            "type": "text",
+          "2868a2e4-656a-4ace-ae2e-baf118135b95": {
+            "type": "menu",
             "settings": {
-              "title": "Visit Us",
-              "text": "<iframe src=\"https:\/\/www.google.com\/maps\/embed?pb=!1m14!1m8!1m3!1d13541.250511950615!2d115.9216197!3d-31.9524144!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa6c13357925482b3!2sTec-Weld%20Services!5e0!3m2!1sen!2sau!4v1660116601036!5m2!1sen!2sau\" width=\"375\" height=\"300\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"><\/iframe>",
-              "width": "33%"
+              "link_list": "footer",
+              "width": "20%"
             }
           }
         },
         "block_order": [
           "46eeb684-b121-40c2-b7a7-ff1602bee8f3",
           "5c183967-6da7-47b8-aba7-8bd3d871d1f8",
-          "e7d06058-4231-4e65-8d74-e042208da30d"
+          "2868a2e4-656a-4ace-ae2e-baf118135b95"
         ],
         "settings": {
           "fullwidth": false,
@@ -1302,7 +1301,7 @@
         ],
         "settings": {
           "heading": "Customer Reviews",
-          "subheading": "<p>See what <em>our customers<\/em> have been <em>saying<\/em>! We strive to provide <em>our<\/em> community with prompt, professional service and top quality products.<\/p>",
+          "subheading": "<p>See what <em>our customers<\/em> have been <em>saying<\/em>! We strive to provide <em>our<\/em> community with prompt, professional service and top quality products.<\/p>",
           "banner": "shopify:\/\/shop_images\/xbanner-7.jpg.pagespeed.ic.RmFi2WxaGd.jpg",
           "righttitle": "Tell us your story",
           "righttext": "We appreciate our customers’ feedbacks! <br>\nHere’s what some of our customers say about our work.",
@@ -3001,15 +3000,7 @@
       "1648535313d84319fe",
       "1655103286d07b1cb5",
       "1648519797a2e1cd78"
-    ],
-    "blocks": {
-      "16212576608872179499": {
-        "type": "shopify:\/\/apps\/g-request-a-quote-hide-price\/blocks\/app-embed-block\/56d84fcb-37c7-4592-bb51-641b7ec5eef0",
-        "disabled": false,
-        "settings": {
-        }
-      }
-    }
+    ]
   },
   "presets": {
     "Classic": {
