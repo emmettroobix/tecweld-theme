@@ -335,12 +335,6 @@
                 </span>
               </button>
             </div>
-            {% if section.settings.enable_payment_button %}
-              <div class="product-form__buynow" style="display: none;">
-              {{ form | payment_button }}
-              {% if current_variant.available == false %}<style>.shopify-payment-button{display:none}</style>{% endif %}
-              </div>
-            {% endif %}
             </div>
         
           <div class="js-contact-soldout {% if current_variant.available %}hide{% endif %}">
