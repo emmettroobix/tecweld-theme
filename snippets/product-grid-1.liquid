@@ -68,7 +68,7 @@
   </div>
   <div class="product-card__info">
 
-    {% include 'rfq_button' %}
+    {% comment %}{% include 'rfq_button' %}{% endcomment %}
 
     <a href="{{ product.url | within: collection }}" title="{{product.title}}" class="product-card__name">{{ product.title }}</a>
 
