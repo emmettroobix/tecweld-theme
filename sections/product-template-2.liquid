@@ -409,8 +409,8 @@
           </div>
           {% endif %}
         </div>	
-        {% include 'fake-viewer' %}
-        {% include 'shipping-time' %}
+        {% comment %}{% include 'fake-viewer' %}{% endcomment %}
+        {% comment %}{% include 'shipping-time' %}{% endcomment %}
         {% if settings.enable_countdown_page %}
         {% include 'product-countdown' %}
         {% endif %}
