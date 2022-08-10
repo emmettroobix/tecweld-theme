@@ -494,6 +494,13 @@
       "footer-1": {
         "type": "footer-1",
         "blocks": {
+          "5c183967-6da7-47b8-aba7-8bd3d871d1f8": {
+            "type": "menu",
+            "settings": {
+              "link_list": "product-range",
+              "width": "33%"
+            }
+          },
           "46eeb684-b121-40c2-b7a7-ff1602bee8f3": {
             "type": "social",
             "settings": {
@@ -503,25 +510,18 @@
               "width": "33%"
             }
           },
-          "5c183967-6da7-47b8-aba7-8bd3d871d1f8": {
-            "type": "menu",
-            "settings": {
-              "link_list": "product-range",
-              "width": "20%"
-            }
-          },
           "1a8826c7-e081-4804-8f81-f67c117c4c54": {
             "type": "text",
             "settings": {
-              "title": "",
+              "title": "Visit Us",
               "text": "<iframe src=\"https:\/\/www.google.com\/maps\/embed?pb=!1m18!1m12!1m3!1d3385.3127964173236!2d115.91943101474065!3d-31.952409829579135!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2a32bbb78b3081b1%3A0xa6c13357925482b3!2sTec-Weld%20Services!5e0!3m2!1sen!2sau!4v1655803737159!5m2!1sen!2sau\" width=\"350\" height=\"220\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"><\/iframe>",
-              "width": "16%"
+              "width": "33%"
             }
           }
         },
         "block_order": [
-          "46eeb684-b121-40c2-b7a7-ff1602bee8f3",
           "5c183967-6da7-47b8-aba7-8bd3d871d1f8",
+          "46eeb684-b121-40c2-b7a7-ff1602bee8f3",
           "1a8826c7-e081-4804-8f81-f67c117c4c54"
         ],
         "settings": {
@@ -2583,6 +2583,18 @@
       },
       "page-about-v2": {
         "type": "page-about-v2",
+        "blocks": {
+          "dbb48d47-2f41-44a3-ad22-347ed123cb6f": {
+            "type": "conttent",
+            "settings": {
+              "title_right": "Who we are",
+              "contenthtml": ""
+            }
+          }
+        },
+        "block_order": [
+          "dbb48d47-2f41-44a3-ad22-347ed123cb6f"
+        ],
         "settings": {
         }
       },
