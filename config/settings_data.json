@@ -2588,7 +2588,7 @@
             "type": "conttent",
             "settings": {
               "title_right": "Who we are",
-              "contenthtml": ""
+              "contenthtml": "Established in Perth in 1981, Tecweld Services has continued to grow to become one of Western Australia’s premier welding supply companies. With access to all the major brands, Tecweld is focused on selling quality products at competitive prices with timely delivery. We have a fantastic range of products in our Belmont warehouse as well as a fleet of hire machines available.\n\n\nWe supply many industries around W.A. including fabrication, mining, agriculture, construction, education and marine. We ask the right questions so you get the correct product the first time.\n\nWith our main focus on welding equipment and welding consumables we have gradually expanded into the safety and abrasives market due to customer demand for us to be more of a one-stop shop.\n\nProudly family owned and operated by Harvey and Claire Mayall, we are committed to customer satisfaction."
             }
           }
         },
@@ -2596,6 +2596,7 @@
           "dbb48d47-2f41-44a3-ad22-347ed123cb6f"
         ],
         "settings": {
+          "image1": "shopify:\/\/shop_images\/shutterstock_1496684738.jpg"
         }
       },
       "page-about-v3": {
