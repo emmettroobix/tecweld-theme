@@ -2457,13 +2457,23 @@
             "type": "html",
             "settings": {
               "code": "<h2 class=\"mb-4\">Hire & Repairs\n<\/h2>\n<p>We are a qualified repair & service agent for Cigweld gas repairs so we can repair – blowpipes, cutting attachments, regulators, mig guns, tig torches & heavy duty cutting torches. We can also test your flashback arrestors.\n<br>\n\n<br>\nWe also repair mig welders, tig welders, caddy welders, rotators, straight line cutters & pipe cutters.\n\nTecweld has a large hire fleet for short or long term hire, call 9277 1444 to discuss your requirements.\n\n<\/p>",
-              "width": "100%",
+              "width": "50%",
               "align": "auto"
+            }
+          },
+          "1f39b081-892f-44bf-85d9-5493a8dfc0db": {
+            "type": "image",
+            "settings": {
+              "width": "50%",
+              "align": "auto",
+              "image": "shopify:\/\/shop_images\/shutterstock_1496684738.jpg",
+              "image_link": ""
             }
           }
         },
         "block_order": [
-          "1587654247564"
+          "1587654247564",
+          "1f39b081-892f-44bf-85d9-5493a8dfc0db"
         ],
         "settings": {
           "animation": "",
