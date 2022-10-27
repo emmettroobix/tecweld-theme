@@ -423,6 +423,7 @@
 /* Product remove banner */
 .js-hurrify,
 .js-contact-soldout,
+.product-single__availability,
 #shopify-section-special-search{
     display: none;
 }
