@@ -418,3 +418,9 @@
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
+
+
+/* Product remove banner */
+#shopify-section-special-search{
+    display: none;
+}
