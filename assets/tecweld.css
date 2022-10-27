@@ -421,6 +421,7 @@
 
 
 /* Product remove banner */
+.product-single__hero,
 #shopify-section-special-search{
     display: none;
 }
