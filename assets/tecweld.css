@@ -428,3 +428,7 @@
 #shopify-section-special-search{
     display: none;
 }
+
+.site-header .tecweld__view_quote {
+    white-space: nowrap;
+}
