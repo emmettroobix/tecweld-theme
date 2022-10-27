@@ -421,6 +421,8 @@
 
 
 /* Product remove banner */
+.js-hurrify,
+.js-contact-soldout,
 #shopify-section-special-search{
     display: none;
 }
