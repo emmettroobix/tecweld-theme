@@ -490,3 +490,8 @@
         width: auto;
     }
 }
+
+.site-footer a:focus,
+.site-footer a:hover {
+    color: #ffea00;
+}
