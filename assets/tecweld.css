@@ -491,7 +491,7 @@
     }
 }
 
-.site-footer a:focus,
-.site-footer a:hover {
+.site-footer.tecweld-footer a:focus,
+.site-footer.tecweld-footer a:hover {
     color: #ffea00;
 }
