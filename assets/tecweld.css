@@ -495,3 +495,11 @@
 .site-footer.tecweld-footer a:hover {
     color: #ffea00;
 }
+
+.product-form__item--submit button.rfq-btn {
+    font-weight: 700;
+}
+
+.product-form__item--submit button.rfq-btn:hover {
+    background: #ffea00;
+}
