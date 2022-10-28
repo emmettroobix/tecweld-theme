@@ -477,6 +477,10 @@
         width: auto;
     }
 
+    .header-bottom .middle>.row .hotline svg {
+        flex-shrink: 0;
+    }
+
     .header-bottom .middle>.row .hotline .text_block {
         white-space: nowrap;
     }
