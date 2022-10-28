@@ -509,10 +509,13 @@
     padding-top: 40px;
 }
 
-.rfq_form_page .cart__footer>.row {
-    flex-direction: column;
-}
 
-.rfq_form_page .cart__footer>.row .form-group {
-    width: 100%;
+@media (max-width: 480px) {
+    .rfq_form_page .cart__footer>.row {
+        flex-direction: column;
+    }
+
+    .rfq_form_page .cart__footer>.row .form-group {
+        width: 100%;
+    }
 }
