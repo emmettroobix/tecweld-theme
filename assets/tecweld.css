@@ -505,6 +505,14 @@
     color: #ffea00;
 }
 
-.product-single .photos{
+.product-single .photos {
     padding-top: 40px;
+}
+
+.rfq_form_page .cart__footer>.row {
+    flex-direction: column;
+}
+
+.rfq_form_page .cart__footer>.row .form-group {
+    width: 100%;
 }
