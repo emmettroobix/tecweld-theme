@@ -502,5 +502,9 @@
 
 .product-form__item--submit button.rfq-btn:hover {
     background: #012c3c;
-    color: #FFF;
+    color: #ffea00;
+}
+
+.product-single .photos{
+    padding-top: 40px;
 }
