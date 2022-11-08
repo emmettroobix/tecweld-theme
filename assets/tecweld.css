@@ -519,3 +519,8 @@
         width: 100%;
     }
 }
+
+
+.roobix-shopify .product-card__price{
+    display: none !important;
+}
