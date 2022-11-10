@@ -1,3 +1,6 @@
+.ajax-search-item .meta {    
+    color: transparent;
+}
 @media (max-width: 450px) {
     .tecweld-hero .parallax-banner__meta {
         padding-left: 0;
