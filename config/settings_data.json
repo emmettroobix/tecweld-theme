@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "current": {
     "header": "header-1",
@@ -19,9 +28,9 @@
     "show_more_image": true,
     "container": 1200,
     "gutter": 24,
-    "logo": "shopify:\/\/shop_images\/tecweld-logo.png",
+    "logo": "shopify://shop_images/tecweld-logo.png",
     "logo_max_width": 120,
-    "favicon": "shopify:\/\/shop_images\/favvicon.x14470.png",
+    "favicon": "shopify://shop_images/favvicon.x14470.png",
     "safe_checkout_pcart": "",
     "safe_checkout_detail": "",
     "color_primary": "#012c3c",
@@ -77,7 +86,7 @@
     "apmenuitem_thtml_1": "",
     "apmenuitem_eihtml_1": false,
     "apmenuitem_ihtml_1": "",
-    "apmenuitem_chtml_1": "<div class=\"row align-items-center text-center layout-column-2\">\n        <div class=\"col-12 col-md-6 mb-2 mt-2\">\n          <div class=\"g-banner\">\n      <figure class=\"effect-chico\">\n        <img class=\"lazyload\" data-src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0271\/9924\/2315\/files\/h91.jpg?v=1591201279\">\n        <figcaption>\n          <h2>Silly <span>Chico<\/span>\n<\/h2>\n          <p>Chico's main fear<\/p>\n          <a href=\"#\"><\/a>\n        <\/figcaption>\n      <\/figure>\n    <\/div>\n        <\/div>\n        <div class=\"col-12 col-md-6 mb-2 mt-2\">\n          <div class=\"g-banner\">\n      <figure class=\"effect-chico\">\n        <img class=\"lazyload\" data-src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0271\/9924\/2315\/files\/h93.jpg?v=1591201279\">\n        <figcaption>\n          <h2>Earn <span>up to 25%<\/span>\n<\/h2>\n          <p>he morning bus.<\/p>\n          <a href=\"#\"><\/a>\n        <\/figcaption>\n      <\/figure>\n    <\/div>\n        <\/div>\n      <\/div>",
+    "apmenuitem_chtml_1": "<div class=\"row align-items-center text-center layout-column-2\">\n        <div class=\"col-12 col-md-6 mb-2 mt-2\">\n          <div class=\"g-banner\">\n      <figure class=\"effect-chico\">\n        <img class=\"lazyload\" data-src=\"https://cdn.shopify.com/s/files/1/0271/9924/2315/files/h91.jpg?v=1591201279\">\n        <figcaption>\n          <h2>Silly <span>Chico</span>\n</h2>\n          <p>Chico's main fear</p>\n          <a href=\"#\"></a>\n        </figcaption>\n      </figure>\n    </div>\n        </div>\n        <div class=\"col-12 col-md-6 mb-2 mt-2\">\n          <div class=\"g-banner\">\n      <figure class=\"effect-chico\">\n        <img class=\"lazyload\" data-src=\"https://cdn.shopify.com/s/files/1/0271/9924/2315/files/h93.jpg?v=1591201279\">\n        <figcaption>\n          <h2>Earn <span>up to 25%</span>\n</h2>\n          <p>he morning bus.</p>\n          <a href=\"#\"></a>\n        </figcaption>\n      </figure>\n    </div>\n        </div>\n      </div>",
     "apmenuitem_title_2": "shop",
     "apmenuitem_width_2": 0,
     "apmenuitem_eblocklinks_2": true,
@@ -98,7 +107,7 @@
     "apmenuitem_thtml_2": "",
     "apmenuitem_eihtml_2": false,
     "apmenuitem_ihtml_2": "",
-    "apmenuitem_chtml_2": "<div class=\"row align-items-center text-center layout-column-2\">\n        <div class=\"col-12 col-md-6 mb-2 mt-2\">\n          <div class=\"g-banner\">\n      <figure class=\"effect-chico\">\n        <img class=\"lazyload\" data-src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0071\/6944\/1892\/files\/menu1.jpg?v=1616321174\">\n        <figcaption>\n          <h2>\n<span>New Arrival<\/span>\n<\/h2>\n          <p>2021 Collections<\/p>\n          <a href=\"\/collections\/all\"><\/a>\n        <\/figcaption>\n      <\/figure>\n    <\/div>\n        <\/div>\n        <div class=\"col-12 col-md-6 mb-2 mt-2\">\n          <div class=\"g-banner\">\n      <figure class=\"effect-chico\">\n        <img class=\"lazyload\" data-src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0071\/6944\/1892\/files\/menu2.jpg?v=1616321174\">\n        <figcaption>\n          <h2>\n<span>Special offer<\/span>\n<\/h2>\n          <p>Get up to 25% off<\/p>\n          <a href=\"\/collections\/all\"><\/a>\n        <\/figcaption>\n      <\/figure>\n    <\/div>\n        <\/div>\n      <\/div>",
+    "apmenuitem_chtml_2": "<div class=\"row align-items-center text-center layout-column-2\">\n        <div class=\"col-12 col-md-6 mb-2 mt-2\">\n          <div class=\"g-banner\">\n      <figure class=\"effect-chico\">\n        <img class=\"lazyload\" data-src=\"https://cdn.shopify.com/s/files/1/0071/6944/1892/files/menu1.jpg?v=1616321174\">\n        <figcaption>\n          <h2>\n<span>New Arrival</span>\n</h2>\n          <p>2021 Collections</p>\n          <a href=\"/collections/all\"></a>\n        </figcaption>\n      </figure>\n    </div>\n        </div>\n        <div class=\"col-12 col-md-6 mb-2 mt-2\">\n          <div class=\"g-banner\">\n      <figure class=\"effect-chico\">\n        <img class=\"lazyload\" data-src=\"https://cdn.shopify.com/s/files/1/0071/6944/1892/files/menu2.jpg?v=1616321174\">\n        <figcaption>\n          <h2>\n<span>Special offer</span>\n</h2>\n          <p>Get up to 25% off</p>\n          <a href=\"/collections/all\"></a>\n        </figcaption>\n      </figure>\n    </div>\n        </div>\n      </div>",
     "apmenuitem_title_3": "",
     "apmenuitem_width_3": 0,
     "apmenuitem_eblocklinks_3": true,
@@ -116,10 +125,10 @@
     "apmenuitem_cproduct_3": "",
     "apmenuitem_ehtml_3": false,
     "apmenuitem_columns_blockhtml_3": "9",
-    "apmenuitem_thtml_3": "<i class=\"icon-more-alt\"><\/i> Click \"Copy\" and paste anywhere",
+    "apmenuitem_thtml_3": "<i class=\"icon-more-alt\"></i> Click \"Copy\" and paste anywhere",
     "apmenuitem_eihtml_3": false,
     "apmenuitem_ihtml_3": "",
-    "apmenuitem_chtml_3": "<div id=\"carouselMenu\" class=\"carousel slide\" data-ride=\"carousel\" data-interval=\"3500\">\n  <ol class=\"carousel-indicators\">\n    <li data-target=\"#carouselMenu\" data-slide-to=\"0\" class=\"active\">\n    <\/li>\n    <li data-target=\"#carouselMenu\" data-slide-to=\"1\">\n    <\/li>\n    <li data-target=\"#carouselMenu\" data-slide-to=\"2\">\n    <\/li>\n  <\/ol>\n  <div class=\"carousel-inner\">\n    <div class=\"carousel-item active\">\n      <div class=\"g-banner\">\n        <figure class=\"effect-oscar\">\n          <img class=\"lazyload\" data-src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0092\/7563\/7839\/files\/mmenu-3.jpg?57915\">\n          <figcaption>\n            <h2>Html<span>Builder<\/span>\n            <\/h2>\n            <p>Fully responsive contents.<\/p>\n            <a href=\"\/pages\/html-template\"><\/a>\n          <\/figcaption>\n        <\/figure>\n      <\/div>\n    <\/div>\n    <div class=\"carousel-item\">\n      <div class=\"g-banner\">\n        <figure class=\"effect-chico\">\n          <img class=\"lazyload\" data-src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0092\/7563\/7839\/files\/mmenu-2.jpg?57915\">\n          <figcaption>\n            <h2>Easy to <span>Use<\/span>\n            <\/h2>\n            <p>in products, collections, blogs, pages.<\/p>\n            <a href=\"\/pages\/html-template\"><\/a>\n          <\/figcaption>\n        <\/figure>\n      <\/div>\n    <\/div>\n    <div class=\"carousel-item\">\n      <div class=\"g-banner\">\n        <figure class=\"effect-romeo\">\n          <img class=\"lazyload\" data-src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0092\/7563\/7839\/files\/mmenu-1.jpg?57915\">\n          <figcaption>\n            <h2>In <span>2020<\/span>\n            <\/h2>\n            <p>Copy and paste<\/p>\n            <a href=\"\/pages\/html-template\"><\/a>\n          <\/figcaption>\n        <\/figure>\n      <\/div>\n    <\/div>\n  <\/div>\n  <a class=\"carousel-control-prev disabled-anchor\" href=\"#carouselMenu\" role=\"button\" data-slide=\"prev\">\n    <span class=\"carousel-control-prev-icon\" aria-hidden=\"true\"><\/span>\n  <\/a>\n  <a class=\"carousel-control-next disabled-anchor\" href=\"#carouselMenu\" role=\"button\" data-slide=\"next\">\n    <span class=\"carousel-control-next-icon\" aria-hidden=\"true\"><\/span>\n  <\/a>\n<\/div>",
+    "apmenuitem_chtml_3": "<div id=\"carouselMenu\" class=\"carousel slide\" data-ride=\"carousel\" data-interval=\"3500\">\n  <ol class=\"carousel-indicators\">\n    <li data-target=\"#carouselMenu\" data-slide-to=\"0\" class=\"active\">\n    </li>\n    <li data-target=\"#carouselMenu\" data-slide-to=\"1\">\n    </li>\n    <li data-target=\"#carouselMenu\" data-slide-to=\"2\">\n    </li>\n  </ol>\n  <div class=\"carousel-inner\">\n    <div class=\"carousel-item active\">\n      <div class=\"g-banner\">\n        <figure class=\"effect-oscar\">\n          <img class=\"lazyload\" data-src=\"https://cdn.shopify.com/s/files/1/0092/7563/7839/files/mmenu-3.jpg?57915\">\n          <figcaption>\n            <h2>Html<span>Builder</span>\n            </h2>\n            <p>Fully responsive contents.</p>\n            <a href=\"/pages/html-template\"></a>\n          </figcaption>\n        </figure>\n      </div>\n    </div>\n    <div class=\"carousel-item\">\n      <div class=\"g-banner\">\n        <figure class=\"effect-chico\">\n          <img class=\"lazyload\" data-src=\"https://cdn.shopify.com/s/files/1/0092/7563/7839/files/mmenu-2.jpg?57915\">\n          <figcaption>\n            <h2>Easy to <span>Use</span>\n            </h2>\n            <p>in products, collections, blogs, pages.</p>\n            <a href=\"/pages/html-template\"></a>\n          </figcaption>\n        </figure>\n      </div>\n    </div>\n    <div class=\"carousel-item\">\n      <div class=\"g-banner\">\n        <figure class=\"effect-romeo\">\n          <img class=\"lazyload\" data-src=\"https://cdn.shopify.com/s/files/1/0092/7563/7839/files/mmenu-1.jpg?57915\">\n          <figcaption>\n            <h2>In <span>2020</span>\n            </h2>\n            <p>Copy and paste</p>\n            <a href=\"/pages/html-template\"></a>\n          </figcaption>\n        </figure>\n      </div>\n    </div>\n  </div>\n  <a class=\"carousel-control-prev disabled-anchor\" href=\"#carouselMenu\" role=\"button\" data-slide=\"prev\">\n    <span class=\"carousel-control-prev-icon\" aria-hidden=\"true\"></span>\n  </a>\n  <a class=\"carousel-control-next disabled-anchor\" href=\"#carouselMenu\" role=\"button\" data-slide=\"next\">\n    <span class=\"carousel-control-next-icon\" aria-hidden=\"true\"></span>\n  </a>\n</div>",
     "apmenuitem_title_4": "",
     "apmenuitem_width_4": 0,
     "apmenuitem_eblocklinks_4": false,
@@ -171,7 +180,7 @@
     "style_breadcrumb": "style_1",
     "layout_bread": "full",
     "share_image": "",
-    "social_facebook_link": "https:\/\/www.facebook.com\/TecweldServices\/",
+    "social_facebook_link": "https://www.facebook.com/TecweldServices/",
     "social_twitter_link": "",
     "social_pinterest_link": "",
     "social_instagram_link": "",
@@ -199,13 +208,13 @@
     "shop_by_type_number": "10",
     "shop_by_type_custom_list": "",
     "sidebar_html_title_top": "ABOUT AUTHOR",
-    "sidebar_html_top": "<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0287\/9458\/5220\/files\/home5-banner2.jpg?v=1577269266\">\n\n<p class=\"mt-4\">Etiam vel magna sed leo feugiat cursus. Cras mollis blandit dolor. Praesent vulputate justo quis volutpat pharetra. Suspendisse<\/p>",
+    "sidebar_html_top": "<img src=\"https://cdn.shopify.com/s/files/1/0287/9458/5220/files/home5-banner2.jpg?v=1577269266\">\n\n<p class=\"mt-4\">Etiam vel magna sed leo feugiat cursus. Cras mollis blandit dolor. Praesent vulputate justo quis volutpat pharetra. Suspendisse</p>",
     "sidebar_tag": false,
     "sidebar_post": true,
     "sidebar_post_title": "Recent Post",
     "sidebar_post_limit": 3,
     "sidebar_html_title": "",
-    "sidebar_html": "<div class=\"g-banner mb-3\">\n  <figure class=\"effect-milo\">\n    <img class=\"lazyload\" data-src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0071\/6944\/1892\/files\/Blog-other5.jpg?v=1616298551\">\n    <figcaption>\n      <h2>Racing <span>NIER<\/span>\n<\/h2>\n     \n      <a href=\"#\"><\/a>\n    <\/figcaption>\n  <\/figure>\n<\/div>",
+    "sidebar_html": "<div class=\"g-banner mb-3\">\n  <figure class=\"effect-milo\">\n    <img class=\"lazyload\" data-src=\"https://cdn.shopify.com/s/files/1/0071/6944/1892/files/Blog-other5.jpg?v=1616298551\">\n    <figcaption>\n      <h2>Racing <span>NIER</span>\n</h2>\n     \n      <a href=\"#\"></a>\n    </figcaption>\n  </figure>\n</div>",
     "price_range_enable": false,
     "price_range_title": "Price range",
     "shop_by_catalog_enable": true,
@@ -255,24 +264,24 @@
     "page_wishlist": "wishlist",
     "cookie_enable": true,
     "cookie_message": "This website uses cookies to ensure you get the best experience on our website.",
-    "cookie_url": "shopify:\/\/pages\/cookie-policy",
+    "cookie_url": "shopify://pages/cookie-policy",
     "cookie_url_text": "Learn More",
     "cookie_ok": "Got it!",
     "show_multiple_currencies": false,
     "list_currencies": "EUR,AUD,GBP,JPY,CAD",
     "shipping_calculator": "Disabled",
     "shipping_calculator_default_country": "United States",
-    "image_404": "shopify:\/\/shop_images\/tecweld-bg-testimonials.jpg",
+    "image_404": "shopify://shop_images/tecweld-bg-testimonials.jpg",
     "found_text_color": "#303030",
     "found_html": "Opps! page not found.",
     "sub_404": "We are sorry, but the page you're looking for cannot be found.",
     "found_btnleft_text": "Go to shopping",
-    "found_btnleft_link": "shopify:\/\/collections\/all",
-    "checkout_header_image": "shopify:\/\/shop_images\/tecweld-bg-testimonials.jpg",
-    "checkout_logo_image": "shopify:\/\/shop_images\/favvicon.x14470.png",
+    "found_btnleft_link": "shopify://collections/all",
+    "checkout_header_image": "shopify://shop_images/tecweld-bg-testimonials.jpg",
+    "checkout_logo_image": "shopify://shop_images/favvicon.x14470.png",
     "checkout_logo_position": "left",
     "checkout_logo_size": "medium",
-    "checkout_body_background_image": "shopify:\/\/shop_images\/shutterstock_1496684738.jpg",
+    "checkout_body_background_image": "shopify://shop_images/shutterstock_1496684738.jpg",
     "checkout_body_background_color": "#ffffff",
     "checkout_input_background_color_mode": "white",
     "checkout_sidebar_background_image": "",
@@ -287,16 +296,16 @@
     "font_family3_google": "",
     "style_service": "pro__ser_1",
     "enable_ser_pro": "true",
-    "icon_1": "shopify:\/\/shop_images\/return.png",
-    "ser_1": "<h6 class=\"mb-0\">60 dages retur<\/h6>\n<small>Altid 60 dages returret<\/small>",
-    "icon_2": "shopify:\/\/shop_images\/lorry.png",
-    "ser_2": "<h6 class=\"mb-0\">Fri fragt<\/h6>\n<small>Ved køb over 195,-<\/small>",
-    "icon_3": "shopify:\/\/shop_images\/gift.png",
-    "ser_3": "<h6 class=\"mb-0\">Gift for you<\/h6>\n<small>Slip selv for indpakningen<\/small>",
-    "icon_4": "shopify:\/\/shop_images\/favorite.png",
-    "ser_4": "<h6 class=\"mb-0\">Trust our<\/h6>\n<small>5 af 5 på Trustpilot<\/small>",
-    "icon_5": "shopify:\/\/shop_images\/gps.png",
-    "ser_5": "<h6 class=\"mb-0\">Butik i Silkeborg<\/h6>\n<small>Besøg os i Silkeborg<\/small>",
+    "icon_1": "shopify://shop_images/return.png",
+    "ser_1": "<h6 class=\"mb-0\">60 dages retur</h6>\n<small>Altid 60 dages returret</small>",
+    "icon_2": "shopify://shop_images/lorry.png",
+    "ser_2": "<h6 class=\"mb-0\">Fri fragt</h6>\n<small>Ved køb over 195,-</small>",
+    "icon_3": "shopify://shop_images/gift.png",
+    "ser_3": "<h6 class=\"mb-0\">Gift for you</h6>\n<small>Slip selv for indpakningen</small>",
+    "icon_4": "shopify://shop_images/favorite.png",
+    "ser_4": "<h6 class=\"mb-0\">Trust our</h6>\n<small>5 af 5 på Trustpilot</small>",
+    "icon_5": "shopify://shop_images/gps.png",
+    "ser_5": "<h6 class=\"mb-0\">Butik i Silkeborg</h6>\n<small>Besøg os i Silkeborg</small>",
     "enable_animationscroll": false,
     "type_base_family": "lato_n4",
     "type_accent_family": "lato_n4",
@@ -322,9 +331,9 @@
     "categories_block_style": "show_all",
     "shop_by_vendor_custom_enable": false,
     "shop_by_type_custom_enable": false,
-    "safe_checkout_pcart1": "shopify:\/\/shop_images\/safe-checkout.png",
-    "safe_checkout_detail1": "shopify:\/\/shop_images\/safe-checkout.png",
-    "safe_checkout_cart1": "shopify:\/\/shop_images\/safe-checkout.png",
+    "safe_checkout_pcart1": "shopify://shop_images/safe-checkout.png",
+    "safe_checkout_detail1": "shopify://shop_images/safe-checkout.png",
+    "safe_checkout_cart1": "shopify://shop_images/safe-checkout.png",
     "collection_perpage": 24,
     "collection_perrow": "3",
     "sidebar_collection_enable": true,
@@ -333,10 +342,10 @@
     "pnewletter_time": 900,
     "pnewletter_bgenable": true,
     "pnewletter_background": "#bbbbbb",
-    "pnewletter_bgimage": "shopify:\/\/shop_images\/slideshow_image_1.jpg",
+    "pnewletter_bgimage": "shopify://shop_images/slideshow_image_1.jpg",
     "pnewletter_title": "Popup Newsletter",
     "pnewletter_title_cl": "#ffffff",
-    "pnewletter_description": "<p>We promise we won't write to you often, only for the fun stuff.<\/p>\n<ul>\n<li>Exclusive offers<\/li>\n<li>Sales<\/li>\n<\/ul>",
+    "pnewletter_description": "<p>We promise we won't write to you often, only for the fun stuff.</p>\n<ul>\n<li>Exclusive offers</li>\n<li>Sales</li>\n</ul>",
     "pnewletter_description_cl": "#ffffff",
     "color_header_bg": "#282828",
     "color_header_links": "#ffffff",
@@ -461,7 +470,7 @@
           "enable_dropdownfull": true,
           "enable_hotline": true,
           "phonetext": "Phone:",
-          "phonenumber": "<a href=\"tel:0892771444\">(08) 9277 1444<\/a>",
+          "phonenumber": "<a href=\"tel:0892771444\">(08) 9277 1444</a>",
           "topbartext": "Monday – Friday 7.30am - 4.00pm",
           "topbarbg": "#012c3c",
           "background": "#ffffff",
@@ -505,7 +514,7 @@
             "type": "social",
             "settings": {
               "title": "GET IN TOUCH",
-              "sub_title": "<div>WE ARE MOVING - AS OF 09\/01\/2024 WE WILL BE LOCATED AT 2\/195 Bannister Rd, Canning Vale WA 6155<br>\nAustralia<br>\nPhone: <a href=\"tel:0892771444\">(08) 9277 1444<\/a><br>\nEmail: <a href=\"mailto:quotes@tecweld.com.au\">quotes@tecweld.com.au<\/a>\n<br>\n<\/div>",
+              "sub_title": "<div>WE ARE MOVING - AS OF 09/01/2024 WE WILL BE LOCATED AT 2/195 Bannister Rd, Canning Vale WA 6155<br>\nAustralia<br>\nPhone: <a href=\"tel:0892771444\">(08) 9277 1444</a><br>\nEmail: <a href=\"mailto:quotes@tecweld.com.au\">quotes@tecweld.com.au</a>\n<br>\n</div>",
               "align": "left",
               "width": "33%"
             }
@@ -514,7 +523,7 @@
             "type": "text",
             "settings": {
               "title": "Visit Us",
-              "text": "<div class=\"mapouter\"><div class=\"gmap_canvas\">\n<iframe width=\"600\" height=\"500\" id=\"gmap_canvas\" src=\"https:\/\/maps.google.com\/maps?q=2\/195%20Bannister%20Rd,%20Canning%20Vale%20WA&t=&z=13&ie=UTF8&iwloc=&output=embed\" frameborder=\"0\" scrolling=\"no\" marginheight=\"0\" marginwidth=\"0\"><\/iframe><a href=\"https:\/\/123movies-i.net\">123movies a quiet place<\/a><br><style>.mapouter{position:relative;text-align:right;height:500px;width:600px;}<\/style>\n<a href=\"https:\/\/www.embedgooglemap.net\">embedgooglemap.net<\/a><style>.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}<\/style>\n<\/div><\/div>",
+              "text": "<div class=\"mapouter\"><div class=\"gmap_canvas\">\n<iframe width=\"600\" height=\"500\" id=\"gmap_canvas\" src=\"https://maps.google.com/maps?q=2/195%20Bannister%20Rd,%20Canning%20Vale%20WA&t=&z=13&ie=UTF8&iwloc=&output=embed\" frameborder=\"0\" scrolling=\"no\" marginheight=\"0\" marginwidth=\"0\"></iframe><a href=\"https://123movies-i.net\">123movies a quiet place</a><br><style>.mapouter{position:relative;text-align:right;height:500px;width:600px;}</style>\n<a href=\"https://www.embedgooglemap.net\">embedgooglemap.net</a><style>.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style>\n</div></div>",
               "width": "33%"
             }
           }
@@ -601,14 +610,14 @@
               "subheading": "Learning is cool, but knowing is better, and i know<br>\nthe key to success",
               "subheading_color": "#000000",
               "button_label": "DISCOVER NOW",
-              "button_link": "shopify:\/\/collections\/accessories",
+              "button_link": "shopify://collections/accessories",
               "stylebtn": true
             }
           },
           "1561259906467": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/home1-slide2.jpg",
+              "image": "shopify://shop_images/home1-slide2.jpg",
               "alignment": "center center",
               "text_alignment": "left center",
               "slide_toptitle": "# S U M M E R 2 0 2 1",
@@ -618,14 +627,14 @@
               "subheading": "50% sale off for short clothes",
               "subheading_color": "#000000",
               "button_label": "Shop now",
-              "button_link": "shopify:\/\/collections",
+              "button_link": "shopify://collections",
               "stylebtn": true
             }
           },
           "b01e1713-2fe3-4794-b992-db921c83ef67": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/home1-slide3.jpg",
+              "image": "shopify://shop_images/home1-slide3.jpg",
               "alignment": "center center",
               "text_alignment": "left center",
               "slide_toptitle": "# S P R I N G 2 0 1 9",
@@ -635,7 +644,7 @@
               "subheading": "Learning is cool, but knowing is better, and i know<br>\nthe key to success",
               "subheading_color": "#222222",
               "button_label": "DISCOVER NOW",
-              "button_link": "shopify:\/\/collections\/all",
+              "button_link": "shopify://collections/all",
               "stylebtn": true
             }
           }
@@ -661,7 +670,7 @@
           "pnewletter_background": "#ffffff",
           "pnewletter_title": "NEWSLETTER SIGN UP",
           "pnewletter_title_cl": "#000000",
-          "pnewletter_description": "<p>Sign up today and receive 10% off your first order.<\/p>",
+          "pnewletter_description": "<p>Sign up today and receive 10% off your first order.</p>",
           "pnewletter_description_cl": "#777777"
         }
       },
@@ -700,10 +709,10 @@
               "image": "",
               "name": "Danielle Kim",
               "position": "Senior Producer",
-              "twitter": "https:\/\/twitter.com\/",
-              "google": "https:\/\/plus.google.com",
-              "facebook": "https:\/\/www.facebook.com\/",
-              "linkedin": "https:\/\/www.linkedin.com\/"
+              "twitter": "https://twitter.com/",
+              "google": "https://plus.google.com",
+              "facebook": "https://www.facebook.com/",
+              "linkedin": "https://www.linkedin.com/"
             }
           },
           "1561564888625": {
@@ -712,10 +721,10 @@
               "image": "",
               "name": "Ian Watt",
               "position": "Director of Motion & Visual Effects",
-              "twitter": "https:\/\/twitter.com\/",
-              "google": "https:\/\/plus.google.com",
-              "facebook": "https:\/\/www.facebook.com\/",
-              "linkedin": "https:\/\/www.linkedin.com\/"
+              "twitter": "https://twitter.com/",
+              "google": "https://plus.google.com",
+              "facebook": "https://www.facebook.com/",
+              "linkedin": "https://www.linkedin.com/"
             }
           },
           "1561564968664": {
@@ -724,9 +733,9 @@
               "image": "",
               "name": "Alex Sturtevant",
               "position": "Global Director of Brand",
-              "twitter": "https:\/\/twitter.com\/",
-              "google": "https:\/\/plus.google.com",
-              "facebook": "https:\/\/www.facebook.com\/",
+              "twitter": "https://twitter.com/",
+              "google": "https://plus.google.com",
+              "facebook": "https://www.facebook.com/",
               "linkedin": ""
             }
           },
@@ -736,9 +745,9 @@
               "image": "",
               "name": "Jon Lawton",
               "position": "UX Designer",
-              "twitter": "https:\/\/twitter.com\/",
-              "google": "https:\/\/plus.google.com",
-              "facebook": "https:\/\/www.facebook.com\/",
+              "twitter": "https://twitter.com/",
+              "google": "https://plus.google.com",
+              "facebook": "https://www.facebook.com/",
               "linkedin": ""
             }
           },
@@ -748,9 +757,9 @@
               "image": "",
               "name": "Arpad Ray",
               "position": "Executive Technical Director",
-              "twitter": "https:\/\/twitter.com\/",
-              "google": "https:\/\/plus.google.com",
-              "facebook": "https:\/\/www.facebook.com\/",
+              "twitter": "https://twitter.com/",
+              "google": "https://plus.google.com",
+              "facebook": "https://www.facebook.com/",
               "linkedin": ""
             }
           },
@@ -760,9 +769,9 @@
               "image": "",
               "name": "Erin Noel",
               "position": "Director of Operations",
-              "twitter": "https:\/\/twitter.com\/",
-              "google": "https:\/\/plus.google.com",
-              "facebook": "https:\/\/www.facebook.com\/",
+              "twitter": "https://twitter.com/",
+              "google": "https://plus.google.com",
+              "facebook": "https://www.facebook.com/",
               "linkedin": ""
             }
           },
@@ -772,9 +781,9 @@
               "image": "",
               "name": "Katie Sharrow-Reabe",
               "position": "Social Strategist",
-              "twitter": "https:\/\/twitter.com\/",
-              "google": "https:\/\/plus.google.com",
-              "facebook": "https:\/\/www.facebook.com\/",
+              "twitter": "https://twitter.com/",
+              "google": "https://plus.google.com",
+              "facebook": "https://www.facebook.com/",
               "linkedin": ""
             }
           },
@@ -784,9 +793,9 @@
               "image": "",
               "name": "Tim Blount",
               "position": "Technical Director",
-              "twitter": "https:\/\/twitter.com\/",
-              "google": "https:\/\/plus.google.com",
-              "facebook": "https:\/\/www.facebook.com\/",
+              "twitter": "https://twitter.com/",
+              "google": "https://plus.google.com",
+              "facebook": "https://www.facebook.com/",
               "linkedin": ""
             }
           },
@@ -796,9 +805,9 @@
               "image": "",
               "name": "Mick Coelho",
               "position": "Sr. Creative Developer",
-              "twitter": "https:\/\/twitter.com\/",
-              "google": "https:\/\/plus.google.com",
-              "facebook": "https:\/\/www.facebook.com\/",
+              "twitter": "https://twitter.com/",
+              "google": "https://plus.google.com",
+              "facebook": "https://www.facebook.com/",
               "linkedin": ""
             }
           },
@@ -808,9 +817,9 @@
               "image": "",
               "name": "Rhianon Taylor",
               "position": "Senior Producer",
-              "twitter": "https:\/\/twitter.com\/",
-              "google": "https:\/\/plus.google.com",
-              "facebook": "https:\/\/www.facebook.com\/",
+              "twitter": "https://twitter.com/",
+              "google": "https://plus.google.com",
+              "facebook": "https://www.facebook.com/",
               "linkedin": ""
             }
           },
@@ -820,9 +829,9 @@
               "image": "",
               "name": "Lauren Saunders",
               "position": "Senior Producer",
-              "twitter": "https:\/\/twitter.com\/",
-              "google": "https:\/\/plus.google.com",
-              "facebook": "https:\/\/www.facebook.com\/",
+              "twitter": "https://twitter.com/",
+              "google": "https://plus.google.com",
+              "facebook": "https://www.facebook.com/",
               "linkedin": ""
             }
           },
@@ -832,9 +841,9 @@
               "image": "",
               "name": "Simon Cheadle",
               "position": "Executive Producer",
-              "twitter": "https:\/\/twitter.com\/",
-              "google": "https:\/\/plus.google.com",
-              "facebook": "https:\/\/www.facebook.com\/",
+              "twitter": "https://twitter.com/",
+              "google": "https://plus.google.com",
+              "facebook": "https://www.facebook.com/",
               "linkedin": ""
             }
           }
@@ -884,7 +893,7 @@
               "title": "Make ideal",
               "description": "First start by 5 members who have passion and experience about car.",
               "time": "June 28, 2017",
-              "link": "shopify:\/\/pages\/about-us-v1"
+              "link": "shopify://pages/about-us-v1"
             }
           },
           "1561567005786": {
@@ -894,7 +903,7 @@
               "title": "Stark with small store",
               "description": "Just a store at corner of street, it's not too big but fit with our work.",
               "time": "July 24, 2017",
-              "link": "shopify:\/\/collections\/all"
+              "link": "shopify://collections/all"
             }
           },
           "1561568674547": {
@@ -904,7 +913,7 @@
               "title": "Deploy on Internet and Social",
               "description": "We start to build a website, and created some socials to attract more customers.",
               "time": "Nov 19, 2017",
-              "link": "shopify:\/\/pages\/about-us-v2"
+              "link": "shopify://pages/about-us-v2"
             }
           },
           "1561567706480": {
@@ -914,7 +923,7 @@
               "title": "Become a Company",
               "description": "After over 7 months working hard and with the truth of many customer, we can build our store to a company.",
               "time": "Mar 03, 2018",
-              "link": "shopify:\/\/pages\/about-us-v2"
+              "link": "shopify://pages/about-us-v2"
             }
           },
           "1561568201725": {
@@ -924,7 +933,7 @@
               "title": "Branch expansion",
               "description": "Opening 2 branches at the next state",
               "time": "Dec 28, 2018",
-              "link": "shopify:\/\/pages\/shortcode"
+              "link": "shopify://pages/shortcode"
             }
           },
           "1561568520359": {
@@ -934,7 +943,7 @@
               "title": "Continuing extension",
               "description": "We opened 5 more branches at 4 big cities.",
               "time": "Apr 15, 2019",
-              "link": "shopify:\/\/collections\/all"
+              "link": "shopify://collections/all"
             }
           },
           "1561568960976": {
@@ -944,7 +953,7 @@
               "title": "First sign with Big Company",
               "description": "We have signed with Ford about vehicle repairs & maintenance to performance builds & modifications.",
               "time": "Oct 20, 2019",
-              "link": "shopify:\/\/pages\/review"
+              "link": "shopify://pages/review"
             }
           },
           "1561569090623": {
@@ -954,7 +963,7 @@
               "title": "Grown up with agency",
               "description": "Deploy open agencies by franchise.",
               "time": "May 10, 2020",
-              "link": "shopify:\/\/pages\/contact-us"
+              "link": "shopify://pages/contact-us"
             }
           },
           "1561569238378": {
@@ -964,7 +973,7 @@
               "title": "Become Big Brand",
               "description": "We have 10 branches and over 21 agencies around country.",
               "time": "Until Now",
-              "link": "shopify:\/\/collections\/all"
+              "link": "shopify://collections/all"
             }
           },
           "1561571402426": {
@@ -974,7 +983,7 @@
               "title": "To be continued...",
               "description": "",
               "time": "",
-              "link": "shopify:\/\/collections\/all"
+              "link": "shopify://collections/all"
             }
           }
         },
@@ -1029,7 +1038,7 @@
           "1585068264841": {
             "type": "html",
             "settings": {
-              "text_head": "Summer sale discount off 50%! <a href=\"#\" class=\"text-primary\">Shop Now<\/a>",
+              "text_head": "Summer sale discount off 50%! <a href=\"#\" class=\"text-primary\">Shop Now</a>",
               "align_head": "center",
               "width": "50%"
             }
@@ -1212,7 +1221,7 @@
         ],
         "settings": {
           "heading": "All Brands",
-          "subheading": "<p>Promotions, new products and sales. Directly to your inbox.<\/p>"
+          "subheading": "<p>Promotions, new products and sales. Directly to your inbox.</p>"
         }
       },
       "page-story": {
@@ -1221,7 +1230,7 @@
           "1562226059233": {
             "type": "story",
             "settings": {
-              "avatar": "shopify:\/\/shop_images\/testimonials2_ed6d8ad4-f9a9-459a-88ad-a5f4d3842ddf.jpg",
+              "avatar": "shopify://shop_images/testimonials2_ed6d8ad4-f9a9-459a-88ad-a5f4d3842ddf.jpg",
               "name": "Berry Dunn",
               "info": "From Chester, CA on October 16th, 2019",
               "story": "These guys are AWESOME! Our furnace was busted and they did a great job replacing it. It took some time to get approval from our Home Warranty, but once we got the approval they were at our home and had the furnace replaced within 3 days."
@@ -1230,7 +1239,7 @@
           "1562226081931": {
             "type": "story",
             "settings": {
-              "avatar": "shopify:\/\/shop_images\/testimonials1_4a92230f-1833-4be0-aa31-5aec74ac7f20.jpg",
+              "avatar": "shopify://shop_images/testimonials1_4a92230f-1833-4be0-aa31-5aec74ac7f20.jpg",
               "name": "John Stone",
               "info": "From Westwood, CA on December 2nd, 2020",
               "story": "Great company and awesome service, these guys go the extra mile for their customers"
@@ -1239,7 +1248,7 @@
           "1562341727642": {
             "type": "story",
             "settings": {
-              "avatar": "shopify:\/\/shop_images\/Blog1.jpg",
+              "avatar": "shopify://shop_images/Blog1.jpg",
               "name": "Margaret",
               "info": "From Milford, CA on October 15th, 2019",
               "story": "This is one of the best companies I deal with in my area, great service, wonderful people who do the best job, thank you."
@@ -1248,7 +1257,7 @@
           "1562226014393": {
             "type": "story",
             "settings": {
-              "avatar": "shopify:\/\/shop_images\/home7-cate3.jpg",
+              "avatar": "shopify://shop_images/home7-cate3.jpg",
               "name": "Kim Lindenau",
               "info": "From Susanville, CA on December 7th, 2019",
               "story": "Very easy to work with and great customer service. They built and installed a fantastic chimney cap that was even better than I expected. They stayed exactly within the estimate. Excellent communication through the whole process."
@@ -1263,8 +1272,8 @@
         ],
         "settings": {
           "heading": "Customer Reviews",
-          "subheading": "<p>See what <em>our customers<\/em> have been <em>saying<\/em>! We strive to provide <em>our<\/em> community with prompt, professional service and top quality products.<\/p>",
-          "banner": "shopify:\/\/shop_images\/xbanner-7.jpg.pagespeed.ic.RmFi2WxaGd.jpg",
+          "subheading": "<p>See what <em>our customers</em> have been <em>saying</em>! We strive to provide <em>our</em> community with prompt, professional service and top quality products.</p>",
+          "banner": "shopify://shop_images/xbanner-7.jpg.pagespeed.ic.RmFi2WxaGd.jpg",
           "righttitle": "Tell us your story",
           "righttext": "We appreciate our customers’ feedbacks! <br>\nHere’s what some of our customers say about our work.",
           "button": "Share it now"
@@ -1295,7 +1304,7 @@
             "settings": {
               "title": "Rating",
               "info": "",
-              "html": "<ul class=\"rating text-center\">\n      <li class=\"rated\">\n      <\/li>\n<li class=\"rated\">\n      <\/li>\n<li class=\"rated\">\n      <\/li>\n<li>\n      <\/li>\n<li>\n    <\/li>\n<\/ul>"
+              "html": "<ul class=\"rating text-center\">\n      <li class=\"rated\">\n      </li>\n<li class=\"rated\">\n      </li>\n<li class=\"rated\">\n      </li>\n<li>\n      </li>\n<li>\n    </li>\n</ul>"
             }
           },
           "1565046213455": {
@@ -1303,7 +1312,7 @@
             "settings": {
               "title": "Countdown 1",
               "info": "",
-              "html": "<div class=\"js-countdown js-countdown--1\" data-time=\"2025-05-11T00:00:00\"><\/div>"
+              "html": "<div class=\"js-countdown js-countdown--1\" data-time=\"2025-05-11T00:00:00\"></div>"
             }
           },
           "1565708450613": {
@@ -1311,15 +1320,15 @@
             "settings": {
               "title": "Countdown 2",
               "info": "",
-              "html": "<div class=\"js-countdown js-countdown--2\" data-time=\"2025-05-11T00:00:00\"><\/div>"
+              "html": "<div class=\"js-countdown js-countdown--2\" data-time=\"2025-05-11T00:00:00\"></div>"
             }
           },
           "1562509535458": {
             "type": "block",
             "settings": {
               "title": "Google maps",
-              "info": "<a href=\"https:\/\/www.embedgooglemap.net\/\">👉 Get embled code \n here<\/a>",
-              "html": "<div class=\"gmap-iframe\"><div class=\"mapouter\">\n<div class=\"gmap_canvas\"><iframe width=\"1080\" height=\"500\" id=\"gmap_canvas\" src=\"https:\/\/maps.google.com\/maps?q=university%20of%20san%20francisco&t=&z=13&ie=UTF8&iwloc=&output=embed\" frameborder=\"0\" scrolling=\"no\" marginheight=\"0\" marginwidth=\"0\"><\/iframe><\/div>\n<style>.mapouter{position:relative;text-align:right;height:500px;width:1080px}.gmap_canvas{overflow:hidden;background:0 0!important;height:500px;width:1080px}.gmap-iframe .gmap_canvas,.gmap-iframe .mapouter,.gmap-iframe iframe{width:100%!important}@media (max-width:767px){.gmap-iframe .gmap_canvas,.gmap-iframe .mapouter,.gmap-iframe iframe{height:350px!important}}<\/div><\/div><\/style>\n<\/div><\/div>"
+              "info": "<a href=\"https://www.embedgooglemap.net/\">👉 Get embled code \n here</a>",
+              "html": "<div class=\"gmap-iframe\"><div class=\"mapouter\">\n<div class=\"gmap_canvas\"><iframe width=\"1080\" height=\"500\" id=\"gmap_canvas\" src=\"https://maps.google.com/maps?q=university%20of%20san%20francisco&t=&z=13&ie=UTF8&iwloc=&output=embed\" frameborder=\"0\" scrolling=\"no\" marginheight=\"0\" marginwidth=\"0\"></iframe></div>\n<style>.mapouter{position:relative;text-align:right;height:500px;width:1080px}.gmap_canvas{overflow:hidden;background:0 0!important;height:500px;width:1080px}.gmap-iframe .gmap_canvas,.gmap-iframe .mapouter,.gmap-iframe iframe{width:100%!important}@media (max-width:767px){.gmap-iframe .gmap_canvas,.gmap-iframe .mapouter,.gmap-iframe iframe{height:350px!important}}</div></div></style>\n</div></div>"
             }
           }
         },
@@ -1352,8 +1361,8 @@
           "1563634068295": {
             "type": "faq",
             "settings": {
-              "title": "Do I need a Designer\/Programmer for my store?",
-              "answer": "We’ve designed the theme to be as flexible and configurable as possible but also made it simple to use. You would only need a designer\/developer if you wanted to custom code something that the theme doesn’t do natively."
+              "title": "Do I need a Designer/Programmer for my store?",
+              "answer": "We’ve designed the theme to be as flexible and configurable as possible but also made it simple to use. You would only need a designer/developer if you wanted to custom code something that the theme doesn’t do natively."
             }
           },
           "1563634113380": {
@@ -1395,7 +1404,7 @@
             "type": "faq",
             "settings": {
               "title": "What if I need help with Shopify issues?",
-              "answer": "General shop inquiries, such as uploading products, creating collections, adding discount codes, managing domains, etc. can be best addressed by reaching Shopify Support specifically and\/or by checking on their broad documentation accessible in the Shopify Manual."
+              "answer": "General shop inquiries, such as uploading products, creating collections, adding discount codes, managing domains, etc. can be best addressed by reaching Shopify Support specifically and/or by checking on their broad documentation accessible in the Shopify Manual."
             }
           },
           "1563634758436": {
@@ -1420,7 +1429,7 @@
         ],
         "settings": {
           "heading": "Frequently Asked Questions",
-          "subheading": "<p>Below FAQ are some common concerns of our clients before purchasing the theme, if you have other questions, <br>please just write on right section and send to us. \n<\/p>",
+          "subheading": "<p>Below FAQ are some common concerns of our clients before purchasing the theme, if you have other questions, <br>please just write on right section and send to us. \n</p>",
           "heading_faqs": "Ask Your Questions",
           "layout": "layout-1"
         }
@@ -1431,7 +1440,7 @@
           "1587569402997": {
             "type": "address",
             "settings": {
-              "store_addess": "<div class=\"mt-5\">\n<span class=\"text-body font-weight-bold\">Address<\/span>\n<\/div>\n<a href=\"https:\/\/goo.gl\/maps\/LNJFaNT27RBkquvF9\" style=\"padding-top:24px;\">15 Robinson Avenue, BELMONT WA 6104<\/a>",
+              "store_addess": "<div class=\"mt-5\">\n<span class=\"text-body font-weight-bold\">Address</span>\n</div>\n<a href=\"https://goo.gl/maps/LNJFaNT27RBkquvF9\" style=\"padding-top:24px;\">2/195 Bannister Rd, Canning Vale 6155</a>",
               "contact_addess": "",
               "contact_phone": "(08) 9277 1444",
               "contact_mail": ""
@@ -1445,7 +1454,7 @@
           "title_page": "Stay in touch! Contact us",
           "contact_des": "",
           "gmap": true,
-          "gmap_iframe": "<div class=\"mapouter\"><div class=\"gmap_canvas\">\n<iframe width=\"600\" height=\"500\" id=\"gmap_canvas\" src=\"https:\/\/maps.google.com\/maps?q=2\/195%20Bannister%20Rd,%20Canning%20Vale%20WA&t=&z=13&ie=UTF8&iwloc=&output=embed\" frameborder=\"0\" scrolling=\"no\" marginheight=\"0\" marginwidth=\"0\"><\/iframe><a href=\"https:\/\/123movies-i.net\">123movies a quiet place<\/a><br><style>.mapouter{position:relative;text-align:right;height:500px;width:600px;}<\/style>\n<a href=\"https:\/\/www.embedgooglemap.net\">embedgooglemap.net<\/a><style>.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}<\/style>\n<\/div><\/div>"
+          "gmap_iframe": "<div class=\"mapouter\"><div class=\"gmap_canvas\">\n<iframe width=\"600\" height=\"500\" id=\"gmap_canvas\" src=\"https://maps.google.com/maps?q=2/195%20Bannister%20Rd,%20Canning%20Vale%20WA&t=&z=13&ie=UTF8&iwloc=&output=embed\" frameborder=\"0\" scrolling=\"no\" marginheight=\"0\" marginwidth=\"0\"></iframe><a href=\"https://123movies-i.net\">123movies a quiet place</a><br><style>.mapouter{position:relative;text-align:right;height:500px;width:600px;}</style>\n<a href=\"https://www.embedgooglemap.net\">embedgooglemap.net</a><style>.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style>\n</div></div>"
         }
       },
       "footer-2": {
@@ -1454,10 +1463,10 @@
           "footertop_enable": true,
           "footertopbg": "#c3935b",
           "footertoptext": "#ffffff",
-          "iconleft": "<svg aria-hidden=\"true\" focusable=\"false\" data-prefix=\"fas\" data-icon=\"truck\" role=\"img\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" viewbox=\"0 0 640 512\" class=\"svg-inline--fa fa-truck fa-w-20 fa-2x\"><path fill=\"currentColor\" d=\"M624 352h-16V243.9c0-12.7-5.1-24.9-14.1-33.9L494 110.1c-9-9-21.2-14.1-33.9-14.1H416V48c0-26.5-21.5-48-48-48H48C21.5 0 0 21.5 0 48v320c0 26.5 21.5 48 48 48h16c0 53 43 96 96 96s96-43 96-96h128c0 53 43 96 96 96s96-43 96-96h48c8.8 0 16-7.2 16-16v-32c0-8.8-7.2-16-16-16zM160 464c-26.5 0-48-21.5-48-48s21.5-48 48-48 48 21.5 48 48-21.5 48-48 48zm320 0c-26.5 0-48-21.5-48-48s21.5-48 48-48 48 21.5 48 48-21.5 48-48 48zm80-208H416V144h44.1l99.9 99.9V256z\" class=\"\"><\/path><\/svg>",
+          "iconleft": "<svg aria-hidden=\"true\" focusable=\"false\" data-prefix=\"fas\" data-icon=\"truck\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\" viewbox=\"0 0 640 512\" class=\"svg-inline--fa fa-truck fa-w-20 fa-2x\"><path fill=\"currentColor\" d=\"M624 352h-16V243.9c0-12.7-5.1-24.9-14.1-33.9L494 110.1c-9-9-21.2-14.1-33.9-14.1H416V48c0-26.5-21.5-48-48-48H48C21.5 0 0 21.5 0 48v320c0 26.5 21.5 48 48 48h16c0 53 43 96 96 96s96-43 96-96h128c0 53 43 96 96 96s96-43 96-96h48c8.8 0 16-7.2 16-16v-32c0-8.8-7.2-16-16-16zM160 464c-26.5 0-48-21.5-48-48s21.5-48 48-48 48 21.5 48 48-21.5 48-48 48zm320 0c-26.5 0-48-21.5-48-48s21.5-48 48-48 48 21.5 48 48-21.5 48-48 48zm80-208H416V144h44.1l99.9 99.9V256z\" class=\"\"></path></svg>",
           "titleleft": "world wide shipping",
           "desleft": "totally free shipping on all baby gear!",
-          "iconright": "<svg aria-hidden=\"true\" focusable=\"false\" data-prefix=\"fas\" data-icon=\"anchor\" role=\"img\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" viewbox=\"0 0 576 512\" class=\"svg-inline--fa fa-anchor fa-w-18 fa-2x\"><path fill=\"currentColor\" d=\"M12.971 352h32.394C67.172 454.735 181.944 512 288 512c106.229 0 220.853-57.38 242.635-160h32.394c10.691 0 16.045-12.926 8.485-20.485l-67.029-67.029c-4.686-4.686-12.284-4.686-16.971 0l-67.029 67.029c-7.56 7.56-2.206 20.485 8.485 20.485h35.146c-20.29 54.317-84.963 86.588-144.117 94.015V256h52c6.627 0 12-5.373 12-12v-40c0-6.627-5.373-12-12-12h-52v-5.47c37.281-13.178 63.995-48.725 64-90.518C384.005 43.772 341.605.738 289.37.01 235.723-.739 192 42.525 192 96c0 41.798 26.716 77.35 64 90.53V192h-52c-6.627 0-12 5.373-12 12v40c0 6.627 5.373 12 12 12h52v190.015c-58.936-7.399-123.82-39.679-144.117-94.015h35.146c10.691 0 16.045-12.926 8.485-20.485l-67.029-67.029c-4.686-4.686-12.284-4.686-16.971 0L4.485 331.515C-3.074 339.074 2.28 352 12.971 352zM288 64c17.645 0 32 14.355 32 32s-14.355 32-32 32-32-14.355-32-32 14.355-32 32-32z\" class=\"\"><\/path><\/svg>",
+          "iconright": "<svg aria-hidden=\"true\" focusable=\"false\" data-prefix=\"fas\" data-icon=\"anchor\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\" viewbox=\"0 0 576 512\" class=\"svg-inline--fa fa-anchor fa-w-18 fa-2x\"><path fill=\"currentColor\" d=\"M12.971 352h32.394C67.172 454.735 181.944 512 288 512c106.229 0 220.853-57.38 242.635-160h32.394c10.691 0 16.045-12.926 8.485-20.485l-67.029-67.029c-4.686-4.686-12.284-4.686-16.971 0l-67.029 67.029c-7.56 7.56-2.206 20.485 8.485 20.485h35.146c-20.29 54.317-84.963 86.588-144.117 94.015V256h52c6.627 0 12-5.373 12-12v-40c0-6.627-5.373-12-12-12h-52v-5.47c37.281-13.178 63.995-48.725 64-90.518C384.005 43.772 341.605.738 289.37.01 235.723-.739 192 42.525 192 96c0 41.798 26.716 77.35 64 90.53V192h-52c-6.627 0-12 5.373-12 12v40c0 6.627 5.373 12 12 12h52v190.015c-58.936-7.399-123.82-39.679-144.117-94.015h35.146c10.691 0 16.045-12.926 8.485-20.485l-67.029-67.029c-4.686-4.686-12.284-4.686-16.971 0L4.485 331.515C-3.074 339.074 2.28 352 12.971 352zM288 64c17.645 0 32 14.355 32 32s-14.355 32-32 32-32-14.355-32-32 14.355-32 32-32z\" class=\"\"></path></svg>",
           "titleright": "customer service",
           "desright": "1900 - 123 - 4567",
           "footermidbg": "#1e1e1e",
@@ -1505,23 +1514,23 @@
         "settings": {
           "intro_enable": true,
           "intro_title": "Our story",
-          "intro_des": "<p>The <a href=\"https:\/\/ap2020.myshopify.com\">2020<\/a> story started over a coffee at one of our favourite cafes – Nooks in Randwick, Sydney in early 2013. Sitting there looking at all the mums, bubs, Shopify theme and prams we started thinking… Shopify theme and prams all look the same… black, maybe a little red here and there, very few had any colour or excitement. We thought – what alternatives are there for Australian mums and dads that a stroller that is functional, modern and at an affordable price? Most stroller brands come from the US or Europe but what about a local Australian brand?<\/p>\n<p>We searched far and wide and everywhere in between and couldn’t find any options that were functional, modern, Australian owned and at an affordable price. Surprisingly, we couldn’t even find any Shopify theme or prams that were designed to comply with the latest Australian safety standards.<\/p>",
+          "intro_des": "<p>The <a href=\"https://ap2020.myshopify.com\">2020</a> story started over a coffee at one of our favourite cafes – Nooks in Randwick, Sydney in early 2013. Sitting there looking at all the mums, bubs, Shopify theme and prams we started thinking… Shopify theme and prams all look the same… black, maybe a little red here and there, very few had any colour or excitement. We thought – what alternatives are there for Australian mums and dads that a stroller that is functional, modern and at an affordable price? Most stroller brands come from the US or Europe but what about a local Australian brand?</p>\n<p>We searched far and wide and everywhere in between and couldn’t find any options that were functional, modern, Australian owned and at an affordable price. Surprisingly, we couldn’t even find any Shopify theme or prams that were designed to comply with the latest Australian safety standards.</p>",
           "intro_background": "",
           "intro_image": "",
           "achie_enable": true,
           "achie_title": "Fun fact",
-          "achie_icon_1": "<svg aria-hidden=\"true\" focusable=\"false\" data-prefix=\"fas\" data-icon=\"thumbs-up\" role=\"img\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" viewbox=\"0 0 512 512\" class=\"svg-inline--fa fa-thumbs-up fa-w-16 fa-2x\"><path fill=\"currentColor\" d=\"M104 224H24c-13.255 0-24 10.745-24 24v240c0 13.255 10.745 24 24 24h80c13.255 0 24-10.745 24-24V248c0-13.255-10.745-24-24-24zM64 472c-13.255 0-24-10.745-24-24s10.745-24 24-24 24 10.745 24 24-10.745 24-24 24zM384 81.452c0 42.416-25.97 66.208-33.277 94.548h101.723c33.397 0 59.397 27.746 59.553 58.098.084 17.938-7.546 37.249-19.439 49.197l-.11.11c9.836 23.337 8.237 56.037-9.308 79.469 8.681 25.895-.069 57.704-16.382 74.757 4.298 17.598 2.244 32.575-6.148 44.632C440.202 511.587 389.616 512 346.839 512l-2.845-.001c-48.287-.017-87.806-17.598-119.56-31.725-15.957-7.099-36.821-15.887-52.651-16.178-6.54-.12-11.783-5.457-11.783-11.998v-213.77c0-3.2 1.282-6.271 3.558-8.521 39.614-39.144 56.648-80.587 89.117-113.111 14.804-14.832 20.188-37.236 25.393-58.902C282.515 39.293 291.817 0 312 0c24 0 72 8 72 81.452z\" class=\"\"><\/path><\/svg>",
+          "achie_icon_1": "<svg aria-hidden=\"true\" focusable=\"false\" data-prefix=\"fas\" data-icon=\"thumbs-up\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\" viewbox=\"0 0 512 512\" class=\"svg-inline--fa fa-thumbs-up fa-w-16 fa-2x\"><path fill=\"currentColor\" d=\"M104 224H24c-13.255 0-24 10.745-24 24v240c0 13.255 10.745 24 24 24h80c13.255 0 24-10.745 24-24V248c0-13.255-10.745-24-24-24zM64 472c-13.255 0-24-10.745-24-24s10.745-24 24-24 24 10.745 24 24-10.745 24-24 24zM384 81.452c0 42.416-25.97 66.208-33.277 94.548h101.723c33.397 0 59.397 27.746 59.553 58.098.084 17.938-7.546 37.249-19.439 49.197l-.11.11c9.836 23.337 8.237 56.037-9.308 79.469 8.681 25.895-.069 57.704-16.382 74.757 4.298 17.598 2.244 32.575-6.148 44.632C440.202 511.587 389.616 512 346.839 512l-2.845-.001c-48.287-.017-87.806-17.598-119.56-31.725-15.957-7.099-36.821-15.887-52.651-16.178-6.54-.12-11.783-5.457-11.783-11.998v-213.77c0-3.2 1.282-6.271 3.558-8.521 39.614-39.144 56.648-80.587 89.117-113.111 14.804-14.832 20.188-37.236 25.393-58.902C282.515 39.293 291.817 0 312 0c24 0 72 8 72 81.452z\" class=\"\"></path></svg>",
           "achie_count_1": "1549",
           "achie_1": "Happy clients",
-          "achie_icon_2": "<svg aria-hidden=\"true\" focusable=\"false\" data-prefix=\"fas\" data-icon=\"trophy\" role=\"img\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" viewbox=\"0 0 576 512\" class=\"svg-inline--fa fa-trophy fa-w-18 fa-2x\"><path fill=\"currentColor\" d=\"M552 64H448V24c0-13.3-10.7-24-24-24H152c-13.3 0-24 10.7-24 24v40H24C10.7 64 0 74.7 0 88v56c0 35.7 22.5 72.4 61.9 100.7 31.5 22.7 69.8 37.1 110 41.7C203.3 338.5 240 360 240 360v72h-48c-35.3 0-64 20.7-64 56v12c0 6.6 5.4 12 12 12h296c6.6 0 12-5.4 12-12v-12c0-35.3-28.7-56-64-56h-48v-72s36.7-21.5 68.1-73.6c40.3-4.6 78.6-19 110-41.7 39.3-28.3 61.9-65 61.9-100.7V88c0-13.3-10.7-24-24-24zM99.3 192.8C74.9 175.2 64 155.6 64 144v-16h64.2c1 32.6 5.8 61.2 12.8 86.2-15.1-5.2-29.2-12.4-41.7-21.4zM512 144c0 16.1-17.7 36.1-35.3 48.8-12.5 9-26.7 16.2-41.8 21.4 7-25 11.8-53.6 12.8-86.2H512v16z\" class=\"\"><\/path><\/svg>",
+          "achie_icon_2": "<svg aria-hidden=\"true\" focusable=\"false\" data-prefix=\"fas\" data-icon=\"trophy\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\" viewbox=\"0 0 576 512\" class=\"svg-inline--fa fa-trophy fa-w-18 fa-2x\"><path fill=\"currentColor\" d=\"M552 64H448V24c0-13.3-10.7-24-24-24H152c-13.3 0-24 10.7-24 24v40H24C10.7 64 0 74.7 0 88v56c0 35.7 22.5 72.4 61.9 100.7 31.5 22.7 69.8 37.1 110 41.7C203.3 338.5 240 360 240 360v72h-48c-35.3 0-64 20.7-64 56v12c0 6.6 5.4 12 12 12h296c6.6 0 12-5.4 12-12v-12c0-35.3-28.7-56-64-56h-48v-72s36.7-21.5 68.1-73.6c40.3-4.6 78.6-19 110-41.7 39.3-28.3 61.9-65 61.9-100.7V88c0-13.3-10.7-24-24-24zM99.3 192.8C74.9 175.2 64 155.6 64 144v-16h64.2c1 32.6 5.8 61.2 12.8 86.2-15.1-5.2-29.2-12.4-41.7-21.4zM512 144c0 16.1-17.7 36.1-35.3 48.8-12.5 9-26.7 16.2-41.8 21.4 7-25 11.8-53.6 12.8-86.2H512v16z\" class=\"\"></path></svg>",
           "achie_count_2": "37",
           "achie_2": "Award winning",
-          "achie_icon_3": "<svg aria-hidden=\"true\" focusable=\"false\" data-prefix=\"fas\" data-icon=\"users\" role=\"img\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" viewbox=\"0 0 640 512\" class=\"svg-inline--fa fa-users fa-w-20 fa-2x\"><path fill=\"currentColor\" d=\"M96 224c35.3 0 64-28.7 64-64s-28.7-64-64-64-64 28.7-64 64 28.7 64 64 64zm448 0c35.3 0 64-28.7 64-64s-28.7-64-64-64-64 28.7-64 64 28.7 64 64 64zm32 32h-64c-17.6 0-33.5 7.1-45.1 18.6 40.3 22.1 68.9 62 75.1 109.4h66c17.7 0 32-14.3 32-32v-32c0-35.3-28.7-64-64-64zm-256 0c61.9 0 112-50.1 112-112S381.9 32 320 32 208 82.1 208 144s50.1 112 112 112zm76.8 32h-8.3c-20.8 10-43.9 16-68.5 16s-47.6-6-68.5-16h-8.3C179.6 288 128 339.6 128 403.2V432c0 26.5 21.5 48 48 48h288c26.5 0 48-21.5 48-48v-28.8c0-63.6-51.6-115.2-115.2-115.2zm-223.7-13.4C161.5 263.1 145.6 256 128 256H64c-35.3 0-64 28.7-64 64v32c0 17.7 14.3 32 32 32h65.9c6.3-47.4 34.9-87.3 75.2-109.4z\" class=\"\"><\/path><\/svg>",
+          "achie_icon_3": "<svg aria-hidden=\"true\" focusable=\"false\" data-prefix=\"fas\" data-icon=\"users\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\" viewbox=\"0 0 640 512\" class=\"svg-inline--fa fa-users fa-w-20 fa-2x\"><path fill=\"currentColor\" d=\"M96 224c35.3 0 64-28.7 64-64s-28.7-64-64-64-64 28.7-64 64 28.7 64 64 64zm448 0c35.3 0 64-28.7 64-64s-28.7-64-64-64-64 28.7-64 64 28.7 64 64 64zm32 32h-64c-17.6 0-33.5 7.1-45.1 18.6 40.3 22.1 68.9 62 75.1 109.4h66c17.7 0 32-14.3 32-32v-32c0-35.3-28.7-64-64-64zm-256 0c61.9 0 112-50.1 112-112S381.9 32 320 32 208 82.1 208 144s50.1 112 112 112zm76.8 32h-8.3c-20.8 10-43.9 16-68.5 16s-47.6-6-68.5-16h-8.3C179.6 288 128 339.6 128 403.2V432c0 26.5 21.5 48 48 48h288c26.5 0 48-21.5 48-48v-28.8c0-63.6-51.6-115.2-115.2-115.2zm-223.7-13.4C161.5 263.1 145.6 256 128 256H64c-35.3 0-64 28.7-64 64v32c0 17.7 14.3 32 32 32h65.9c6.3-47.4 34.9-87.3 75.2-109.4z\" class=\"\"></path></svg>",
           "achie_count_3": "7",
           "achie_3": "Team members",
           "chooseus_enable": true,
           "chooseus_title1": "Our design",
-          "chooseus_des": "<p><a href=\"https:\/\/ap2020.myshopify.com\">2020<\/a> has always been a design company at heart. The Innovation Department, responsible for the development of new concepts and products and counting more than 70 employees to date, is the beating heart and the engine of the company.<br> The original Shopify theme, the <a href=\"https:\/\/ap2020.myshopify.com\">2020<\/a>, breathes the legacy of 15 years of the design. Having evolved over time, the iconic all-in-one Shopify theme remains unsurpassed with regards to its defining functionalities.<\/p>\n<p>Now all of our Shopify theme, including the <a href=\"https:\/\/ap2020.myshopify.com\">2020<\/a>, share the same design principles: design and engineering, aesthetics and functionality, form and function, have come together seamlessly.<\/p>",
+          "chooseus_des": "<p><a href=\"https://ap2020.myshopify.com\">2020</a> has always been a design company at heart. The Innovation Department, responsible for the development of new concepts and products and counting more than 70 employees to date, is the beating heart and the engine of the company.<br> The original Shopify theme, the <a href=\"https://ap2020.myshopify.com\">2020</a>, breathes the legacy of 15 years of the design. Having evolved over time, the iconic all-in-one Shopify theme remains unsurpassed with regards to its defining functionalities.</p>\n<p>Now all of our Shopify theme, including the <a href=\"https://ap2020.myshopify.com\">2020</a>, share the same design principles: design and engineering, aesthetics and functionality, form and function, have come together seamlessly.</p>",
           "chooseus_title2": "Why choose us",
           "chooseus_question1": "Quality is our key business",
           "chooseus_answer1": "Quality has always been at the core of us, as we want our products to last whilst being used every day. To ensure the highest quality, we like to be in charge of the entire development and production process – from the first sketch to the final Shopify theme.",
@@ -1536,32 +1545,32 @@
           "team_avatar_1": "",
           "team_person_1": "Emma Watson",
           "team_des_1": "Emma earned her BSS in Psychology and BSC in Management from Santa Clara University. She joined Us after 4+ years in venture.",
-          "team_fb_1": "https:\/\/facebook.com\/",
-          "team_tw_1": "https:\/\/twitter.com\/",
-          "team_lk_1": "https:\/\/www.linkedin.com\/",
+          "team_fb_1": "https://facebook.com/",
+          "team_tw_1": "https://twitter.com/",
+          "team_lk_1": "https://www.linkedin.com/",
           "team_avatar_2": "",
           "team_person_2": "John Doe",
           "team_des_2": "John is a proud graduate of Teachers College’s Instructional Design and Technology program and can usually be found gaming, reading",
-          "team_fb_2": "https:\/\/facebook.com\/",
-          "team_tw_2": "https:\/\/twitter.com\/",
-          "team_lk_2": "https:\/\/www.linkedin.com\/",
+          "team_fb_2": "https://facebook.com/",
+          "team_tw_2": "https://twitter.com/",
+          "team_lk_2": "https://www.linkedin.com/",
           "team_avatar_3": "",
           "team_person_3": "Sarah Parker",
           "team_des_3": "Sarah earned her BSS in Psychology and BSC in Management from Santa Clara University. She joined Us after 4+ years in venture.",
-          "team_fb_3": "https:\/\/facebook.com\/",
-          "team_tw_3": "https:\/\/twitter.com\/",
-          "team_lk_3": "https:\/\/www.linkedin.com\/",
+          "team_fb_3": "https://facebook.com/",
+          "team_tw_3": "https://twitter.com/",
+          "team_lk_3": "https://www.linkedin.com/",
           "team_avatar_4": "",
           "team_person_4": "William Smith",
           "team_des_4": "William loves tackling the legal issues that arise as transforms education. He used to have hobbies like traveling. He joined Us after 4+ years in venture.",
-          "team_fb_4": "https:\/\/facebook.com\/",
-          "team_tw_4": "https:\/\/twitter.com\/",
-          "team_lk_4": "https:\/\/www.linkedin.com\/",
+          "team_fb_4": "https://facebook.com/",
+          "team_tw_4": "https://twitter.com/",
+          "team_lk_4": "https://www.linkedin.com/",
           "action_enable": true,
           "action_title": "Feel free, move free",
           "action_des": "Enjoy the feeling of freedom, that’s the feeling we want to capture when we design our products.",
           "action_btn_txt": "Explore products",
-          "action_btn_lnk": "shopify:\/\/collections\/all"
+          "action_btn_lnk": "shopify://collections/all"
         }
       },
       "collection-template-4": {
@@ -1607,77 +1616,77 @@
             "type": "photo",
             "settings": {
               "title": "Shoes",
-              "link": "shopify:\/\/collections\/shoes"
+              "link": "shopify://collections/shoes"
             }
           },
           "1562991919564": {
             "type": "photo",
             "settings": {
               "title": "Shirt",
-              "link": "shopify:\/\/collections\/shirt"
+              "link": "shopify://collections/shirt"
             }
           },
           "1562991968766": {
             "type": "photo",
             "settings": {
               "title": "Top collection",
-              "link": "shopify:\/\/collections\/tops"
+              "link": "shopify://collections/tops"
             }
           },
           "1562991997078": {
             "type": "photo",
             "settings": {
               "title": "Our team",
-              "link": "shopify:\/\/pages\/team-member"
+              "link": "shopify://pages/team-member"
             }
           },
           "1562992017741": {
             "type": "photo",
             "settings": {
               "title": "FAQs",
-              "link": "shopify:\/\/pages\/faqs"
+              "link": "shopify://pages/faqs"
             }
           },
           "1562993011560": {
             "type": "photo",
             "settings": {
               "title": "Shopping",
-              "link": "shopify:\/\/collections\/all"
+              "link": "shopify://collections/all"
             }
           },
           "1562992970394": {
             "type": "photo",
             "settings": {
               "title": "About us",
-              "link": "shopify:\/\/pages\/about-us"
+              "link": "shopify://pages/about-us"
             }
           },
           "1562992909584": {
             "type": "photo",
             "settings": {
               "title": "Trousers",
-              "link": "shopify:\/\/collections\/trousers"
+              "link": "shopify://collections/trousers"
             }
           },
           "1562992046055": {
             "type": "photo",
             "settings": {
               "title": "Our story",
-              "link": "shopify:\/\/pages\/our-story"
+              "link": "shopify://pages/our-story"
             }
           },
           "1562992952360": {
             "type": "photo",
             "settings": {
               "title": "Brands",
-              "link": "shopify:\/\/pages\/brands"
+              "link": "shopify://pages/brands"
             }
           },
           "1562992997330": {
             "type": "photo",
             "settings": {
               "title": "Blog",
-              "link": "shopify:\/\/blogs\/news"
+              "link": "shopify://blogs/news"
             }
           }
         },
@@ -1701,7 +1710,7 @@
         "settings": {
           "setwidth": "container-fluid",
           "heading": "Blue Collections",
-          "subheading": "<p>Discover the latest collections lifestyle and activewear from our Shop<\/p>",
+          "subheading": "<p>Discover the latest collections lifestyle and activewear from our Shop</p>",
           "animation": "fade-up"
         }
       },
@@ -1719,7 +1728,7 @@
           "1563897815428": {
             "type": "lookbook",
             "settings": {
-              "instagram": "https:\/\/instagram.com",
+              "instagram": "https://instagram.com",
               "product": "",
               "dot_color": "#4d9465",
               "left": 61,
@@ -1729,7 +1738,7 @@
           "1563895908631": {
             "type": "lookbook",
             "settings": {
-              "instagram": "https:\/\/instagram.com",
+              "instagram": "https://instagram.com",
               "product": "",
               "dot_color": "#ffc371",
               "left": 50,
@@ -1739,7 +1748,7 @@
           "1563897441683": {
             "type": "lookbook",
             "settings": {
-              "instagram": "https:\/\/instagram.com",
+              "instagram": "https://instagram.com",
               "product": "",
               "dot_color": "#01bad4",
               "left": 60,
@@ -2083,7 +2092,7 @@
               "attribute": "13.9\"W X 15.2\"D X 30.7\"H",
               "attribute_color": "#ffffff",
               "attribute_bg_color": "#af6935",
-              "subheading": "<h3 class=\"d-inline-block\">$183.76<\/h3>  ( VAT included )",
+              "subheading": "<h3 class=\"d-inline-block\">$183.76</h3>  ( VAT included )",
               "subheading_color": "#909090",
               "button_label": "discover now",
               "button_link": "#",
@@ -2135,7 +2144,7 @@
               "subheading": "xxx",
               "subheading_color": "#ffffff",
               "button_label": "Discover Collection",
-              "button_link": "shopify:\/\/collections",
+              "button_link": "shopify://collections",
               "stylebtn": false
             }
           },
@@ -2368,7 +2377,7 @@
           "1587654247564": {
             "type": "html",
             "settings": {
-              "code": "<h2 class=\"mb-4\">Hire & Repairs\n<\/h2>\n<p>We are a qualified repair & service agent for Cigweld gas repairs so we can repair – blowpipes, cutting attachments, regulators, mig guns, tig torches & heavy duty cutting torches. We can also test your flashback arrestors.\n<br>\n\n<br>\nWe also repair mig welders, tig welders, caddy welders, rotators, straight line cutters & pipe cutters.\n\nTecweld has a large hire fleet for short or long term hire, call 9277 1444 to discuss your requirements.\n\n<\/p>",
+              "code": "<h2 class=\"mb-4\">Hire & Repairs\n</h2>\n<p>We are a qualified repair & service agent for Cigweld gas repairs so we can repair – blowpipes, cutting attachments, regulators, mig guns, tig torches & heavy duty cutting torches. We can also test your flashback arrestors.\n<br>\n\n<br>\nWe also repair mig welders, tig welders, caddy welders, rotators, straight line cutters & pipe cutters.\n\nTecweld has a large hire fleet for short or long term hire, call 9277 1444 to discuss your requirements.\n\n</p>",
               "width": "50%",
               "align": "auto"
             }
@@ -2378,7 +2387,7 @@
             "settings": {
               "width": "50%",
               "align": "auto",
-              "image": "shopify:\/\/shop_images\/shutterstock_1496684738.jpg",
+              "image": "shopify://shop_images/shutterstock_1496684738.jpg",
               "image_link": ""
             }
           }
@@ -2420,7 +2429,7 @@
           "animation": "fade-up",
           "setwidth": "container",
           "button_label": "",
-          "video_url": "https:\/\/www.youtube.com\/watch?v=Fhhn8P3j4zM",
+          "video_url": "https://www.youtube.com/watch?v=Fhhn8P3j4zM",
           "cover_image_position": "center center",
           "cover_image_height": "tall",
           "show_overlay": true,
@@ -2470,7 +2479,7 @@
           "dbb48d47-2f41-44a3-ad22-347ed123cb6f"
         ],
         "settings": {
-          "image1": "shopify:\/\/shop_images\/shutterstock_1496684738.jpg"
+          "image1": "shopify://shop_images/shutterstock_1496684738.jpg"
         }
       },
       "page-about-v3": {
@@ -2479,7 +2488,7 @@
           "1587749168904": {
             "type": "html",
             "settings": {
-              "code": "<h2>Welcome to Doppo<br>\nStore - Amazing<br>\nfurniture<\/h2>",
+              "code": "<h2>Welcome to Doppo<br>\nStore - Amazing<br>\nfurniture</h2>",
               "width": "50%",
               "align": "auto"
             }
@@ -2487,7 +2496,7 @@
           "1587749209476": {
             "type": "html",
             "settings": {
-              "code": "<p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per \ninceptos himenaeos. Suspendisse faucibus sed dolor eget posuere. Sed \nid interdum urna faucibus sed dolor eget posuere.<br><br>\n\nSed id interdum urna. Nam ac elit a ante commodo tristique. Duis lacus \nurna, condimentum a vehicula a, hendrerit ac nisi Lorem ipsum dolor sit \namet dolor eget posuere.<\/p>\n<div class=\"text-body mt-5\">\n<span class=\"text-primary\">JONT HENRRY <\/span>- CEO<\/div>",
+              "code": "<p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per \ninceptos himenaeos. Suspendisse faucibus sed dolor eget posuere. Sed \nid interdum urna faucibus sed dolor eget posuere.<br><br>\n\nSed id interdum urna. Nam ac elit a ante commodo tristique. Duis lacus \nurna, condimentum a vehicula a, hendrerit ac nisi Lorem ipsum dolor sit \namet dolor eget posuere.</p>\n<div class=\"text-body mt-5\">\n<span class=\"text-primary\">JONT HENRRY </span>- CEO</div>",
               "width": "50%",
               "align": "auto"
             }
@@ -2524,7 +2533,7 @@
           "1587751215011": {
             "type": "address",
             "settings": {
-              "store_addess": "<div class=\"mb-4\">\n<h2 class=\"mb-3 f-90\">01<\/h2>\n<span class=\"text-body font-weight-bold\">STORE NEWYORK<\/span>\n<\/div>",
+              "store_addess": "<div class=\"mb-4\">\n<h2 class=\"mb-3 f-90\">01</h2>\n<span class=\"text-body font-weight-bold\">STORE NEWYORK</span>\n</div>",
               "contact_addess": "123 Sky Tower, West 21th Street, Suite 721, NY",
               "contact_phone": "+844 123 456 789",
               "contact_mail": "sale@yourcompany.com"
@@ -2533,7 +2542,7 @@
           "1587751341165": {
             "type": "address",
             "settings": {
-              "store_addess": "<div class=\"mb-4\">\n<h2 class=\"mb-3 f-90\">02<\/h2>\n<span class=\"text-body font-weight-bold\">STORE NEWYORK<\/span>\n<\/div>",
+              "store_addess": "<div class=\"mb-4\">\n<h2 class=\"mb-3 f-90\">02</h2>\n<span class=\"text-body font-weight-bold\">STORE NEWYORK</span>\n</div>",
               "contact_addess": "123 Sky Tower, West 21th Street, Suite 721, NY",
               "contact_phone": "+844 123 456 789",
               "contact_mail": "sale@yourcompany.com"
@@ -2542,7 +2551,7 @@
           "1587751398826": {
             "type": "address",
             "settings": {
-              "store_addess": "<div class=\"mb-4\">\n<h2 class=\"mb-3 f-90\">03<\/h2>\n<span class=\"text-body font-weight-bold\">STORE NEWYORK<\/span>\n<\/div>",
+              "store_addess": "<div class=\"mb-4\">\n<h2 class=\"mb-3 f-90\">03</h2>\n<span class=\"text-body font-weight-bold\">STORE NEWYORK</span>\n</div>",
               "contact_addess": "123 Sky Tower, West 21th Street, Suite 721, NY",
               "contact_phone": "+844 123 456 789",
               "contact_mail": "sale@yourcompany.com"
@@ -2570,7 +2579,7 @@
           "marginsection": "0px 0px 0px 0px",
           "bgsection": "#e4cec0",
           "setwidth": "container",
-          "code": "<div class=\"text-center\">\n<h2 class=\"mb-4\">Don’t miss a thing,<br>\nsubscribe to our quarterly newsletter<\/h2>\n<a href=\"#\" class=\"btn btn-underline\">Join our Mailing List<\/a>\n<\/div>"
+          "code": "<div class=\"text-center\">\n<h2 class=\"mb-4\">Don’t miss a thing,<br>\nsubscribe to our quarterly newsletter</h2>\n<a href=\"#\" class=\"btn btn-underline\">Join our Mailing List</a>\n</div>"
         }
       },
       "pnewsletter-2": {
@@ -2579,10 +2588,10 @@
           "pnewletter_enable": true,
           "pnewletter_time": 10,
           "pnewletter_background": "#ffffff",
-          "pnewletter_bgimage": "shopify:\/\/shop_images\/pnewletter_bg.png",
+          "pnewletter_bgimage": "shopify://shop_images/pnewletter_bg.png",
           "pnewletter_title": "SIGN UP FOR OUR NEWSLETTER",
           "pnewletter_title_cl": "#ffffff",
-          "pnewletter_description": "<p>Subscribe for the latest news & get 15% off your first order.<\/p>",
+          "pnewletter_description": "<p>Subscribe for the latest news & get 15% off your first order.</p>",
           "pnewletter_description_cl": "#ffffff"
         }
       },
@@ -2611,7 +2620,7 @@
           "pnewletter_background": "rgba(0,0,0,0)",
           "pnewletter_title": "Follow us",
           "pnewletter_title_cl": "rgba(0,0,0,0)",
-          "pnewletter_description": "<p>We promise we won't write to you often, only for the fun stuff.<\/p>\n<ul>\n<li>Exclusive offers<\/li>\n<li>Sales<\/li>\n<\/ul>",
+          "pnewletter_description": "<p>We promise we won't write to you often, only for the fun stuff.</p>\n<ul>\n<li>Exclusive offers</li>\n<li>Sales</li>\n</ul>",
           "pnewletter_description_cl": "rgba(0,0,0,0)"
         }
       },
@@ -2623,9 +2632,9 @@
             "settings": {
               "title": "HIRE EQUIPMENT",
               "description": "Tecweld has an extensive range of 3 phase Mig Welders, Plasma Cutters, Welding Rotators and Manipulators for short or long term hire.",
-              "icon": "<img src=\"data:image\/webp;base64,UklGRs4HAABXRUJQVlA4WAoAAAAQAAAASQAAUQAAQUxQSLQCAAARoFttexvL+cKN9mDlpYhyOWTTy0j+nmWoTChgzXQw7OCyA1Auc9MB0QHZwUwHQAdvMLTg+igiJkDT5q5nh12lNXt2Wq9wgBR2CNhlJyi0QweHZQG0xxLql7Buj\/1ae33WaY\/l88DcZL5JSebPrvI4fp4IdZ7NnO44XkRmjtTK0vZzpk\/swkYYhkUBgq5DTjbCYMJEreudVBEGo2eBA1ppB0\/tIge0ktTn5ol2wRFoJcmTmQeqeR5wkuTJxLsR4wGn2R5wkuTJxIOTZHpIVnPN\/4CTJA+kHDwkK5kektVc00OykuQBFzLwkKxU9JCs5poekpUkDzhlECFZyUYYjObaHpLVdQtOOUCyko0wGM0OMBiNt055JCuVEQaj+WYYjOZnkKzkgFaLrVFuteSAVttn8RRo9UzwgNMzIQJOzwbAaTexu44zzl2mceLcXY\/MnMh5ZDo0z4zkNBmudlhCrcXPnI9up410e\/v1Nl\/e3m7yK9Pf6j78s83f8M7z4fNH0+9Ljx79uM13jx7d22KHb8a0YPdwgGpZDeUeGiiXlVBnZY43VwG0vIBTVg4aSTCsoAsxqxNYqYRmjRaqjAq4SGqgWqOENqMWnKRI0qoXosnGwkWSg3adGupsBnCSOijXMYloMmkhSCohaOUamjwcpELSGcq1TAKbgwNKSTUEre7gbLZrACfJAsV6CuC3KjrASTJnqLWhSdBsYo4RUiXJ9BC0aQm49czTMzAUkuThYraRA+5WqnwE0kGSTAfJamsHeLPEPDx2XKfaSFLRQ7La3gG9XVAyejkYXVcRklWOZQKOZpYBhsZqtOiAoVCeJgDxaGboUGqy8ACN8j0kIN7ZqemH\/wNcSuVsWq7P\/rebCXPz9P8IkGrlXjSJyXPXRSYvzmiP1SmNzLw0Vvu1hzqEAUI41a7QxlZQOCD0BAAAkBsAnQEqSgBSAD6BOphKJSMiIaRYCTigEAlpABXnn87\/Br9OfI3+5fjtlnW\/2MFl3tWb1ZyD+qf7jwK9QKSC\/qvDt+if672AP5J\/XP9z6aech8n\/v\/\/g\/zXwD\/yD+k\/9P+8eyr6zv2n9hz9d0yodRAX8Y3cMLUQjcDlACo5b62vn2B\/WE0avVSvsm2vTLPMmDQLt2UrxFC0Czvq1NxOa1w0YJ0TOfpqyBxi6xVxV6X2GPoIvmN2VzbY+Tz\/0u7LPKvQoil5kEO56ESlNJXnGXwl9d4Nde+krqng0BPTFxoDCUK16AADx6BLFRC\/X\/kU8EG44ZekBc\/DuQEotG2JkFbCYVBmDr8f5Xq\/aBAggjF4jej4A4CkgNi4EcWVXXnHzC4Sfw2rOOx54VisLNMwWrVBkE7hJLY\/VPhssubIW6Acosc6t08ViWSHvb56+\/L27r7MASvLgNDF9hxexAFTanbVEv+sAAzZUQmuwLX5RxFME0Q9XUVzft40eL\/z75sFsZ4\/AMBEVVcVrFkBhz55JI1LYw\/uzCTDjaaxvH1O19i9MY\/6ykcVLQdxrTdoS6XKj1hLYrI6SU11FORpksvq7Kt07yaddfUT68D0TlMm0a9a+nbn8+Ygi3bY5GMabcQJIzy3tra2dbIxGxvaNZLbDHz2f18eMpT+leZ7j+qn\/JeOAiA1GeQh1P4D5b5asJP2IN82FVkih945N2UoSxEfqVy+Pa1bNRFIbwk7Tjm\/4\/URRKPYN0Da6TFT340kpWMWOGU3Vcf3C+Wg8iOVHHxRr97AZb7EEG7a+jQC1FBoYCmh\/6skLpVBs8vd6coog4s6oc5WIAk85YnNpxJR+\/f6B7CPlHDZXe1IRMnQyXA\/Pup7o+71BygOFbvYT0WB4LjGYqUa8djdoXjlWxOdprc8vlM+BZoag186KnXQeNuax3vgdKm0vP\/RvonZebKvU9frjQdH4A2PUhU+7d4ii+EyqWgZoxCwBiqoRLEz+hKRn5tEbNH7LvfczbhvJokuWHbzcWVu3XqRDfLpuUONGZnQx7w433\/4i3WeTZjrm50P19wsBQKOiFEsL1RjFNG+7x51UeJ3gUoICJB55+2xDEDIFtIxHy893XLWmMgalJen\/0Bf2NEQi0ZrhollQNQd7kGVgglmyQyf8\/OSXzd7mUzxlwX7a7CnpfuBN1vuPmh+Qbnc+WCopB9eLeMUvOAduAehSsdVm0Xl5JYqPeoSYgWpBDoqwV32dASa\/nCMayEbQ2\/LGqf+PVfjFO1bjje0wr7CBUbpsJ6HCjUmQtawg6cJ3ujNCL9EzNoASBtBlIj6NKyep+Cqt4lD2BJyI78M1MBNiqKgXPbwrNSNzbWdJzNy4tCwW978bpyrDri\/Y3OdM6LLTrJxBSYOMtxTjr4uS\/i5KewMS5nQSMIxgczukdXThtLIDjip\/xJy4X\/qxNKlD2iiASmP8HwOZxNaMpLPfrkeJ4cCzX\/0Gw+HTGIr7aruAibYRnAkU0gUpYzUwbLHHE9MRReQrVthrQ5\/lxptKoc5Xl9TUfB\/8sTBlw6iyJ9FE5x7pZAcGHurnPcsxb\/QJ1fHI6tfNNhlMZCRY6GmAI2g8w04f1WZHulUT4IspCH9oBpCFow7MzDUvnzbLPXDEIPPmfXo4mgo0d\/hzjut4rzQS+ofK+TlROhU8NNIPKCr\/7kwAAAA=\" class=\"\" title=\"\" alt=\"\" style=\" width:auto;              height:auto\">",
+              "icon": "<img src=\"data:image/webp;base64,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\" class=\"\" title=\"\" alt=\"\" style=\" width:auto;              height:auto\">",
               "link_text": "",
-              "link_url": "shopify:\/\/pages\/contact"
+              "link_url": "shopify://pages/contact"
             }
           },
           "1607066023b5a74cc7-2": {
@@ -2633,9 +2642,9 @@
             "settings": {
               "title": "SHOP PRODUCTS",
               "description": "Search our large range of products from all the top brands including Cigweld, Speedglas, Lincoln, Profax, WIA and many more. Add items to your quote basket for a rapid response for price and availability.",
-              "icon": "<img src=\"data:image\/webp;base64,UklGRpoJAABXRUJQVlA4WAoAAAAQAAAAQgAAYQAAQUxQSGgDAAARkFTbehZZV8InIRLioOOgcdA4KBwUDh4OCgeFA3AADsABcXAG\/IUwfJOImACldq++J+ncf36VZzFz6\/rP7vM9t6\/vu4oVoCuDU8pQNAvA124pAVrTneUCjHZDASxed7dAn86tMJnuL4EmWQ\/RlGMDuEQBCMpzgD5RB60yDYBPYoDLRR3USUqYlG0JY5IamnwMSDJAmY8Alyjsudc7\/e\/BAOGWiltHyyJw8zeLFqb6eIJYb1dY6roBshgg6NADlSQVQJA0QUjlPiskGWGSJFuhk6ThDIx\/Z\/zK7rUK8JsGoiWAz4mZRG6FWpICUCoJxUGAGDQk6GGxzQyDrgXXQXdQwaAUBRAkqQZcCgUYDupEtkIrSR6o9YwWom16mPSMABSSVAHhGTbDIEm2QqNn1BDd5guLPcMDtSQVQKFnjDBJks3QKYcqQQX4TQPRsgiw+hMdfFfof35+fv6Az8\/ZX8Ad2Qe6Ay3s71TcvOhgtzwK8ZSGe2I41+qk706pGm5snc4sta4OJ7IcICjh\/xEduMdZHZQx4FPkbYBS173PpITlnH2+tudgyKSF5lwJ\/V4FXR4O8Oc8EHYmqPL4wqCLA\/QbB7gsKiBccUCQVMKkHEug1eUWZkkdVHvm7ngBk11zQCkD\/MbeK02y0APRlLCFWQEWSfqbgSGNf\/UAk+lkOX\/\/bGORKBeppb8ZYPE7fiRlo9Ns+5eTfBsk8\/IzQKxNuw0JO6fz7QYYCx12QKxNh8WV2FVOl30zbViPCmDs+8\/L78jCWVNyVw0wHKnicH6bcrZgJ8ojWF85nbYR+qqqO7Zfy8be6+oOAtv5369VERgtD3uvQH2gdgOshXXAaDmUK8DkdsLLZGW3YZBK4HNfMQMspdTwkYNe26KNlJIaoLgtArGWZIA8EDYnO1jtrolYmySVMEkd9BcswvcuC6bdDhrJAeGcCqC46WQEL6mF+YI6WC2PAhZJckB5wSK0ebTQbtTAfEElELKIUOxYBH9BA8yWA0Ttl7HVVRehyaGJ5UHSCgj28\/656e4B1hWYw4Nc5NA\/5w2wDBHGx3wAGpMH6odUwBQkqQb8M0ZotT\/B+AzADjxQPyJCcaAa8E9oYbYDTTA+wUVojjwQHqAKCAeqiPYEDTDbgZzpkS5Cc\/TYCghP0wD141yM\/nF3AlZQOCAMBgAAEB8AnQEqQwBiAD6BNpdJJSKiISdYCmCgEAlpABXkX877Sf7j+N3WZ+3MtSs0wj34ZTbWXxdPnX+57\/jUC7l+iP+o+d3etfS\/8\/7Af8W\/t3\/G9F7\/f\/uHms\/J\/8B\/2v9D8Av8f\/q3\/T\/t\/tLeuD9mfYP\/V\/\/zrBX5EdVPOBIa3Uxwg214zNjIdno2SxZgntVlNBjpNoe4oJ9vBXGVgpRd+xfQr\/ZRmM7vMGx4xioi0dz8YZ\/8La2GlODy003MNn6uMC3ay6Ax1sMCtZnC+6zbVoIEjeMvM22VUxj1BtOnbk5ST5zIW7eXrXxOEO3wr+\/v12dvhQeJI\/SYMkOY7aaAqgAA\/tJeC7gFvNU5ATdbz0tPuhaI5\/iSiS4ryaRhC45nOWsKzCUuF0Wdl5RYgmF4uXH+LU4TOLdvCUMMJCAl5dZCxvb2cyVoMKQ9Z+yeDYMyK9gvN7QKZczbThqOl5WPOt2MNFI4Q885VCgkgaeA1y9LX01y+HtSWAhABEGc8Uw8LDT3JjelYRir00gm3Lmolmu97h5WpzC2OV9Asqs7c4HOU6J3gwCLQWvg698A7nB2bzKOhcsojYPzxDVDwuP0PXNQbgGpL1vknkQxkt3\/+goGIIvgLRobi\/3eDlEzY0skVnX\/asWWzoN33y6jMzUTBXsh9BCuyyWuVvALl3NhjtR80nsey4VATa2jk0rHRdJzTkFdouDHonhrEZxVFbxR71thd4AvUCad0IgSo4tQHtlTMzbjOXHSvj+CkhDiAvtqtRfzZdP0ayA7D2gqb0t1\/FGujhEyCIYYxSfeB41LTM8+h+GWt9DG7rGKy6c8dFdGqw645vypWnFl0\/JOpXpbINH7avoi5nqIWrpJAJqCwotQVhqp8OVHR1ooQwjRbdNhRN8jpVDzulkbdKanKbpNOmKB3d89LVF7Li\/22t7UZTyJkh2ArgZ3Wp4rl8QW+al8Ph56oQBAegLxM5KouQnb5yQKd599dLwC4XpF6gd4MvK7lPGKfjk+eBoTY2+oM59emveNe02sGKs5\/1YKOMqMuwItO+cRXR\/KNbVL0H9mp\/bphhYezgVZNZWdCf5v\/Bhevrqx4wM2+QWCok57UJpMK9v2FYVpzZFKUHCqBGeOb\/WxfHJYxMotkYyamT\/DX8TMLp8\/fZQ8NQ14O7yDj+d0Cd9b\/cUEQM2z+czRZDNapsP+laf+JlfcSGcZ9V2dTuY5lrijTn3HBNSiOHMa3Qm2CQMdIyC5bZsRxnsjCudKxaiUTsds7C4ktpsx+FdoPcZGargF2zZ8F9DLj5QojvbXS+4nz+BYcL3y3+gX\/8WalRi9AjZvSwkzwZorimSHvvmk5ojDW6CauAps+XkRDlvYluYfqmmDUOMgImXkJms\/pLsfvPs54TDvf03sP3fCgy0nkfXDpu12Vs+2+mIwX6+27UCAxslb7UXUFgaE3sY9F8HwNPMXHxtUSgY3CiKsni+NFz+SBIKh+fs6uzFlyVz\/5cnWB0ATyo5YpqirbtH+5AOHOEPJeba9nKFg0vHpX24AAhSsNuo0nbpEheH900bk6ReKwzVD6lgswx7\/rW2af4yO9NaZ82Ws0TJ8Fruyt6LXzfx\/XfKByZRgRsIcaiAbcTNXC+FVwdfjD0hNIY3l2Gu8MqxGdTppPyqx8q4wI5+XNZonVSriXNb7e1YOckwJGu3p153JrH0TrQYr7Hu2KQquDESxaIfCT+PLQZZns0qCL1HImBIrhaThMuJLzb+HDhjif\/mfhuaNRNSZU8CzGAERoEe8kkdvgsVP4+oD1YST32kCX9wx0f471bLVMCsZYMskTC5aRWHAf28D6+fh\/\/22D\/9uQ\/\/9sT8BLZjVLtfpp5\/32bZ5qhzcor\/kt5GXKoIvkCpPmxfDfDhq1AcIZfc8N7Ow65jFuPjJ56uVqmgSLLrZwXrJRNpcu8dn9SzIbgiH8Qa74GcLftblN\/E4798U1MqLvCmuQp2Asrle14YdG2blIM3PwR3sldZgG7H5XO0fQy0D0FLTzgBO3pJsuuaQvabeKcFWsg0gx7gKThOodas15gRX\/UsgAAAA\" class=\"\" title=\"\" alt=\"\" style=\" width:auto;              height:auto\">",
+              "icon": "<img src=\"data:image/webp;base64,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\" class=\"\" title=\"\" alt=\"\" style=\" width:auto;              height:auto\">",
               "link_text": "",
-              "link_url": "shopify:\/\/collections\/all"
+              "link_url": "shopify://collections/all"
             }
           },
           "dbd540f7-56f6-4a53-82b7-c2a21a49c061": {
@@ -2643,9 +2652,9 @@
             "settings": {
               "title": "REPAIR EQUIPMENT",
               "description": "We are a qualified repair & service agent for Cigweld gas repairs so we can repair – blowpipes, cutting attachments, regulators, mig guns, tig torches & heavy duty cutting torches. We can also test your flashback arrestors.\n<br>\nWe also repair mig welders, tig welders, caddy welders, rotators, straight line cutters & pipe cutters.",
-              "icon": "<img src=\"data:image\/webp;base64,UklGRn4IAABXRUJQVlA4WAoAAAAQAAAAXQAAVgAAQUxQSHcCAAARkBtte9xGKMD2Yu+U6Ua+wx1CMxvfmxsdLDsgOrA6ILMNfcYmOoAa0AgdkB18M\/px8Pj3jCICghtJiqTIisXruzwaeoJglisH7GopeKZwCNIrlpz0QDQnXF2rk2oAOqZqavAZQMHUIB5QjBVuD2MLACd8lQ7wvIXmbfun9+RHydlrAJ2cZNMsSQOKmyTQLOsAIP1Xf5MVG7mkG9kSlYjQ3BSCxsmIHXDLy3BuUls1ycp4QhQAdgqd+EmdUAOOWpHYV93wUdaRQxFRAXB13fHQoQlN7Z8sKDzebQF0OYVsQ24ZrJAbIDSdk9baVonF36XXfSiXyBsgscJJoZnpkgKuYilc\/BmYmNmo68Rwswg36vFoZgoVHNXFE8kpA9DHs+OnWCM1DNVAYpjq4zGA5edG6mCCo7KWoUIEc7V3KDgqGiBa83t2oyxumRoXEP+pVbwVLW8LAJqvwgCeibIclR6ogquO6D+Vc2QKDmNz3WPGmAmARew0bDY+LjtT\/GSyTU56wpvZvpqZzCgtXfLiyW14OY0hAIiRAlDB2aRZGmmUYEtYjyUnu8T\/Ta+zyC7ZaQl0XXdIZVfX9Z7vWr8d0Ql1MmomLEYkvI5UUqcpMbPSKkqVIdtpIdbWDtTx\/Wp1oIDBWmr68+npOOjkqdPlavVKZTdMer4PsUQPHKsxNQ3hgI8q\/\/f8W+CkLF3QfLt9t8eVuTTE43b7gUgXKmb8kPg\/VE3aM6lFl3U1pcmT7rQYS8XM9yFVktv8EWESv9AySWOM8UA7YndIndqgky1mZ8QvR03c8v+moM1OsME5SZHsdBJ00gswc343lAunmQiD\/MrogQH+ZDwCAFZQOCDgBQAAMB0AnQEqXgBXAD6BNpVIJSKiISnV3WigEAlpDbtAmSX+V\/g127vC\/xt+SfbzkOMpPLnub+2DwZ2wt3Rrx30\/9pxncYX+J8Iv5J\/rPYA\/j39J+kD4mv+H\/J+a\/8w\/wfsB\/yb+jfrx7QHqy\/YX2Ef1AS7RG3xnEe\/glpXDHvAVu04v0hyA4666\/9ZGZrgTB3f\/ePlp0DPD+52m60XKC7bhdv5Mh+at93HfQH9bDBd1svjkCKubPOPrh+Z\/hOW+N5nfNSjBTXl9EaDSrWeuEtzBkRhDBzB7xLFe\/sT2WLkd\/L+4jjnRPE3FsMKHoImioN14NYAA\/vyoBWUfhl8Ua5j7bZJUmeUqiLPfiTO7j3+PdIdd0qscvXfxpTdqDNSwbs6FsUP7IxdQ42QIV\/Z\/VxlSyHiFx5H+Lu8rXZmIYWWRWPdwO6+MX0EfD+yMXTtZkPQhrd2YD6IQCSPs3zU+HvDm\/JfH2mNKxXzJ268FvJo\/8lB9bBn+nNJDJheP7wK3XCa\/UtRugzJzsoN\/aFQzxEeuFEj7vA27373+IJw3Dh262E1FwM2a43U5\/ZFqkyaIvWrJj74\/LkWjPV98eqH+vAn8v8FQ3HH3d8R0AAThjiWV3GVG9MoDsJ1YSo\/cpTuo1kKxvaWg\/OVLjlBTMXoT1bhmjNHm2C0toXGePn6aO3OjCeNjsgjqq2c835x3tU0A+lAzFH7GvW5qNDgfyIcxjuWeifnVCPiM8xMJmhku9+E70zgkGMK\/P1SlvsNvD2ibCpdHbCL9390uuDbqQ7B6nYnjmwkn1KInL0AbAZz0VbsRaRVltwJwjdmvDi6Izb37MCgqZKLpytKrj529te499YYjJOKHvSQZdndeeEXDazZuh8wWLF\/a5gmeJb4wq34HdJ2wOkigoO\/hjDW\/NzqrkhhW5ODmLHOfZ8D2HRIbdo+aObzt9Sepzj\/mJPHUjPOUJLDrjrYImUdBcrReDPbzF1au\/IqtO6jz+\/fo1rLTzx8N0TPeRonpFiuBagSXOD+f7iB5CUTTPVLEKUoSAxbjUngfvofQqJKxg\/mmijxvoGAdfgY7hNtYVZ1fIVzAmlsqZZT\/zxq6+PwuQ6j2vUHo+mYptG6UBtUSZ1MLb6Z6YBn\/XCq4jy2FP3AbfazqgFKJrIxMI\/w3PIw488vX1hSeAbjPTRmFTmeZB2\/4lz0B7W2XDaNi98SPvkaWXgqPDNytIg6armC8o4FtWSKzzMwjqYv3Lnebbbs6a3fj2aJ3tU7hLd9akb6Gx6DKWCFChSVueT1Yk3q8A1wR7VCBafYYtgKrxTO9wk0NyB6qspCOTFojQflBlbfS9eZYXIXfIK+55J88kG88ExLRIefHscGdJbfFrrPpBMJmLHa9OT18pnO6mvuVUBUYaVW\/MmvJNUfdpc0df9t93yE8jpw9BqTmyTyuDf4XXlMgTPjtrQDUVInnauwiiJoc6faQf3qVWZLvv057XqFgUdkEF61lAbtxzeUrimgqW7nqWPqGp\/ZlmJlpJVXVNv\/RrP3Rc0vH9XGvQ\/+TsVVCa76btEk2aJk17jNUfJDdHqm+Cjxr99j8fl+AUC94WsWOcqeZXNxzJ33D8wcjMxdHB4yvPzDr2SNFM4Qjreo1W0k96V1hffaChXENbmsEATLC5Z6XK4k9TdwqjC0lm+eITFffuHD9v4o7UGxCyhbYh773VMho+pCPDkxz7iYjHI3wi3\/TQ9ZIODdm73DhvshKZ4Lm0+hjR3CqfpNMias8Nqt8\/LybCgz+o2Pa\/Eh\/S3gwKwl\/FYDg5x2c2ho6aAwX6HleoUbbpqOnre\/7VuqXQ81hshsUb9TnSMVwx\/e\/aMhqGVq7U15yCnAp2Y7pyMIINSYLb3VL8U\/EzRhTOcxEFvSoHK50BBkQkj8HOMDnFw77+LT4GRxh5E6IGpGLKKWJ87eH\/5zI91SwifLiz+\/Fl9hAAX5MLLwGqcVer4NIyhQ9fcT5j+66UdaRO9fFgxompgQBuy8VEgxg4vgAAA==\" class=\"\" title=\"\" alt=\"\" style=\" width:auto;              height:auto\">",
+              "icon": "<img src=\"data:image/webp;base64,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\" class=\"\" title=\"\" alt=\"\" style=\" width:auto;              height:auto\">",
               "link_text": "",
-              "link_url": "shopify:\/\/pages\/hire-and-repairs"
+              "link_url": "shopify://pages/hire-and-repairs"
             }
           }
         },
@@ -2674,7 +2683,7 @@
         "disabled": true,
         "settings": {
           "setwidth": "full",
-          "bg_image": "shopify:\/\/shop_images\/shutterstock_1496684738.jpg",
+          "bg_image": "shopify://shop_images/shutterstock_1496684738.jpg",
           "text_color": "#ffffff",
           "home_searchfilter_title": "SELECT YOUR VEHICLE",
           "home_searchfilter_subtitle": "Customize, Modify, Upgrade, Repair, Replace",
@@ -2697,7 +2706,7 @@
         "type": "special-search",
         "settings": {
           "setwidth": "container",
-          "bg_image": "shopify:\/\/shop_images\/tecweld-bg-testimonials.jpg",
+          "bg_image": "shopify://shop_images/tecweld-bg-testimonials.jpg",
           "text_color": "#ffffff",
           "home_searchfilter_title": "Find Welding Equipment",
           "home_searchfilter_subtitle": "For professional welding, consumable products, and best customer service right here in Perth",
@@ -2771,7 +2780,7 @@
         "settings": {
           "home_page_full_width": false,
           "section_title": "WELCOME TO TECWELD",
-          "text": "<p>For professional welding equipment and consumable products and the best in customer service right here in Perth. Supplying quality welding, industrial & mining supplies. Major brands include Cigweld, Speedglas, Lincoln, Profax, Tesuco, Elliotts, Austarc, and Tweco plus many more.<\/p><p>We are currently working on listing and showcasing all products but for now, please use the drop down menus to check out the range or products and services we provide.<\/p>"
+          "text": "<p>For professional welding equipment and consumable products and the best in customer service right here in Perth. Supplying quality welding, industrial & mining supplies. Major brands include Cigweld, Speedglas, Lincoln, Profax, Tesuco, Elliotts, Austarc, and Tweco plus many more.</p><p>We are currently working on listing and showcasing all products but for now, please use the drop down menus to check out the range or products and services we provide.</p>"
         }
       },
       "16485372088fba1b04": {
@@ -2795,9 +2804,9 @@
           "subtext": "The best brands at competitive prices with friendly service",
           "subtitle_color": "#ffffff",
           "button": "SHOP NOW",
-          "link": "shopify:\/\/collections\/all",
+          "link": "shopify://collections/all",
           "parrallax_enable": true,
-          "image": "shopify:\/\/shop_images\/shutterstock_1496684738.jpg"
+          "image": "shopify://shop_images/shutterstock_1496684738.jpg"
         }
       },
       "1655103286d07b1cb5": {
@@ -2827,11 +2836,11 @@
           "1655861960b3444658-0": {
             "type": "slide",
             "settings": {
-              "slide_image": "shopify:\/\/shop_images\/shutterstock_1496684738.jpg",
+              "slide_image": "shopify://shop_images/shutterstock_1496684738.jpg",
               "slide_title": "THE BEST BRANDS AT COMPETITIVE PRICES WITH FRIENDLY SERVICE",
               "slide_description": "",
               "button_label": "SHOP NOW",
-              "button_link": "shopify:\/\/collections\/all",
+              "button_link": "shopify://collections/all",
               "slide_align": "right",
               "slide_txt_align": "center"
             }
@@ -2866,13 +2875,13 @@
     ],
     "blocks": {
       "16212576608872179499": {
-        "type": "shopify:\/\/apps\/g-request-a-quote-hide-price\/blocks\/app-embed-block\/56d84fcb-37c7-4592-bb51-641b7ec5eef0",
+        "type": "shopify://apps/g-request-a-quote-hide-price/blocks/app-embed-block/56d84fcb-37c7-4592-bb51-641b7ec5eef0",
         "disabled": false,
         "settings": {
         }
       },
       "qikify-tmenu-1701320559": {
-        "type": "shopify:\/\/apps\/qikify-smart-menu-mega-menu\/blocks\/app-embed\/19d2f1cd-1836-4a32-8937-03df3c601dc8",
+        "type": "shopify://apps/qikify-smart-menu-mega-menu/blocks/app-embed/19d2f1cd-1836-4a32-8937-03df3c601dc8",
         "disabled": false,
         "settings": {
         }
@@ -2894,11 +2903,11 @@
       "enable_rtl": false,
       "container": 1200,
       "gutter": 30,
-      "logo": "shopify:\/\/shop_images\/d30bb62a-f8d4-404d-ab26-b506a3519ec0_200x200_78b588c5-8150-4e3f-9dd1-59abf351502c.png",
+      "logo": "shopify://shop_images/d30bb62a-f8d4-404d-ab26-b506a3519ec0_200x200_78b588c5-8150-4e3f-9dd1-59abf351502c.png",
       "logo_max_width": 140,
-      "favicon": "shopify:\/\/shop_images\/shopify-128.png",
-      "safe_checkout_pcart": "shopify:\/\/shop_images\/safe-checkout.png",
-      "safe_checkout_detail": "shopify:\/\/shop_images\/safe-checkout.png",
+      "favicon": "shopify://shop_images/shopify-128.png",
+      "safe_checkout_pcart": "shopify://shop_images/safe-checkout.png",
+      "safe_checkout_detail": "shopify://shop_images/safe-checkout.png",
       "safe_checkout_cart": "",
       "color_primary": "#c3935b",
       "color_secondary": "#c3935b",
@@ -2926,7 +2935,7 @@
       "apmenuitem_columns_1": "3",
       "apmenuitem_evideo_1": false,
       "apmenuitem_columns_blockvideo_1": "9",
-      "apmenuitem_cvideo_1": "https:\/\/cdn.shopify.com\/s\/files\/1\/0092\/7563\/7839\/files\/Demovideo.mp4?39697",
+      "apmenuitem_cvideo_1": "https://cdn.shopify.com/s/files/1/0092/7563/7839/files/Demovideo.mp4?39697",
       "apmenuitem_video_height_1": 300,
       "apmenuitem_video_loop_1": false,
       "apmenuitem_video_mute_1": false,
@@ -2947,7 +2956,7 @@
       "apmenuitem_columns_2": "12",
       "apmenuitem_evideo_2": true,
       "apmenuitem_columns_blockvideo_2": "8",
-      "apmenuitem_cvideo_2": "https:\/\/cdn.shopify.com\/s\/files\/1\/0092\/7563\/7839\/files\/Videomenu.mp4?39752",
+      "apmenuitem_cvideo_2": "https://cdn.shopify.com/s/files/1/0092/7563/7839/files/Videomenu.mp4?39752",
       "apmenuitem_video_height_2": 300,
       "apmenuitem_video_loop_2": true,
       "apmenuitem_video_mute_2": false,
@@ -3025,13 +3034,13 @@
       "apmenuitem_ihtml_5": "",
       "apmenuitem_chtml_5": "",
       "share_image": "",
-      "social_facebook_link": "https:\/\/www.facebook.com\/shopify",
-      "social_twitter_link": "https:\/\/twitter.com\/shopify",
-      "social_pinterest_link": "https:\/\/www.pinterest.com\/shopify",
-      "social_instagram_link": "https:\/\/instagram.com\/shopify",
-      "social_tumblr_link": "http:\/\/shopify.tumblr.com",
-      "social_snapchat_link": "https:\/\/www.snapchat.com\/add\/shopify",
-      "social_youtube_link": "https:\/\/www.youtube.com\/user\/shopify",
+      "social_facebook_link": "https://www.facebook.com/shopify",
+      "social_twitter_link": "https://twitter.com/shopify",
+      "social_pinterest_link": "https://www.pinterest.com/shopify",
+      "social_instagram_link": "https://instagram.com/shopify",
+      "social_tumblr_link": "http://shopify.tumblr.com",
+      "social_snapchat_link": "https://www.snapchat.com/add/shopify",
+      "social_youtube_link": "https://www.youtube.com/user/shopify",
       "social_vimeo_link": "",
       "share_facebook": true,
       "share_twitter": true,
@@ -3126,9 +3135,9 @@
       "categories_block_style": "show_all",
       "shop_by_vendor_custom_enable": false,
       "shop_by_type_custom_enable": false,
-      "safe_checkout_pcart1": "shopify:\/\/shop_images\/safe-checkout.png",
-      "safe_checkout_detail1": "shopify:\/\/shop_images\/safe-checkout.png",
-      "safe_checkout_cart1": "shopify:\/\/shop_images\/safe-checkout.png",
+      "safe_checkout_pcart1": "shopify://shop_images/safe-checkout.png",
+      "safe_checkout_detail1": "shopify://shop_images/safe-checkout.png",
+      "safe_checkout_cart1": "shopify://shop_images/safe-checkout.png",
       "collection_perpage": 24,
       "collection_perrow": "3",
       "sidebar_collection_enable": true,
@@ -3137,10 +3146,10 @@
       "pnewletter_time": 900,
       "pnewletter_bgenable": true,
       "pnewletter_background": "#bbbbbb",
-      "pnewletter_bgimage": "shopify:\/\/shop_images\/slideshow_image_1.jpg",
+      "pnewletter_bgimage": "shopify://shop_images/slideshow_image_1.jpg",
       "pnewletter_title": "Popup Newsletter",
       "pnewletter_title_cl": "#ffffff",
-      "pnewletter_description": "<p>We promise we won't write to you often, only for the fun stuff.<\/p>\n<ul>\n<li>Exclusive offers<\/li>\n<li>Sales<\/li>\n<\/ul>",
+      "pnewletter_description": "<p>We promise we won't write to you often, only for the fun stuff.</p>\n<ul>\n<li>Exclusive offers</li>\n<li>Sales</li>\n</ul>",
       "pnewletter_description_cl": "#ffffff",
       "color_header_bg": "#282828",
       "color_header_links": "#ffffff",
@@ -3349,7 +3358,7 @@
             "1561259906467": {
               "type": "image",
               "settings": {
-                "image": "shopify:\/\/shop_images\/01_10_slider2-min.jpg",
+                "image": "shopify://shop_images/01_10_slider2-min.jpg",
                 "alignment": "center center",
                 "text_alignment": "center center",
                 "slide_title": "May Weekend Sale",
@@ -3357,13 +3366,13 @@
                 "subheading": "40 off everything",
                 "subheading_color": "#ffffff",
                 "button_label": "Shop now",
-                "button_link": "shopify:\/\/products\/libero-quis"
+                "button_link": "shopify://products/libero-quis"
               }
             },
             "1561259904381": {
               "type": "image",
               "settings": {
-                "image": "shopify:\/\/shop_images\/01_10_slider3-min.jpg",
+                "image": "shopify://shop_images/01_10_slider3-min.jpg",
                 "alignment": "center center",
                 "text_alignment": "center top",
                 "slide_title": "Good design is always in season",
@@ -3371,7 +3380,7 @@
                 "subheading": "With 29 years in experience, we are professional in Fashion Trends",
                 "subheading_color": "#ffffff",
                 "button_label": "View more",
-                "button_link": "shopify:\/\/collections\/new-arrivals"
+                "button_link": "shopify://collections/new-arrivals"
               }
             }
           },
@@ -3392,10 +3401,10 @@
             "pnewletter_enable": false,
             "pnewletter_time": 500,
             "pnewletter_background": "#848484",
-            "pnewletter_bgimage": "shopify:\/\/shop_images\/alaska2.jpg",
+            "pnewletter_bgimage": "shopify://shop_images/alaska2.jpg",
             "pnewletter_title": "Follow us",
             "pnewletter_title_cl": "#ffffff",
-            "pnewletter_description": "<p>We promise we won't write to you often, only for the fun stuff.<\/p>\n<ul>\n<li>Exclusive offers<\/li>\n<li>Sales<\/li>\n<\/ul>",
+            "pnewletter_description": "<p>We promise we won't write to you often, only for the fun stuff.</p>\n<ul>\n<li>Exclusive offers</li>\n<li>Sales</li>\n</ul>",
             "pnewletter_description_cl": "#ffffff"
           }
         },
@@ -3429,144 +3438,144 @@
             "1561564468399": {
               "type": "member",
               "settings": {
-                "image": "shopify:\/\/shop_images\/1_1.jpg",
+                "image": "shopify://shop_images/1_1.jpg",
                 "name": "Danielle Kim",
                 "position": "Senior Producer",
-                "twitter": "https:\/\/twitter.com\/",
-                "google": "https:\/\/plus.google.com",
-                "facebook": "https:\/\/www.facebook.com\/",
-                "linkedin": "https:\/\/www.linkedin.com\/"
+                "twitter": "https://twitter.com/",
+                "google": "https://plus.google.com",
+                "facebook": "https://www.facebook.com/",
+                "linkedin": "https://www.linkedin.com/"
               }
             },
             "1561564888625": {
               "type": "member",
               "settings": {
-                "image": "shopify:\/\/shop_images\/1_3.jpg",
+                "image": "shopify://shop_images/1_3.jpg",
                 "name": "Ian Watt",
                 "position": "Director of Motion & Visual Effects",
-                "twitter": "https:\/\/twitter.com\/",
-                "google": "https:\/\/plus.google.com",
-                "facebook": "https:\/\/www.facebook.com\/",
-                "linkedin": "https:\/\/www.linkedin.com\/"
+                "twitter": "https://twitter.com/",
+                "google": "https://plus.google.com",
+                "facebook": "https://www.facebook.com/",
+                "linkedin": "https://www.linkedin.com/"
               }
             },
             "1561564968664": {
               "type": "member",
               "settings": {
-                "image": "shopify:\/\/shop_images\/1_13.jpg",
+                "image": "shopify://shop_images/1_13.jpg",
                 "name": "Alex Sturtevant",
                 "position": "Global Director of Brand",
-                "twitter": "https:\/\/twitter.com\/",
-                "google": "https:\/\/plus.google.com",
-                "facebook": "https:\/\/www.facebook.com\/",
+                "twitter": "https://twitter.com/",
+                "google": "https://plus.google.com",
+                "facebook": "https://www.facebook.com/",
                 "linkedin": ""
               }
             },
             "1561565036423": {
               "type": "member",
               "settings": {
-                "image": "shopify:\/\/shop_images\/1_26.jpg",
+                "image": "shopify://shop_images/1_26.jpg",
                 "name": "Jon Lawton",
                 "position": "UX Designer",
-                "twitter": "https:\/\/twitter.com\/",
-                "google": "https:\/\/plus.google.com",
-                "facebook": "https:\/\/www.facebook.com\/",
+                "twitter": "https://twitter.com/",
+                "google": "https://plus.google.com",
+                "facebook": "https://www.facebook.com/",
                 "linkedin": ""
               }
             },
             "1561565047238": {
               "type": "member",
               "settings": {
-                "image": "shopify:\/\/shop_images\/1_7.jpg",
+                "image": "shopify://shop_images/1_7.jpg",
                 "name": "Arpad Ray",
                 "position": "Executive Technical Director",
-                "twitter": "https:\/\/twitter.com\/",
-                "google": "https:\/\/plus.google.com",
-                "facebook": "https:\/\/www.facebook.com\/",
+                "twitter": "https://twitter.com/",
+                "google": "https://plus.google.com",
+                "facebook": "https://www.facebook.com/",
                 "linkedin": ""
               }
             },
             "1561565058401": {
               "type": "member",
               "settings": {
-                "image": "shopify:\/\/shop_images\/2_6.jpg",
+                "image": "shopify://shop_images/2_6.jpg",
                 "name": "Erin Noel",
                 "position": "Director of Operations",
-                "twitter": "https:\/\/twitter.com\/",
-                "google": "https:\/\/plus.google.com",
-                "facebook": "https:\/\/www.facebook.com\/",
+                "twitter": "https://twitter.com/",
+                "google": "https://plus.google.com",
+                "facebook": "https://www.facebook.com/",
                 "linkedin": ""
               }
             },
             "1561565071217": {
               "type": "member",
               "settings": {
-                "image": "shopify:\/\/shop_images\/2_7.jpg",
+                "image": "shopify://shop_images/2_7.jpg",
                 "name": "Katie Sharrow-Reabe",
                 "position": "Social Strategist",
-                "twitter": "https:\/\/twitter.com\/",
-                "google": "https:\/\/plus.google.com",
-                "facebook": "https:\/\/www.facebook.com\/",
+                "twitter": "https://twitter.com/",
+                "google": "https://plus.google.com",
+                "facebook": "https://www.facebook.com/",
                 "linkedin": ""
               }
             },
             "1561565080408": {
               "type": "member",
               "settings": {
-                "image": "shopify:\/\/shop_images\/2_3.jpg",
+                "image": "shopify://shop_images/2_3.jpg",
                 "name": "Tim Blount",
                 "position": "Technical Director",
-                "twitter": "https:\/\/twitter.com\/",
-                "google": "https:\/\/plus.google.com",
-                "facebook": "https:\/\/www.facebook.com\/",
+                "twitter": "https://twitter.com/",
+                "google": "https://plus.google.com",
+                "facebook": "https://www.facebook.com/",
                 "linkedin": ""
               }
             },
             "1561565091506": {
               "type": "member",
               "settings": {
-                "image": "shopify:\/\/shop_images\/1_19.jpg",
+                "image": "shopify://shop_images/1_19.jpg",
                 "name": "Mick Coelho",
                 "position": "Sr. Creative Developer",
-                "twitter": "https:\/\/twitter.com\/",
-                "google": "https:\/\/plus.google.com",
-                "facebook": "https:\/\/www.facebook.com\/",
+                "twitter": "https://twitter.com/",
+                "google": "https://plus.google.com",
+                "facebook": "https://www.facebook.com/",
                 "linkedin": ""
               }
             },
             "1561565099186": {
               "type": "member",
               "settings": {
-                "image": "shopify:\/\/shop_images\/1_24.jpg",
+                "image": "shopify://shop_images/1_24.jpg",
                 "name": "Rhianon Taylor",
                 "position": "Senior Producer",
-                "twitter": "https:\/\/twitter.com\/",
-                "google": "https:\/\/plus.google.com",
-                "facebook": "https:\/\/www.facebook.com\/",
+                "twitter": "https://twitter.com/",
+                "google": "https://plus.google.com",
+                "facebook": "https://www.facebook.com/",
                 "linkedin": ""
               }
             },
             "1561565109760": {
               "type": "member",
               "settings": {
-                "image": "shopify:\/\/shop_images\/2_2.jpg",
+                "image": "shopify://shop_images/2_2.jpg",
                 "name": "Lauren Saunders",
                 "position": "Senior Producer",
-                "twitter": "https:\/\/twitter.com\/",
-                "google": "https:\/\/plus.google.com",
-                "facebook": "https:\/\/www.facebook.com\/",
+                "twitter": "https://twitter.com/",
+                "google": "https://plus.google.com",
+                "facebook": "https://www.facebook.com/",
                 "linkedin": ""
               }
             },
             "1561565136083": {
               "type": "member",
               "settings": {
-                "image": "shopify:\/\/shop_images\/1_21.jpg",
+                "image": "shopify://shop_images/1_21.jpg",
                 "name": "Simon Cheadle",
                 "position": "Executive Producer",
-                "twitter": "https:\/\/twitter.com\/",
-                "google": "https:\/\/plus.google.com",
-                "facebook": "https:\/\/www.facebook.com\/",
+                "twitter": "https://twitter.com/",
+                "google": "https://plus.google.com",
+                "facebook": "https://www.facebook.com/",
                 "linkedin": ""
               }
             }
@@ -3621,18 +3630,18 @@
             "1561567005786": {
               "type": "time",
               "settings": {
-                "image": "shopify:\/\/shop_images\/favorite-512.png",
+                "image": "shopify://shop_images/favorite-512.png",
                 "bg": "#eb8f73",
                 "title": "Wishlist function",
                 "description": "Wishlist function smart and fast, with just one click",
                 "time": "Mar 26, 2019",
-                "link": "shopify:\/\/collections\/all"
+                "link": "shopify://collections/all"
               }
             },
             "1561567706480": {
               "type": "time",
               "settings": {
-                "image": "shopify:\/\/shop_images\/compare_balance-512.png",
+                "image": "shopify://shop_images/compare_balance-512.png",
                 "bg": "#eb8f73",
                 "title": "Compare function",
                 "description": "",
@@ -3648,7 +3657,7 @@
                 "title": "Shortcode",
                 "description": "Easily add content with the shortcodes built-in snippets in our theme",
                 "time": "Mar 28, 2019",
-                "link": "shopify:\/\/pages\/shortcode"
+                "link": "shopify://pages/shortcode"
               }
             },
             "1561568520359": {
@@ -3714,7 +3723,7 @@
                 "title": "Filter function",
                 "description": "Powerful and fast Ajax Filter works with product cards, combined with the Price Range, helps customers easily select the desired products",
                 "time": "May 8, 2019",
-                "link": "shopify:\/\/collections\/all"
+                "link": "shopify://collections/all"
               }
             },
             "1561569751412": {
@@ -3725,7 +3734,7 @@
                 "title": "Cross-sell featured",
                 "description": "Show more suggestions when customers add products to the cart",
                 "time": "May 20, 2019",
-                "link": "shopify:\/\/products\/aloha-t-shirt"
+                "link": "shopify://products/aloha-t-shirt"
               }
             },
             "1561569915429": {
@@ -3736,7 +3745,7 @@
                 "title": "Swatch variant images",
                 "description": "Display product images corresponding to each product variant",
                 "time": "May 22, 2019",
-                "link": "shopify:\/\/collections\/all"
+                "link": "shopify://collections/all"
               }
             },
             "1561570018778": {
@@ -3791,7 +3800,7 @@
                 "title": "Notify a soldout variant",
                 "description": "Notify and suggest customers leave email when the product version has sold out, helping to increase conversions, and collecting customer datas",
                 "time": "Jun 20, 2019",
-                "link": "shopify:\/\/products\/grifin-lace-up-cotton-blend"
+                "link": "shopify://products/grifin-lace-up-cotton-blend"
               }
             },
             "1561570850099": {
@@ -3802,7 +3811,7 @@
                 "title": "Product video function",
                 "description": "You can easily upload *.mp4 files on the store, and add each product by the metafields",
                 "time": "Jun 22, 2019",
-                "link": "shopify:\/\/products\/jbags-round-neck"
+                "link": "shopify://products/jbags-round-neck"
               }
             },
             "1561571026065": {
@@ -3858,7 +3867,7 @@
             "btn-bg": "#767676",
             "button-text": "View now",
             "caption_font": "lato_n4",
-            "bg_image": "shopify:\/\/shop_images\/679358.jpg",
+            "bg_image": "shopify://shop_images/679358.jpg",
             "bg_color": "#ffffff",
             "bg_attachment": true,
             "max_width": 1390,
@@ -3927,25 +3936,25 @@
             "1562225745504": {
               "type": "logo",
               "settings": {
-                "image": "shopify:\/\/shop_images\/somest-5_250x250_394a9e3a-aefc-4be2-b4dd-1f4abfbf831c.png"
+                "image": "shopify://shop_images/somest-5_250x250_394a9e3a-aefc-4be2-b4dd-1f4abfbf831c.png"
               }
             },
             "1562225679234": {
               "type": "logo",
               "settings": {
-                "image": "shopify:\/\/shop_images\/d30bb62a-f8d4-404d-ab26-b506a3519ec0_200x200_78b588c5-8150-4e3f-9dd1-59abf351502c.png"
+                "image": "shopify://shop_images/d30bb62a-f8d4-404d-ab26-b506a3519ec0_200x200_78b588c5-8150-4e3f-9dd1-59abf351502c.png"
               }
             },
             "1562225756576": {
               "type": "logo",
               "settings": {
-                "image": "shopify:\/\/shop_images\/the-face-shop-2_250x250_5a96e2d8-61b4-470b-9d2b-5c9267ed4c60.png"
+                "image": "shopify://shop_images/the-face-shop-2_250x250_5a96e2d8-61b4-470b-9d2b-5c9267ed4c60.png"
               }
             },
             "1562225765606": {
               "type": "logo",
               "settings": {
-                "image": "shopify:\/\/shop_images\/tonymoly-3_250x250_3f34070f-d3e9-42bb-8105-f2a80df8a636.png"
+                "image": "shopify://shop_images/tonymoly-3_250x250_3f34070f-d3e9-42bb-8105-f2a80df8a636.png"
               }
             }
           },
@@ -3995,7 +4004,7 @@
           ],
           "settings": {
             "heading": "All Brands",
-            "subheading": "<p>Promotions, new products and sales. Directly to your inbox.<\/p>"
+            "subheading": "<p>Promotions, new products and sales. Directly to your inbox.</p>"
           }
         },
         "page-story": {
@@ -4004,7 +4013,7 @@
             "1562226014393": {
               "type": "story",
               "settings": {
-                "avatar": "shopify:\/\/shop_images\/ava_2.png",
+                "avatar": "shopify://shop_images/ava_2.png",
                 "name": "Grailasia",
                 "info": "From United Kingdom",
                 "story": "The theme is very good, the after-sales service is very fast, and patiently help you solve the problem."
@@ -4013,7 +4022,7 @@
             "1562226059233": {
               "type": "story",
               "settings": {
-                "avatar": "shopify:\/\/shop_images\/ava_3.png",
+                "avatar": "shopify://shop_images/ava_3.png",
                 "name": "Jessica",
                 "info": "From DefinitionShapewear",
                 "story": "The customer support after purchase have been great! We have been working together with the xtheme team and we are very satisfied with all the improvements achieved! And we are very happy with the results! Just check it out :) www.definitionshapewear.com Even thought, the xtheme team is 7 hours ahead of us, they have made the effort to catch up with us almost on a daily basis. A big thank you specially to Tuan!"
@@ -4022,7 +4031,7 @@
             "1562226081931": {
               "type": "story",
               "settings": {
-                "avatar": "shopify:\/\/shop_images\/avatar_1.png",
+                "avatar": "shopify://shop_images/avatar_1.png",
                 "name": "Pickett",
                 "info": "Located in Canada",
                 "story": "Love this theme! The customer service is platinum level. I had many questions and needed help with multiple things since I am new to Shopify.\nThey always answered my questions very quickly and fixed many things for me that I could not figure out. They are awesome!"
@@ -4036,8 +4045,8 @@
           ],
           "settings": {
             "heading": "Our story",
-            "subheading": "<p>Promotions, new products and sales. Directly to your inbox.<\/p>",
-            "banner": "shopify:\/\/shop_images\/2_6.jpg",
+            "subheading": "<p>Promotions, new products and sales. Directly to your inbox.</p>",
+            "banner": "shopify://shop_images/2_6.jpg",
             "righttitle": "Tell us your story",
             "righttext": "Give us a call, shoot us an email, or drop in for some wonderfully brewed coffee, or click the button below",
             "button": "Share it now"
