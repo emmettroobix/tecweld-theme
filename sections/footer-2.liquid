@@ -320,7 +320,7 @@
           <div class="footer-mid__linklist">
             <ul>
               {%- for link in linklists[section.settings.linklist_link].links -%}
-              <li><a href="{{link.url}}" title="{% include 'processMenuTitle' with itemName:link.title %}">{% include 'processMenuTitle' with itemName:link.title %}</a></li>
+              <li><a href="{{link.url}}" title="{% include 'processMenuTitle' with itemName.link.title, itemName: link.title %}">{% include 'processMenuTitle' with itemName.link.title, itemName: link.title %}</a></li>
               {%- endfor -%}
             </ul>
           </div>
@@ -587,4 +587,18 @@
       }
   ]
 }
-{% endschema %}
+{% endschema %}{%- comment -%}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: "{% include 'processMenuTitle' with itemName:link.title %}"
+  to: "{% include 'processMenuTitle' with itemName.link.title, itemName: link.title
+    %}"
+  position: 8783..8862
+- from: "{% include 'processMenuTitle' with itemName:link.title %}"
+  to: "{% include 'processMenuTitle' with itemName.link.title, itemName: link.title
+    %}"
+  position: 8864..8943
+{%- endcomment -%}

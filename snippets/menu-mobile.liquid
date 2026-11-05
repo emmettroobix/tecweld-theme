@@ -18,10 +18,10 @@
              id="DrawerLabel-{{ child_list_handle }}"
              {% if link.active %} aria-current="page"{% endif %}
              >
-            {%- include 'processMenuTitle' with itemName:link.title -%}
-            {%- include 'processMenuLabel' with itemName:link.title -%}
+            {%- include 'processMenuTitle' with itemName.link.title, itemName: link.title -%}
+            {%- include 'processMenuLabel' with itemName.link.title, itemName: link.title -%}
           </a>
-          <button data-toggle="collapse" data-target="#DrawerLinklist-{{ child_list_handle }}" for="DrawerLinklist-{{ child_list_handle }}"  type="button" aria-controls="DrawerLinklist-{{ child_list_handle }}" class="text-link drawer__nav-toggle-btn collapsed" aria-label="{%- include 'processMenuTitle' with itemName:link.title -%}" aria-expanded="true">
+          <button data-toggle="collapse" data-target="#DrawerLinklist-{{ child_list_handle }}" for="DrawerLinklist-{{ child_list_handle }}"  type="button" aria-controls="DrawerLinklist-{{ child_list_handle }}" class="text-link drawer__nav-toggle-btn collapsed" aria-label="{%- include 'processMenuTitle' with itemName.link.title, itemName: link.title -%}" aria-expanded="true">
             <span class="drawer__nav-toggle--open">
               {%- include 'icon-plus' -%}
             </span>
@@ -42,8 +42,8 @@
            class="drawer__nav-link drawer__nav-link--top-level"
            {% if link.active %} aria-current="page"{% endif %}
            >
-          {%- include 'processMenuTitle' with itemName:link.title -%}
-          {%- include 'processMenuLabel' with itemName:link.title -%}
+          {%- include 'processMenuTitle' with itemName.link.title, itemName: link.title -%}
+          {%- include 'processMenuLabel' with itemName.link.title, itemName: link.title -%}
         </a>
       </li>
       {%- endif -%}
@@ -76,4 +76,30 @@
       {%- endif -%}
     </ul>
   </div>
-</div>
+</div>{%- comment -%}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: "{%- include 'processMenuTitle' with itemName:link.title -%}"
+  to: "{%- include 'processMenuTitle' with itemName.link.title, itemName: link.title
+    -%}"
+  position: 1139..1220
+- from: "{%- include 'processMenuLabel' with itemName:link.title -%}"
+  to: "{%- include 'processMenuLabel' with itemName.link.title, itemName: link.title
+    -%}"
+  position: 1234..1315
+- from: "{%- include 'processMenuTitle' with itemName:link.title -%}"
+  to: "{%- include 'processMenuTitle' with itemName.link.title, itemName: link.title
+    -%}"
+  position: 1606..1687
+- from: "{%- include 'processMenuTitle' with itemName:link.title -%}"
+  to: "{%- include 'processMenuTitle' with itemName.link.title, itemName: link.title
+    -%}"
+  position: 2526..2607
+- from: "{%- include 'processMenuLabel' with itemName:link.title -%}"
+  to: "{%- include 'processMenuLabel' with itemName.link.title, itemName: link.title
+    -%}"
+  position: 2619..2700
+{%- endcomment -%}

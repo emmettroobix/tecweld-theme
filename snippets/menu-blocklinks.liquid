@@ -4,9 +4,9 @@
   <div class="col-sm-{{ settings[ap_col_links] }}">
     <div class="mega-col-inner ">
       <div class="menu-title">
-        <a href="{{ childlink.url }}" title="{%- include 'processMenuTitle' with itemName:childlink.title -%}">
-          {%- include 'processMenuTitle' with itemName:childlink.title -%}
-          {%- include 'processMenuLabel' with itemName:childlink.title -%}
+        <a href="{{ childlink.url }}" title="{%- include 'processMenuTitle' with itemName.childlink.title, itemName: childlink.title -%}">
+          {%- include 'processMenuTitle' with itemName.childlink.title, itemName: childlink.title -%}
+          {%- include 'processMenuLabel' with itemName.childlink.title, itemName: childlink.title -%}
         </a>
       </div>
       <div class="widget-inner">
@@ -14,9 +14,9 @@
           {%- if childlink.links != blank -%}
           {%- for grandchildlink in childlink.links -%}
           <li>
-            <a href="{{ grandchildlink.url }}" title="{%- include 'processMenuTitle' with itemName:grandchildlink.title -%}">
-              {%- include 'processMenuTitle' with itemName:grandchildlink.title -%}
-              {%- include 'processMenuLabel' with itemName:grandchildlink.title -%}
+            <a href="{{ grandchildlink.url }}" title="{%- include 'processMenuTitle' with itemName.grandchildlink.title, itemName: grandchildlink.title -%}">
+              {%- include 'processMenuTitle' with itemName.grandchildlink.title, itemName: grandchildlink.title -%}
+              {%- include 'processMenuLabel' with itemName.grandchildlink.title, itemName: grandchildlink.title -%}
             </a>
           </li>
           {%- endfor -%}
@@ -27,4 +27,34 @@
   </div>
   {%- endfor -%}
   {%- endif -%}
-</div>
+</div>{%- comment -%}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: "{%- include 'processMenuTitle' with itemName:childlink.title -%}"
+  to: "{%- include 'processMenuTitle' with itemName.childlink.title, itemName: childlink.title
+    -%}"
+  position: 251..342
+- from: "{%- include 'processMenuTitle' with itemName:childlink.title -%}"
+  to: "{%- include 'processMenuTitle' with itemName.childlink.title, itemName: childlink.title
+    -%}"
+  position: 355..446
+- from: "{%- include 'processMenuLabel' with itemName:childlink.title -%}"
+  to: "{%- include 'processMenuLabel' with itemName.childlink.title, itemName: childlink.title
+    -%}"
+  position: 457..548
+- from: "{%- include 'processMenuTitle' with itemName:grandchildlink.title -%}"
+  to: "{%- include 'processMenuTitle' with itemName.grandchildlink.title, itemName:
+    grandchildlink.title -%}"
+  position: 810..911
+- from: "{%- include 'processMenuTitle' with itemName:grandchildlink.title -%}"
+  to: "{%- include 'processMenuTitle' with itemName.grandchildlink.title, itemName:
+    grandchildlink.title -%}"
+  position: 928..1029
+- from: "{%- include 'processMenuLabel' with itemName:grandchildlink.title -%}"
+  to: "{%- include 'processMenuLabel' with itemName.grandchildlink.title, itemName:
+    grandchildlink.title -%}"
+  position: 1044..1145
+{%- endcomment -%}

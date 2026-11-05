@@ -51,8 +51,8 @@
         {% for link in linklists[block.settings.linklist].links %}
         <li>
           <a target="_blank" href="{{link.url}}" title="{{link.title}}">
-            {% include 'processMenuTitle' with itemName:link.title %}
-            {% include 'processMenuLabel' with itemName:link.title %}
+            {% include 'processMenuTitle' with itemName.link.title, itemName: link.title %}
+            {% include 'processMenuLabel' with itemName.link.title, itemName: link.title %}
           </a>
         </li>
         {% endfor %}
@@ -213,4 +213,18 @@
     }
   ]
 }
-{% endschema %}
+{% endschema %}{%- comment -%}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: "{% include 'processMenuTitle' with itemName:link.title %}"
+  to: "{% include 'processMenuTitle' with itemName.link.title, itemName: link.title
+    %}"
+  position: 2983..3062
+- from: "{% include 'processMenuLabel' with itemName:link.title %}"
+  to: "{% include 'processMenuLabel' with itemName.link.title, itemName: link.title
+    %}"
+  position: 3075..3154
+{%- endcomment -%}

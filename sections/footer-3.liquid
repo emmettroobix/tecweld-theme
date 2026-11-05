@@ -139,7 +139,7 @@
       <ul>
         {%- for link in linklists[section.settings.linklist_link].links -%}
         <li class="d-inline-block px-3 pb-3 font-weight-bold">
-          <a href="{{link.url}}" title="{% include 'processMenuTitle' with itemName:link.title %}">{% include 'processMenuTitle' with itemName:link.title %}</a>
+          <a href="{{link.url}}" title="{% include 'processMenuTitle' with itemName.link.title, itemName: link.title %}">{% include 'processMenuTitle' with itemName.link.title, itemName: link.title %}</a>
         </li>
         {%- endfor -%}
       </ul>
@@ -270,4 +270,18 @@
       }
   ]
 }
-{% endschema %}
+{% endschema %}{%- comment -%}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: "{% include 'processMenuTitle' with itemName:link.title %}"
+  to: "{% include 'processMenuTitle' with itemName.link.title, itemName: link.title
+    %}"
+  position: 2679..2758
+- from: "{% include 'processMenuTitle' with itemName:link.title %}"
+  to: "{% include 'processMenuTitle' with itemName.link.title, itemName: link.title
+    %}"
+  position: 2760..2839
+{%- endcomment -%}
